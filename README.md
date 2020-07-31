@@ -74,24 +74,22 @@ The previous directory of the source code included all the naoqisim controller f
 
 - nao: Directory about source code of an abstract NAO implementation (note: "abstract" here doesn't mean an "Abstract class").
     
-    - Nao.hpp / Nao.cpp: Initialize all code related to this abstraction.
-        
-      // Subfolders being included in NAO.hpp
-    - 01_sensors: Files about NAO sensors.
-    - 02_actuators: Files about NAO actuators.
-    - 03_others: Other files not related to a particular set, but necessary to the whole stuff.
+    - Nao.hpp / Nao.cpp: Initialize all code related to this abstraction.    
+    - 01_sensors: Files about NAO sensors included in NAO.hpp.
+    - 02_actuators: Files about NAO actuators included in NAO.hpp.
+    - 03_others: Other files not related to a particular category, but necessary to the whole controller.
     
 - naoqisim.cpp : main controller
 - naoqisim.hpp : main controller
 - runtime.ini : Just for Makefile
 
-
+----------------------------------------------
 There are things I need to understand better:
 (Writing...)
 
-What is it for?
+    What is it for?
 
-    File "Singletons.hpp" doesn't define: static void dump_model();
+        File "Singletons.hpp" doesn't define: static void dump_model();
 
 
 TO DO:
