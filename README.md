@@ -80,7 +80,7 @@ It follows a summary of the refactoring:
 
 
 There are things I need to understand better:
-(Writting...)
+(Writing...)
 
     What is it for?
         File "Singletons.hpp" doesn't define: static void dump_model();
