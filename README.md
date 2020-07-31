@@ -21,7 +21,7 @@ It follows a summary of the refactoring:
 
 C code, inside the source code (C++ files), was translated to C++ whenever possible. It's better practice to avoid C in C++ files.
 
-In some methods it was not possible to translate because of some "undefined reference". Example:
+It was not possible to translate some functions because of weird "undefined reference". Example:
     wb_camera_enable(m_tag, 5 * time_step) // camera.h
 
 I need more time to understand some of those particular interdependences.
