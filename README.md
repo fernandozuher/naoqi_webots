@@ -100,5 +100,5 @@ TO DO:
 - Handle the warnings and erros logs in Webots Console when the controller starts.
 
 - Replace naoqisim-master/aldebaran/simulator-sdk for the last version of naoqi-sdk.
-    - Then edit the controller source code to fit with such updated naoqi-sdk
+    - Then edit the controller source code to fit with such updated naoqi-sdk.
 
