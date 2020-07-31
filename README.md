@@ -61,15 +61,13 @@ It follows a summary of the refactoring:
 
     The previous directory of the source code included all the naoqisim controller files in only one folder (naoqisim-master/controllers/naoqisim). The new directory is structured as:
 
-        - build: .o and .d intermediate files generated during compilation.
-
         - common_library.hpp : Containing a list of header files and namespaces commonly used among the controler's files. This aims avoid repetition of "#include"s in most of the files.
 
         - Makefile: Used to compile the code with the command "make" typed in terminal.
 
-        - nao: Source code about the implementation of an abstract NAO.
+        - nao: Directory about source code of an abstract NAO implementation (note: "abstract" here doesn't mean an "Abstract class").
             
-            - Nao.hpp / Nao.cpp: Initialize all code related to this abstraction (note: "abstract" here doesn't mean an "Abstract class").
+            - Nao.hpp / Nao.cpp: Initialize all code related to this abstraction.
                 
             // Subfolders being included in NAO.hpp
             - 01_sensors: Files about NAO sensors.
