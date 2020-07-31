@@ -19,7 +19,7 @@ It follows a summary of the refactoring:
 --------------
 ***From C to C++***
 
-C code, inside the source code (C++ files), was translated to C++ whenever possible. It's better practice to avoid C in C++ files.
+C code, inside the source code (C++ files), was translated to C++ whenever possible. It's a good practice to avoid C in C++ files.
 
 It was not possible to translate some functions because of weird "undefined reference". Example:
     wb_camera_enable(m_tag, 5 * time_step) // camera.h
@@ -35,7 +35,7 @@ Now part of the code uses C++17. Compilation just works with C++17 mode activate
 -----------
 ***OS support***
 
-Removed all the Windows/OSX support in order to improve the readability and understand better the code. Now it just works with Linux (I tested on Ubuntu 18.04.4).
+Removed all the Windows/OSX support in order to improve the readability and to understand better the code. Now it just works with Linux (I tested on Ubuntu 18.04.4).
 
 When the controller is done to the last naoqi-sdk version, I may support the other OSs.
 
@@ -95,7 +95,7 @@ There are things I need to understand better:
 TO DO:
 
 - Replace some included C Webots libraries for theirs C++ ones. For example: <webots/robot.h>, <webots/camera.h>... -> <webots/Robot.hpp>, <webots/Camera.hpp>
-    It's better practice to avoid C code in C++ whenever possible.
+    It's a good practice to avoid C code in C++ whenever possible.
 
 - Handle the warnings and erros logs in Webots Console when the controller starts.
 
