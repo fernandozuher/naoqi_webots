@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
     naoqisim obj {argc, argv};
-    return EXIT_SUCCESS;
+    return 0;
 }
 
 //////////////////////////////////////////////////////////////////////////////
@@ -14,7 +14,7 @@ naoqisim::naoqisim(int argc, char **argv) :
 {
     try {
         try {
-            __init_use_cameras_and_naoqi_port();
+            __check_command_line_arguments();
 
             // Initialize qi::os
             qi::Application(argc, argv);
@@ -42,11 +42,11 @@ naoqisim::naoqisim(int argc, char **argv) :
     }
     catch (...) {
         __print_usage();
-        exit(EXIT_FAILURE);
+        exit(1);
     }
 }
-
-void naoqisim::__init_use_cameras_and_naoqi_port()
+// Initialize use_cameras and naoqi_port attributes
+void naoqisim::__check_command_line_arguments()
 {
     if (argc != 2 && argc != 3)
         throw string {"ERROR: Number of command line arguments invalid.\n"};
@@ -66,17 +66,23 @@ void naoqisim::__init_webots_stuff()
     // Get WorldInfo.basicTimeStep
     time_step = static_cast<int>(robot->getBasicTimeStep());
 
-    cout << "===== naoqisim controller started =====\n";
+    cout << "-------------------------------------------"
+            "\n===== naoqi_webots controller started =====\n"
+            "-------------------------------------------";
 
     // Wait for simulation to start or revert
     if (robot->step(time_step) == -1) {
         delete robot;
-        exit(EXIT_SUCCESS);
+        exit(0);
     }
 
     // The robot model is hidden in the Robot.name field in the .proto file
-    // string robotModel{robot->getModel()}; IT DOESN'T WORK. WHY???
+    // robotModel = robot->getModel(); IT DOESN'T WORK. WHY???
+    // I tried this: https://www.softwaretestinghelp.com/cpp-errors/
+    // And this: https://stackoverflow.com/questions/12573816/what-is-an-undefined-reference-unresolved-external-symbol-error-and-how-do-i-fix
+    // ...but with no success.
     robot_model = wb_robot_get_model();
+    //robot->getModel();
 }
 
 void naoqisim::__singletons()
@@ -89,7 +95,7 @@ void naoqisim::__singletons()
     sleep(1);
 }
 
-void naoqisim::__init_nao_class() // Create/run Nao
+void naoqisim::__init_nao_class()
 {
     nao = new Nao(use_cameras, time_step, robot);
     nao->run();
@@ -104,9 +110,15 @@ void naoqisim::__print_usage()
     cerr << "Options: -nocam, disable the simulated camera\n";
 }
 
-int naoqisim::get_time_step() const { return time_step; }
+int naoqisim::get_time_step() const
+{
+    return time_step;
+}
 
-bool naoqisim::get_use_cameras() const { return use_cameras; }
+bool naoqisim::get_use_cameras() const
+{
+    return use_cameras;
+}
 
 naoqisim::~naoqisim()
 {

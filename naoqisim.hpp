@@ -1,5 +1,8 @@
 // Description: Interface between Webots and Nao simulation SDK
 
+#ifndef NAOQISIM_HPP
+#define NAOQISIM_HPP
+
 #include "common_library.hpp"
 
 // C++ library
@@ -10,7 +13,7 @@
 #include <unistd.h> // Unix systems: sleep()
 //#include <windows.h> // Windows systems: sleep()
 
-// NAO sdk
+// NAOqi C++ sdk
 #include <qi/application.hpp>
 
 // Written to this controller
@@ -35,7 +38,8 @@ class naoqisim
         int time_step;
         string robot_model;
 
-        void __init_use_cameras_and_naoqi_port();
+        // Initialize use_cameras and naoqi_port attributes
+        void __check_command_line_arguments();
         void __init_webots_stuff();
         void __singletons();
         void __init_nao_class();
@@ -48,3 +52,4 @@ class naoqisim
         int get_time_step() const;
         bool get_use_cameras() const;
 };
+#endif

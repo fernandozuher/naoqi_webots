@@ -2,7 +2,7 @@ space :=
 space +=
 
 # Compile .cpp in subdirectories as well
-WEBOTS_HOME_PATH=$(subst $(space),\ ,$(strip $(subst \,/,$(WEBOTS_HOME))))
+WEBOTS_HOME_PATH = $(subst $(space),\ ,$(strip $(subst \,/,$(WEBOTS_HOME))))
 
 CXX_SOURCES := $(shell find . -name "*.cpp")
 
@@ -26,6 +26,8 @@ CFLAGS += -D_GLIBCXX_USE_CXX11_ABI=0 # Ensure ABI compliance using GCC 5
 
 INCLUDE += -I"$(WEBOTS_HOME)/include/controller/cpp"
 DYNAMIC_LIBRARIES += -lCppController
+
+# BUILD_SHARED_LIBRARY = true
 
 USE_C_API = true # Use Webots C API
 
