@@ -4,18 +4,19 @@ Nao::Nao(bool use_cameras, int time_step, webots::Robot *robot) :
     use_cameras {use_cameras}, time_step {time_step}, robot {robot},
     model {Singletons::model()}
 {
-    __create_nao_members();
+    __create_nao_body();
 }
 
-void Nao::__create_nao_members()
+void Nao::__create_nao_body()
 {
     __create_cameras();
+    __create_inertial_unit();
+    __create_sonars();            
+    __create_bumpers();
+    __create_fsrs();
+    
     __create_motors();
     __create_hands();
-    __create_fsrs();
-    __create_bumpers();
-    __create_inertial_unit();
-    __create_sonars();
 }
 
 void Nao::__create_cameras()
@@ -30,6 +31,52 @@ void Nao::__create_cameras()
         for (auto value : camera_sensors)
             m_devices.push_back(new Camera(value, time_step));
     }
+}
+
+void Nao::__create_inertial_unit()
+{
+    // Inertial Unit
+    std::vector inertial_sensors = model->inertialSensors();
+    for (auto value : inertial_sensors)
+        m_devices.push_back(new Inertial_Unit(value, time_step));
+}
+
+void Nao::__create_sonars()
+{
+    // Only the receiving sonars (2 and 4) should appear in this list
+    std::vector sonar_sensors = model->sonarSensors();
+    for (auto value : sonar_sensors)
+        m_devices.push_back(new Sonar(value, time_step));
+}
+
+void Nao::__create_bumpers()
+{
+    // Bumpers
+    std::vector bumper_sensors = model->bumperSensors();
+    for (auto value : bumper_sensors)
+        m_devices.push_back(new Bumper(value, time_step));
+}
+
+void Nao::__create_fsrs()
+{
+    // FSRs
+    std::vector fsr_sensors = model->fsrSensors();
+    std::vector<const FSRSensor*> left_fsr_sensors;
+    std::vector<const FSRSensor*> right_fsr_sensors;
+
+    for (auto value : fsr_sensors)
+        if (!value->name().substr(0, 5).compare("LFoot"))
+            left_fsr_sensors.push_back(value);
+        else if (!value->name().substr(0, 5).compare("RFoot"))
+            right_fsr_sensors.push_back(value);
+        else
+            assert(0);
+
+    assert(left_fsr_sensors.size() == 4);
+    assert(right_fsr_sensors.size() == 4);
+
+    m_devices.push_back(new Fsr(left_fsr_sensors, time_step, "LFsr"));
+    m_devices.push_back(new Fsr(right_fsr_sensors, time_step, "RFsr"));
 }
 
 void Nao::__create_motors()
@@ -74,52 +121,6 @@ void Nao::__create_hands()
     std::vector coupled_actuators = model->coupledActuators();
     for (auto value : coupled_actuators)
         m_devices.push_back(new Hand(value, time_step));
-}
-
-void Nao::__create_fsrs()
-{
-    // FSRs
-    std::vector fsr_sensors = model->fsrSensors();
-    std::vector<const FSRSensor*> left_fsr_sensors;
-    std::vector<const FSRSensor*> right_fsr_sensors;
-
-    for (auto value : fsr_sensors)
-        if (!value->name().substr(0, 5).compare("LFoot"))
-            left_fsr_sensors.push_back(value);
-        else if (!value->name().substr(0, 5).compare("RFoot"))
-            right_fsr_sensors.push_back(value);
-        else
-            assert(0);
-
-    assert(left_fsr_sensors.size() == 4);
-    assert(right_fsr_sensors.size() == 4);
-
-    m_devices.push_back(new Fsr(left_fsr_sensors, time_step, "LFsr"));
-    m_devices.push_back(new Fsr(right_fsr_sensors, time_step, "RFsr"));
-}
-
-void Nao::__create_bumpers()
-{
-    // Bumpers
-    std::vector bumper_sensors = model->bumperSensors();
-    for (auto value : bumper_sensors)
-        m_devices.push_back(new Bumper(value, time_step));
-}
-
-void Nao::__create_inertial_unit()
-{
-    // Inertial Unit
-    std::vector inertial_sensors = model->inertialSensors();
-    for (auto value : inertial_sensors)
-        m_devices.push_back(new Inertial_Unit(value, time_step));
-}
-
-void Nao::__create_sonars()
-{
-    // Only the receiving sonars (2 and 4) should appear in this list
-    std::vector sonar_sensors = model->sonarSensors();
-    for (auto value : sonar_sensors)
-        m_devices.push_back(new Sonar(value, time_step));
 }
 
 void Nao::run()

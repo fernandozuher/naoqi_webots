@@ -37,14 +37,15 @@ class Nao
         Model *model;
         std::vector<Device*> m_devices;
 
-        void __create_nao_members();
+        void __create_nao_body();
             void __create_cameras();
+            void __create_inertial_unit();
+            void __create_sonars();            
+            void __create_bumpers();
+            void __create_fsrs();
+            
             void __create_motors();
             void __create_hands();
-            void __create_fsrs();
-            void __create_bumpers();
-            void __create_inertial_unit();
-            void __create_sonars();
 
         void __check_real_time();
 
