@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ModulePreference name="aldebaran-robotics.com@alresourcemanger" xmlns="http://www.aldebaran-robotics.com/ns/ALPreference" schemaLocation="ModulePreference.xsd">
+	<Preference name="State" description="State resources" value="true" type="array">
+		<Preference name="Standing" description="Stand position" value="state" type="string" />
+		<Preference name="Sitting" description="Sit position" value="state" type="string" />
+		<Preference name="Sitting on chair" description="Sit on chair position" value="state" type="string" />
+	</Preference>
+
+
+	<Preference name="All motors" description="All motors" value="true" type="array">
+		<Preference name="Head" description="All head motors" value="true" type="array">
+			<Preference name="HeadYaw" description="Horizontal head motor" value="true" type="string" />
+			<Preference name="HeadPitch" description="Vertical head motor" value="true" type="string" />
+		</Preference>
+		<Preference name="Arms" description="Motors of all arms" value="true" type="array">
+			<Preference name="Left arm" description="Left arm motors" value="true" type="array">
+				<Preference name="LShoulderPitch" description="Pitch motor of left shoulder" value="true" type="string" />
+				<Preference name="LShoulderRoll" description="Roll motor of left shoulder" value="true" type="string" />
+				<Preference name="LElbowRoll" description="Roll motor of left elbow" value="true" type="string" />
+				<Preference name="LElbowYaw" description="Yaw motor of left elbow" value="true" type="string" />
+				<Preference name="LWristYaw" description="Yaw motor of left wrist" value="true" type="string" />
+				<Preference name="LHand" description="Left hand motor" value="true" type="string" />
+			</Preference>
+			<Preference name="Right arm" description="Right arm motors" value="true" type="array">
+				<Preference name="RShoulderPitch" description="Pitch motor of right shoulder" value="true" type="string" />
+				<Preference name="RShoulderRoll" description="Roll motor of right shoulder" value="true" type="string" />
+				<Preference name="RElbowRoll" description="Roll motor of right elbow" value="true" type="string" />
+				<Preference name="RElbowYaw" description="Yaw motor of right elbow" value="true" type="string" />
+				<Preference name="RWristYaw" description="Yaw motor of right wrist" value="true" type="string" />
+				<Preference name="RHand" description="Right hand motor" value="true" type="string" />
+			</Preference>
+		</Preference>
+		<Preference name="Legs" description="Motors of all legs" value="true" type="array">
+			<Preference name="LHipYawPitch" description="YawPitch motor of left hip" value="true" type="string" />
+			<Preference name="Left leg" description="Left leg motors" value="true" type="array">
+				<Preference name="LHipPitch" description="Pitch motor of left hip" value="true" type="string" />
+				<Preference name="LHipRoll" description="Roll motor of left hip" value="true" type="string" />
+				<Preference name="LKneePitch" description="Pitch motor of left knee" value="true" type="string" />
+				<Preference name="LAnklePitch" description="Pitch motor of left ankle" value="true" type="string" />
+				<Preference name="LAnkleRoll" description="Roll motor of left ankle" value="true" type="string" />
+			</Preference>
+			<Preference name="Right leg" description="Right leg motors" value="true" type="array">
+				<Preference name="RHipPitch" description="Pitch motor of right hip" value="true" type="string" />
+				<Preference name="RHipRoll" description="Roll motor of right hip" value="true" type="string" />
+				<Preference name="RKneePitch" description="Pitch motor of right knee" value="true" type="string" />
+				<Preference name="RAnklePitch" description="Pitch motor of right ankle" value="true" type="string" />
+				<Preference name="RAnkleRoll" description="Roll motor of right ankle" value="true" type="string" />
+			</Preference>
+		</Preference>
+	</Preference>
+
+
+
+    <Preference name="Leds" description="All leds" value="true" type="array">
+		<Preference name="Left eye leds" description="Leds of left eye" value="true" type="string" />
+		<Preference name="Right eye leds" description="Leds of right eye" value="true" type="string" />
+		<Preference name="Left ear leds" description="Leds of left ear" value="true" type="string" />
+		<Preference name="Right ear leds" description="Leds of right ear" value="true" type="string" />
+		<Preference name="Chest leds" description="Led of chest button" value="true" type="string" />
+		<Preference name="Head leds" description="Leds of head tactile sensor" value="true" type="string" />
+		<Preference name="Left foot leds" description="Led of left foot" value="true" type="string" />
+		<Preference name="Right foot leds" description="Led of right foot" value="true" type="string" />
+	</Preference>
+	<Preference name="Tactile sequences" description="Tactile sensor sequences" value="true" type="array">
+		<Preference name="Head-sequence" description="Head tactile sensor" value="true" type="string" />
+		<Preference name="Left arm-sequence" description="Left hand tactile sensor" value="true" type="string" />
+		<Preference name="Right arm-sequence" description="Right hand tactile sensor" value="true" type="string" />
+	</Preference>
+
+	<Preference name="Camera setting" description="Change camera setting" value="true" type="string" />
+
+	<Preference name="Audio" description="Audio resources" value="true" type="array">
+		<Preference name="Speakers" description="Audio out streams" value="true" type="array">
+			<Preference name="Speech" description="Live or pre-recorded speech" value="true" type="string" />
+			<Preference name="Audio player" description="Sound, music, etc..." value="true" type="string" />
+		</Preference>
+		<Preference name="Microphones" description="Audio in streams" value="true" type="array">
+			<Preference name="Speech recognition" description="Speech recognition" value="true" type="string" />
+			<Preference name="Audio recorder" description="Record what NAO hears" value="true" type="string" />
+		</Preference>
+	</Preference>
+
+
+	<Preference name="Stiffness" description="Stiffness on all motors" value="true" type="array">
+		<Preference name="Head-stiffness" description="Stiffness on head motors" value="true" type="string" />
+		<Preference name="Arms-stiffness" description="Stiffness on motors of arms" value="true" type="string" />
+		<Preference name="Legs-stiffness" description="Stiffness on motors of legs" value="true" type="string" />
+	</Preference>
+
+</ModulePreference>

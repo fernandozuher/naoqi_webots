@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ModulePreference name="aldebaran-robotics.com@HAL" xmlns="http://www.aldebaran-robotics.com/ns/ALPreference" schemaLocation="ModulePreference.xsd">
+    <Preference name="Key1" memoryName="DCM/CycleTime" description="Last time in ms between 2 updates" type="int" value="0" />
+    <Preference name="Key2" memoryName="DCM/Time" description="Absolute time for the DCM" type="int" value="0" />
+    <Preference name="Key3" memoryName="DCM/TargetCycleMinWait" description="Minimum wait between two query" type="int" value="8000" />
+    <Preference name="Key4" memoryName="DCM/TargetCycleTime" description="Update time in ms wanted between two updates" type="int" value="10" />
+    <Preference name="Key5" memoryName="DCM/CycleTimeWarning" description="Min value in ms between 2 updates when a warning is logged" type="int" value="50" />
+    <Preference name="Key6" memoryName="DCM/HeatLogPath"  description="Path for the I2C file" type="string" value="temperatureLog" />
+    <Preference name="Key7" memoryName="DCM/I2Cpath" description="Path for the I2C file" type="string" value="/dev/i2c-0" />
+    <Preference name="Key8" memoryName="DCM/Realtime" description="realtime for the dcm" type="int" value="1" />
+    <Preference name="Key9" memoryName="DCM/RealtimePriority" description="the realtime priority" type="int" value="60" />
+    <Preference name="Key10" memoryName="DCM/hardnessMode" description="hardness mode for motor board" type="string" value="current_mode" />
+    <Preference name="Key11" memoryName="HAL/CycleTime" description="Last time in ms between 2 updates" type="int" value="0" />
+    <Preference name="Key12" memoryName="HAL/Time" description="Absolute time for the DCM" type="int" value="0" />
+    <Preference name="Key13" memoryName="DCM/Simulation" description="DCM Simulation mode" type="int" value="0" />
+    <Preference name="Key14" memoryName="HAL/Robot/Type" description="Type of robot managed by the HAL" type="string" value="Juliette" />
+    <Preference name="Key15" memoryName="HAL/Simulation" description="HAL linked to a simulator or not" type="int" value="0" />
+    <Preference name="Key16" memoryName="HAL/Ack" description="HAL Ack" type="int" value="0" />
+    <Preference name="Key17" memoryName="HAL/Nack" description="HAL Nack" type="int" value="0" />
+    <Preference name="Key18" memoryName="HAL/Error" description="HAL Error" type="int" value="0" />
+    <Preference name="Key19" memoryName="HAL/CycleTimeErrorCounter" description="HAL counter of cycle time error" type="int" value="0" />
+    <Preference name="Key20" memoryName="HAL/CycleTimeErrorLastTime" description="Last cycle time error value in s" type="float" value="0" />
+    <Preference name="Key21" memoryName="DCM/Error" description="DCM Error" type="int" value="0" />
+    <Preference name="Key22" memoryName="DCM/CycleTimeErrorCounter" description="DCM counter of cycle time error" type="int" value="0" />
+    <Preference name="Key23" memoryName="DCM/CycleTimeErrorLastTime" description="Last cycle time error value in s" type="float" value="0" />
+</ModulePreference>
