@@ -20,11 +20,11 @@ class Camera : public Device
 {
     private:
         WbDeviceTag m_tag;
-        const CameraSensor *m_sensor;
+        const Sim::CameraSensor *m_sensor;
         int m_width, m_height;
 
     public:
-        Camera(const CameraSensor *m_sensor, int time_step);
+        Camera(const Sim::CameraSensor *m_sensor, int time_step);
         virtual ~Camera();
 
         virtual void update();

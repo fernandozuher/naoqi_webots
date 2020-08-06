@@ -36,11 +36,11 @@ class Inertial_Unit : public Device
 {
     private:
         WbDeviceTag m_inertial_unit, m_accelerometer, m_gyroscope;
-        const InertialSensor *m_sensor;
+        const Sim::InertialSensor *m_sensor;
         std::vector<Low_Pass_Filter*> m_filters;
 
     public:
-        Inertial_Unit(const InertialSensor *sensor, int step);
+        Inertial_Unit(const Sim::InertialSensor *sensor, int step);
         virtual ~Inertial_Unit();
 
         virtual void update();

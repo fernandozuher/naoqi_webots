@@ -20,8 +20,6 @@ namespace Sim {
     class FSRSensor;
 }
 
-using namespace util;
-
 static const double TO_KILOGRAMS = 1.0 / 9.81;
 
 class Low_Pass_Filter;
@@ -31,12 +29,12 @@ class Fsr : public Device
     private:
         WbDeviceTag m_tag;
         std::vector<Low_Pass_Filter*> m_filter;
-        std::vector<const FSRSensor*> m_fsr_sensors;
+        std::vector<const Sim::FSRSensor*> m_fsr_sensors;
         
         void __infer_values();
 
     public:
-        Fsr(std::vector<const FSRSensor*> sensors, int step, string name);
+        Fsr(std::vector<const Sim::FSRSensor*> sensors, int step, std::string name);
         virtual ~Fsr();
 
         virtual void update();

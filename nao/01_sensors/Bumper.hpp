@@ -16,10 +16,10 @@ class Bumper : public Device
 {
     private:
         WbDeviceTag m_tag;
-        const BumperSensor *m_sensor;
+        const Sim::BumperSensor *m_sensor;
 
     public:
-        Bumper(const BumperSensor *sensor, int step);
+        Bumper(const Sim::BumperSensor *sensor, int step);
         virtual ~Bumper();
 
         virtual void update();

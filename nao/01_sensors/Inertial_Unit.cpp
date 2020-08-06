@@ -1,16 +1,21 @@
 #include "Inertial_Unit.hpp"
 
-Inertial_Unit::Inertial_Unit(const InertialSensor *sensor, int step) :
+Inertial_Unit::Inertial_Unit(const Sim::InertialSensor *sensor, int step) :
     Device("Inertial_Unit"),
     m_inertial_unit {wb_robot_get_device("inertial unit")},
     m_accelerometer {wb_robot_get_device("accelerometer")},
     m_gyroscope {wb_robot_get_device("gyro")},
     m_sensor {sensor}, m_filters {std::vector<Low_Pass_Filter*>(7)}
 {
-    if (m_inertial_unit) wb_inertial_unit_enable(m_inertial_unit, step);
-    if (m_accelerometer) wb_accelerometer_enable(m_accelerometer, step);
-    if (m_gyroscope) wb_gyro_enable(m_gyroscope, step);
-    for (auto& value : m_filters) 
+    std::cout << "\n\t\t\t\t\t" << __FILE__ << ": Inside constructor.";
+    
+    if (m_inertial_unit)
+        wb_inertial_unit_enable(m_inertial_unit, step);
+    if (m_accelerometer)
+        wb_accelerometer_enable(m_accelerometer, step);
+    if (m_gyroscope)
+        wb_gyro_enable(m_gyroscope, step);
+    for (auto& value : m_filters)
         value = new Low_Pass_Filter(step, 60);
 }
 
@@ -62,7 +67,7 @@ void Inertial_Unit::update()
     }
 
     if (! Singletons::hal()->sendInertialSensorValues(m_sensor, values))
-        cerr << "\nCERR << Sim::HALInterface::sendInertialSensorValues() failed.\n";
+        std::cerr << "\nCERR << Sim::HALInterface::sendInertialSensorValues() failed.\n";
 }
 
 Inertial_Unit::~Inertial_Unit()

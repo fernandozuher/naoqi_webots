@@ -16,10 +16,10 @@ class Sonar : public Device
 {
     private:
         WbDeviceTag m_tag;
-        const SonarSensor *m_sensor;
+        const Sim::SonarSensor *m_sensor;
 
     public:
-        Sonar(const SonarSensor *sensor, int step);
+        Sonar(const Sim::SonarSensor *sensor, int step);
         virtual ~Sonar();
 
         virtual void update();
