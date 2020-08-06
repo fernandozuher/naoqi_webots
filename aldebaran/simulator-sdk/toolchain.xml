@@ -1,0 +1,3 @@
+<toolchain>
+  <package directory="." name="simulator-sdk" />
+</toolchain>
