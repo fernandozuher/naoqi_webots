@@ -16,8 +16,3 @@
 #include "nao/03_others/Device.hpp" // For Sensors and Actuators classes
 
 //////////////////////////////////////////////////////////////////////////////
-using std::cout;
-using std::cerr;
-using std::endl;
-using std::string;
-using namespace Sim;
