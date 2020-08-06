@@ -15,14 +15,11 @@
 // Written to this controller
 // Others
 #include "../03_others/util.hpp"
-using namespace util;
 
 namespace Sim {
     class AngleActuator;
     class AngleSensor;
 }
-
-using namespace util;
 
 class Hip_Motor : public Device
 {    
@@ -30,8 +27,8 @@ class Hip_Motor : public Device
         WbDeviceTag m_left_tag, m_right_tag;
         WbDeviceTag m_left_sensor_tag;
         
-        const AngleActuator *m_actuator;
-        const AngleSensor *m_sensor;
+        const Sim::AngleActuator *m_actuator;
+        const Sim::AngleSensor *m_sensor;
 
         double m_max_left_position;
         double m_min_left_position;

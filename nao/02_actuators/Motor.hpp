@@ -13,7 +13,6 @@
 // Written to this controller
 // Others
 #include "../03_others/util.hpp"
-using namespace util;
 
 namespace Sim {
   class AngleActuator;
@@ -24,14 +23,14 @@ class Motor : public Device
 {
     private:
         WbDeviceTag m_tag, m_sensor_tag;
-        const AngleActuator *m_actuator;
-        const AngleSensor *m_sensor;
+        const Sim::AngleActuator *m_actuator;
+        const Sim::AngleSensor *m_sensor;
 
         double m_max_position;
         double m_min_position;
 
     public:
-        Motor(const AngleActuator *actuator, int step);
+        Motor(const Sim::AngleActuator *actuator, int step);
         virtual ~Motor();
 
         virtual void update();

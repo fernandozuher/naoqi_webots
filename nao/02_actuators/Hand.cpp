@@ -1,17 +1,19 @@
 #include "Hand.hpp"
 
-Hand::Hand(const CoupledActuator *actuator, int step) :
+Hand::Hand(const Sim::CoupledActuator *actuator, int step) :
            Device(actuator->name())
 {
+    std::cout << "\n\t\t\t\t\t" << __FILE__ << ": Inside constructor.";
+    
     m_actuator = actuator;
 
-    string device_format;
+    std::string device_format;
     if (name() == "LHand")
         device_format = "LPhalanx";
     else if (name() == "RHand")
         device_format = "RPhalanx";
     else
-        cerr << "CERR << Cannot create Hand for unknown Sim::CoupledSensor: "
+        std::cerr << "CERR << Cannot create Hand for unknown Sim::CoupledSensor: "
              << name() << "\n";
 
     // Get phalanx motors: the real Nao has 1 motor for each hand
@@ -21,7 +23,7 @@ Hand::Hand(const CoupledActuator *actuator, int step) :
 
     m_sensor = Singletons::model()->coupledSensor(name());
     if (!m_sensor)
-        cerr << "\nCERR << Sim::CoupledSensor not found for CoupledActuator: "
+        std::cerr << "\nCERR << Sim::CoupledSensor not found for CoupledActuator: "
              << name() << "\n";
 }
 
@@ -41,7 +43,7 @@ void Hand::update()
     if (m_sensor &&
         !Singletons::hal()->sendCoupledSensorValue( \
         m_sensor, static_cast<float>(target)))
-            cerr << "\nCERR << Sim::HALInterface::sendCoupledSensorValue() "
+            std::cerr << "\nCERR << Sim::HALInterface::sendCoupledSensorValue() "
                     "failed.\n";
 }
 

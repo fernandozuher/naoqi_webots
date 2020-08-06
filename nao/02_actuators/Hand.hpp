@@ -22,11 +22,11 @@ class Hand : public Device
 {
     private:
         WbDeviceTag m_tags[PHALANX_MAX];
-        const CoupledActuator *m_actuator;
-        const CoupledSensor *m_sensor;
+        const Sim::CoupledActuator *m_actuator;
+        const Sim::CoupledSensor *m_sensor;
 
     public:
-        Hand(const CoupledActuator *actuator, int step);
+        Hand(const Sim::CoupledActuator *actuator, int step);
         virtual ~Hand();
 
         virtual void update();
