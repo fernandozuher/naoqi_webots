@@ -29,36 +29,29 @@
 namespace Sim {
     class SimLauncher;
 }
-using namespace Sim;
-
-using std::cout;
-using std::cerr;
-using std::endl;
-using std::string;
-using std::exception;
 
 class Process;
 
 class Singletons
 {
     private:
-        static Model *m_model;
-        static HALInterface *m_hal;
-        static SimLauncher *m_launcher;
+        static Sim::Model *m_model;
+        static Sim::HALInterface *m_hal;
+        static Sim::SimLauncher *m_launcher;
 
     public:
         // Initialize and shutdown simulation environment
-        static bool initialize(const string &model, int naoqi_port,
-                                void (*halInitializedCallback)());
+        static bool initialize(const std::string &model, int naoqi_port,
+                                void (*hal_initialized_callback)());
         static void shutdown();
 
         // Robot model
-        static Model *model();
+        static Sim::Model *model();
 
         // Hardware abstraction layer
-        static HALInterface *hal();
+        static Sim::HALInterface *hal();
 
-        // dump model info on cout
+        // dump model info on std::cout
         static void dump_model();
 };
 

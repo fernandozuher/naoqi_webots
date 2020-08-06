@@ -8,14 +8,14 @@
 class Device
 {
     private:
-        string m_name;
+        std::string m_name;
     
     public:
-        Device(const string &name) : m_name {name} {}
+        Device(const std::string &name) : m_name {name} {}
         virtual ~Device() {}
 
         // Device name as in HAL
-        const string &name() const { return m_name; }
+        const std::string& name() const { return m_name; }
 
         // Update the device: Webots -> HAL and HAL -> Webots
         virtual void update() = 0;
