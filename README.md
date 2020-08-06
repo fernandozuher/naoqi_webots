@@ -31,8 +31,9 @@ C code, inside the source code (C++ files), was translated to C++ whenever possi
 
 It was not possible to translate some functions because of weird "undefined reference". For example:
         
-std::string robot_model = wb_robot_get_model(); // from <webots/camera.h> works
-// std::string robot_model = robot->getModel(); // from <webots/Robot.hpp> doesn't
+std::string robot_model = robot->getModel(); // from <webots/Robot.hpp> doesn't work
+
+// std::string robot_model = wb_robot_get_model(); // from <webots/camera.h> works
 
     ... # linking naoqisim
     build/release/naoqisim.o: In function `naoqisim::__init_webots_stuff()':
@@ -73,7 +74,7 @@ Edited to:
 --------------
 ***Old naoqi-sdk***
 
-I removed "boost" folder from "naoqisim-master/aldebaran/simulator-sdk/include" because it is outdated and in conflict with "boost C++ library" from my compiler (GNU Compiler Collection). It was causing warnings during "make".
+I removed "boost" folder from "naoqisim-master/aldebaran/simulator-sdk/include" because it is outdated and in conflict with "boost C++ library" from my compiler (GNU Compiler Collection). It was causing warnings during compilation (make).
 
 --------------
 ***Compilation***
