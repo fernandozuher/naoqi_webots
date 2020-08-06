@@ -30,11 +30,12 @@ class Device;
 class Nao
 {
     private:
+        // Webots stuff
         bool use_cameras;
-        int time_step;
         webots::Robot *robot;
+        int time_step;
 
-        Model *model;
+        Sim::Model *model;
         std::vector<Device*> m_devices;
 
         void __create_nao_body();
@@ -50,7 +51,7 @@ class Nao
         void __check_real_time();
 
     public:
-        Nao(bool use_cameras, int time_step, webots::Robot *robot);
+        Nao(bool use_cameras, webots::Robot *robot, int time_step);
         virtual ~Nao();
 
         // run synchronization between simulated robot and HAL
