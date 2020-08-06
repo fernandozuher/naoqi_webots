@@ -13,14 +13,12 @@
 #include <unistd.h> // Unix systems: sleep()
 //#include <windows.h> // Windows systems: sleep()
 
-// NAOqi C++ sdk
+// naoqi C++ sdk
 #include <qi/application.hpp>
 
 // Written to this controller
 #include "nao/Nao.hpp"
 #include "nao/03_others/Mutex.hpp"
-
-using std::exception;
 
 //////////////////////////////////////////////////////////////////////////////
 
@@ -30,16 +28,21 @@ class naoqisim
         int argc;
         char **argv;
 
-        bool use_cameras;
+        // naoqi stuff
         int naoqi_port;
-        Nao *nao;
-                
+
+        // Webots stuff
+        bool use_cameras;
         webots::Robot *robot;
         int time_step;
-        string robot_model;
+        std::string robot_model;
+
+        // Controller stuff
+        Nao *nao;
 
         // Initialize use_cameras and naoqi_port attributes
         void __check_command_line_arguments();
+
         void __init_webots_stuff();
         void __singletons();
         void __init_nao_class();
@@ -48,8 +51,6 @@ class naoqisim
     public:
         naoqisim(int argc, char **argv);
         ~naoqisim();
-
-        int get_time_step() const;
-        bool get_use_cameras() const;
 };
+
 #endif
