@@ -35,12 +35,12 @@ std::string robot_model = robot->getModel(); // from <webots/Robot.hpp> doesn't 
 
 // std::string robot_model = wb_robot_get_model(); // from <webots/camera.h> works
 
-    ... # linking naoqisim
-    build/release/naoqisim.o: In function `naoqisim::__init_webots_stuff()':
-    naoqisim.cpp:(.text+0xb8): undefined reference to `webots::Robot::getModel() const'
+    ... # linking naoqi_webots
+    build/release/naoqi_webots.o: In function `naoqi_webots::__init_webots_stuff()':
+    naoqi_webots.cpp:(.text+0xb8): undefined reference to `webots::Robot::getModel() const'
     collect2: error: ld returned 1 exit status
-    /usr/local/webots/resources/Makefile.include:483: recipe for target 'build/release/naoqisim' failed
-    make: *** [build/release/naoqisim] Error 1
+    /usr/local/webots/resources/Makefile.include:483: recipe for target 'build/release/naoqi_webots' failed
+    make: *** [build/release/naoqi_webots] Error 1
 
 I tried this: https://www.softwaretestinghelp.com/cpp-errors/
 
@@ -74,7 +74,7 @@ Edited to:
 --------------
 ***Old naoqi-sdk***
 
-I removed "boost" folder from "naoqisim-master/aldebaran/simulator-sdk/include" because it is outdated and in conflict with "boost C++ library" from my compiler (GNU Compiler Collection). It was causing warnings during compilation (make).
+I removed "boost" folder from "naoqi_webots-master/aldebaran/simulator-sdk/include" because it is outdated and in conflict with "boost C++ library" from my compiler (GNU Compiler Collection). It was causing warnings during compilation (make).
 
 --------------
 ***Compilation***
@@ -82,9 +82,9 @@ I removed "boost" folder from "naoqisim-master/aldebaran/simulator-sdk/include" 
 All warning logs during compilation (make) were solved. Now it compiles like a charm: without any ugliness.
 
 --------------
-***naoqisim.wbt***
+***naoqi_webots.wbt***
 
-From the "Webots world" naoqisim-master/worlds/naoqisim.wbt, I removed:
+From the "Webots world" naoqi_webots-master/worlds/naoqi_webots.wbt, I removed:
     
     removed PointLight {
       ambientIntensity 1
@@ -109,13 +109,13 @@ Changed the camelCase style to snake_case whenever possible.
 --------------
 ***Controller source code organization***
 
-The previous directory of the source code included all the naoqisim controller files in only one folder (naoqisim-master/controllers/naoqisim). The new directory is structured as:
+The previous directory of the source code included all the naoqi_webots controller files in only one folder (naoqi_webots-master/controllers/naoqi_webots). The new directory is structured as:
 
 - common_library.hpp : Containing a list of header files and namespaces commonly used among the controler's files. This aims avoid repetition of "#include"s in most of the files.
 
-- naoqisim.hpp : main controller
+- naoqi_webots.hpp : main controller
 
-- naoqisim.cpp : main controller
+- naoqi_webots.cpp : main controller
 
 - nao: Directory about source code of an abstract NAO implementation (note: "abstract" here doesn't mean an "Abstract class").
     
@@ -139,6 +139,6 @@ The previous directory of the source code included all the naoqisim controller f
 
 - Handle the warnings and erros logs in Webots Console when the controller starts.
 
-- Replace naoqisim-master/aldebaran/simulator-sdk for the last version of naoqi-sdk.
+- Replace naoqi_webots-master/aldebaran/simulator-sdk for the last version of naoqi-sdk.
     - Then edit the controller source code to fit with such updated naoqi-sdk.
 
