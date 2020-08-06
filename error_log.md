@@ -15,6 +15,7 @@
         }
         ...
 
+----------------------
 ***SECOND ERROR***:
 
     "
@@ -346,6 +347,7 @@
         std::cout << "\n\t\t\t\t V\n" << std::flush;
         return m_launcher->launch(m_model, naoqi_port, sdk_prefix);
 
+----------------------
 ***THIRD ERROR***:
 
     "
@@ -425,6 +427,7 @@
             ...
         }
 
+----------------------
 ***I see all those logs are related to:***
 
 - 2 lines in Singletons.cpp -> bool Singletons::initialize(...) :
