@@ -99,7 +99,7 @@ From the "Webots world" naoqisim-master/worlds/naoqisim.wbt, I removed:
 --------------
 ***Webots console***
 
-I formated the log of the running-controller displayed in the "Webots console" window. That helped me to identify 3 error spots inside the controller. Look the file error_log.txt in this directory.
+I formated the log of the running-controller displayed in the "Webots console" window. That helped me to identify 3 error spots inside the controller. Look the file error_log.md in this directory.
 
 --------------
 ***camelCase -> snake_case***
