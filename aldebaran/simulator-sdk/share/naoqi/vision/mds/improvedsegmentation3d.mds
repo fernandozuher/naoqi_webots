@@ -1,0 +1,49 @@
+filter ImprovedSegmentation3D
+{
+Identity id;
+Identity idCameraPositionRobot;
+ComputeProjectionTables projtables;
+CutFloor cutfloor;
+ComputeClosePixelsMask closepixels;
+AddClosePixelsToDepthImage addclosepixels;
+Segmentation3D seg;
+ReconstructBlobs reconst;
+
+id:in <= depthImage;
+idCameraPositionRobot:in <= cameraPositionRobot;
+
+# ComputeProjectionTables
+id:out->projtables:imageIn;
+projtables:projectionTables->cutfloor:projectionTables;
+
+# CutFloor
+id:out->cutfloor:imageIn;
+idCameraPositionRobot:out->cutfloor:cameraposition;
+cutfloor:heightOffset <= heightOffset;
+cutfloor:threshold[0.2] <= floorThreshold;
+
+# ComputeClosePixelsMask and AddClosePixelsToDepthImage
+cutfloor:imageOut->closepixels:depthImage;
+closepixels:irImage <= irImage;
+closepixels:saturationThreshold[1000] <= dummysaturation;
+closepixels:closePixelsMask->addclosepixels:closePixelsMask;
+cutfloor:imageOut->addclosepixels:depthImageIn;
+addclosepixels:distance[0.45] <= dummydistance;
+
+# Segmentation3D
+addclosepixels:depthImageOut->seg:inputImage;
+seg:cameraPositionTorso <= cameraPositionTorso;
+idCameraPositionRobot:out->seg:cameraPositionRobot;
+seg:cameraPositionWorld <= cameraPositionWorld;
+seg:kernel <= kernel;
+seg:tolerance <= tolerance;
+seg:min <= min;
+seg:max <= max;
+
+# ReconstructBlob
+seg:objectsArray->reconst:in;
+reconst:depthThreshold[0.3] <= reconstructDepthThreshold;
+reconst:verticalThreshold[0.075] <= reconstructVerticalThreshold;
+
+reconst:out=>objectsArray;
+}

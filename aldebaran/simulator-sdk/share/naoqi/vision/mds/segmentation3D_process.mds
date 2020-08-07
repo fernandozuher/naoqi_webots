@@ -1,0 +1,25 @@
+source Segmentation3D_NbNearest {5}
+source Segmentation3D_DepthThreshold {100}
+
+process Segmentation3D_process(ImprovedSegmentation3D, 3, 10)
+{
+depthImage <= ALSegmentation3D_source;
+irImage <= ALSegmentation3D_IRSource;
+
+cameraPositionTorso <= Motion_CameraDepth<TORSO>;
+cameraPositionRobot <= Motion_CameraDepth<ROBOT>;
+cameraPositionWorld <= Motion_CameraDepth<WORLD>;
+
+heightOffset <= RobotHeightOffset;
+
+
+objectsArray => objectsArray;
+
+# Settable parameters
+kernel <= Segmentation3D_NbNearest;
+tolerance <= Segmentation3D_DepthThreshold;
+
+# Parameters
+min <= 0.03;
+max <= 1.0;
+}

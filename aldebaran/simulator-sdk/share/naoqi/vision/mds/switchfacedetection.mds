@@ -1,0 +1,19 @@
+filter SwitchFaceDetection
+{
+Dispatch disp;
+FaceDetectionFromPopulation face;
+Multiplex multi;
+
+
+disp:in <= populationIn;
+
+disp:ontrue->face:populationIn;
+face:populationOut->multi:master;
+disp:onfalse->multi:slave;
+
+multi:out => populationOut;
+
+
+# Parameters for the facedetection
+disp:state <= faceStatus;
+}

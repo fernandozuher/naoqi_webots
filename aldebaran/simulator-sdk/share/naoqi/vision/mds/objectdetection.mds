@@ -1,0 +1,70 @@
+filter ObjectDetectionFromCamera
+{
+Identity id;
+FeaturesDetector fd;
+Dispatch disp;
+CropObjectImage crop;
+ImageSaver save;
+Collapse col;
+Multiplex multi;
+
+id:in <= image;
+disp:state <= save;
+
+id:out -> fd:image;
+fd:out -> disp:in;
+disp:ontrue -> crop:objects;
+id:out -> crop:image;
+crop:imagesOut -> save:image;
+disp:ontrue -> col:in1;
+save:out -> col:in2;
+col:out -> multi:master;
+disp:onfalse -> multi:slave;
+
+multi:out => out;
+
+# Parameters for FeaturesDetector
+fd:filename <= cascadefile;
+fd:scaleFactor <= scaleFactor;
+fd:minNeighbors <= minNeighbors;
+fd:flags <= flags;
+fd:minSizeX <= minSizeX;
+fd:minSizeY <= minSizeY;
+fd:maxSizeX <= maxSizeX;
+fd:maxSizeY <= maxSizeY;
+
+# Parameters for CropObjectImage
+crop:horizontalMargin <= horizontalMargin;
+crop:verticalMargin <= verticalMargin;
+
+# Parameters for ImageSaver
+save:basename <= basename;
+}
+
+filter ObjectDetectionFromFile
+{
+ObjectDetectionFromCamera det;
+ImageLoader load;
+
+load:filename <= filename;
+det:save <= save;
+
+load:out -> det:image;
+
+det:out => out;
+
+# Parameters for object detection
+det:cascadefile <= cascadefile;
+det:scaleFactor <= scaleFactor;
+det:minNeighbors <= minNeighbors;
+det:flags <= flags;
+det:minSizeX <= minSizeX;
+det:minSizeY <= minSizeY;
+det:maxSizeX <= maxSizeX;
+det:maxSizeY <= maxSizeY;
+
+# Parameters for saving
+det:horizontalMargin <= horizontalMargin;
+det:verticalMargin <= verticalMargin;
+det:basename <= basename;
+}

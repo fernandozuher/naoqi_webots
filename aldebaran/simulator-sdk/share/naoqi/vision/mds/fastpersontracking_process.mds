@@ -1,0 +1,28 @@
+source FastPersonTracking_ModeIs3D {true}
+
+source FastPersonTracking_Distance {-1.0}
+source FastPersonTracking_PreviousPosition {null}
+
+process FastPersonTracking_process(FastPersonTracking, 3, 0)
+{
+modeIs3D <= FastPersonTracking_ModeIs3D;
+distance <= FastPersonTracking_Distance;
+previousPosition <= FastPersonTracking_PreviousPosition;
+
+depthInputImage <= VideoDevice_DistanceCamera<QQVGA>;
+irInputImage <= VideoDevice_IRCamera<QQVGA>;
+rgbInputImage <= FastPersonTracking_RGBCameraSource;
+
+cameraTopPositionTorso <= Motion_CameraTop<TORSO>;
+cameraTopPositionRobot <= Motion_CameraTop<ROBOT>;
+cameraTopPositionWorld <= Motion_CameraTop<WORLD>;
+
+cameraDepthPositionTorso <= Motion_CameraDepth<TORSO>;
+cameraDepthPositionRobot <= Motion_CameraDepth<ROBOT>;
+cameraDepthPositionWorld <= Motion_CameraDepth<WORLD>;
+
+heightOffset <= RobotHeightOffset;
+
+
+nearestObject => nearestObject;
+}

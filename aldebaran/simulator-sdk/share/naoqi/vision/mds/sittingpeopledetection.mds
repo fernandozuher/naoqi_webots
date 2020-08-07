@@ -1,0 +1,10 @@
+filter SittingPeopleDetection
+{
+PostureAnalysis pos;
+
+pos:humans<=populationIn;
+pos:out=>populationOut;
+
+# Parameters
+pos:threshold<=threshold;
+}

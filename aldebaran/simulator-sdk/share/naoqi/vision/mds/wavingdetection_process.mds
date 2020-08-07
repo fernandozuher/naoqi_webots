@@ -1,0 +1,12 @@
+source WavingDetection_MinSize {0.05}
+source WavingDetection_MaxDistance {3.0}
+
+
+process WavingDetection_process(WavingDetection, 3, 0)
+{
+populationIn<=PeoplePerception_process:population;
+minSize<=WavingDetection_MinSize;
+maxDistance<=WavingDetection_MaxDistance;
+
+populationOut=>populationOut;
+}

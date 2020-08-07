@@ -1,0 +1,46 @@
+filter MovementDetection3D
+{
+Mandatory5 mand;
+Segmentation3D seg;
+ExtractMovementsFromDepthImage extract;
+Compute3DPositions pos3D;
+
+# Inputs -- filtered using Mandatory
+mand:in1<=state;
+mand:in2<=depthInputImage;
+mand:in3<=cameraPositionTorso;
+mand:in4<=cameraPositionRobot;
+mand:in5<=cameraPositionWorld;
+
+# Segmentation3D
+mand:out2->seg:inputImage;
+mand:out3->seg:cameraPositionTorso;
+mand:out4->seg:cameraPositionRobot;
+mand:out5->seg:cameraPositionWorld;
+
+# ExtractMovementsFromDepthImage
+mand:out2->extract:depthImageIn;
+seg:objectsArray -> extract:objectsArrayIn;
+mand:out3->extract:cameraPositionTorso;
+mand:out4->extract:cameraPositionRobot;
+mand:out5->extract:cameraPositionWorld;
+extract:threshold <= threshold;
+
+# Compute3DPositions
+extract:movements -> pos3D:objectsArrayIn;
+
+pos3D:objectsArrayOut => movements;
+
+
+# Parameters for Segmentation3D
+seg:kernel <= segkernel;
+seg:tolerance <= segtolerance;
+seg:min <= segmin;
+seg:max <= segmax;
+
+# Parameters for ExtractMovement3D
+extract:segmvtkernel <= segmvtkernel;
+extract:segmvttolerance <= segmvttolerance;
+extract:segmvtmin <= segmvtmin;
+extract:segmvtmax <= segmvtmax;
+}

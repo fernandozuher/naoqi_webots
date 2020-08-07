@@ -1,0 +1,52 @@
+filter FastPersonTracking
+{
+Identity idModeIs3D;
+
+Dispatch disp;
+SelectCameraPositions selectCamPos;
+FastPersonTracking2D fpt2d;
+FastPersonTracking3D fpt3d;
+Multiplex multi;
+
+idModeIs3D:in <= modeIs3D;
+
+disp:in[1] <= dummyIn;
+idModeIs3D:out->disp:state;
+
+disp:ontrue->fpt3d:state;
+disp:onfalse->fpt2d:state;
+fpt3d:nearestObject->multi:master;
+fpt2d:nearestObject->multi:slave;
+
+multi:out => nearestObject;
+
+selectCamPos:cameraTopPositionTorso <= cameraTopPositionTorso;
+selectCamPos:cameraTopPositionRobot <= cameraTopPositionRobot;
+selectCamPos:cameraTopPositionWorld <= cameraTopPositionWorld;
+selectCamPos:cameraDepthPositionTorso <= cameraDepthPositionTorso;
+selectCamPos:cameraDepthPositionRobot <= cameraDepthPositionRobot;
+selectCamPos:cameraDepthPositionWorld <= cameraDepthPositionWorld;
+idModeIs3D:out->selectCamPos:is3d;
+
+
+# Parameters for 2D
+fpt2d:rgbInputImage <= rgbInputImage;
+
+selectCamPos:cameraPositionTorso->fpt2d:cameraPositionTorso;
+selectCamPos:cameraPositionRobot->fpt2d:cameraPositionRobot;
+selectCamPos:cameraPositionWorld->fpt2d:cameraPositionWorld;
+
+
+# Parameters for 3D
+fpt3d:depthInputImage <= depthInputImage;
+fpt3d:irInputImage <= irInputImage;
+
+selectCamPos:cameraPositionTorso->fpt3d:cameraPositionTorso;
+selectCamPos:cameraPositionRobot->fpt3d:cameraPositionRobot;
+selectCamPos:cameraPositionWorld->fpt3d:cameraPositionWorld;
+
+fpt3d:distance <= distance;
+fpt3d:previousPosition <= previousPosition;
+
+fpt3d:heightOffset <= heightOffset;
+}

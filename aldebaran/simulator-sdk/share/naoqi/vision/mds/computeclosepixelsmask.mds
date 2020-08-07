@@ -1,0 +1,15 @@
+filter ComputeClosePixelsMask
+{
+ComputeInvalidPixelsMask invalid;
+Threshold saturated;
+Multiply mult;
+
+invalid:depthImage<=depthImage;
+invalid:invalidPixelsMask->mult:left;
+
+saturated:in<=irImage;
+saturated:ceil<=saturationThreshold;
+saturated:out->mult:right;
+
+mult:out=>closePixelsMask;
+}

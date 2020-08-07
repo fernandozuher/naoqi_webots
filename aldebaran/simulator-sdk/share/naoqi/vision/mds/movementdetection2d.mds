@@ -1,0 +1,45 @@
+filter MovementDetection2D
+{
+Mandatory5 mand;
+Luminance lum;
+CamMovement cam;
+AppearingOcclusion2D occl;
+ImprovedLabelize lab;
+ExtractObjects extract;
+
+# Inputs -- filtered using Mandatory
+mand:in1<=state;
+mand:in2<=rgbInputImage;
+mand:in3<=cameraPositionTorso;
+mand:in4<=cameraPositionRobot;
+mand:in5<=cameraPositionWorld;
+
+# Saturation
+mand:out2->lum:in;
+
+# CamMovement
+mand:out4->cam:cameraposition;
+
+# AppearingOcclusion2D
+lum:out->occl:in;
+cam:out->occl:reset;
+occl:threshold<=threshold;
+
+# ImprovedLabelize
+occl:out->lab:inputImage;
+
+# ExtractObjects
+lab:labelizedImage->extract:segmentated;
+lab:dilatedImage->extract:image;
+mand:out3->extract:cameraPositionTorso;
+mand:out4->extract:cameraPositionRobot;
+mand:out5->extract:cameraPositionWorld;
+
+extract:objectsArray=>movements;
+
+# Parameters
+lab:kernel<=segmvtkernel;
+lab:tolerance<=segmvttolerance;
+lab:min<=segmvtmin;
+lab:max<=segmvtmax;
+}

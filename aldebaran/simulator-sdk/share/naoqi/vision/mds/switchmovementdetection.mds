@@ -1,0 +1,30 @@
+filter SwitchMovementDetection
+{
+Dispatch disp;
+Mandatory5 mandatory;
+ExtractMovementsFromDepthImage extract;
+Multiplex multi;
+
+
+disp:in <= objectsArrayIn;
+disp:state <= movementStatus;
+
+# Check that all the inputs of the composite filter are not NULL
+mandatory:in1<=depthImageIn;
+disp:ontrue->mandatory:in2;
+mandatory:in3<=cameraPositionTorso;
+mandatory:in4<=cameraPositionRobot;
+mandatory:in5<=cameraPositionWorld;
+
+mandatory:out1->extract:depthImageIn;
+mandatory:out2->extract:objectsArrayIn;
+mandatory:out3->extract:cameraPositionTorso;
+mandatory:out4->extract:cameraPositionRobot;
+mandatory:out5->extract:cameraPositionWorld;
+extract:threshold<=threshold;
+
+extract:objectsArrayOut->multi:master;
+disp:onfalse->multi:slave;
+
+multi:out => objectsArrayOut;
+}

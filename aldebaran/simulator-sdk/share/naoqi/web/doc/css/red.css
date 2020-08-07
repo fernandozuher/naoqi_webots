@@ -1,0 +1,45 @@
+#toc {
+    background-color: #FFEAEC;
+       }
+
+#toc .tocpart.expandable
+{
+  border-color: #FFEAEC;
+  }
+
+.module:hover ,
+.broker:hover ,
+.method:hover
+{
+  background-color: #FFF0F1;
+
+ }
+
+.btitle {
+  background-color: #e0d0cb;
+
+ }
+
+.color {
+ color:#093d92;
+}
+
+
+div.framed
+{
+ background-color: #FFEAEC;
+}
+
+#tocMenu a
+{
+  color:#093d92;
+  }
+
+
+.sq1 { background-color:#c95159 }
+.sq2 { background-color:#c93f45 }
+.sq3 { background-color:#b73339 }
+.sq4 { background-color:#9d2d38 }
+.sq5 { background-color:#e9cbcf }
+.sq6 { background-color:#70242b }
+.sq7 { background-color:#5b1d24 }

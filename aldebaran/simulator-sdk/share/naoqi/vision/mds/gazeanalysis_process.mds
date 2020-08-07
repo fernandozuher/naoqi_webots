@@ -1,0 +1,10 @@
+source GazeAnalysis_IsLookingThreshold {0.5}
+
+
+process GazeAnalysis_process(GazeAnalysis, 3, 0)
+{
+populationIn<=PeoplePerception_process:population;
+isLookingThreshold<=GazeAnalysis_IsLookingThreshold;
+
+populationOut=>populationOut;
+}

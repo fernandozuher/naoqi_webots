@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ModulePreference name="aldebaran-robotics.com@Device_Head" xmlns="http://www.aldebaran-robotics.com/ns/ALPreference" schemaLocation="ModulePreference.xsd">
+    <Preference name="Key1" memoryName="RobotConfig/Head/HeadId" description="" value="0000" type="string" />
+    <Preference name="Key2" memoryName="RobotConfig/Head/Type" description="" value="Juliette" type="string" />
+    <Preference name="Key3" memoryName="RobotConfig/Head/BaseVersion" description="" value="MP" type="string" />
+    <Preference name="Key4" memoryName="RobotConfig/Head/Version" description="" value="1.0.0" type="string" />
+    <Preference name="Key5" memoryName="RobotConfig/Head/Color" description="" value="0" type="string" />
+    <Preference name="Key6" memoryName="RobotConfig/Head/Device/Camera/Version" description="" value="3" type="string" />
+    <Preference name="Key7" memoryName="RobotConfig/Head/Device/3dCamera/Version" description="" value="3" type="string" />
+    <Preference name="Key8" memoryName="RobotConfig/Head/Device/MicroSD/Size" description="" value="8" type="string" />
+    <Preference name="Key9" memoryName="RobotConfig/Head/Device/Micro/Version" description="" value="1" type="string" />
+    <Preference name="Key10" memoryName="RobotConfig/Head/Device/Processor/Frequency" description="" value="1.6" type="string" />
+    <Preference name="Key11" memoryName="RobotConfig/Head/Device/TouchBoard/Version" description="" value="2" type="string" />
+    <Preference name="Key12" memoryName="RobotConfig/Body/Type" description="" value="Juliette" type="string" />
+    <Preference name="Key13" memoryName="RobotConfig/Body/BaseVersion" description="" value="PVT" type="string" />
+    <Preference name="Key14" memoryName="RobotConfig/Body/Version" description="" value="1.0.0" type="string" />
+    <Preference name="Key15" memoryName="RobotConfig/Body/SoftwareRequirement" description="" value="1.22.3" type="string" />
+    <Preference name="Key16" memoryName="RobotConfig/Body/Color" description="" value="0" type="string" />
+    <Preference name="Key17" memoryName="RobotConfig/Body/Device/Hand/Left/Version" description="" value="4" type="string" />
+    <Preference name="Key18" memoryName="RobotConfig/Body/Device/Hand/Right/Version" description="" value="4" type="string" />
+    <Preference name="Key19" memoryName="RobotConfig/Body/Device/LeftArm/Version" description="" value="4" type="string" />
+    <Preference name="Key20" memoryName="RobotConfig/Body/Device/RightArm/Version" description="" value="4" type="string" />
+    <Preference name="Key21" memoryName="RobotConfig/Body/Device/Legs/Version" description="" value="9" type="string" />
+    <Preference name="Key22" memoryName="RobotConfig/Body/Device/Platform/Version" description="" value="4" type="string" />
+    <Preference name="Key23" memoryName="RobotConfig/Body/Device/Wheel/Version" description="" value="4" type="string"/>
+</ModulePreference>

@@ -1,0 +1,36 @@
+filter ExtractMovementsFromDepthImage
+{
+Identity idCamRobot;
+CamMovement cam;
+Segmentation3D segmvt;
+AppearingOcclusion3D occlu;
+MatchObjects3D matchcog;
+
+
+idCamRobot:in<=cameraPositionRobot;
+idCamRobot:out->cam:cameraposition;
+
+occlu:in<=depthImageIn;
+cam:out->occlu:reset;
+
+occlu:out->segmvt:inputImage;
+segmvt:cameraPositionTorso<=cameraPositionTorso;
+idCamRobot:out->segmvt:cameraPositionRobot;
+segmvt:cameraPositionWorld<=cameraPositionWorld;
+
+segmvt:objectsArray->matchcog:segmentation;
+matchcog:refSegmentation<=objectsArrayIn;
+
+matchcog:segmentationOut=>movements;
+matchcog:refSegmentationOut=>objectsArrayOut;
+
+
+# Inputs for AppearingOcclusions3D
+occlu:threshold[0.1]<=threshold;
+
+# Parameters for the Segmentation of the movement
+segmvt:kernel[1]<=segmvtkernel;
+segmvt:tolerance[50]<=segmvttolerance;
+segmvt:min[0.01]<=segmvtmin;
+segmvt:max[1.0]<=segmvtmax;
+}

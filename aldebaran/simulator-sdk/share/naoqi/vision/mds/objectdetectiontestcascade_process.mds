@@ -1,0 +1,18 @@
+source ObjectDetectionTestCascade_CascadeFile {null}
+source ObjectDetectionTestCascade_DummyImage {null}
+
+process ObjectDetectionTestCascade_process(FeaturesDetector, 0, infinity)
+{
+image <= ObjectDetectionTestCascade_DummyImage;
+filename <= ObjectDetectionTestCascade_CascadeFile;
+
+scaleFactor <= 1.3;
+minNeighbors <= 3;
+flags <= 0;
+minSizeX <= 0;
+minSizeY <= 0;
+maxSizeX <= 0;
+maxSizeY <= 0;
+
+out => sink;
+}

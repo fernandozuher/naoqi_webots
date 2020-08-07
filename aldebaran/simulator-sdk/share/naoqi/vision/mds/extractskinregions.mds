@@ -1,0 +1,35 @@
+filter ExtractSkinRegions
+{
+ExtractColorMask colorMask;
+ImprovedLabelize lab;
+BoundingBox bbox;
+
+
+# ExtractColorMask
+colorMask:image <= image;
+colorMask:colorSpace["Lab"] <= colorSpace;
+colorMask:minCh1[0] <= minCh1;
+colorMask:maxCh1[255] <= maxCh1;
+colorMask:minCh2[130] <= minCh2;
+colorMask:maxCh2[150] <= maxCh2;
+colorMask:minCh3[0] <= minCh3;
+colorMask:maxCh3[150] <= maxCh3;
+colorMask:newSizeX[160] <= dummyX;
+colorMask:newSizeY[120] <= dummyY;
+# The channels min/max values may vary according to the scene, lighting,
+# skin color, etc. TODO: update those values dynamically.
+
+# Labelize
+colorMask:out -> lab:inputImage;
+lab:kernel[0] <= kernel;
+lab:tolerance[1] <= tolerance;
+lab:min[0.0075] <= min;
+lab:max[1.0] <= max;
+
+# Extract bounding boxes
+lab:labelizedImage -> bbox:in;
+
+# Outputs
+bbox:out => regions;
+bbox:inputSize => inputSize;
+}

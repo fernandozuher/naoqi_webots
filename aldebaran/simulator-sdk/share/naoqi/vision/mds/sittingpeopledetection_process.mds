@@ -1,0 +1,10 @@
+source SittingPeopleDetection_Threshold {1.5}
+
+process SittingPeopleDetection_process(SittingPeopleDetection, 3, 0)
+{
+populationIn<=PeoplePerception_process:population;
+populationOut=>populationOut;
+
+# Parameters
+threshold <= SittingPeopleDetection_Threshold;
+}

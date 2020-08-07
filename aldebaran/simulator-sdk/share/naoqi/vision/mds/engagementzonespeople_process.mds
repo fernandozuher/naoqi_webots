@@ -1,0 +1,15 @@
+source EngagementZones_Angle {90.0}
+source EngagementZones_FirstDistance {1.5}
+source EngagementZones_SecondDistance {2.5}
+
+process EngagementZonesPeople_process(EngagementZonesPeople, 0, 10)
+{
+#PeoplePerception_process:population ~> self;
+populationIn<=PeoplePerception_process:population;
+populationOut=>populationOut;
+
+# Settable parameters
+angle<=EngagementZones_Angle;
+firstDistance<=EngagementZones_FirstDistance;
+secondDistance<=EngagementZones_SecondDistance;
+}
