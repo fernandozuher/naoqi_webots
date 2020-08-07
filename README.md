@@ -26,13 +26,14 @@ It works as a middleware allowing that Choregraphe and any code using "naoqi SDK
 
 - Webots: https://cyberbotics.com/
 
-    Set the WEBOTS_HOME environment variable to point to the Webots installation folder, as documented in the Webots user guide. Also add WEBOTS_HOME/lib to your library path:
+    Set the WEBOTS_HOME environment variable to point to the Webots installation folder, as documented in the Webots user guide. Also add WEBOTS_HOME/lib to your library path through the terminal:
 
         export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$WEBOTS_HOME/lib
 
 - Choregraphe: https://developer.softbankrobotics.com/nao6/downloads/nao6-downloads-linux
 
     The last version of Webots (R2020b in August 2020) has a model of NAOv5. NAOv6 is not supported. So you should use NAOv5 in Choregraphe too. Modify that in Choregraphe: Edit -> Preferences -> Virtual Robot, in the filed "Robot model" select "NAO H25 (V50)".
+![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/naov5.png)
 
 Last execution done in:
 * Ubuntu 18.04.4
@@ -55,17 +56,18 @@ What the controller does inside itself:
 2. Initializes Webots simulation.
 3. Creates an abstract robot NAO that is connected to *naoqi* and *Webots*.
 
-
 ## How to use
 
-Here will be the images and descriptions. Principal content.
-
-1. Start Webots, open the naoqi_webots/worlds/naoqi_webots.wbt world file.
+1. Start Webots, open the "naoqi_webots/worlds/naoqi_webots.wbt" world file.
 ![Opened Webots](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/opened_webots.png)
 
 ![Initialized naoqi_webots](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/initialized_naoqi_webots.png)
 
-2. Start Choregraphe. Choose Connection > Connect to or click the "Connect to" button. Click the "Wake Up" button (sun-like icon on the top right corner of the Choregraphe window) to make sure the stiffness is on.
+2. Start Choregraphe. Choose Connection > Connect to or click the "Connect to" button.
+![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/connect_choreographe.png)
+
+Click the "Wake Up" button (sun-like icon on the top right corner of the Choregraphe window) to make sure the stiffness is on.
+![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/active_stiffness.png)
 
 3. Play with the change of the NAO postures.
  
