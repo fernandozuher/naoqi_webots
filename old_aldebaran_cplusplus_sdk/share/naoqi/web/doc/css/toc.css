@@ -1,0 +1,217 @@
+#m_self  tocpart expandable {
+background: #FFF;
+}
+
+#tocMenu {
+	display: block;
+	position:absolute;
+	top:96px;
+	left:0px;
+	width:300px;
+	height:100%;
+
+}
+
+#toc
+{
+
+  font-family: Verdana,Helvetica,sans-serif;
+  margin:0px;
+  padding:0px;
+  overflow:hidden;
+  color: #000B2C;
+}
+
+#toc .toggle {
+    padding:0 2px;
+    margin-right: 4px;
+    cursor:pointer;
+    display: block;
+    float:left;
+    width:7px;
+    padding-bottom:2px;
+}
+/*ok*/
+
+#toc .reduce {
+    display:none;
+}
+
+#toc h2.level0 {
+	color: #000F2A;
+	margin: 0;
+	border-bottom: 1px;
+	text-align: left;
+	font-size: 14pt;
+    line-height: 22px;
+    margin-top: 10px;
+    padding-bottom:4px;
+}
+
+#toc h2.level0 #bluearrow {
+    color: #007EC3;
+}
+
+#bluebar {
+    position: fixed;
+    background: #007EC3;
+    width: 6px;
+    height: 100%;
+    top: 0px;
+    margin-left; 35px;
+    z-index: 9;
+}
+#toc .breadcrumb {
+    margin-left:20px;
+    color: #979797;
+    font-size:11px;
+    font-weight: normal;
+}
+
+#toc .breadcrumb a, .breadcrumb a:visited {
+    text-decoration:none;
+    color: #979797;
+    font-size:11px;
+    font-weight: normal;
+}
+
+#toc .breadcrumb a:hover {
+    text-decoration:underline;
+    color: #666666;
+}
+
+/******************************************************************************************************************/
+/*texte en haut*/
+
+#toc .tochead {
+
+}
+
+#toc h2 {
+	margin: 0;
+	padding: 0px 20px 5px 20px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000F2A;
+	text-align: center;
+}
+/*ok*/
+
+/*??? overflow et au dessus*/
+#toc .tocpart {
+	padding: 20px 2px 0px 2px;
+    background: #FFFFFF;
+}
+
+/*ok*/
+
+/*methods inherited from...*/
+#toc .tocsubpart{
+  clear:left;
+  background: #FFFFFF;
+}
+
+/*violet, une fois qu'on a cliqué dessus sauf pour overflow*/
+#toccontent{
+
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+/*ok*/
+
+/*titre sections style overflow*/
+#toc a {
+    font-weight:normal;
+
+}
+/*ok*/
+
+#toc .tocpart.simple {
+  margin-left: 1.4em;
+  background: #FFFFFF;
+}
+
+#toc .tocpart.expandable {
+   border-collapse:collapsed;
+   border-color:#FFFFFF;
+   background: #FFFFFF;
+   padding: 0 2px 6px 15px;
+}
+
+/*sous-menu*/
+#toc ul {
+  list-style: none outside;
+  margin-left: 30px;
+  margin-bottom: 2px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+/*en reférence à toc a*/
+#toc li a {
+    color: #333333;
+    font-weight:normal;
+}
+/*ok*/
+
+
+#toc li {
+    margin: 0px 5px 2px 0px;
+}
+
+#toc .tocsubpart {
+    display:none;
+}
+
+/*???*/
+#toc .toggle a {
+    margin-left:8px;
+}
+
+@media print {
+#tocMenu
+{
+display: block;
+position:relative;
+width:100%;
+}
+#toc
+{
+border-width:0;
+}
+
+#toc .toggle
+{
+visibility:hidden;
+
+}
+#toc .tocsubpart
+{
+display:block;
+
+}
+
+#toc h2:after
+{
+content:" - Table of contents";
+}
+#headerText
+{
+display:none;
+}
+#pageContent
+{
+margin-left: 0 !important;
+}
+
+#tocMenu a, .color
+{
+color: black !important;
+  }
+#toc .tocpart.expandable
+{
+border-width: 0;
+
+}
+
+}

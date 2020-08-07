@@ -1,0 +1,10 @@
+source TopOfNearestBlob_NearestBlobDistance {-1.0}
+
+process TopOfNearestBlob_process(TopOfNearestBlob, 0, 10)
+{
+objectsArray <= Segmentation3D_process:objectsArray;
+nearestblob=>sink;
+
+# Settable parameters
+distance<=TopOfNearestBlob_NearestBlobDistance;
+}

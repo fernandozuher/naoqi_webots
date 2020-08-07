@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ModulePreference xmlns="http://www.aldebaran-robotics.com/ns/ALPreference" schemaLocation="ModulePreference.xsd" name="aldebaran-robotics.com@AudioOut" >
+  <Preference xmlns="http://www.aldebaran-robotics.com/ns/ALPreference" value="English" type="string" name="defaultSynthesisLanguage" description="Define the language used by vocal synthesis engine" />
+  <Preference xmlns="http://www.aldebaran-robotics.com/ns/ALPreference" value="Default" type="string" name="defaultSystemSoundSet" description="" />
+</ModulePreference>

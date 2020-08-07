@@ -1,0 +1,11 @@
+process EngagementZonesMovements_process(EngagementZonesMovements, 0, 10)
+{
+#MovementDetection_process:movements ~> self;
+in <= MovementDetection_process:movements;
+out => movements;
+
+# Settable parameters
+angle <= EngagementZones_Angle;
+firstDistance <= EngagementZones_FirstDistance;
+secondDistance <= EngagementZones_SecondDistance;
+}

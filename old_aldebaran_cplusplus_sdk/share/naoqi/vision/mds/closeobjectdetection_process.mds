@@ -1,0 +1,18 @@
+process CloseObjectDetection_process(CloseObjectDetection, 3, 0)
+{
+irImageIn<=VideoDevice_IRCamera<QQQVGA>;
+depthImageIn<=VideoDevice_DistanceCamera<QQQVGA>;
+
+cameraPositionTorso <= Motion_CameraDepth<TORSO>;
+cameraPositionRobot <= Motion_CameraDepth<ROBOT>;
+cameraPositionWorld <= Motion_CameraDepth<WORLD>;
+
+labkernel<=3;
+labtolerance<=50;
+labmin<=0.02;
+labmax<=1.0;
+
+saturationThreshold<=1000;
+
+closeObjects=>closeObjects;
+}

@@ -7,7 +7,7 @@ WEBOTS_HOME_PATH = $(subst $(space),\ ,$(strip $(subst \,/,$(WEBOTS_HOME))))
 CXX_SOURCES := $(shell find . -name "*.cpp")
 
 ifndef WEBOTS_NAOSIM_PATH
-	WEBOTS_NAOSIM_PATH = ../../aldebaran/simulator-sdk
+	WEBOTS_NAOSIM_PATH = ../../old_aldebaran_cplusplus_sdk
 endif
 
 # --------------------------C/C++ Options--------------------------

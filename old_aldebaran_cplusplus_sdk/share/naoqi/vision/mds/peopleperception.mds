@@ -1,0 +1,72 @@
+filter PeoplePerception
+{
+Identity idModeIs3D;
+
+SelectCameraPositions selectCamPos;
+PeopleDetection pd;
+HumanTracker track;
+Collapse collapse;
+DispatchVisiblePeople visible;
+
+idModeIs3D:in <= modeIs3D;
+
+selectCamPos:cameraTopPositionTorso <= cameraTopPositionTorso;
+selectCamPos:cameraTopPositionRobot <= cameraTopPositionRobot;
+selectCamPos:cameraTopPositionWorld <= cameraTopPositionWorld;
+selectCamPos:cameraDepthPositionTorso <= cameraDepthPositionTorso;
+selectCamPos:cameraDepthPositionRobot <= cameraDepthPositionRobot;
+selectCamPos:cameraDepthPositionWorld <= cameraDepthPositionWorld;
+idModeIs3D:out->selectCamPos:is3d;
+
+pd:populationOut->track:populationIn;
+
+track:populationOut=>population;
+track:removedPopulation=>removedPopulation;
+
+track:populationOut->collapse:in1;
+track:removedPopulation->collapse:in2;
+collapse:out=>regroupedSink;
+
+track:populationOut->visible:populationIn;
+visible:visiblePopulation=>visiblePopulation;
+visible:nonVisiblePopulation=>nonVisiblePopulation;
+
+
+# Statuses for PeopleDetection
+idModeIs3D:out->pd:modeIs3D;
+pd:movementStatus3D <= movementStatus3D;
+pd:faceStatus3D <= faceStatus3D;
+
+# Inputs for PeopleDetection
+pd:rgbInputImage <= rgbInputImage;
+pd:depthInputImage <= depthInputImage;
+pd:irInputImage <= irInputImage;
+
+selectCamPos:cameraPositionTorso->pd:cameraPositionTorso;
+selectCamPos:cameraPositionRobot->pd:cameraPositionRobot;
+selectCamPos:cameraPositionWorld->pd:cameraPositionWorld;
+
+pd:heightOffset<=heightOffset;
+
+pd:maxDistance <= maxDistance;
+
+pd:minBodyHeight3D <= minBodyHeight3D;
+pd:maxBodyHeight3D <= maxBodyHeight3D;
+pd:minBodyWidth3D <= minBodyWidth3D;
+pd:maxBodyWidth3D <= maxBodyWidth3D;
+
+pd:kernel3D <= kernel3D;
+pd:tolerance3D <= tolerance3D;
+pd:min3D <= min3D;
+pd:max3D <= max3D;
+
+pd:movementThreshold3D <= movementThreshold3D;
+
+
+# Parameters for HumanTracker
+track:maxSpeed <= maxSpeed;
+track:persistenceNonVisible <= persistenceNonVisible;
+track:persistenceVisible <= persistenceVisible;
+track:colorWeight <= colorWeight;
+selectCamPos:cameraPositionRobot->track:cameraPosition;
+}

@@ -1,0 +1,57 @@
+filter FindPersonHead
+{
+Identity idModeIs3D;
+Identity idHeightOffset;
+
+Dispatch disp;
+SelectCameraPositions selectCamPos;
+FindPersonHead2D fph2d;
+FindPersonHead3D fph3d;
+Multiplex multi;
+
+idModeIs3D:in <= modeIs3D;
+
+disp:in[1] <= dummyIn;
+idModeIs3D:out->disp:state;
+
+disp:ontrue->fph3d:state;
+disp:onfalse->fph2d:state;
+fph3d:personHeadObject->multi:master;
+fph2d:personHeadObject->multi:slave;
+
+multi:out => personHeadObject;
+
+selectCamPos:cameraTopPositionTorso <= cameraTopPositionTorso;
+selectCamPos:cameraTopPositionRobot <= cameraTopPositionRobot;
+selectCamPos:cameraTopPositionWorld <= cameraTopPositionWorld;
+selectCamPos:cameraDepthPositionTorso <= cameraDepthPositionTorso;
+selectCamPos:cameraDepthPositionRobot <= cameraDepthPositionRobot;
+selectCamPos:cameraDepthPositionWorld <= cameraDepthPositionWorld;
+idModeIs3D:out->selectCamPos:is3d;
+
+idHeightOffset:in <= heightOffset;
+
+
+# Parameters for 2D
+fph2d:rgbInputImage <= rgbInputImage;
+
+selectCamPos:cameraPositionTorso->fph2d:cameraPositionTorso;
+selectCamPos:cameraPositionRobot->fph2d:cameraPositionRobot;
+selectCamPos:cameraPositionWorld->fph2d:cameraPositionWorld;
+
+idHeightOffset:out->fph2d:heightOffset;
+
+
+# Parameters for 3D
+fph3d:depthInputImage <= depthInputImage;
+fph3d:irInputImage <= irInputImage;
+
+selectCamPos:cameraPositionTorso->fph3d:cameraPositionTorso;
+selectCamPos:cameraPositionRobot->fph3d:cameraPositionRobot;
+selectCamPos:cameraPositionWorld->fph3d:cameraPositionWorld;
+
+idHeightOffset:out->fph3d:heightOffset;
+
+fph3d:distance <= distance;
+fph3d:previousPosition <= previousPosition;
+}

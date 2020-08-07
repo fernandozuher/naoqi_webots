@@ -1,0 +1,12 @@
+source ObjectDetection_ScaleFactor {null}
+source ObjectDetection_MinNeighbors {null}
+source ObjectDetection_Flags {0}
+source ObjectDetection_MinSizeX {null}
+source ObjectDetection_MinSizeY {null}
+source ObjectDetection_MaxSizeX {0}
+source ObjectDetection_MaxSizeY {0}
+source ObjectDetection_CascadeFile {null}
+source ObjectDetection_SaveCropped {null}
+source ObjectDetection_SavePath {null}
+source ObjectDetection_HorCropMargin {null}
+source ObjectDetection_VerCropMargin {null}

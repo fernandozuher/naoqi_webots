@@ -1,0 +1,20 @@
+source PeopleDetection_ModeIs3D {true}
+
+source FaceDetection_Status {true}
+source MovementDetection_Status {false}
+
+source FaceDetection_ScaleFactor {1.2}
+source FaceDetection_MinNeighbors {3}
+source FaceDetection_Flags {0}
+source FaceDetection_MinSize {0}
+source FaceDetection_MaxSize {0}
+
+source Tracker_TimeBeforeNonVisiblePersonDisappears {10.0}
+source Tracker_TimeBeforeVisiblePersonDisappears {2.0}
+source NearPopulation_MaximumDetectionRange {3.5}
+source Tracker_ColorWeight {0.0}
+
+source BodySize_MinBodyHeight {0.7}
+source BodySize_MaxBodyHeight {2.2}
+source BodySize_MinBodyWidth {0.15}
+source BodySize_MaxBodyWidth {0.5}

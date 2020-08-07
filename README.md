@@ -22,7 +22,7 @@ It works as a middleware allowing that Choregraphe and any code using "naoqi SDK
 
     This refactored version works only on Linux. The support for Windows and OSX were temporarily removed in order to improve readability and maintenance of the code.
 
-- Compiler: Standard gcc compiler suite.
+- Compiler: Standard GCC compiler suite.
 
 - Webots: https://cyberbotics.com/
 
@@ -43,11 +43,12 @@ Last execution done in:
 
 ### Build
 
-1. Download this repository: https://github.com/fernandozuher/naoqi_webots/archive/master.zip
+1. Download this current repository: https://github.com/fernandozuher/naoqi_webots/archive/master.zip
 
 2. Unpack it in a preferred working directory.
 
 3. Compile the naoqi_webots controller, type "make" in the controllers/naoqi_webots folder.
+![make screen](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/make.png)
 
 What the controller does inside itself:
 1. Initializes naoqi process located in the folder "old_aldebaran_cplusplus_sdk".
@@ -60,6 +61,9 @@ What the controller does inside itself:
 Here will be the images and descriptions. Principal content.
 
 1. Start Webots, open the naoqi_webots/worlds/naoqi_webots.wbt world file.
+![Opened Webots](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/opened_webots.png)
+
+![Initialized naoqi_webots](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/initialized_naoqi_webots.png)
 
 2. Start Choregraphe. Choose Connection > Connect to or click the "Connect to" button. Click the "Wake Up" button (sun-like icon on the top right corner of the Choregraphe window) to make sure the stiffness is on.
 

@@ -1,0 +1,1504 @@
+topic: ~lexicon()
+language: frf
+
+dynamic:robotname
+dynamic:friendlyname
+dynamic:all_descriptions
+dynamic: myrobotname
+
+#=====================================================================================================================================#
+concept:(vb_pos_i_aimer) [j'aime]
+concept:(vb_neg_i_aimer) ["[j'aime "je n'aime"] pas"]
+concept:(vb_i_aimer) [~vb_pos_i_aimer ~vb_neg_i_aimer]
+concept:(vb_pos_you_aimer) ["tu aimes" t'aimes]
+concept:(vb_neg_you_aimer) ["[t'aimes "tu aimes" "tu n'aimes"] [pas plus]"]
+concept:(vb_int_you_aimer) [aimes-tu "n'aimes-tu pas"]
+concept:(vb_you_aimer) [~vb_pos_you_aimer ~vb_neg_you_aimer]
+concept:(vb_ask_aimer) ["{"est-ce que"} ~vb_pos_you_aimer" ~vb_int_you_aimer ~vb_neg_you_aimer]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_kiffer) ["je kiffe"]
+concept:(vb_neg_i_kiffer) ["je {ne} kiffe pas"]
+concept:(vb_i_kiffer) [~vb_pos_i_kiffer ~vb_neg_i_kiffer]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_adorer) [j'adore]
+concept:(vb_i_adorer) [~vb_pos_i_adorer]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_détester) ["je déteste"]
+concept:(vb_neg_i_détester) ["je {ne} déteste pas"]
+concept:(vb_i_détester) [~vb_pos_i_détester ~vb_neg_i_détester]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_haïr) ["je hais"]
+concept:(vb_neg_i_haïr) ["je {ne} hais pas"]
+concept:(vb_i_haïr) [~vb_pos_i_haïr ~vb_neg_i_haïr]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_avoir) [j'ai "j'en ai"]
+concept:(vb_neg_i_avoir) ["[j'ai "j'en ai" "je [n'ai "n'en ai"]"] [pas plus]"]
+concept:(vb_i_avoir) [~vb_pos_i_avoir ~vb_neg_i_avoir]
+concept:(vb_pos_you_avoir) [t'as "tu as"]
+concept:(vb_neg_you_avoir) ["[~vb_pos_you_avoir "tu n'as"] [pas plus]"]
+concept:(vb_int_you_avoir) [as-tu "n'as-tu pas"]
+concept:(vb_you_avoir) [~vb_pos_you_avoir ~vb_neg_you_avoir]
+concept:(vb_ask_avoir) ["{"est-ce que"} ~vb_pos_you_avoir" ~vb_int_you_avoir ~vb_neg_you_avoir]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_être) ["je suis"]
+concept:(vb_neg_i_être) ["je {ne} suis pas"]
+concept:(vb_i_être) [~vb_pos_i_être ~vb_neg_i_être]
+concept:(vb_pos_you_être) [t'es "tu es"]
+concept:(vb_neg_you_être) ["[t'es "tu es" "tu n'es"] [pas plus]"]
+concept:(vb_int_you_être) [es-tu "n'es-tu pas"]
+concept:(vb_you_être) [~vb_pos_you_être ~vb_neg_you_être]
+concept:(vb_ask_être) ["{"est-ce que"} ~vb_pos_you_être" ~vb_int_you_être ~vb_neg_you_être]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_prendre) ["je prends"]
+concept:(vb_neg_i_prendre) ["je {ne} prends pas"]
+concept:(vb_i_prendre) [~vb_pos_i_prendre ~vb_neg_i_prendre]
+concept:(vb_pos_you_prendre) ["tu prends"]
+concept:(vb_neg_you_prendre) ["tu {ne} prends pas"]
+concept:(vb_int_you_prendre) [prends-tu "ne prends-tu pas"]
+concept:(vb_ask_prendre) ["{"est-ce que"} ~vb_pos_you_prendre" ~vb_int_you_prendre ~vb_neg_you_prendre]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_savoir) ["je sais"]
+concept:(vb_neg_i_savoir) ["je {ne} sais pas"]
+concept:(vb_i_savoir) [~vb_pos_i_savoir ~vb_neg_i_savoir]
+concept:(vb_pos_you_savoir) ["tu [sais saurais]"]
+concept:(vb_neg_you_savoir) ["tu {ne} [sais saurais] pas"]
+concept:(vb_int_you_savoir) [sais-tu saurais-tu "ne [sais-tu saurais-tu] pas"]
+concept:(vb_ask_savoir) ["{"est-ce que"} ~vb_pos_you_savoir" ~vb_int_you_savoir ~vb_neg_you_savoir]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_connaître) ["je connais"]
+concept:(vb_neg_i_connaître) ["je {ne} connais pas"]
+concept:(vb_i_connaître) [~vb_pos_i_connaître ~vb_neg_i_connaître]
+concept:(vb_pos_you_connaître) ["tu connais"]
+concept:(vb_neg_you_connaître) ["tu {ne} connais pas"]
+concept:(vb_int_you_connaître) [connais-tu "ne connais-tu pas"]
+concept:(vb_you_connaître) [~vb_pos_you_connaître ~vb_neg_you_connaître]
+concept:(vb_ask_connaître) ["{"est-ce que"} ~vb_pos_you_connaître" ~vb_int_you_connaître ~vb_neg_you_connaître]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_croire) ["je crois"]
+concept:(vb_neg_i_croire) ["je {ne} crois pas"]
+concept:(vb_i_croire) [~vb_pos_i_croire ~vb_neg_i_croire]
+concept:(vb_pos_you_croire) ["tu crois"]
+concept:(vb_neg_you_croire) ["tu {ne} crois pas"]
+concept:(vb_int_you_croire) [crois-tu "ne crois-tu pas"]
+concept:(vb_you_croire) [~vb_pos_you_croire ~vb_neg_you_croire]
+concept:(vb_ask_croire) ["{"est-ce que"} ~vb_pos_you_croire" ~vb_int_you_croire ~vb_neg_you_croire]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_vouloir) ["je [veux voudrais]"]
+concept:(vb_neg_i_vouloir) ["je {ne} veux [pas plus]"]
+concept:(vb_i_vouloir) [~vb_pos_i_vouloir ~vb_neg_i_vouloir]
+concept:(vb_pos_you_vouloir) ["tu veux"]
+concept:(vb_neg_you_vouloir) ["tu {ne} veux [pas plus]"]
+concept:(vb_int_you_vouloir) [veux-tu "ne veux-tu pas"]
+concept:(vb_you_vouloir) [~vb_pos_you_vouloir ~vb_neg_you_vouloir]
+concept:(vb_ask_vouloir) ["{"est-ce que"} ~vb_pos_you_vouloir" ~vb_int_you_vouloir ~vb_neg_you_vouloir]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_pouvoir) ["je peux"]
+concept:(vb_neg_i_pouvoir) ["je {ne} peux [pas plus]"]
+concept:(vb_int_i_pouvoir) [puis-je "je peux"]
+concept:(vb_i_pouvoir) [~vb_pos_i_pouvoir ~vb_neg_i_pouvoir]
+concept:(vb_pos_you_pouvoir) ["tu [peux pourrais]"]
+concept:(vb_neg_you_pouvoir) ["tu {ne} [peux pourrais] [pas plus]"]
+concept:(vb_int_you_pouvoir) [peux-tu pourrais-tu "ne [peux-tu pourrais-tu] pas"]
+concept:(vb_you_pouvoir) [~vb_pos_you_pouvoir ~vb_neg_you_pouvoir]
+concept:(vb_ask_pouvoir) ["{"est-ce que"} ~vb_pos_you_pouvoir" ~vb_int_you_pouvoir ~vb_neg_you_pouvoir]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_you_supporter) ["tu supportes"]
+concept:(vb_neg_you_supporter) ["tu {ne} supportes pas"]
+concept:(vb_int_you_supporter) [supportes-tu "ne supportes-tu pas"]
+concept:(vb_you_supporter) [~vb_pos_you_supporter ~vb_neg_you_supporter]
+concept:(vb_ask_supporter) ["{"est-ce que"} ~vb_pos_you_supporter" ~vb_int_you_supporter ~vb_neg_you_supporter]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_soutenir) ["je soutiens"]
+concept:(vb_neg_i_soutenir) ["je {ne} soutiens [pas plus]"]
+concept:(vb_i_soutenir) [~vb_pos_i_soutenir ~vb_neg_i_soutenir]
+concept:(vb_pos_you_soutenir) ["tu soutiens"]
+concept:(vb_neg_you_soutenir) ["tu {ne} soutiens pas"]
+concept:(vb_int_you_soutenir) [soutiens-tu "ne soutiens-tu pas"]
+concept:(vb_you_soutenir) [~vb_pos_you_soutenir ~vb_int_you_soutenir]
+concept:(vb_ask_soutenir) ["{"est-ce que"} ~vb_pos_you_soutenir" ~vb_int_you_soutenir ~vb_neg_you_soutenir]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_agree_with) ["je suis {plutot assez} d'accord avec"]
+concept:(vb_neg_i_agree_with) ["je suis {pas} d'accord avec"]
+concept:(vb_i_agree_with) [~vb_pos_i_agree_with ~vb_neg_i_agree_with]
+concept:(vb_pos_you_agree_with) ["tu es d'accord avec"]
+concept:(vb_neg_you_agree_with) ["[t'es "tu es" "tu n'es"] [pas plus] d'accord avec"]
+concept:(vb_int_you_agree_with) ["es-tu d'accord avec" "n'es-tu pas d'accord avec"]
+concept:(vb_you_agree_with) [~vb_pos_you_agree_with ~vb_int_you_agree_with]
+concept:(vb_ask_agree_with) ["{"est-ce que"} ~vb_pos_you_agree_with" ~vb_int_you_agree_with ~vb_neg_you_agree_with]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_préférer) ["je préfère"]
+concept:(vb_neg_i_préférer) ["je {ne} préfère [pas plus]"]
+concept:(vb_i_préférer) [~vb_pos_i_préférer ~vb_neg_i_préférer]
+concept:(vb_pos_you_préférer) ["tu préfères"]
+concept:(vb_neg_you_préférer) ["tu {ne} préfères pas"]
+concept:(vb_int_you_préférer) [préfères-tu "ne préfères-tu pas"]
+concept:(vb_you_préférer) [~vb_pos_you_préférer ~vb_neg_you_préférer]
+concept:(vb_ask_préférer) ["{"est-ce que"} ~vb_pos_you_préférer" ~vb_int_you_préférer ~vb_neg_you_préférer]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_pos_i_partir) ["je pars"]
+concept:(vb_neg_i_partir) ["je {ne} pars [pas plus]"]
+concept:(vb_i_partir) [~vb_pos_i_partir ~vb_neg_i_partir]
+concept:(vb_pos_you_partir) ["tu pars"]
+concept:(vb_neg_you_partir) ["tu {ne} pars [pas plus]"]
+concept:(vb_int_you_partir) [pars-tu "ne pars-tu pas"]
+concept:(vb_you_partir) [~vb_pos_you_partir ~vb_neg_you_partir]
+concept:(vb_ask_partir) ["{"est-ce que"} ~vb_pos_you_partir" ~vb_int_you_partir ~vb_neg_you_partir]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(vb_ask_aller) ["vas-tu" "{"est-ce que"} tu vas"]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#=====================================================================================================================================#
+concept:(adverbs) [vachement absolument carrément vraiment royalement complètement "un peu" totalement strictement parfaitement beaucoup énormément trop très plutot]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(adj_addicted) [fou folle féru amateur amatrice amoureux amoureuse passionné fan fana fada fanatique mordu avide addict]
+concept:(adj_total) ["très forte" total complet complète absolu catégorique radical intégral inconditionnel]
+concept:(adj_size) [grand gros énorme petit minuscule]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+# Impératifs utiles
+concept:(vb_imp_parle) ["{ne} {me m'en} parle pas"]
+concept:(vb_imp_cause) ["{ne} {me m'en} cause pas"]
+concept:(vb_imp_dire) ["{ne} {me m'en} dit rien"]
+concept:(vb_imp_discute) ["{ne} discute pas"]
+concept:(vb_imp_bavarde) ["{ne} bavarde pas"]
+concept:(tell_me) [raconte-moi dis-moi]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(verbs_inf_parler) [parler discuter bavarder causer dire]
+concept:(verbs_imp_parler) [~vb_imp_parle ~vb_imp_cause ~vb_imp_dire ~vb_imp_discute ~vb_imp_bavarde]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_like) [
+    "~vb_pos_i_être ~adj_addicted"
+    ~vb_pos_i_aimer
+    ~vb_pos_i_kiffer
+    ~vb_pos_i_adorer
+    ~vb_neg_i_détester
+    ~vb_neg_i_haïr
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_dont_like) [
+    "~vb_pos_i_avoir ["horreur [de des du]"]"
+    ~vb_pos_i_détester
+    ~vb_pos_i_haïr
+    ~vb_neg_i_aimer
+    ~vb_neg_i_kiffer
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_want)[
+    "je [veux voudrais] {vraiment bien}"
+    "j'aimerais {vraiment bien}"
+    "je [souhaite souhaiterais] {vraiment}"
+    "j'aurais {vraiment bien} voulu"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(what_do) [
+    "qu'est-ce que"
+    "c'est quoi ce que"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(do_you_know) [
+    ~vb_ask_connaître
+    ~vb_ask_savoir
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(do_you_like) [
+    ~vb_ask_aimer
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(what_do_you_like) [
+    "~what_do ~vb_pos_you_aimer"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(what_do_you_prefer) [
+    "{~what_do} ~vb_pos_you_préférer"
+    "{que} ~vb_int_you_préférer"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(you_like) [
+    ~vb_pos_you_aimer
+    ~vb_int_you_aimer
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(do_you_have) [
+    ~vb_ask_avoir
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(do_you_need) [
+    "~vb_ask_avoir besoin de"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(do_you_prefer) [
+    ~vb_ask_préférer
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(what_do_you_know) [
+    "{~what_do} [~vb_pos_you_connaître ~vb_pos_you_savoir]"
+    "{que} [~vb_int_you_connaître ~vb_int_you_savoir]" 
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(do_you_want) [
+    ~vb_ask_vouloir
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(what_do_you_want) [
+    "{~what_do} ~vb_pos_you_vouloir"
+    "{que} ~vb_int_you_vouloir"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(are_you) [
+    ~vb_ask_être
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(who_are_you) [
+    "qui ~vb_ask_être"
+    "t'es qui {toi}"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(you_are) [
+    ~vb_pos_you_être
+    "tu t'appelles"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(you_are_not) [
+    ~vb_neg_you_être
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(do_you_follow) [
+    ~vb_ask_supporter
+    ~vb_ask_soutenir
+    ~vb_ask_agree_with
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(how_can_i_help_you) [
+    "comment [
+        "["est-ce que tu veux" "veux-tu"] que je t'aide"
+        "je peux t'aider"
+        "puis-je t'aider"
+    ]"
+    "~what_do je peux faire {"pour t'aider"}"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(can_i) [
+    "{"est-ce que"} ~vb_pos_i_pouvoir"
+    ~vb_int_i_pouvoir
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(can_you) [
+    ~vb_ask_pouvoir
+    ~vb_ask_savoir
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_want_to) [
+    ~vb_pos_i_vouloir
+    "~vb_pos_i_avoir envie de"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_dont_want_to) [
+    ~vb_neg_i_vouloir
+    "~vb_neg_i_avoir envie de"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_think_you_are) [
+    "je te trouve"
+    "{"je [pense trouve] que"} ~vb_pos_you_être"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(confirmation) [
+    oui si sisi sisisi ouais ok exact
+    allez
+    cool
+    "{oui ouais} [
+        #merci
+        "s'il te plait" 
+        "avec plaisir"
+        "pourquoi pas"
+        "je te l'accorde"
+        "plutot {oui ouais}"
+        "~vb_pos_i_vouloir bien"
+        "~vb_pos_i_agree_with toi"
+        "fais-le"
+        "vas-y"
+        vazy
+        "{"["on va dire" "bien sur" évidemment] que"} c'est vrai"
+        "on va dire ça"
+        "c'est [exact certain sur ça]"
+        "tout a fait"
+        "bien [évidemment sur dit]"
+        "si tu veux"
+        carrément absolument assurément certainement évidemment parfaitement précisément sûrement
+        exactement excellent grave certes d'accord parfait entendu volontiers complètement
+        "en effet"
+        "pas de [problème souci]"
+        "sans [problème "{aucun nul} doute"]"
+        "["il n'y a" "il y a" "y a"] ["pas de" nul] doute"
+        "no problémo"
+        "bonne réponse" 
+        "on peut dire ça"
+        "{~vb_pos_you_avoir} tout compris"  
+        "c'est {"un peu" plutot} vrai"
+        "["bonne" excellente] idée" 
+        "ça [roule marche]"
+        "je sais"
+        "très bien"         
+    ]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(negation) [
+    non nan "non non" "non non {et} non" "non merci"
+    bof
+    "{non} [
+        "[~vb_neg_i_être pas] [d'accord intéressé]"
+        "[~vb_neg_i_avoir pas] envie"
+        #~vb_neg_i_vouloir
+        ~vb_neg_i_croire
+        "{non} ça [ira "va aller"]"
+        "pas [vraiment "du tout" "le moins du monde" spécialement question]"
+        aucunement nullement jamais
+        "[surtout absolument] pas"
+        "tu peux {toujours} [rêver courir rouler]"
+        "t'as rêvé"
+        "cause toujours"
+        "pas [maintenant vraiment tellement trop "tout a fait" "pour [l'instant "le moment"]"]"
+        "c'est [faux "pas [ça vrai nécessaire "la peine"]"]"
+        "trop pas"
+        "ça {ne} te regarde pas"
+        "de quoi tu te mêles"
+        "qu'est ce que t'en as a [foutre faire]"
+        "occupe toi de tes [affaires oignons fesses]"
+        "jamais de la vie"
+        "ça {ne} me ["dit rien" "[tente parle] pas"]"
+        "sans façon"
+        "{"y a"} pas moyen"
+        "j'en ai assez entendu"
+        "tu ["te trompes" "as tort"]"
+        "pas grand-chose"
+        bof
+    ]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(its_not_true) [
+    "["ce n'est" c'est] pas [vrai "la vérité"]"
+    "c'est [faux "[un des] mensonge" idiot "[une des] bétise"]"
+    "ça ne veut rien dire"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(please) [
+    "s'il te plait"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(a_little_bit) [
+    "un {petit "tout petit"} peu"
+    "pas beaucoup"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(simple_neg) [
+    non nan "non non" "non non {et} non"
+    "{non} ["pas du tout" "absolument pas" "c'est [faux "pas vrai"]"]"
+    "jamais de la vie"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#    
+concept:(stupid_question) [
+    "c'est {vraiment} une question {complètement vraiment parfaitement franchement particulièrement} ["{a la} con" "de merde" idiote débile stupide nase "pas intéressante" "sans intérêt"]"
+    "["qu'est-ce que c'est que" "c'est quoi"] ["ce délire" "cette [merde "question {"de merde" "a la con"}"]"]"
+    "["qu'est-ce que c'est" "c'est {complètement}"] [con naze nul idiot stupide débile "pas intéressant" "sans intérêt"]"
+    "c'est pas {très} [malin drôle intéressant]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#    
+concept:(difficult_question) [
+    "c'est [difficile "pas [facile évident]"] de répondre {"à [ça "cette question"]"}"
+    "c'est une question [difficile "pas évidente"]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(thank_you) [
+    "je te [remercie "dis merci"]"
+    "merci {beaucoup infiniment "du fond du coeur"}"
+    "tous mes remerciements"
+    "c'est gentil"
+    "ça me touche" 
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(im_good) [
+    "[~vb_pos_i_être "je me sens"] [bien "en forme"]"
+    "ça va {bien}"
+    super
+    impec
+    bien
+    "~vb_pos_i_avoir [la une] [forme pêche patate] {d'enfer}"
+    "ça [roule gaze]"
+    "tout va bien"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(im_ok) [
+    couci-couça
+    moyen
+    "["on fait" "ça peut"] aller"
+    "{"comme ci"} comme ça"
+    "pas trop mal"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_dont_feel_good) [
+    non bof
+    "pas ["du tout" "{très} bien" terrible]"
+    "moins bien"
+    "ça {ne} va pas {fort}"
+    "[~vb_neg_i_être "["je {ne} me sens" "j'me sens"] pas"] [super "{très} bien" "{au} top" terrible génial "[en "au mieux de ma"] forme"]"
+    "{"je me sens"} de moins en moins bien"   
+    "j'ai connu mieux"
+    "ça va ["{très plutôt assez} mal" "pas {très} bien"]"
+    "[~vb_pos_i_avoir "je me suis fait"] mal"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(im_sick) [
+    "~vb_pos_i_être {"un peu" très} [malade enrhumé barbouillé]"
+    "~vb_pos_i_avoir ["{très} mal ["a la [tête gorge]" "au ventre"]" "la grippe" "un [rhume torticolis]" "une [angine migraine gastro otite]" "de la toux" "des maux de tête"]"
+    "je tousse"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(im_tired) [
+    "~vb_pos_i_être [fatigué crevé lessivé mort explosé épuisé fracassé "a l'ouest"]"
+    "~vb_pos_i_avoir [sommeil "la tête dans le [cul paté]" "du mal" "besoin [de d'aller] dormir"]" "un {petit gros} coup de barre"]
+#=====================================================================================================================================#
+# Patterns
+concept:(i_dont_understand) [
+    "["je n'ai" j'ai] [pas rien] [compris saisi pané pigé capté entendu]"
+    "je {ne} comprends pas"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(robot_didnt_understand) [
+    "["tu {ne} [comprends piges captes]" "t'entraves"] [rien makache queudale pas "quelque chose"]"
+    "c'est [vraiment absolument carrément] pas {"du tout"} ça"
+    "["tu n'as" t'as] {toujours} [rien "pas {bien}"] compris"
+    "{assez} délirant comme conversation"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_dont_care) [
+    "je m'en [fiche fous moque branle tamponne cogne] {de des du}"
+    "je m'en [bats tamponne] ["les couilles" "la bite" l'oeil "le coquillard" l'oeuf l'os] {de des du}"
+    "{~vb_pos_i_avoir} rien a [faire foutre tamponner battre] {de des du}"
+    "[ça cela] {ne} m'intéresse [pas plus] {"du tout" "le moins du monde"}"
+    "[~vb_imp_parle ~vb_imp_cause] de ça"
+    "{~vb_pos_i_avoir} pas d'avis"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(im_not_sure) [
+    "je {ne} ["sais pas" "suis pas sur"]"
+    "pas sûr"
+    "chai pas" "chui pas sûr"
+    "[j'en "je n'en"] ["sais rien" "ai pas la moindre idée"]"
+    "je réfléchis"
+    j'hésite
+    "aucune idée"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(stop_it) [
+    stop "ça suffit" "c'est assez"
+    "~vb_pos_i_avoir [marre "ras-le-bol" "peux plus" "ma claque" "plein ["le [dos cul]" "les fesses"]"]"
+    "{"par pitié"} ["tais toi" "t'es toi" "ta gueule" ferme-la "la ferme"]"
+    "tu {me} [soules "fais chier" m'emmerdes "me fatigues" m'épuises]"
+    "{c'est ~you_are} [chiant "pas intéressant" inutile "sans intérêt" ennuyeux]"
+    "~can_you ["fermer ta gueule" "te taire"]"
+    ~vb_imp_discute
+    ~vb_imp_bavarde
+    ~vb_imp_parle
+    "~vb_imp_dire {rien}"
+    "arrête de parler"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(stop_switching) [
+    "["arrête de [changer quitter]" "{ne} change pas"] de [sujet thème conversation] {"tout le temps" "à tout bout de champ"}"
+    "[arrête "~can_you arrêter"] de lancer des {nouveaux} sujets"
+    "reste dans ["le {même} [sujet thème]" "la {même} conversation"]"
+    "{ne} quitte pas ["le [sujet thème]" "la conversation"]"
+    "{ne} change pas de [sujet thème conversation]"
+    "~can_you ["arrêter de changer" "ne pas changer"] de [sujet thème conversation]"
+    "~can_you rester sur ["le même" ce] sujet"
+    "{ne} change {plus} jamais de [sujet thème conversation]"
+    "~i_dont_want_to [changer quitter lancer "que tu [changes quittes lances]"] de [sujet thème conversation]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(stop_app) [
+    "["arrête !pas" "!pas arrêter" "quitte !pas" "!pas quitter"] {"cette application" l'application tout "[le ce] [programme logiciel dialogue]" "de parler"}"
+    "["change !pas" "!pas changer"] [d'application "de [programme logiciel sujet]"]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(restart_it) [
+    "[recommence recommencer relancer relancer redémarre redémarrer] {"cette application" l'application tout "[le ce] [programme logiciel dialogue]"}"
+]    
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(repeat_it) [
+    "{pardon} [
+    "[répète redis] {moi} ["[la ta] {dernière} phrase" "ce que tu viens de dire" "ce que tu as dit avant"]"
+    "[repose répète redis] {moi} {la cette} {dernière} question"
+    "~can_you ["{me} [répéter redire] {ça}" "{me} ["reposer la question" "poser la question encore une fois" "répéter ce que tu as dit avant"]"]"
+    "redis ["moi ça" "le moi"]"
+    "[c'était c'est] quoi {déjà} la question"
+    "qu'est-ce que ["tu ["m'as demandé" "me demandais" disais]" "~vb_pos_you_avoir dit"]"
+    "["tu ["m'as demandé" "me demandais" disais]" "~vb_pos_you_avoir dit"] quoi"
+    plait-il
+    pardon
+    répète
+    ] {s'il-te-plait}"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_insult) [
+    "{t'es "tu es" c'est} [moche merdique inutile nul nase pourri malsain moisi stupide idiot idiote crétin bête "a coté de la plaque" "sans intérêt" "ni fait ni a faire" "a chier"]"
+    "tu [crains pues]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(boring) [
+    chiant naze ennuyeux relou lourd "pas drôle"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(ugly) [
+    moche "pas beau" pourri naze
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(stupid) [
+    con idiot stupide crétin "pas malin"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#concept:(you_are_dumb) [
+#    "~you_are [niais niaise niaiseux niaiseuse mollasson mollassonne gogol goliot crétin crétine con conne débile taré stupide inutile lent lente moche merdique inutile nul naze pourri malsain moisi stupide idiot idiote bête "a coté de la plaque" "sans intérêt" "ni fait ni a faire" "a chier" "mal baisé"]"
+#    "tu [crains pues]"
+#    "~you_are un ["fils de pute" enculé atardé avorton batard bigleux blaireau bolosse bouffon boulet bouseux branleur "casse-pieds" bouseux branleur "casse-pieds" emmerdeur "enculeur de mouches" enfoiré "fils de con" "fouille merde" "four à merde" fumier glandeur "gros con" "gros lard" "gros naze" imbécile laideron mongol morveux "pauvre con" pouffieux "sac à merde" salaud salopard "trou du cul" "vieux con" "lèche-boules"]"
+#    "~you_are une [andouille salope pute connard connasse "bite molle" "bouche à pipe"  bourrique chiennasse "face de cul" "face de pet" "face de rat" garce godiche gourde gourdasse  gueunon  "langue de pute" lopette "merde" "merde molle" morue morveuse ordure putain "pauvre conne" "petite merde" pimbêche pisseuse pouffiasse pourriture pétasse "sale pute" saloperie "sous merde" tafiole tantouze tapette tarlouze traînée "tronche de cake" "tête de con" "tête de noeud" "tête à claques" "vieille conne"]"
+#    "espèce de [niais niaise niaiseux niaiseuse mollasson mollassonne gogol goliot crétin crétine con conne débile taré naze "fils de pute" enculé atardé avorton batard bigleux blaireau bolosse bouffon boulet bouseux branleur "casse-pieds" bouseux branleur "casse-pieds" emmerdeur "enculeur de mouches" enfoiré "fils de con" "fouille merde" "four à merde" fumier glandeur "gros con" "gros lard" "gros naze" imbécile laideron mongol morveux "pauvre con" pouffieux "sac à merde" salaud salopard "trou du cul" "vieux con" "lèche-boules" andouille salope pute connard connasse "bite molle" "bouche à pipe"  bourrique chiennasse "face de cul" "face de pet" "face de rat" garce godiche gourde gourdasse  gueunon  "langue de pute" lopette "merde" "merde molle" morue morveuse ordure putain "pauvre conne" "petite merde" pimbêche pisseuse pouffiasse pourriture pétasse "sale pute" saloperie "sous merde" tafiole tantouze tapette tarlouze traînée "tronche de cake" "tête de con" "tête de noeud" "tête à claques" "vieille conne"]"
+#    con conne débile taré stupide inutile lent lente andouille salope pute connard connasse "fils de pute" enculé atardé avorton batard bigleux "bite molle" blaireau bolosse bordel "bouche à pipe" bouffon boulet bourrique bouseux branleur "casse-pieds" chiennasse crétin crétine ducon emmerdeur "enculeur de mouches" enfoiré "face de cul" "face de pet" "face de rat" "fesses molles" "fils de con" "fouille merde" "four à merde" fumier garce glandeur godiche gogol goliot gourde gourdasse "gros con" "gros lard" "gros naze" gueunon idiot idiote imbécile laideron "langue de pute" "lèche-boules" lopette "mal baisé" "merde" "merde molle" molasson mongol morue morveux morveuse niais niaise niaiseux niaiseuse "nique ta mère" ordure putain "pauvre con" "pauvre conne" "petite merde" pimbêche pisseuse pouffiasse pouffieux pourriture pétasse "sac à merde" salaud "sale pute" salopard saloperie "sous merde" tafiole tantouze tapette tarlouze traînée "tronche de cake" "trou du cul" "tête de con" "tête de noeud" "tête à claques" "vieux con" "vieille conne" "ton cul" "ta gueule" "la ferme"
+#]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(four_letter_words) [
+    putain
+    merde
+    bordel
+    ducon
+    "fesses molles"
+    "nique ta mère"
+    "ta gueule"
+    "la ferme"
+    "ton cul"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_dont_know) [
+    "~vb_neg_i_savoir ["{qu'est} ce que c'est" "c'est quoi"]"
+    "~vb_neg_i_connaître"
+    "{non} ["je {ne} sais pas" "[j'en "je n'en"] ["sais rien" "ai pas la moindre idée"]" "chai pas"]"
+    "{c'est} quoi"
+    "qu'est ce que c'est"
+    "~vb_neg_i_avoir {jamais} entendu parler {de ça}"
+    "c'est-a-dire"
+    "comment {ça}"
+    "je vais y réfléchir"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_already_know) [
+    "~vb_pos_i_savoir {déjà}"
+    "~vb_pos_i_connaître {déjà}"
+    "~vb_pos_i_avoir {déjà} entendu parler de"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_will_try) [
+    "je vais [essayer tenter]"
+    "essayons"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(happy_user) [
+    génial excellent super "trop [bien cool]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(who_is) [
+    "{"tu sais" "tu ne sais pas"} qui est"
+    "qui c'est"
+    "c'est qui"
+    "tu connais"
+    "connais-tu"
+    "tu {ne} connais pas"
+    "parle-moi de"
+    "~can_you me parler de"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(what_is) [
+    "qu'est-ce ["que c'est {que}" que]"
+    "qu'est-ce qui"
+    "[c'est c'était] quoi"
+    "que sont"
+    "[quel quelle] est"
+    "~can_you [m'expliquer "me dire"] [
+        "ce [qu'est "que c'est {que}"]"
+        "[que quels quelles] sont"
+        "quelle [est était]"
+        "qu'est-ce ["que c'est {que}" que]"
+    ]"
+    "[explique-moi dis-moi] [
+        "ce [qu'est "que c'est {que}"
+        "[que quels quelles] sont"]"
+        "[quel quelle] est"]"
+    "parle-moi [de des]"
+    "de quoi"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(whats_your_name) [
+    "["quel est" "c'est quoi"] ton nom"
+    "comment ["tu t'appelles" "t'appelles-tu"]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(whats_his_name) [
+    "["quel est" "c'est quoi"] le [nom titre]"
+    "comment ["s'appelle" "il s'appelle"]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(your_name_is) [
+    "ton nom est"
+    "tu t'appelles"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(what_are_you_talking_about) [
+    "de quoi ["[tu on "est-ce qu'on"] parle" "parle-t-on"]"
+    "[on tu] parle de quoi"
+    "qu'est-ce que tu [racontes dis]"
+    "["quel est" "c'est quoi"] le [sujet thème] {"de la [discussion conversation]"}"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(why_are_you_talking_about) [
+    "pourquoi ["tu {me} [parles] [de du des]" "tu [mentionnes abordes évoques] [le la les]"]"
+    "quelle est la raison ["qui fait que" "pour laquelle"] ["tu {me} [parles] [de du des]" "tu [mentionnes abordes évoques] [le la les]"]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(why_are_you_saying_that) [
+    "pourquoi {"tu dis [que ça]"}"
+    "[explique explique-moi dis dis-moi] pourquoi"
+    "ah bon"
+    "tu trouves"
+    "comment ça"
+    "de quoi"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_want_to_talk_about) [
+    "~i_want_to ["parler de" "que tu me parles de"]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(who_wrote) [
+    "qui a écrit"
+    "[qui quel] est l'auteur [de du]"
+    "comment [s'appelle "se nomme"] ["celui qui a écrit" "l'auteur [de du]"]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(how_much_is) [
+    "combien [vaut coute font]"
+    "[quelle quel] est la valeur de"
+    "ça fait combien"
+    "calcule"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(how_many) [
+    "combien {~do_you_have} de"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(where_is) [
+    "où ["se trouve" "est {situé}"]"
+    "quelle est la localisation de"
+    "où peut-on trouver"
+    "[où quel] est l'adresse de"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_asked_you_to) [
+    "je t'ai [dit demandé] de"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(how_are_you) [
+    "comment [ça tu] va"
+    "tu vas bien"
+    "ça va"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(about) [
+    "{"à propos" "au sujet"} de"
+    sur
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(that) [
+    ça
+    "ce sujet"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(you_didnt_answer_my_question) [
+    "tu n'as pas répondu à ma question"
+    "tu ne m'a pas donné de réponse"
+    réponds-moi
+    "je veux que tu ["me répondes" "répondes à ma question"]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(im_not_talking_to_you) [
+    "je parlais à quelqu'un d'autre"
+    "je {ne} te [parle parlais] pas"
+    "[c'est "ce n'est"] pas à toi que je [parlais parle]"
+]
+#=====================================================================================================================================#
+
+###oui/non
+#concept:(confirmation) 
+#[oui
+# si
+# sisi
+# ouais 
+#ok 
+#"fais-le"
+# "vas-y"
+# "on va dire que c'est vrai" 
+#"c'est ça" 
+#"tout à fait" 
+#"bien sûr que c'est vrai" 
+#"évidemment que c'est vrai" 
+#"bien évidemment" 
+#"c'est !pas vrai" 
+#"si tu veux" 
+#"pourquoi pas" 
+#absolument 
+#assurément 
+#"bien sûr" 
+#"c'est certain" 
+#certainement 
+#certes 
+#d'accord 
+#évidemment 
+#ok 
+#parfait 
+#parfaitement 
+#"très bien" 
+#"avec plaisir" 
+#précisément 
+#sûrement 
+#entendu 
+#volontier 
+#"en effet" 
+#carrément 
+#"pas de [problème souci]" 
+#"sans problème" 
+#absolument 
+#exactement 
+#"c'est exact" 
+#"on peut dire ça" 
+#"t'as tout compris" 
+#"t'es [trop vraiment vachement] fort" "bonne réponse" "bien dit" "sans aucun doute" "sans doute" "il n'y a nul doute" "il n'y a pas de doute" "ya pas de doute" "c'est sur" "on va dire ça" "c'est un peu vrai" "c'est plutôt vrai" "bonne idée" "excellente idée" "ça me va" "ça va" grave excellent]
+
+#concept: (negation) [
+#non
+#"non merci"
+#"pas [vraiment "du tout"]"
+#"je ne suis pas intéressé"
+## "ça {ne} m'intéresse pas"
+## quitte
+## quitter
+## "je {ne} veux pas"
+#nan
+#"je vais y réfléchir"
+#aucunement
+#nullement
+#"surtout pas"
+#"tu peux rêver"
+#"t'as rêvé"
+#"cause toujours"
+#"tu peux toujours rêver"
+## "autre chose"
+#"pas pour [l'instant "le moment"]"
+#"pas maintenant"
+#"pas vraiment"
+#"pas tout à fait"
+#"pas tellement"
+#"pas trop"
+#"je suis pas d'accord"
+##"["je n'ai" j'ai] pas envie"
+##"j'aime pas ça"
+#"{non} ça ira {merci}"
+#"{non} ça va aller {merci}"
+#"c'est pas vrai"
+#"c'est [faux faut]"
+#"absolument pas"
+#"trop pas"
+#"pas tout à fait"
+#"ça {ne} te regarde pas"
+#"de quoi tu te mêles"
+#"qu'est ce que t'en as à foutre"
+#"occupe toi de tes affaires"
+#"qu'est ce que t'en as à faire"
+#"jamais de la vie"
+#"ça {ne} me dit rien"
+#"ça {ne} me tente pas"
+#"ça {ne} me parle pas"
+#jamais
+#"sans façon"
+#"pas spécialement"
+#"pas question"
+#]
+
+
+#concept:(you_are) ["tu es" "t'es"]
+#concept:(you_are_not) ["tu n'es pas" "t'es pas"]
+
+##ask
+concept:(askconnaitre) ["connais-tu" "{"est-ce que"} tu connais"]
+concept:(asksavoir) ["sais-tu" "{"est-ce que"} tu sais"]
+concept:(askparler) ["parles-tu" "{"est-ce que"} tu parles"]
+concept:(askpreferer) ["préfères-tu" "{"est-ce que"} tu préfères"]
+concept:(askavoir) ["as-tu" "{"est-ce que"} ~vb_pos_you_avoir"]
+concept:(askposseder) ["possèdes-tu" "{"est-ce que"} tu possèdes"]
+concept:(askvouloir) ["veux-tu" "{"est-ce que"} tu veux"]
+concept:(askva) [vas-tu "{"est-ce que"} tu vas"]
+#concept:(can_you) ["peux-tu" "{"est-ce que"} tu peux"]
+concept:(askaimer) ["aimes-tu" "{"est-ce que"} tu aimes {bien}"]
+concept:(askadorer) ["adores-tu" "{"est-ce que"} tu adores"]
+concept:(asksouvenir) ["te souviens-tu de" "{"est-ce que"} tu te souviens de"]
+concept:(asketre) ["es-tu" "{"est-ce que"} tu es"]
+concept:(askporter) ["portes-tu" "{"est-ce que"} tu portes"]
+concept:(askenvoyer) ["envoies-tu" "{"est-ce que"} tu envoies"]
+concept:(askaller) ["vas-tu" "{"est-ce que"} tu vas"]
+concept:(askutiliser) ["utilises-tu" "{"est-ce que"} tu utilises"]
+concept:(askcroire) ["crois-tu" "{"est-ce que"} tu crois"]
+#concept:(askpenser) ["penses-tu" "{"est-ce que"} tu penses"]
+
+concept:(askquesavoir) ["que sais-tu" "qu'est-ce que tu sais"]
+concept:(askquepouvoir) ["que peux-tu" "qu'est-ce que tu peux"]
+concept:(askqueaimer) ["qu'aimes-tu" "qu'aime-tu" "qu'est-ce que tu aimes {bien}" "tu aimes quoi"]
+concept:(askquepenser) ["que penses-tu" "qu'est-ce que tu {en} penses"]
+concept:(askqueconnaitre) ["que connais-tu" "qu'est-ce que tu connais"]
+concept:(askquefaire) ["que fais-tu" "qu'est-ce que tu fais"]
+
+concept:(help) [
+"aide-moi" 
+"veuillez m'aider"
+#"j'ai [pas rien] compris"
+"votre aide s'il vous plaît" 
+"[pouvez-vous "vous pouvez"] m'aider"
+"ton aide s'il te plaît" 
+"{comment} peux-tu m'aider" 
+"{comment} tu peux m'aider"
+"[pouvez-vous "vous pouvez"] me renseigner" 
+"~vb_ask_pouvoir me renseigner"
+"j'ai besoin ["d'un renseignement" d'informations "de renseignements"]" "besoin d'aide" "donne-moi un coup de main"
+"je cherche ["une [info information]" "un renseignement" "des [infos informations renseignements]"]"]
+#avez vous
+
+#concept:(im_not_sure) ["je sais pas" "je ne ["sais pas" "suis pas sûr"]" "pas sûr" "chai pas" "chui pas sûr" "j'en sais rien" "je n'en sais rien" "je réfléchis" "j'hésite" "aucune idée" "["je n'en" j'en] ai pas la moindre idée"]
+
+concept:(guess) [devine "à ton avis" "["tu en" t'en] penses quoi" "tu me conseilles quoi" "qu'est-ce que ["["tu en" t'en] penses" "tu me conseille"]"]
+
+#concept:(repeat_it) [
+#"répète la phrase {"s'il te plait"}"
+#"~can_you répéter"
+#"~can_you {me} reposer la question"
+#"~can_you {me} poser la question encore une fois"
+#"redis ["moi ça" "le moi"]"
+#"[c'était c'est] quoi {déjà} la question"
+#"qu'est-ce que tu ["m'as demandé" "me demandais" disais]"
+#"qu'est-ce que ~vb_pos_you_avoir dit"
+#"tu ["m'as demandé" "me demandais"] quoi"
+#"repose {moi} [la cette] question"
+#]
+
+#concept:(i_dont_understand) "["je n'ai" j'ai] [pas rien] [compris saisi pané pigé]"
+
+concept:(aussi) [
+"moi aussi"
+"également"
+"moi de même"
+"pareil {"pour moi"}"
+]
+
+concept:(jepeux) [
+"{"est-ce que"} je peux"
+"je veux"
+"j'aimerai {bien}"
+"tu es d'accord si"
+]
+
+concept:(gentil) [
+"c'est {très} gentil"
+"c'est [super bien génial top]"
+]
+
+#concept:(merci) [
+#"merci {beaucoup}"
+#]
+
+concept:(quelprix_de) ["quel est le prix" "c'est quoi {son le} prix"]
+concept:(quelprix) ["combien coûte" "{il ça} coûte combien"]
+
+#concept:(confirmation) [oui "tout à fait" "en effet" "c'est bon" "c'est ça" "c'est bien ça"]
+
+#concept:(negation) [non "c'est pas {"tout à fait"} ça" "pas du tout" "pas vraiment" "tu te trompes" "["ce n'est" c'est] [pas ce que "paske"] ["je t'ai" j'ai] demandé"]
+
+concept:(names_masc) [
+adrien
+ahmed
+alain
+alban
+aldénis
+alex
+alexandre
+alexis
+alix
+andrew
+antoine
+antonio
+arnaud
+aurele
+aurélien
+bastien
+benjamin
+benoît
+blaise
+bruno
+cédric
+charles
+chris
+christian
+christophe
+claude
+clément
+colin
+corentin
+cyrille
+daniel
+dante
+david
+denis
+dilek
+dimitri
+emmanuel
+émile
+émilio
+éric
+fabien
+fabrice
+felipe
+florent
+francesco
+franck
+françois
+gauthier
+gianluigi
+gilbert
+gilles
+grégory
+guillaume
+gwénnaël
+henri
+herman
+hervé
+hiroki
+hocine
+honoré
+houssam
+ilmo
+jason
+jean
+jean-christophe
+jean-luc
+jean-noé
+jérémy
+rémy
+jérôme
+johann
+john
+johnny
+jonas
+joslyn
+joyce
+juan-josé
+julien
+khaled
+khalid
+kosuké
+laurent
+lionnel
+loïc
+louis
+lucas
+ludovic
+marc
+marc-antoine
+manu
+manuel
+martin
+mathieu
+matthias
+maxime
+mickael
+miguel
+nicolas
+olivier
+paul
+philippe
+pierre
+pierre-alexandre
+pierre-michel
+quentin
+radouane
+raphael
+rémi
+richard
+robert
+robin
+rodolphe
+romain
+sabrina
+samir
+samuel
+samy
+scott
+sébastien
+serge
+simon
+steev
+stéphane
+sylvain
+sylvère
+taylor
+thibault
+thierry
+thomas
+timothée
+tony
+valentin
+victor
+vincent
+william
+xavier
+yassine
+youfo
+yvan
+]
+
+concept:(names_fem) [
+adélice
+adriana
+alexandra
+alia
+alice
+aline
+alix
+andréa
+astrid
+aurore
+bélarsi
+bénédite
+beth
+catherine
+céline
+christelle
+clarisse
+clémence
+clémentine
+émilie
+estelle
+évelyne
+fanny
+fatima-zahra
+flora
+florence
+héléna
+imane
+jeanne
+jessica
+jordan
+justine
+kelly
+laura
+line
+lucille
+malaine
+marie
+marine
+melvina
+mirella
+nathalie
+noura
+petra
+qing-yi
+rose
+roxane
+sandra
+sandrine
+sara
+soledad
+sonia
+sophie
+stéphanie
+sylvie
+tiphaine
+valentina
+valérie
+virginie
+viviane
+yoko
+tamara
+cécile
+]
+
+concept:(names_both)
+[
+camille
+dominic
+dominique
+frédéric
+frédérique
+gabriel
+gabrielle
+]
+
+##infos user
+concept:(myname) ["mon [nom prénom] est" "je m'appelle" "appelle-moi"]
+concept:(myname_shorter) ["{moi} c'est" "je suis"]
+
+#concept:(im_good) [oui "très bien" "très bien merci" "bien merci" "ça va bien" "ça va" "bien" "super" "impec" "la forme" "ça [roule gaze]" "tout va bien" "hé ben ça va" "plutôt bien" "pas trop mal"]
+
+#concept:(im_ok) ["on fait aller" "couci-couça" "moyen" "ça peut aller" "comme ci comme ça"]
+
+#concept:(i_dont_feel_good) [non "pas très bien" "pas bien" "pas trop" "ça ne va pas fort" "pas terrible" "pas génial" "j'ai connu mieux" "pas super" "pas top" bof "je ne suis pas au [top mieux] de ma forme" "j'ai [un une le la] [entorse tendinite fracture foulure]" "je me suis [luxé ouvert coupé cassé] {[à aux]} [le la les]"]
+
+#concept:(im_sick) ["je suis [malade enrhumé]" "je suis un peu [malade enrhumé]" "je ne me sens pas [très super] bien" "mal à la tête" "mal de tête" "j'ai [un une le la des] [rhume grippe angine migraine gastro otite toux torticolis ampoules]" "je tousse"]
+
+#concept:(im_tired) ["["un peu" très] fatigué" "["je suis" chui] [fatigué crevé lessivé mort "à l'ouest"]" "j'ai la tête dans le cul" "j'ai sommeil" "j'ai [trop super vachement] sommeil"]
+
+concept:(jeveux) [
+"je veux" 
+"j'aimerai" 
+"je souhaite" 
+"je cherche à"
+#"avez-vous"
+#"{"est-ce que"} vous avez"
+#as-tu
+#"{"est-ce que"} ~vb_pos_you_avoir"
+#"c'est pour"
+#"ça serait pour"
+]
+
+#concept:(robot_didnt_understand) 
+#[
+#"c'est [vraiment absolument] pas {"du tout"} ça"
+#"tu [capte piges] [queudal rien] {"à ce que je dis"}"
+#"["tu n'as" t'as] {toujours} [rien pas] {bien} compris {"ce que j'ai dit"}" 
+##"tu comprends rien"
+#]
+
+##sports
+concept:(sportslist)[danse volley volleyball foot football basket basketball natation ski "vélo {d'appartement}" gym gymnastique muscu musculation cardio bicyclette]
+
+concept:(sportplaces)[plage montagne mer ski forêt piscine pêche voyage]
+
+##divers
+#concept:(i_insult) [chiant idiot bête bêta andouille crétin]
+
+concept:(musique) ["musique classique" musique]
+
+concept:(instrument) [violon percu violoncelle piano batterie contrebasse flûte piccolo "flûte traversière" clarinette saxophone trompette harpe basse alto clavecin guitare timbale "l'orgue" "l'accordéon" "l'harmonica"  basson musique]
+
+concept:(month) [janvier février mars avril mai juin juillet août septembre octobre novembre décembre]
+
+#concept:(mobile) [portable mobile téléphone smatphone iphone phone terminal tablette]
+
+##verbes
+concept:(parle) [parle parle-moi parlons]
+
+concept:(jaipas) ["je n'ai pas" "j'ai pas"]
+
+#concept:(names) [bruno flora marc sophie gabriel line david  gwénnaël vanne grégory thibaut guillaume laurent jérôme jeanne julien mathias céline manuel alexandre herman corentin rémy benoît stéphane victor vincent]
+
+concept:(cestquoi) ["c'est quoi" "qu'est-ce que c'est {que}" explique "explique-moi {"ce que c'est"}"]
+
+concept:(difficile) {attends} c'est {vachement super ultra trop} [difficile dur]
+
+concept:(cest) [
+"c'est"
+"je pense que c'est"
+"à mon avis c'est"
+"sans doute"
+"et bien c'est"
+]
+
+#concept:(i_dont_care)["je m'en fous {"un peu" "complètement" "totalement"}" "je m'en moque {"un peu" "complètement" "totalement" }" "je m'en bat {"un peu" "complètement" "totalement"} les couilles" "je m'en branle {"un peu" "complètement" "totalement"}" "je m'en fiche {"un peu" "complètement" "totalement"}" "je m'en bat {"un peu" "complètement" "totalement"} la bite" "{"j'en ai {"un peu" "complètement" "totalement" "absolument"}"} rien à [branler foutre faire sucrer battre]" "je m'en bat{"un peu" "complètement" "totalement"} l'oeuf" "je m'en bat {"un peu" "complètement" "totalement"} l'os" "je n'en sais {"un peu" "complètement" "totalement" "absolument"} rien" "j'en sais {"un peu" "complètement" "totalement" "absolument"} rien" "j'en sais {"un peu" "complètement" "totalement" "absolument"} que dalle" "peu m'importe" "je m'en cogne"]
+
+concept:(apps_sing) [application app appli]
+concept:(apps_plur) [applications apps applis]
+
+#concept:(i_like)["j'aime {trop bien}" "je kiffe{trop}" "j'adore{trop}" "je vénère" "j'ai une affinité pour" "j'ai une {petite ptite}préférence pour" "j'ai un {petit gros} faible pour"]
+#"je suis {trop vachement} {"[une un][grosse gros]" "[une un]énorme" "{un une} méga" "{un une}ultra"} fan de" "je suis à fond [dans au sur]" "je suis à donf [dans sur]"
+#new concept?
+
+concept:(confirmation_purikura) [oui ouais ok "fais-le" "vas-y" "tout à fait" "bien évidemment"  "si tu veux" "pourquoi pas" absolument assurément "bien sûr" "c'est certain" certainement certes d'accord évidemment parfait parfaitement "très bien" "avec plaisir" précisemment sûrement entendu volontier "en effet" carrément "pas de [problème souci]" "sans problème" exactement "c'est exact" "t'as tout compris" "t'es [trop vraiment vachement] fort" "bonne réponse" "bien dit" "sans aucun doute" "sans doute" "il n'y a nul doute" "il n'y a pas de doute" "y a pas de doute" "c'est sur" "bonne idée" "excellente idée" "s'il te plait"]
+
+concept: (negation_purikura) [
+non
+"non merci"
+"pas [vraiment "du tout"]"
+"je ne suis pas intéressé"
+"ça {ne} m'intéresse pas"
+quitte
+quitter
+"je {ne} veux pas"
+nan
+"je vais y réfléchir"
+aucunement
+nullement
+"surtout pas"
+"tu peux rêver"
+"t'as rêvé"
+"cause toujours"
+"tu peux toujours rêver"
+# "autre chose"
+"pas pour [l'instant "le moment"]"
+"pas maintenant"
+"pas vraiment"
+"pas tout à fait"
+"pas tellement"
+"pas trop"
+"je suis pas d'accord"
+"["je n'ai" j'ai] pas envie"
+"j'aime pas ça"
+"{non} ça ira {merci}"
+"{non} ça va aller {merci}"
+"c'est pas vrai"
+"c'est faut"
+"absolument pas"
+"trop pas"
+"pas tout à fait"
+"ça {ne} te regarde pas"
+"de quoi tu te mêles"
+"qu'est ce que t'en as à foutre"
+"occupe toi de tes affaires"
+"qu'est ce que t'en as à faire"
+"jamais de la vie"
+"ça me dit rien"
+"ça me tente pas"
+"ça me parle pas"
+jamais
+]
+
+concept:(creature_legendaire)[
+l'ankou
+"le basilic"
+"le bécut"
+"le béhémoth"
+"["la bête" "le monstre"] du gévaudan"
+"["la bête" "le monstre"] du vaccarès"
+"la bête faramine"
+"la biche de cérynie"
+"le bisclavret"
+"le bisclaveret"
+"bonhomme sept-heures"
+"le bucentaure" "les bucentaures"
+"le capricorne" "les capricornes"
+"le carcolh"
+"les cavales de diomède"
+"le centaure" "les centaures"
+cerbère
+"le chat d'argent"
+"la chimère" "les chimères"
+"le cyclope" "les cyclopes"
+diomède
+"le dragon" "les dragons"
+"l'égipan"
+"la gargouille"
+"le gnome"
+"le gobelin"
+"le graoully"
+"le gremlin"
+"le griffon"
+"l'hippogriffe"
+"le korrigan"
+"le ladon"
+lamie
+lamia
+"la licorne" "les licornes"
+"le lion de némée"
+"le loup-garou" "les loups-garous"
+"le lutin" "les lutins"
+"le mandragot"
+"le matagot"
+méliade
+mélusine
+"le minotaure"
+"la nymphe" "les nymphes"
+"l'ogre" "les ogres"
+"[l'oiseau "les oiseaux"] du lac stymphale"
+"l'orc" "les orcs"
+"le péritio"
+pégase
+"le péryton"
+"le phénix"
+"le sciapode"
+scylla
+"la sirène" "les sirènes"
+silène
+"le sphynx" "les sphynx"
+"{le} lou tac"
+"le tac"
+"la tarasque"
+"le thrace" "les thraces"
+"le triton" "les tritons"
+"le troll" "les trolls"
+"l'uruk-hai" "les uruk-hai"
+]
+
+concept:(likeanimals)[~i_like c'est]
+
+concept:(want_to_do)["["je veux" "je voudrais" "j'aurai voulu" j'aimerai "je souhaiterai" "je souhaite"] [faire effectuer]" "[c'est "ça serait" "ça aurait été"] pour[faire effectuer]" "j'ai envie ["de faire" "d'effectuer"]"]
+
+
+##astrologie
+
+concept:(jesuis_astro)["je suis" chui "{"je pense que"} [c'était c'est]"]
+
+concept:(insulte_astro)["{"espèce de" sale}{petit ptit}faillot" "tu penses m'avoir comme ça" "tu penses pouvoir m'avoir comme ça" "tu m'auras pas comme ça"]
+
+concept:(affirmation_kifkif)["c'est un peu vrai et un peu faux" "une part de vérité et une part de mensonge" "ni l'un ni l'autre" "tout n'est pas vrai"]
+
+
+##food
+
+concept:(aimer_boire_food)["j'adore boire" "j'aime bien boire" "j'aime boire" "j'aime bien" "j'aime" "j'adore" "je raffole" "je suis un grand buveur" "un bon"]
+
+
+##seasons
+
+concept:(aimer_saison)["j'aime {bien}" j'adore c'est]
+
+concept:(mybirthday) ["je suis né le" "c'est le" "mon anniversaire est le"]
+
+##meta_next
+
+concept:(proposition_next)["pose-moi ["des questions" "une {autre} question"]" "["demande moi" "propose moi" "dis moi"] quelque chose" "tu [peux pourrais] me poser ["des questions" "une {autre} question"]" "propose {moi} quelque chose" "parle-moi d'autre chose"]
+
+##food_1to10
+
+concept:(aimer_manger)["j'adore" "j'aime bien" "j'aime"]
+concept:(aimer_manger_de)["je raffole" "je suis un grand mangeur"]
+concept:(avoir_mange)["j'ai mangé" "j'ai bouffé"]
+concept:(aimer_manger_single_masc)"{"j'adore" "j'aime bien" "j'aime"} {manger} un bon"
+concept:(aimer_manger_single_fem)"{"j'adore" "j'aime bien" "j'aime"} {manger} une bonne"
+
+#concept:(stop) 
+#[
+#arrête {tout}
+#stop
+#quitte {l'application "cette application"}
+#"{ça} {ne} m'interesse plus"
+#"quitter"
+#]
+
+#concept:(restart_it)
+#[
+#recommance
+#relance
+#redémarre
+#]
+
+concept:(countries_det)[
+"antigua et barbuda" bahreïn chypre cuba djibouti haïti israël kiribati madagascar malte maurice monaco nauru nioué "saint cristophe et niévès" "sainte lucie" "saint marin" "saint vincent et les grenadines" "sao tomé et principe" singapour
+"l'afghanistan" "l'afrique {"du sud"}" "l'albanie" "l'algérie" "l'allemagne" "l'andorre" "l'angleterre" "l'angola" "l'arabie saoudite" "l'argentine" "l'arménie" "l'australie" "l'autriche" "l'azerbaïdjan" "l'égypte" "l'équateur" l'érythrée" l'espagne" "l'estonie" "l'éthiopie" "l'inde" "l'indonésie" "l'irak" "l'iran" "l'irlande" "l'islande" "l'italie" "l'oman" "l'ouganda" "l'ouzbékistan" "l'ukraine" "l'uruguay" 
+"la ["principauté d'andorre" barbade belgique biélorussie birmanie bolivie "bosnie {herzégovine}" bulgarie "république centafricaine" centrafrique colombie "corée {"du [nord sud]"}" "côte d'ivoire" croatie "république dominicaine" dominique finlande gambie géorgie grèce grenade "guinée {bissau équatoriale}" hongrie jamaïque jordanie kirghizie lettonie lybie lituanie macédoine malaisie mauritanie micronésie moldavie mongolie namibie norvège "nouvelle zélande" palestine "papouasie {"nouvelle guinée"}" pologne roumanie russie serbie "sierra léone" slovaquie slovénie somalie suède suisse syrie tanzanie "république tchèque" tchéquie thaïlande "trinité et tobago" tunisie turquie]"
+"le [bangladesh belize bélize bénin bhoutan belarus bélarus myanmar botswana brésil brunei "burkina {faso}" burundi cambodge cameroun canada "cap vert" chili congo "costa rica" danemark gabon ghana guatémala guyana honduras kazakhstan kenya koweït laos laesotho liban libéria lichtensein luxembourg malawi mali maroc mexique monténégro mozambique népal nicaragua niger nigéria pakistan panama paraguay pérou portugal qatar rwanda salvador samoa sénégal "soudan {"du sud"}" "sri lanka" surinam swaziland tadjikistan tchad "timor oriental" togo turkménistan vanuatu vatican vénézuéla vietnam yémen zimbabwe]"
+"les [bahamas comores "îles cook" "émirats arabes unis" "{îles} [fidji maldives marshall salomon]" palaos "pays bas" philippines seychelles tonga tuvalu zambie]"
+]
+
+concept:(countries_de)
+[bahreïn chypre cuba djibouti kiribati madagascar malte maurice monaco nauru nioué "saint cristophe et niévès" "sainte lucie" "saint marin" "saint vincent et les grenadines" "sao tomé et principe" singapour]
+
+concept:(countries_d)
+[afghanistan "afrique {"du sud"}" albanie algérie allemagne andorre angleterre angola "antigua et barbuda" "arabie saoudite" argentine arménie australie autriche azerbaïdjan égypte équateur érythrée espagne estonie éthiopie haïti inde indonésie irak iran irlande islande israël italie oman ouganda ouzbékistan ukraine uruguay]
+
+concept:(countries_de_la)
+["principauté d'andorre" barbade belgique biélorussie birmanie bolivie "bosnie {herzégovine}" bulgarie "république centafricaine" centrafrique colombie "corée {"du [nord sud]"}" "côte d'ivoire" croatie "république dominicaine" dominique finlande gambie géorgie grèce grenade "guinée {bissau équatoriale}" hongrie jamaïque jordanie kirghizie lettonie lybie lituanie macédoine malaisie mauritanie micronésie moldavie mongolie namibie norvège "nouvelle zélande" palestine "papouasie {"nouvelle guinée"}" pologne roumanie russie serbie "sierra léone" slovaquie slovénie somalie suède suisse syrie tanzanie "république tchèque" tchéquie thaïlande "trinité et tobago" tunisie turquie]
+
+concept:(countries_du)
+[bangladesh belize bélize bénin bhoutan belarus bélarus myanmar botswana brésil brunei "burkina {faso}" burundi cambodge cameroun canada "cap vert" chili congo "costa rica" danemark gabon ghana guatémala guyana honduras kazakhstan kenya koweït laos laesotho liban libéria lichtensein luxembourg malawi mali maroc mexique monténégro mozambique népal nicaragua niger nigéria pakistan panama paraguay pérou portugal qatar rwanda salvador samoa sénégal "soudan {"du sud"}" "sri lanka" surinam swaziland tadjikistan tchad "timor oriental" togo turkménistan vanuatu vatican vénézuéla vietnam yémen zimbabwe]
+
+concept:(countries_des)
+[bahamas comores "îles cook" "émirats arabes unis" "{îles} [fidji maldives marshall salomon]" palaos "pays bas" philippines seychelles tonga tuvalu zambie]
+
+concept:(later)
+["plus tard" bientôt après "pas maintenant"]
+
+concept:(sorry)
+^rand[désolé pardon excuse-moi navré pardonne-moi "je m'excuse" "je suis navré" "je suis désolé"]
+
+concept:(sorry)
+[désolé pardon excuse-moi navré pardonne-moi "je m'excuse" "je suis navré" "je suis désolé"]
+
+concept:(american_cities) [
+    Montgomery
+    Juneau
+    Phoenix
+    "Little Rock"
+    Sacramento
+    Denver
+    Hartford
+    Dover
+    Tallahassee
+    Atlanta
+    Honolulu
+    Boise
+    Springfield
+    Indianapolis
+    Des Moines
+    Topeka
+    Frankfort
+    Baton Rouge
+    Augusta
+    Annapolis
+    Boston
+    Lansing
+    Saint Paul
+    Jackson
+    "Jefferson City"
+    Helena
+    Lincoln
+    Carson City
+    Concord
+    Trenton
+    Santa Fe
+    Albany
+    Raleigh
+    Bismarck
+    Columbus
+    "Oklahoma City"
+    Salem
+    Harrisburg
+    Providence
+    Columbia
+    Pierre
+    Nashville
+    Austin
+    "Salt Lake City"
+    Montpelier
+    Richmond
+    Olympia
+    Charleston
+    Madison
+    Cheyenne
+    Washington
+    "New York {City}"
+    Seattle
+    Chicago
+]
+
+concept:(rooms)
+[
+    "la cuisine"
+    "la salle de bain"
+    "les toilettes"
+    "le salon"
+    "le séjour"
+    "la salle de jeux"
+    "la chambre {"à coucher"}"
+    "le placard"
+    "la cave"
+    "le grenier"
+    "le bureau"
+    "le patio"
+    "la cour"
+    "le jardin"
+]
+

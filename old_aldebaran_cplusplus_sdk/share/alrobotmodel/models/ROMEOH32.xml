@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ModulePreference name="aldebaran-robotics.com@Device_Head" xmlns="http://www.aldebaran-robotics.com/ns/ALPreference" schemaLocation="ModulePreference.xsd">
+    <Preference name="Key1" memoryName="RobotConfig/Head/HeadId" description="" value="0000" type="string" />
+    <Preference name="Key2" memoryName="RobotConfig/Head/BaseVersion" description="" value="romeo" type="string" />
+    <Preference name="Key3" memoryName="RobotConfig/Body/BaseVersion" description="" value="romeo" type="string" />
+    <Preference name="Key4" memoryName="RobotConfig/Body/Version" description="" value="romeo" type="string" />
+    <Preference name="Key5" memoryName="RobotConfig/Head/Version" description="" value="romeo" type="string" />
+    <Preference name="Key6" memoryName="RobotConfig/Body/Type" description="" value="Romeo" type="string" />
+    <Preference name="Key7" memoryName="RobotConfig/Body/SoftwareRequirement" description="" value="1.14.0" type="string" />
+    <Preference name="Key8" memoryName="RobotConfig/Head/Type" description="" value="Romeo" type="string" />
+    <Preference name="Key9" memoryName="RobotConfig/Body/ALModelUtilsModel" description="" value="H32" type="string" />
+</ModulePreference>

@@ -1,0 +1,14 @@
+filter EngagementZonesPeople
+{
+ComputeEngagementZones ez;
+EngagementZonesChanges changes;
+
+ez:in<=populationIn;
+ez:out->changes:populationIn;
+changes:populationOut=>populationOut;
+
+# Parameters
+ez:angle<=angle;
+ez:firstDistance<=firstDistance;
+ez:secondDistance<=secondDistance;
+}

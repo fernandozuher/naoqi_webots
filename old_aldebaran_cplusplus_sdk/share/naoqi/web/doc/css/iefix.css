@@ -1,0 +1,22 @@
+/* to solve IE 6 problem */
+h3 {
+     font-size:120%;
+     }
+
+.modrow .module,
+.modrow .broker,
+{
+  overflow:hidden;
+  cursor:hand;
+ }
+
+#toc {
+  overflow:hidden;
+  width:190px;
+  background-color:#00418F;
+
+ }
+
+#headerText {
+  position: absolute;
+ }

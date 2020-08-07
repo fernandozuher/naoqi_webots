@@ -1,0 +1,29 @@
+filter RemoveSmallBlobs
+{
+Labelize lab;
+Density dens;
+ToColorImage toCol;
+Threshold th;
+Mask mask;
+
+
+# Labelization
+lab:in<=inDepth;
+lab:tolerance<=tolerance;
+lab:out->dens:in;
+
+# Density
+dens:min<=min;
+dens:max<=max;
+
+# Apply mask
+dens:out->toCol:in;
+
+toCol:out->th:in;
+th:ceil<=ceil;
+
+th:out->mask:mask;
+mask:in<=inXYZ;
+
+mask:out=>out;
+}

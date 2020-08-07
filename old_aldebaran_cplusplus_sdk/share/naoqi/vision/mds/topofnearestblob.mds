@@ -1,0 +1,9 @@
+filter TopOfNearestBlob
+{
+NearestObject nearest;
+
+nearest:objectsArrayIn <= objectsArray;
+nearest:distance <= distance;
+
+nearest:out=>nearestblob;
+}

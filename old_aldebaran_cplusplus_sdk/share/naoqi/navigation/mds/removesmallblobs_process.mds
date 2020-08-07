@@ -1,0 +1,19 @@
+source imageInDepth {null}
+source imageInXYZ {null}
+
+process RemoveSmallBlobs_process(RemoveSmallBlobs, 0, infinity)
+{
+inDepth <= imageInDepth;
+inXYZ <= imageInXYZ;
+out => sink;
+
+# parameters for Labelize
+tolerance <= 100;
+
+# parameters for Density
+min <= 12; # = 0.01 * (40*30)
+max <= 1200; # = 1.0 * (40*30)
+
+# parameter for Threshold
+ceil <= 1;
+}

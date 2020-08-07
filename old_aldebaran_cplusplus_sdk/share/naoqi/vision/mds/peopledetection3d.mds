@@ -1,0 +1,157 @@
+filter PeopleDetection3D
+{
+Mandatory7 mand;
+Identity idInputImage;
+Identity idCamTorso;
+Identity idCamRobot;
+Identity idCamWorld;
+Identity idHeightOffset;
+ImprovedSegmentation3D seg;
+CheckLevitation levitation;
+SwitchMovementDetection switchMD;
+CreateHuman hum;
+NearPopulation nearPop;
+FindHeads findheads;
+SplitHumans split;
+ScoreVisibleSize scoreVisibleSize;
+FilterPopulationByScore visibleSizeFilter;
+FilterPopulationByScore notHiddenByOtherBlobFilter;
+FilterPopulationByScore notLevitatingFilter;
+ApplyVerticalOffset applyOffset;
+ComputeTopPosition toppos;
+AnalyseBodySize bodySize;
+ScoreBodyDensity scoreBodyDensity;
+FilterPopulationByScore bodyDensityFilter;
+ScoreBodySize scoreBodySize;
+FilterPopulationByScore bodySizeFilter;
+ExtractBodyImage bdi;
+SwitchFaceDetection switchFD;
+ExtractTorsoMask torso;
+ColorDescriptor color;
+SetShirtColorName shirtCol;
+ScoreForNewTrack scoreTrack;
+
+# Inputs -- filtered using Mandatory
+mand:in1 <= state;
+mand:in2 <= depthInputImage;
+mand:in3 <= rgbInputImage;
+mand:in4 <= irInputImage;
+mand:in5 <= cameraPositionTorso;
+mand:in6 <= cameraPositionRobot;
+mand:in7 <= cameraPositionWorld;
+
+# Image inputs
+mand:out2->idInputImage:in;
+mand:out3->bdi:image;
+mand:out4->seg:irImage;
+
+# CameraPosition inputs
+mand:out5->idCamTorso:in;
+mand:out6->idCamRobot:in;
+mand:out7->idCamWorld:in;
+
+# HeightOffset input
+idHeightOffset:in <= heightOffset;
+
+
+# ImprovedSegmentation3D
+idInputImage:out->seg:depthImage;
+idCamTorso:out->seg:cameraPositionTorso;
+idCamRobot:out->seg:cameraPositionRobot;
+idCamWorld:out->seg:cameraPositionWorld;
+idHeightOffset:out->seg:heightOffset;
+seg:kernel <= kernel;
+seg:tolerance <= tolerance;
+seg:min <= min;
+seg:max <= max;
+
+# CheckLevitation
+seg:objectsArray->levitation:objectsIn;
+
+# SwitchMovementDetection
+levitation:out->switchMD:objectsArrayIn;
+switchMD:movementStatus <= movementStatus;
+idInputImage:out->switchMD:depthImageIn;
+idCamTorso:out->switchMD:cameraPositionTorso;
+idCamRobot:out->switchMD:cameraPositionRobot;
+idCamWorld:out->switchMD:cameraPositionWorld;
+switchMD:threshold <= movementThreshold;
+
+
+#### Switch from Objects3D to Humans
+# CreateHuman
+switchMD:objectsArrayOut->hum:in;
+####
+
+
+# NearPopulation (filtering of the population)
+hum:out->nearPop:populationIn;
+nearPop:maxDistance <= maxDistance;
+
+# FindHeads and SplitHumans
+nearPop:populationOut->findheads:populationIn;
+findheads:populationOut->split:populationIn;
+
+# ScoreVisibleSize (filtering of the population)
+split:populationOut->scoreVisibleSize:populationIn;
+scoreVisibleSize:populationOut->visibleSizeFilter:populationIn;
+visibleSizeFilter:scoreName["VisibleSize"] <= dummyNameScoreVisibleSize;
+visibleSizeFilter:threshold[0.5] <= dummyThresholdScoreVisibleSize;
+
+# Check if not hidden behind other blob (filtering of the population)
+visibleSizeFilter:populationOut->notHiddenByOtherBlobFilter:populationIn;
+notHiddenByOtherBlobFilter:scoreName["NotHiddenByOtherBlob"] <= dummyNameScoreNotHiddenByOtherBlob;
+notHiddenByOtherBlobFilter:threshold[0.5] <= dummyThresholdScoreNotHiddenByOtherBlob;
+
+# Check if not levitating (filtering of the population)
+notHiddenByOtherBlobFilter:populationOut->notLevitatingFilter:populationIn;
+notLevitatingFilter:scoreName["NotLevitating"] <= dummyNameScoreNotLevitating;
+notLevitatingFilter:threshold[0.5] <= dummyThresholdScoreNotLevitating;
+
+# ApplyVerticalOffet
+notLevitatingFilter:populationOut->applyOffset:objectsArrayIn;
+applyOffset:verticalOffset[-0.1]<=dummyOffset;
+
+# ComputeTopPosition
+applyOffset:objectsArrayOut->toppos:populationIn;
+idHeightOffset:out->toppos:heightOffset;
+
+# AnalyseBodySize
+toppos:populationOut->bodySize:populationIn;
+
+# ScoreBodyDensity (filtering of the population)
+bodySize:populationOut->scoreBodyDensity:populationIn;
+scoreBodyDensity:populationOut->bodyDensityFilter:populationIn;
+bodyDensityFilter:scoreName["BodyDensity"] <= dummyNameScoreBodyDensity;
+bodyDensityFilter:threshold[0.5] <= dummyThresholdScoreBodyDensity;
+
+# ScoreBodySize (filtering of the population)
+bodyDensityFilter:populationOut->scoreBodySize:populationIn;
+scoreBodySize:populationOut->bodySizeFilter:populationIn;
+scoreBodySize:minBodyHeight <= minBodyHeight;
+scoreBodySize:maxBodyHeight <= maxBodyHeight;
+scoreBodySize:minBodyWidth <= minBodyWidth;
+scoreBodySize:maxBodyWidth <= maxBodyWidth;
+
+bodySizeFilter:scoreName["BodySize"] <= dummyNameScoreBodySize;
+bodySizeFilter:threshold[0.5] <= dummyThresholdScoreBodySize;
+
+# ExtractBodyImage
+bodySizeFilter:populationOut->bdi:populationIn;
+
+# SwitchFaceDetection
+bdi:populationOut->switchFD:populationIn;
+switchFD:faceStatus <= faceStatus;
+
+# ExtractTorsoMask, ColorDescriptor and SetShirtColorName
+switchFD:populationOut->torso:populationIn;
+torso:populationOut->color:populationIn;
+color:populationOut->shirtCol:populationIn;
+
+# ScoreForNewTrack
+shirtCol:populationOut->scoreTrack:populationIn;
+
+
+# Output
+scoreTrack:populationOut=>populationOut;
+}

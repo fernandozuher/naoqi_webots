@@ -1,0 +1,360 @@
+topic: ~lexicon()
+language: enu
+
+##general verbs
+concept:(iam) [I'm "I am"]
+concept:(ive) ["I've {got gotten}" "I have {got gotten}"]
+concept:(iwill) [I'll "I will"]
+
+concept:(iamnot) ["I'm not" "I am not" "I ain't"]
+concept:(ivenot) ["I haven't {got gotten}" "I don't have {got gotten}" "I do not have {got gotten}" "I have not {got gotten}"]
+concept:(idonot) ["I do not" "I don't"]
+concept:(ididnot) ["I did not" "I didn't"]
+concept:(iwillnot) ["I will not" "I won't"]
+
+##general
+concept:(confirmation)
+[
+"yes {please}"
+yep
+ok
+"of course"
+sure
+true
+"go on"
+"that's it"
+"[that's it's] true"
+"you're right"
+"good idea"
+perfect
+"why not"]
+
+concept: (negation)
+[
+"no {"thank you"}"
+"no way"
+"of course not"
+"~iamnot interested"
+"I'll think about it"
+stop
+"not really"
+never
+"you're wrong"
+"that's not it"
+"[it's that's] not what I [said asked]"
+]
+
+concept:(help)
+[
+"help me"
+"[can could] you help me"
+"I need some informations"
+"~iam looking for [information help]"
+]
+
+
+concept:(unsure)
+[
+"I don't know {that}"
+dunno
+"{~ive} no idea"
+"~ivenot the faintest idea"
+"~iamnot sure"
+"~iam unsure"
+]
+
+
+concept:(guess) 
+[
+guess
+"what do you think"
+"what would you [advice recommend]"
+"what is your advice"
+]
+
+
+concept:(repeat) 
+[
+"[could can would] you repeat {please}"
+"repeat {please}"
+"please repeat"
+"[come ask] again"
+"say {that} again"
+"what was the question"
+]
+
+
+concept:(notunderstood) 
+[
+"[~ididnot ~idonot] understand {you "a thing" "what you {just} said"}"
+"~ivenot understood"
+"{I sorry} didn't catch that"
+]
+
+
+##infos user
+concept:(myname) 
+[
+"my name is"
+"you can call me"
+"{please} call me"
+"~iam nammed"
+"~iam known as"
+"~iam"
+]
+
+concept:(cavapos) 
+[
+yes
+"{~iam} {very} well"
+"~iam good"
+"not bad"
+]
+
+
+concept:(cavaneutral) 
+[
+"well enough"
+]
+
+concept:(cavaneg)
+[
+no
+"not well"
+"~iam hurt"
+]
+
+concept:(cavasick)
+[
+"~iam [ill sick]"
+"~iam feeling [ill sick]"
+"~ive a headache"
+"my head hurts"
+]
+
+concept:(cavatired) 
+[
+"~iam {"a bit"} tired"
+"~iam feeling tired"
+"I need to sleep"
+"I need {"to get"} some sleep"
+]
+
+
+#misc
+concept:(names) [bruno flora marc sophie gabriel line david  gwénnaël vanne grégory gregory thibaut guillaume laurent lauren jérôme jerome jeanne julien mathias céline celine manuel alexandre herman corentin rémy benoît stéphane victor vincent taylor kosuke koske yufo ilmo ufo philippe sébastien sebastien]
+
+concept:(app) [app apps application applications activity activities]
+
+concept:(robotnotunderstood)
+[
+"It's not that"
+"you're wrong"
+"you [don't didn't] ["understand {anything}" "get it"]"
+]
+
+concept:(dontcare) 
+[
+"~idonot [care mind "give a shit"]"
+"~iamnot interested"
+"I have no interest"
+]
+
+concept:(too) 
+[
+"me too"
+"same for me"
+]
+
+concept:(can I)
+[
+"can I"
+"could I"
+"I'd like to"
+"I would like to"
+]
+
+
+concept:(nice)
+[
+"it's {very} nice of you"
+"you're {really very} nice"
+]
+
+concept:(thanks)
+[
+thanks
+"thank you {"very much"}"
+]
+
+concept:(askcost)
+[
+"how much is it"
+"how much does it cost"
+]
+
+concept:(sportslist)
+[
+dance
+volleyball
+football
+soccer
+basketball
+swimming
+skiing
+gym
+"strength training"
+cycling
+]
+
+
+concept:(sportplaces)
+[
+beach
+mountain
+sea
+seaside
+seashore
+forest
+woods
+"swimming pool"
+]
+
+##divers
+concept:(insulte) 
+[idiot stupid "shut up"]
+
+concept:(musique) 
+"{classical} music"
+
+concept:(instrument)
+[
+violin
+drums
+cello
+piano
+battery
+"{double} bass"
+"{transverse} flute"
+piccolo
+clarinet
+saxophone
+trumpet
+harp
+alto
+hapsichord
+"{electric} guitar"
+kettledrum
+organ
+accordion
+harmonica
+bassoon
+viola
+]
+
+concept:(month) 
+[
+january
+february
+march
+april
+may
+june
+july
+august
+september
+october
+november
+december
+]
+
+
+##verbs
+concept:(askcan)
+[
+"can you {please}"
+"could you {please}"
+"do you think you could"
+]
+
+concept:(youre)[you're "you are"]
+concept:(youve)["you've {got gotten}" "you have {got gotten}"]
+concept:(youll)[you'll "you will"]
+
+concept:(yourenot) ["you're not" "you are not" "you aren't"]
+concept:(youvenot) ["you haven't {got gotten}" "you don't have {got gotten}" "you do not have {got gotten}" "you have not {got gotten}"]
+concept:(youdonot) ["you do not" "you don't"]
+concept:(youdidnot) ["you did not" "you didn't"]
+concept:(youwillnot) ["you will not" "you won't"]
+
+
+
+
+concept:(legendary_creatures)
+[
+aegipan
+ankou
+basilisk
+"beast of Gévaudan"
+"beast of Vaccarès"
+bécut
+behemoth
+bisclavret
+bucentaur
+capricorn
+centaur
+cerberus
+"Ceryneian hind"
+"{lou} Carcolh"
+chimaera
+chimera
+cyclops
+"Diomedes's mares"
+dragon
+gargoyle
+gnome
+goblin
+graoully
+gremlin
+griffin
+hippogriff
+korrigan
+kerberos
+ladon
+lamia
+lutin
+matagot
+mandragot
+meliae
+meliai
+melusina
+melusine
+minautor
+monocoli
+monopods
+"nemean lion"
+nymph
+ogre
+orc
+pegasus
+peryton
+phenix
+phoenix
+satyr
+sciapods
+skiapods
+scylla
+siren
+sphynx
+"stymphalian birds"
+"{lou} tac"
+tarasque
+thrace
+triton
+troll
+unicorn
+werewolf
+]
+
+concept:(ask_puri)["let's do {a some the} [purikura "pull ekula"]" "can i try {a some the} [purikura "pull ekula"]" "{"can you" "would you"}[launch "show me"][purikura "pull ekula"]" "I [wanna "want to"] do {a} [purikura "pull ekula"]"]
+
