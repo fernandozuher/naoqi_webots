@@ -37,24 +37,29 @@ It was tested on:
 
 ### Build
 
-Download this repository, unpack it in a preferred working directory.
+1. Download this repository, unpack it in a preferred working directory.
 
-(Linux) Add WEBOTS_HOME/lib to your library path (e.g. export LD_LIBRARY_PATH=$WEBOTS_HOME/lib). To compile the naoqi_webots controller, type "make" in the controllers/naoqi_webots folder.
+(Linux) Add WEBOTS_HOME/lib to your library path:
 
-Start Webots, open the naoqi_webots/worlds/naoqi_webots.wbt world file.
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$WEBOTS_HOME/lib
 
-Start Choregraphe. Choose Connection > Connect to or click the "Connect to" button. Click the "Wake Up" button (sun-like icon on the top right corner of the Choregraphe window) to make sure the stiffness is on.
+2. Compile the naoqi_webots controller, type "make" in the controllers/naoqi_webots folder.
 
-
-## How to use
- 
-Here will be the images and descriptions. Principal content.
- 
-
-The controller:
+What the controller does inside itself:
 1. Initializes naoqi process located in the folder "old_aldebaran_cplusplus_sdk".
 2. Initializes Webots simulation.
 3. Creates an abstract robot NAO that is connected to *naoqi* and *Webots*.
+
+
+## How to use
+
+Here will be the images and descriptions. Principal content.
+
+1. Start Webots, open the naoqi_webots/worlds/naoqi_webots.wbt world file.
+
+2. Start Choregraphe. Choose Connection > Connect to or click the "Connect to" button. Click the "Wake Up" button (sun-like icon on the top right corner of the Choregraphe window) to make sure the stiffness is on.
+
+3. Play with the change of the NAO postures.
  
 ## Features
  
@@ -73,8 +78,7 @@ The controller:
 ## Versioning
  
 beta-0.1
- 
- 
+  
 ## Authors
  
 * **Fernando Zuher**: @fernandozuher (https://github.com/fernandozuher)
