@@ -8,27 +8,33 @@ It aims to solve bugs and outdated pieces of code of the deprecated naoqi-c++-sd
 
 It works as a middleware allowing that Choregraphe and any code using "naoqi SDK SoftBank Robotics" to be used with the simulated robot NAO in Webots.
 
+## Features
+ 
+1. Program robot NAO using a standard SDK developed by its current developer SoftBank Robotics.
+2. Use the robot in a well known robotic simulator, Webots.
+    - Save time and your robot of falling by researching in a simulator.
+
 ## Getting started
 
 ### Dependences
 
-#### Operating System
-Linux. This refactored version works only on Linux. The support for Windows and OSX were temporarily removed in order to improve readability and maintenance of the code.
+- Operating System: Linux.
 
-#### Compiler
-Standard gcc compiler suite.
+    This refactored version works only on Linux. The support for Windows and OSX were temporarily removed in order to improve readability and maintenance of the code.
 
-#### Choregraphe
-https://developer.softbankrobotics.com/nao6/downloads/nao6-downloads-linux
+- Compiler: Standard gcc compiler suite.
 
-#### Webots
-https://cyberbotics.com/
+- Webots: https://cyberbotics.com/
 
-Set the WEBOTS_HOME environment variable to point to the Webots installation folder, as documented in the Webots user guide.
+    Set the WEBOTS_HOME environment variable to point to the Webots installation folder, as documented in the Webots user guide. Also add WEBOTS_HOME/lib to your library path:
 
-The last version of Webots (R2020b in August 2020) has a model of NAOv5. NAOv6 is not supported. So you should use v5 in Choregraphe too.
+        export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$WEBOTS_HOME/lib
 
-It was tested on:
+- Choregraphe: https://developer.softbankrobotics.com/nao6/downloads/nao6-downloads-linux
+
+    The last version of Webots (R2020b in August 2020) has a model of NAOv5. NAOv6 is not supported. So you should use NAOv5 in Choregraphe too. Modify that in Choregraphe: Edit -> Preferences -> Virtual Robot, in the filed "Robot model" select "NAO H25 (V50)".
+
+Last execution done in:
 * Ubuntu 18.04.4
 * Webots R2020a revision 1
 * Choregraphe Version 2.8.6.23
@@ -37,13 +43,11 @@ It was tested on:
 
 ### Build
 
-1. Download this repository, unpack it in a preferred working directory.
+1. Download this repository: https://github.com/fernandozuher/naoqi_webots/archive/master.zip
 
-(Linux) Add WEBOTS_HOME/lib to your library path:
+2. Unpack it in a preferred working directory.
 
-    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$WEBOTS_HOME/lib
-
-2. Compile the naoqi_webots controller, type "make" in the controllers/naoqi_webots folder.
+3. Compile the naoqi_webots controller, type "make" in the controllers/naoqi_webots folder.
 
 What the controller does inside itself:
 1. Initializes naoqi process located in the folder "old_aldebaran_cplusplus_sdk".
@@ -60,13 +64,6 @@ Here will be the images and descriptions. Principal content.
 2. Start Choregraphe. Choose Connection > Connect to or click the "Connect to" button. Click the "Wake Up" button (sun-like icon on the top right corner of the Choregraphe window) to make sure the stiffness is on.
 
 3. Play with the change of the NAO postures.
- 
-## Features
- 
-1. Program robot NAO using a standard SDK developed by its current developer SoftBank Robotics.
-2. Use the robot in a well known robotic simulator, Webots.
-    - Save time and your robot of falling by researching in a simulator.
-
  
 ## Links
  
