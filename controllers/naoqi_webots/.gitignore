@@ -1,0 +1,7 @@
+/naoqi_webots
+/ipch
+/*.opensdf
+/*.pdb
+/*.suo
+/*.sdf
+/*.vcxproj.user
