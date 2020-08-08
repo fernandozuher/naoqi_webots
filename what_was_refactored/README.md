@@ -18,19 +18,19 @@ C code, inside the source code (C++ files), was translated to C++ whenever possi
 
 It was not possible to translate some functions because of weird "undefined reference". For example:
 
-```cpp
+```c++
 std::string robot_model = wb_robot_get_model(); // from <webots/camera.h> works
 
 // std::string robot_model = robot->getModel(); // from <webots/Robot.hpp> doesn't work
 ```
 
 ```shell
-    ... # linking naoqi_webots
-    build/release/naoqi_webots.o: In function `naoqi_webots::__init_webots_stuff()':
-    naoqi_webots.cpp:(.text+0xb8): undefined reference to `webots::Robot::getModel() const'
-    collect2: error: ld returned 1 exit status
-    /usr/local/webots/resources/Makefile.include:483: recipe for target 'build/release/naoqi_webots' failed
-    make: *** [build/release/naoqi_webots] Error 1
+... # linking naoqi_webots
+build/release/naoqi_webots.o: In function `naoqi_webots::__init_webots_stuff()':
+naoqi_webots.cpp:(.text+0xb8): undefined reference to `webots::Robot::getModel() const'
+collect2: error: ld returned 1 exit status
+/usr/local/webots/resources/Makefile.include:483: recipe for target 'build/release/naoqi_webots' failed
+make: *** [build/release/naoqi_webots] Error 1
 ```
 
 I tried this: https://www.softwaretestinghelp.com/cpp-errors/
