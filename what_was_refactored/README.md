@@ -18,15 +18,10 @@ C code, inside the source code (C++ files), was translated to C++ whenever possi
 
 It was not possible to translate some functions because of weird "undefined reference". For example:
 
-```
-<link rel="stylesheet" href="/path/to/styles/default.css">
-<script src="/path/to/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>        
-<pre><code class="c++">
+```c++
 std::string robot_model = wb_robot_get_model(); // from <webots/camera.h> works
 
 // std::string robot_model = robot->getModel(); // from <webots/Robot.hpp> doesn't work
-</code></pre>
 ```
 
     ... # linking naoqi_webots
