@@ -67,7 +67,7 @@ What the controller does inside itself:
 ![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/connect_choreographe.png)
 
 Click the "Wake Up" button (sun-like icon on the top right corner of the Choregraphe window) to make sure the stiffness is on.
-![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/active_stiffness.png)
+![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/active-stiffness.png)
 
 3. Play with the change of the NAO postures in "Pose library" (top right side) or any box that doesn't execute movement with the legs of NAO (current bug coming from the "old aldebaran c++ sdk").
  
