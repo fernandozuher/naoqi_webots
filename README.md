@@ -12,6 +12,7 @@ It works as a middleware allowing that Choregraphe and any code using "naoqi SDK
  
 1. Program robot NAO using a standard SDK developed by its current developer SoftBank Robotics.
 2. Use the robot in a well known robotic simulator, Webots.
+    
     Save time and your robot of falling by researching in a simulator.
 
 ## Getting started
