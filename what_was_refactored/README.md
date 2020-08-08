@@ -93,7 +93,7 @@ WARNING: PointLight: A quadratic 'attenuation' should be preferred to have a rea
 
 ## Webots console
 
-I formated the log of the running-controller displayed in the "Webots console" window. That helped me to identify 3 error spots inside the controller. Look the file [error_log.md](error_log.md) in this directory to check them out. The full log in the Webots console can be seen in [the file [full_webots_console_when_started.md](full_webots_console_when_started.md) herein too.
+I formated the log of the running-controller displayed in the "Webots console" window. That helped me to identify 3 error spots inside the controller. Look the file [error_log.md](error_log.md) in this directory to check them out. The full log in the Webots console can be seen in the file [full_webots_console_when_started.md](full_webots_console_when_started.md) herein too.
 
 ## camelCase -> snake_case
 
