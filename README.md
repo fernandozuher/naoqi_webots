@@ -22,19 +22,19 @@ It works as a middleware allowing that Choregraphe and any code using "naoqi SDK
 
 - Operating System: Linux.
 
-...This refactored version works only on Linux. The support for Windows and OSX were temporarily removed in order to improve readability and maintenance of the code.
+    This refactored version works only on Linux. The support for Windows and OSX were temporarily removed in order to improve readability and maintenance of the code.
 
 - Compiler: Standard GCC compiler suite.
 
 - Webots: https://cyberbotics.com/
 
-...Set the WEBOTS_HOME environment variable to point to the Webots installation folder, as documented in the Webots user guide. Also add WEBOTS_HOME/lib to your library path through the terminal:
+    Set the WEBOTS_HOME environment variable to point to the Webots installation folder, as documented in the Webots user guide. Also add WEBOTS_HOME/lib to your library path through the terminal:
 
     export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$WEBOTS_HOME/lib
 
 - Choregraphe: https://developer.softbankrobotics.com/nao6/downloads/nao6-downloads-linux
 
-...The last version of Webots (R2020b in August 2020) has a model of NAOv5. NAOv6 is not supported. So you should use NAOv5 in Choregraphe too. Modify that in Choregraphe: Edit -> Preferences -> Virtual Robot, in the field "Robot model" select "NAO H25 (V50)".
+    The last version of Webots (R2020b in August 2020) has a model of NAOv5. NAOv6 is not supported. So you should use NAOv5 in Choregraphe too. Modify that in Choregraphe: Edit -> Preferences -> Virtual Robot, in the field "Robot model" select "NAO H25 (V50)".
 ![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/naov5.png)
 
 Last execution done in:
@@ -61,15 +61,15 @@ What the controller does inside itself:
 ## How to use
 
 1. **Start Webots**. Open the "naoqi_webots/worlds/naoqi_webots.wbt" world file.
-![Opened Webots](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/opened_webots.png)
+    ![Opened Webots](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/opened_webots.png)
 
-![Initialized naoqi_webots](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/initialized_naoqi_webots.png)
+    ![Initialized naoqi_webots](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/initialized_naoqi_webots.png)
 
 2. **Start Choregraphe**. Choose "Connection" > "Connect to" or click the "Connect to" button. (Yes, OK that)
-![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/connect_choreographe.png)
+    ![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/connect_choreographe.png)
 
-Click the "Wake Up" button (sun-like icon on the top right corner of the Choregraphe window) to make sure the stiffness is on.
-![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/active_stiffness.png)
+    Click the "Wake Up" button (sun-like icon on the top right corner of the Choregraphe window) to make sure the stiffness is on.
+    ![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/active_stiffness.png)
 
 3. Play with the change of the NAO postures in "Pose library" (top right side) or any box that doesn't execute movement with the legs of NAO (current bug coming from the "old aldebaran c++ sdk").
  
@@ -78,7 +78,6 @@ Click the "Wake Up" button (sun-like icon on the top right corner of the Choregr
   - Repository: https://github.com/fernandozuher/naoqi_webots
     - In case of sensitive bugs like security vulnerabilities, please contact
       fernando.zuher@gmail.com directly instead of using issue tracker. We value your effort to improve the security and privacy of this project!
- 
  
 ## Versioning
  

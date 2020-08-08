@@ -24,6 +24,7 @@ std::string robot_model = wb_robot_get_model(); // from <webots/camera.h> works
 // std::string robot_model = robot->getModel(); // from <webots/Robot.hpp> doesn't work
 ```
 
+**Error**:
 ```shell
 ... # linking naoqi_webots
 build/release/naoqi_webots.o: In function `naoqi_webots::__init_webots_stuff()':
@@ -73,16 +74,20 @@ All warning logs during compilation (make) were solved. Now it compiles like a c
 ## naoqi_webots.wbt
 
 From the "Webots world" naoqi_webots-master/worlds/naoqi_webots.wbt, I removed:
-    
-    removed PointLight {
-      ambientIntensity 1
-      intensity 0.6
-      location 2 0.9 0
-    }
+
+```    
+removed PointLight {
+  ambientIntensity 1
+  intensity 0.6
+  location 2 0.9 0
+}
+```
 
 ...because it was written for Webots 2018. In the recent versions that code generates a warning in the Webots console:
-    
-    WARNING: PointLight: A quadratic 'attenuation' should be preferred to have a realistic simulation of light. Only the third component of the 'attenuation' field should be greater than 0.
+
+```shell
+WARNING: PointLight: A quadratic 'attenuation' should be preferred to have a realistic simulation of light. Only the third component of the 'attenuation' field should be greater than 0.
+```
 
 ## Webots console
 
@@ -117,7 +122,9 @@ The previous directory of the source code included all the naoqi_webots controll
 
 - Replace some included C Webots libraries for theirs C++ ones. For example:
 
-        <webots/robot.h>, <webots/camera.h>... -> <webots/Robot.hpp>, <webots/Camera.hpp>
+    ```c++
+    <webots/robot.h>, <webots/camera.h>... -> <webots/Robot.hpp>, <webots/Camera.hpp>
+    ```
 
     It's a good practice to avoid C code in C++ whenever possible.
 
