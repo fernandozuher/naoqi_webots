@@ -1,4 +1,4 @@
-## FIRST ERROR:
+## FIRST ERROR
     
 ```shell
 [naoqi_webots]          - Instantiating model...
@@ -16,7 +16,7 @@ try {
 }
 ```
 
-## SECOND ERROR:
+## SECOND ERROR
 
 ```shell
 [naoqi_webots]          - m_launcher->launch(...)...
@@ -349,7 +349,7 @@ std::cout << "\n\t\t\t\t V\n" << std::flush;
 return m_launcher->launch(m_model, naoqi_port, sdk_prefix);
 ```
 
-## THIRD ERROR:
+## THIRD ERROR
 
 ```shell
 [naoqi_webots]      5.2 - void Nao::run() :
