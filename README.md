@@ -4,7 +4,7 @@ This repository is a refactored version of the controller (Webots terminology) n
 
 It aims to solve bugs and outdated pieces of code of the deprecated naoqi-c++-sdk used in it.
 
-The differences between that and this are showed in [what_was_refactored](https://github.com/fernandozuher/naoqi_webots/tree/master/what_was_refactored)  folder.
+The differences between that and this are showed in the folder [what_was_refactored](https://github.com/fernandozuher/naoqi_webots/tree/master/what_was_refactored).
 
 It works as a middleware allowing that Choregraphe and any code using "naoqi SDK SoftBank Robotics" to be used with the simulated robot NAO in Webots.
 
@@ -12,7 +12,7 @@ It works as a middleware allowing that Choregraphe and any code using "naoqi SDK
  
 1. Program robot NAO using a standard SDK developed by its current developer SoftBank Robotics.
 2. Use the robot in a well known robotic simulator, Webots.
-- Save time and your robot of falling by researching in a simulator.
+    Save time and your robot of falling by researching in a simulator.
 
 ## Getting started
 
