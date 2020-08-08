@@ -1,5 +1,3 @@
-![Logo of the project](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/logo.png)
- 
 # naoqi_webots
  
 This repository is a refactored version of the controller (Webots terminology) named *naoqisim*: https://github.com/cyberbotics/naoqisim
