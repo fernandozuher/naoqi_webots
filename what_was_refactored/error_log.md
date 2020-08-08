@@ -450,4 +450,4 @@ while (robot->step(time_step) != -1) {
 }
 ```
 
-Are those code lines intrinsically related to the communication with naoqi-sdk. Is it so?
+Those code lines are intrinsically related to the communication with naoqi-sdk.
