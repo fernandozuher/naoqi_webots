@@ -4,7 +4,7 @@
 
 It follows a summary of the refactoring:
 
-##From C to C++##
+##From C to C++
 
 C code, inside the source code (C++ files), was translated to C++ whenever possible. It's a good practice to avoid C in C++ files. Examples:
 - = -> {} list-initializer
@@ -35,19 +35,19 @@ And this: https://stackoverflow.com/questions/12573816/what-is-an-undefined-refe
 
 ...but without success. It might be a not well written Makefile or another obscure thing...
 
-##C++17##
+##C++17
 
 Now part of the code uses C++17. Compilation just works with C++17 mode activated (make). A simple example used from C++17:
 
     vector variable_name = new T; // Deduced vector type based on the called constructor.
 
-##OS support##
+##OS support
 
 Removed all the Windows/OSX support in order to improve the readability and to understand better the code. Now it just works with Linux (I tested on Ubuntu 18.04.4).
 
 When the controller is done to the last naoqi-sdk version, I may support the other OSs.
 
-##Makefile##
+##Makefile
 
 Edited to:
 - Accept C++ Webots libs aside C ones;
@@ -55,15 +55,15 @@ Edited to:
 - Compile C++ source code in subfolders;
 - Support only Linux (just for a while ;-)
 
-##Old naoqi-sdk##
+##Old naoqi-sdk
 
 I removed "boost" folder from "naoqi_webots-master/old_aldebaran_cplusplus_sdk/include" because it is outdated and in conflict with "boost C++ library" from my compiler (GNU Compiler Collection). It was causing warnings during compilation (make).
 
-##Compilation##
+##Compilation
 
 All warning logs during compilation (make) were solved. Now it compiles like a charm: without any ugliness.
 
-##naoqi_webots.wbt##
+##naoqi_webots.wbt
 
 From the "Webots world" naoqi_webots-master/worlds/naoqi_webots.wbt, I removed:
     
@@ -77,15 +77,15 @@ From the "Webots world" naoqi_webots-master/worlds/naoqi_webots.wbt, I removed:
     
     WARNING: PointLight: A quadratic 'attenuation' should be preferred to have a realistic simulation of light. Only the third component of the 'attenuation' field should be greater than 0.
 
-##Webots console##
+##Webots console
 
 I formated the log of the running-controller displayed in the "Webots console" window. That helped me to identify 3 error spots inside the controller. Look the file error_log.md in this directory.
 
-##camelCase -> snake_case##
+##camelCase -> snake_case
 
 Changed the camelCase style to snake_case whenever possible.
 
-##Controller source code organization##
+##Controller source code organization
 
 The previous directory of the source code included all the naoqi_webots controller files in only one folder (naoqi_webots-master/controllers/naoqi_webots). The new directory is structured as:
 
@@ -106,7 +106,7 @@ The previous directory of the source code included all the naoqi_webots controll
 
 - runtime.ini : Just for Makefile
 
-##TO DO:##
+##TO DO:
 
 - Replace some included C Webots libraries for theirs C++ ones. For example:
 
