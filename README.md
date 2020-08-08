@@ -64,7 +64,6 @@ What the controller does inside itself:
 1. **Start Webots**. Open the "naoqi_webots/worlds/naoqi_webots.wbt" world file.
     
     ![Opened Webots](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/opened_webots.png)
-
     ![Initialized naoqi_webots](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/initialized_naoqi_webots.png)
 
 2. **Start Choregraphe**. Choose "Connection" > "Connect to" or click the "Connect to" button. (Yes, OK that)
