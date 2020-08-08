@@ -6,6 +6,8 @@ This repository is a refactored version of the controller (Webots terminology) n
 
 It aims to solve bugs and outdated pieces of code of the deprecated naoqi-c++-sdk used in it.
 
+The differences between that and this are showed here: https://github.com/fernandozuher/naoqi_webots/tree/master/what_was_refactored
+
 It works as a middleware allowing that Choregraphe and any code using "naoqi SDK SoftBank Robotics" to be used with the simulated robot NAO in Webots.
 
 ## Features
@@ -58,16 +60,16 @@ What the controller does inside itself:
 
 ## How to use
 
-1. Start Webots. Open the "naoqi_webots/worlds/naoqi_webots.wbt" world file.
+1. **Start Webots**. Open the "naoqi_webots/worlds/naoqi_webots.wbt" world file.
 ![Opened Webots](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/opened_webots.png)
 
 ![Initialized naoqi_webots](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/initialized_naoqi_webots.png)
 
-2. Start Choregraphe. Choose "Connection" > "Connect to" or click the "Connect to" button. (Yes, OK that)
+2. **Start Choregraphe**. Choose "Connection" > "Connect to" or click the "Connect to" button. (Yes, OK that)
 ![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/connect_choreographe.png)
 
 Click the "Wake Up" button (sun-like icon on the top right corner of the Choregraphe window) to make sure the stiffness is on.
-![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/active-stiffness.png)
+![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/active_stiffness.png)
 
 3. Play with the change of the NAO postures in "Pose library" (top right side) or any box that doesn't execute movement with the legs of NAO (current bug coming from the "old aldebaran c++ sdk").
  
@@ -87,5 +89,4 @@ beta-0.1
 * **Fernando Zuher**: @fernandozuher (https://github.com/fernandozuher)
     * This naoqi_webots repositoty is based on *naoqisim* repository: https://github.com/cyberbotics/naoqisim
  
-Please follow github and join us!
-Thanks to visiting me and good coding!
+Thank you for visiting and good coding!
