@@ -1,3 +1,0 @@
-#!/bin/bash
-SDK_DIR=$(dirname "$(readlink -f $0 2>/dev/null)")
-exec "${SDK_DIR}/bin/naoqi-bin" $@

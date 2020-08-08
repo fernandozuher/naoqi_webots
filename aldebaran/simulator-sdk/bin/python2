@@ -1,9 +1,0 @@
-#!/bin/bash
-
-this_dir=$(dirname "$(readlink -f $0 2>/dev/null)")
-SDK_DIR=${this_dir}/..
-export PYTHONHOME=${SDK_DIR}
-export PYTHONPATH=${SDK_DIR}/lib/python2.7/site-packages
-export LD_LIBRARY_PATH=${SDK_DIR}/lib
-
-${SDK_DIR}/bin/python2.orig $@

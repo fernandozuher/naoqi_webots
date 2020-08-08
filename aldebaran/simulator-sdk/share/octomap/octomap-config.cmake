@@ -1,6 +1,0 @@
-clean(OCTOMAP)
-fpath(OCTOMAP "octomap/octomap.h")
-fpath(OCTOMAP "octomap/math/Quaternion.h")
-flib(OCTOMAP "octomap")
-flib(OCTOMAP "octomath")
-export_lib(OCTOMAP)
