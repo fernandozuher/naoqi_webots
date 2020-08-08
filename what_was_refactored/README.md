@@ -44,7 +44,8 @@ And this: https://stackoverflow.com/questions/12573816/what-is-an-undefined-refe
 Now part of the code uses C++17. Compilation just works with C++17 mode activated (make). A simple example used from C++17:
 
 ```cpp
-vector variable_name = new T; // Deduced vector type based on the called constructor.
+#include <vector>
+std::vector variable_name = new T; // Deduced vector type based on the called constructor.
 ```
 
 ## OS support
