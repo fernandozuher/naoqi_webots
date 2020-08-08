@@ -6,7 +6,7 @@ This repository is a refactored version of the controller (Webots terminology) n
 
 It aims to solve bugs and outdated pieces of code of the deprecated naoqi-c++-sdk used in it.
 
-The differences between that and this are showed here: https://github.com/fernandozuher/naoqi_webots/tree/master/what_was_refactored
+The differences between that and this are showed in [what_was_refactored](https://github.com/fernandozuher/naoqi_webots/tree/master/what_was_refactored)  folder.
 
 It works as a middleware allowing that Choregraphe and any code using "naoqi SDK SoftBank Robotics" to be used with the simulated robot NAO in Webots.
 
@@ -14,7 +14,7 @@ It works as a middleware allowing that Choregraphe and any code using "naoqi SDK
  
 1. Program robot NAO using a standard SDK developed by its current developer SoftBank Robotics.
 2. Use the robot in a well known robotic simulator, Webots.
-    - Save time and your robot of falling by researching in a simulator.
+- Save time and your robot of falling by researching in a simulator.
 
 ## Getting started
 
@@ -22,19 +22,19 @@ It works as a middleware allowing that Choregraphe and any code using "naoqi SDK
 
 - Operating System: Linux.
 
-    This refactored version works only on Linux. The support for Windows and OSX were temporarily removed in order to improve readability and maintenance of the code.
+...This refactored version works only on Linux. The support for Windows and OSX were temporarily removed in order to improve readability and maintenance of the code.
 
 - Compiler: Standard GCC compiler suite.
 
 - Webots: https://cyberbotics.com/
 
-    Set the WEBOTS_HOME environment variable to point to the Webots installation folder, as documented in the Webots user guide. Also add WEBOTS_HOME/lib to your library path through the terminal:
+...Set the WEBOTS_HOME environment variable to point to the Webots installation folder, as documented in the Webots user guide. Also add WEBOTS_HOME/lib to your library path through the terminal:
 
-        export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$WEBOTS_HOME/lib
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$WEBOTS_HOME/lib
 
 - Choregraphe: https://developer.softbankrobotics.com/nao6/downloads/nao6-downloads-linux
 
-    The last version of Webots (R2020b in August 2020) has a model of NAOv5. NAOv6 is not supported. So you should use NAOv5 in Choregraphe too. Modify that in Choregraphe: Edit -> Preferences -> Virtual Robot, in the field "Robot model" select "NAO H25 (V50)".
+...The last version of Webots (R2020b in August 2020) has a model of NAOv5. NAOv6 is not supported. So you should use NAOv5 in Choregraphe too. Modify that in Choregraphe: Edit -> Preferences -> Virtual Robot, in the field "Robot model" select "NAO H25 (V50)".
 ![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/naov5.png)
 
 Last execution done in:

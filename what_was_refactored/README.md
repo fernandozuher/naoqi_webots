@@ -8,19 +8,26 @@ It follows a summary of the refactoring:
 
 C code, inside the source code (C++ files), was translated to C++ whenever possible. It's a good practice to avoid C in C++ files. Examples:
 - = -> {} list-initializer
-- primitive types -> auto (without {} list-initializer)
-- NULL -> nullptr
-- default array -> std::vector
-- malloc -> new
-- default for loop -> range-based for loop
-- "using 'namespace' X" -> X::
+- ~~primitive types~~ -> auto (without {} list-initializer)
+- ~~NULL~~ -> nullptr
+- ~~traditional array~~ -> std::vector
+- ~~malloc~~ -> new
+- ~~traditional for-loop~~ -> range-based for-loop
+- ~~"using 'namespace' X"~~ -> X::
 - ...
 
 It was not possible to translate some functions because of weird "undefined reference". For example:
-        
-std::string robot_model = robot->getModel(); // from <webots/Robot.hpp> doesn't work
 
-// std::string robot_model = wb_robot_get_model(); // from <webots/camera.h> works
+```
+<link rel="stylesheet" href="/path/to/styles/default.css">
+<script src="/path/to/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>        
+<pre><code class="c++">
+std::string robot_model = wb_robot_get_model(); // from <webots/camera.h> works
+
+// std::string robot_model = robot->getModel(); // from <webots/Robot.hpp> doesn't work
+</code></pre>
+```
 
     ... # linking naoqi_webots
     build/release/naoqi_webots.o: In function `naoqi_webots::__init_webots_stuff()':
@@ -79,7 +86,7 @@ From the "Webots world" naoqi_webots-master/worlds/naoqi_webots.wbt, I removed:
 
 ## Webots console
 
-I formated the log of the running-controller displayed in the "Webots console" window. That helped me to identify 3 error spots inside the controller. Look the file error_log.md in this directory.
+I formated the log of the running-controller displayed in the "Webots console" window. That helped me to identify 3 error spots inside the controller. Look the file [error_log.md](../blob/master/what_was_refactored/error_log.md) in this directory.
 
 ## camelCase -> snake_case
 
