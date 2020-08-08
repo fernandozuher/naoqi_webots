@@ -26,7 +26,8 @@ std::string robot_model = wb_robot_get_model(); // from <webots/camera.h> works
 
 **Error during compilation:**:
 ```shell
-... # linking naoqi_webots
+...
+# linking naoqi_webots
 build/release/naoqi_webots.o: In function `naoqi_webots::__init_webots_stuff()':
 naoqi_webots.cpp:(.text+0xb8): undefined reference to `webots::Robot::getModel() const'
 collect2: error: ld returned 1 exit status
