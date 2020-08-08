@@ -24,7 +24,7 @@ std::string robot_model = wb_robot_get_model(); // from <webots/camera.h> works
 // std::string robot_model = robot->getModel(); // from <webots/Robot.hpp> doesn't work
 ```
 
-**Error**:
+**Error during compilation:**:
 ```shell
 ... # linking naoqi_webots
 build/release/naoqi_webots.o: In function `naoqi_webots::__init_webots_stuff()':
@@ -70,6 +70,7 @@ I removed "boost" folder from "naoqi_webots-master/old_aldebaran_cplusplus_sdk/i
 ## Compilation
 
 All warning logs during compilation (make) were solved. Now it compiles like a charm: without any ugliness.
+![make screen](make.png)
 
 ## naoqi_webots.wbt
 
@@ -91,7 +92,7 @@ WARNING: PointLight: A quadratic 'attenuation' should be preferred to have a rea
 
 ## Webots console
 
-I formated the log of the running-controller displayed in the "Webots console" window. That helped me to identify 3 error spots inside the controller. Look the file [error_log.md](../blob/master/what_was_refactored/error_log.md) in this directory.
+I formated the log of the running-controller displayed in the "Webots console" window. That helped me to identify 3 error spots inside the controller. Look the file [error_log.md](error_log.md) in this directory.
 
 ## camelCase -> snake_case
 
