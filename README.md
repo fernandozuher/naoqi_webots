@@ -85,6 +85,6 @@ beta-0.1
 ## Authors
  
 * **Fernando Zuher**: @fernandozuher (https://github.com/fernandozuher)
-    * This naoqi_webots repositoty is based on *naoqisim* repository: https://github.com/cyberbotics/naoqisim
+    * This repository is based on *naoqisim* repository: https://github.com/cyberbotics/naoqisim
  
 Thank you for visiting and good coding!
