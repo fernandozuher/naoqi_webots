@@ -1,4 +1,4 @@
-![Logo naoqi_webots](readme_images/logo_.png)
+![Logo naoqi_webots](readme_images/logo.png)
 
 # naoqi_webots
  

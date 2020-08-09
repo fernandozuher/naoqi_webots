@@ -4,6 +4,9 @@
 
 It follows a summary of the refactoring:
 
+## Removed stuff
+I simplified the organization of the files by removing not essential controllers, Makefiles and intermediary steps of instalation.
+
 ## From C to C++
 
 C code, inside the source code (C++ files), was translated to C++ whenever possible. It's a good practice to avoid C in C++ files. Examples:
@@ -93,7 +96,7 @@ WARNING: PointLight: A quadratic 'attenuation' should be preferred to have a rea
 
 ## Webots console
 
-I formated the log of the running-controller displayed in the "Webots console" window. That helped me to identify 3 error spots inside the controller. Look the file [error_log.md](error_log.md) in this directory to check them out. The full log in the Webots console can be seen in the file [full_webots_console_when_started.md](full_webots_console_when_started.md) herein too.
+I formated the log of the running-controller displayed in the "Webots console" window. That helped me to identify 3 error spots inside the controller. Look the file [error_log.md](error_log.md) in this directory to check them out. The full log in the Webots console can be seen in the file [full_webots_console_when_started.md](full_webots_console_when_started.md).
 
 ## camelCase -> snake_case
 
