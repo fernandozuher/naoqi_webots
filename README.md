@@ -87,7 +87,7 @@ What the controller does inside itself:
  
 ## Versioning
  
-beta-0.1
+beta-0.2
   
 ## Authors
  
