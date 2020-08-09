@@ -5,7 +5,7 @@
 It follows a summary of the refactoring:
 
 ## Removed stuff
-I simplified the organization of the files by removing not essential controllers, Makefiles and intermediary steps of instalation.
+I simplified the organization of the files by removing non essential controllers, Makefiles and intermediary steps of installation.
 
 ## From C to C++
 
