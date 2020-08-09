@@ -77,7 +77,7 @@ What the controller does inside itself:
 
     ![naov5](https://github.com/fernandozuher/naoqi_webots/blob/master/readme_images/active_stiffness.png)
 
-3. Play with the change of the NAO postures in "Pose library" (top right side) or any box that doesn't execute movement with the legs of NAO (current bug coming from the "old aldebaran c++ sdk").
+3. Play with the change of the NAO postures in "Pose library" (top right side) or any box that doesn't execute movement with the legs of NAO (current bug coming from the "old Aldebaran C++ SDK").
  
 ## Links
  
