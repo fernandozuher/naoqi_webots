@@ -32,7 +32,8 @@ naoqi_webots::naoqi_webots(int argc, char **argv) :
 
             std::cout << "\n\t4 - Initializing Singletons... " << std::flush;
             __singletons();
-            std::cout << "\n...............INITIALIZED Singletons!" << std::flush;
+
+            std::cout << "\n............... (still) INITIALIZED Singletons!" << std::flush;
 
             // Main loop here
             std::cout << "\n\n(still inside constructor of naoqi_webots.cpp)\n";
@@ -104,7 +105,9 @@ void naoqi_webots::__singletons()
     if (!Singletons::initialize(robot_model, naoqi_port, nullptr))
         throw std::string{"ERROR, LINE "} +
             boost::lexical_cast<std::string>(__LINE__) + ": Singletons.\n";
-    sleep(1);
+    
+    // Wait for the whole initialization of Singletons::initialize(...)
+    sleep(3);
 }
 
 void naoqi_webots::__init_nao_class()

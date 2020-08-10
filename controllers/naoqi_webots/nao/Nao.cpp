@@ -5,14 +5,12 @@ Nao::Nao(bool use_cameras, webots::Robot *robot, int time_step) :
     model {Singletons::model()}
 {
     std::cout << "\n\n\t\t--------------------" << __FILE__ << "--------------------"
-              << std::flush;
+              << "\n\t\t" << "5.1 - Inside constructor: " << std::flush;
     __create_nao_body();
 }
 
 void Nao::__create_nao_body()
 {
-    std::cout << "\n\t\t5.1 - void Nao::__create_nao_body()";
-
     // Create sensors
     std::cout << "\n\n\t\t\t- INITIALIZING SENSORS:\n" << std::flush;
     
@@ -143,9 +141,7 @@ void Nao::__create_hands()
 
 void Nao::run()
 {
-    std::cout << "\n\n\t\t5.2 - void Nao::run() :" << std::flush;
-    std::cout << "\n\t\t\t\t |" << std::flush;
-    std::cout << "\n\t\t\t\t V\n" << std::flush;
+    std::cout << "\n\n\t\t5.2 - void Nao::run()\n\n" << std::flush;
 
     // Main loop
     while (robot->step(time_step) != -1) {
