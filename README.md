@@ -2,7 +2,7 @@
 
 # naoqi_webots
  
-This repository is a refactored version of the controller (Webots terminology) named *naoqisim*: https://github.com/cyberbotics/naoqisim
+This repository is a refactored version of the controller named *naoqisim*: https://github.com/cyberbotics/naoqisim
 
 It aims to solve bugs and outdated pieces of code of the deprecated naoqi-c++-sdk used in it.
 
@@ -16,6 +16,10 @@ It works as a middleware allowing that Choregraphe and any code using "naoqi SDK
 2. Use the robot in a well known robotic simulator, Webots.
     
     Save time and your robot of falling by researching in a simulator.
+
+## Versioning
+ 
+beta-0.2, 422,7 MB (zip packed, included naoqi-sdk-c++)
 
 ## Getting started
 
@@ -84,11 +88,7 @@ What the controller does inside itself:
   - Repository: https://github.com/fernandozuher/naoqi_webots
     - In case of sensitive bugs like security vulnerabilities, please contact
       fernando.zuher@gmail.com directly instead of using issue tracker. We value your effort to improve the security and privacy of this project!
- 
-## Versioning
- 
-beta-0.2
-  
+   
 ## Authors
  
 * **Fernando Zuher**: @fernandozuher (https://github.com/fernandozuher)
