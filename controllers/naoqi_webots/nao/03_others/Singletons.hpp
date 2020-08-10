@@ -50,9 +50,6 @@ class Singletons
 
         // Hardware abstraction layer
         static Sim::HALInterface *hal();
-
-        // dump model info on std::cout
-        static void dump_model();
 };
 
 #endif
