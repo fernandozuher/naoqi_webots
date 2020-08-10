@@ -27,7 +27,7 @@ std::string robot_model = wb_robot_get_model(); // from <webots/camera.h> works
 // std::string robot_model = robot->getModel(); // from <webots/Robot.hpp> doesn't work
 ```
 
-**Error during compilation:**:
+Error during compilation:
 ```shell
 ...
 # linking naoqi_webots
