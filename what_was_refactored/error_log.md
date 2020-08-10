@@ -418,7 +418,8 @@ Error (Infos, Warnings, Errors):
 [naoqi_webots] [I] 2967 core.naoqi: NAOqi is ready...
 ```
 
-## All those logs are related to:
+---
+All those logs are related to:
 
 - bool Singletons::initialize(...) :
 
