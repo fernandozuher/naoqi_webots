@@ -1,7 +1,7 @@
 #include "Singletons.hpp"
 
-Sim::Model *Singletons::m_model {nullptr};
-Sim::HALInterface *Singletons::m_hal {nullptr};
+Sim::Model* Singletons::m_model {nullptr};
+Sim::HALInterface* Singletons::m_hal {nullptr};
 Sim::SimLauncher* Singletons::m_launcher {nullptr};
 
 bool Singletons::initialize(const std::string &model, int naoqi_port,

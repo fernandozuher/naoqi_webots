@@ -19,7 +19,7 @@ It works as a middleware allowing that Choregraphe and any code using "naoqi SDK
 
 ## Versioning
  
-beta-0.2, 422,7 MB (zip packed, included naoqi-sdk-c++)
+beta-0.2, 422,7 MB (zip packed, included naoqi-c++-sdk)
 
 ## Getting started
 
