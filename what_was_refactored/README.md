@@ -10,7 +10,7 @@ I simplified the organization of the files by removing non essential controllers
 ## From C to C++
 
 C code, inside the source code (C++ files), was translated to C++ whenever possible. It's a good practice to avoid C in C++ files. Examples:
-- = -> {} list-initializer
+- ~~`=`~~ -> {} list-initializer
 - ~~`primitive types`~~ -> auto (without {} list-initializer)
 - ~~`NULL`~~ -> nullptr
 - ~~`traditional array`~~ -> std::vector
