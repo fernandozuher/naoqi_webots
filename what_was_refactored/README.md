@@ -10,13 +10,13 @@ I simplified the organization of the files by removing non essential controllers
 ## From C to C++
 
 C code, inside the source code (C++ files), was translated to C++ whenever possible. It's a good practice to avoid C in C++ files. Examples:
-- ~~`=`~~ -> {} list-initializer
-- ~~`primitive types`~~ -> auto (without {} list-initializer)
-- ~~`NULL`~~ -> nullptr
-- ~~`traditional array`~~ -> std::vector
-- ~~`malloc`~~ -> new
+- ~~`=`~~ -> `{}` list-initializer
+- ~~`primitive types`~~ -> `auto` (without {} list-initializer)
+- ~~`NULL`~~ -> `nullptr`
+- ~~`traditional array`~~ -> `std::vector`
+- ~~`malloc`~~ -> `new`
 - ~~`traditional for-loop`~~ -> range-based for-loop
-- ~~`"using 'namespace' X"`~~ -> X::
+- ~~`using namespace X`~~ -> `X::` (not C code, but better for non-small programs)
 - ...
 
 It was not possible to translate some functions because of weird "undefined reference". For example:
