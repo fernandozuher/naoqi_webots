@@ -40,16 +40,16 @@ naoqi_webots::naoqi_webots(int argc, char **argv) :
             std::cout << "\n\t5 - Initializing NAO class... " << std::flush;
             __init_nao_class();
         }
-        catch (std::string e) {
+        catch (const std::string &e) {
             std::cerr << e << std::flush;
             throw;
         }
-        catch (boost::bad_lexical_cast e) {
+        catch (const boost::bad_lexical_cast &e) {
             std::cerr << "ERROR: Invalid NAOQI_PORT_NUMBER specified in 'controllerArgs'\n"
                       << std::flush;
             throw;
         }
-        catch (std::exception& e) {
+        catch (const std::exception &e) {
             std::cerr << "ERROR, Standard exception: " << e.what() << std::endl << std::flush;
             throw;
         }
