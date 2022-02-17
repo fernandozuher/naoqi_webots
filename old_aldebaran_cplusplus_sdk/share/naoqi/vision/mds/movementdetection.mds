@@ -1,0 +1,62 @@
+filter MovementDetection
+{
+Identity idModeIs3D;
+
+Dispatch disp;
+SelectCameraPositions selectCamPos;
+MovementDetection2D md2d;
+MovementDetection3D md3d;
+Multiplex multi;
+
+idModeIs3D:in <= modeIs3D;
+
+disp:in[1]<=dummyIn;
+idModeIs3D:out->disp:state;
+
+disp:ontrue->md3d:state;
+disp:onfalse->md2d:state;
+md3d:movements->multi:master;
+md2d:movements->multi:slave;
+
+multi:out => movements;
+
+selectCamPos:cameraTopPositionTorso <= cameraTopPositionTorso;
+selectCamPos:cameraTopPositionRobot <= cameraTopPositionRobot;
+selectCamPos:cameraTopPositionWorld <= cameraTopPositionWorld;
+selectCamPos:cameraDepthPositionTorso <= cameraDepthPositionTorso;
+selectCamPos:cameraDepthPositionRobot <= cameraDepthPositionRobot;
+selectCamPos:cameraDepthPositionWorld <= cameraDepthPositionWorld;
+idModeIs3D:out->selectCamPos:is3d;
+
+
+# Parameters for 2D
+md2d:rgbInputImage<=rgbInputImage;
+selectCamPos:cameraPositionTorso->md2d:cameraPositionTorso;
+selectCamPos:cameraPositionRobot->md2d:cameraPositionRobot;
+selectCamPos:cameraPositionWorld->md2d:cameraPositionWorld;
+
+md2d:threshold<=colorSensitivity;
+
+md2d:segmvtkernel[3]<=dummySegMvtKernel2D;
+md2d:segmvttolerance[50]<=dummySegMvtTolerance2D;
+md2d:segmvtmin[0.01]<=dummySegMvtMin2D;
+md2d:segmvtmax[1.0]<=dummySegMvtMax2D;
+
+
+# Parameters for 3D
+md3d:depthInputImage<=depthInputImage;
+selectCamPos:cameraPositionTorso->md3d:cameraPositionTorso;
+selectCamPos:cameraPositionRobot->md3d:cameraPositionRobot;
+selectCamPos:cameraPositionWorld->md3d:cameraPositionWorld;
+
+md3d:threshold<=depthSensitivity;
+
+md3d:segkernel[5] <= dummySegKernel3D;
+md3d:segtolerance[100] <= dummySegTolerance3D;
+md3d:segmin[0.03] <= dummySegMin3D;
+md3d:segmax[1.0] <= dummySegMax3D;
+md3d:segmvtkernel[1] <= dummySegMvtKernel3D;
+md3d:segmvttolerance[50] <= dummySegMvtTolerance3D;
+md3d:segmvtmin[0.01] <= dummySegMvtMin3D;
+md3d:segmvtmax[1.0] <= dummySegMvtMax3D;
+}

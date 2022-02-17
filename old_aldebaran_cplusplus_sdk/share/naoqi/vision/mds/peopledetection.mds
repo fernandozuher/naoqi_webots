@@ -1,0 +1,79 @@
+filter PeopleDetection
+{
+Identity idRgbInputImage;
+Identity idCamTorso;
+Identity idCamRobot;
+Identity idCamWorld;
+Identity idHeightOffset;
+Identity idMaxDistance;
+
+Dispatch disp;
+PeopleDetection2D pd2d;
+PeopleDetection3D pd3d;
+Multiplex multi;
+
+
+disp:in[1]<=dummyIn;
+disp:state<=modeIs3D;
+
+disp:ontrue->pd3d:state;
+disp:onfalse->pd2d:state;
+pd3d:populationOut->multi:master;
+pd2d:populationOut->multi:slave;
+
+multi:out => populationOut;
+
+
+# Shared inputs 2D/3D
+idRgbInputImage:in<=rgbInputImage;
+
+idCamTorso:in<=cameraPositionTorso;
+idCamRobot:in<=cameraPositionRobot;
+idCamWorld:in<=cameraPositionWorld;
+
+idHeightOffset:in<=heightOffset;
+
+# Shared parameters 2D/3D
+idMaxDistance:in<=maxDistance;
+
+
+# Parameters for 2D
+idRgbInputImage:out->pd2d:rgbInputImage;
+
+idCamTorso:out->pd2d:cameraPositionTorso;
+idCamRobot:out->pd2d:cameraPositionRobot;
+idCamWorld:out->pd2d:cameraPositionWorld;
+
+idHeightOffset:out->pd2d:heightOffset;
+
+idMaxDistance:out->pd2d:maxDistance;
+
+
+# Parameters for 3D
+idRgbInputImage:out->pd3d:rgbInputImage;
+pd3d:depthInputImage<=depthInputImage;
+pd3d:irInputImage<=irInputImage;
+
+idCamTorso:out->pd3d:cameraPositionTorso;
+idCamRobot:out->pd3d:cameraPositionRobot;
+idCamWorld:out->pd3d:cameraPositionWorld;
+
+idHeightOffset:out->pd3d:heightOffset;
+
+pd3d:kernel<=kernel3D;
+pd3d:tolerance<=tolerance3D;
+pd3d:min<=min3D;
+pd3d:max<=max3D;
+
+pd3d:movementStatus <= movementStatus3D;
+pd3d:movementThreshold <= movementThreshold3D;
+
+idMaxDistance:out->pd3d:maxDistance;
+
+pd3d:minBodyHeight <= minBodyHeight3D;
+pd3d:maxBodyHeight <= maxBodyHeight3D;
+pd3d:minBodyWidth <= minBodyWidth3D;
+pd3d:maxBodyWidth <= maxBodyWidth3D;
+
+pd3d:faceStatus <= faceStatus3D;
+}

@@ -1,0 +1,23 @@
+source ObjectDetectionFromFile_FileName {null}
+
+process ObjectDetectionFromFile_process(ObjectDetectionFromFile, 3, infinity)
+{
+filename <= ObjectDetectionFromFile_FileName;
+save <= ObjectDetection_SaveCropped;
+out => sink;
+
+# Parameters for object detection
+cascadefile <= ObjectDetection_CascadeFile;
+scaleFactor <= ObjectDetection_ScaleFactor;
+minNeighbors <= ObjectDetection_MinNeighbors;
+flags <= ObjectDetection_Flags;
+minSizeX <= ObjectDetection_MinSizeX;
+minSizeY <= ObjectDetection_MinSizeY;
+maxSizeX <= ObjectDetection_MaxSizeX;
+maxSizeY <= ObjectDetection_MaxSizeY;
+
+# Parameters for saving
+basename <= ObjectDetection_SavePath;
+horizontalMargin <= ObjectDetection_HorCropMargin;
+verticalMargin <= ObjectDetection_VerCropMargin;
+}

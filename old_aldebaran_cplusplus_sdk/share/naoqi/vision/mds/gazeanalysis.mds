@@ -1,0 +1,18 @@
+filter GazeAnalysis
+{
+CheckFaceDetection check;
+Invert inv;
+SwitchFaceDetection switchFD;
+HeadPoseAnalysis headpose;
+IsLookingAtRobot islooking;
+
+check:populationIn<=populationIn;
+islooking:threshold<=isLookingThreshold;
+
+check:populationOut->switchFD:populationIn;
+check:boolean->inv:in;
+inv:out->switchFD:faceStatus;
+switchFD:populationOut->headpose:populationIn;
+headpose:populationOut->islooking:populationIn;
+islooking:populationOut=>populationOut;
+}

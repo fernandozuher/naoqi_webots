@@ -1,0 +1,71 @@
+filter PeopleDetection2D
+{
+Mandatory5 mand;
+FaceDetectionFromImage detect;
+ComputeDistanceFromSize distance;
+SegmentationFromFacePositions seg;
+ExtractObjects extract;
+ExtractTopOfBlobs tops;
+CreateHuman hum;
+NearPopulation nearPop;
+ApplyVerticalOffset applyOffset;
+ComputeTopPosition toppos;
+ExtractTorsoMask torso;
+ColorDescriptor color;
+SetShirtColorName shirtCol;
+
+# Inputs -- filtered using Mandatory
+mand:in1<=state;
+mand:in2<=rgbInputImage;
+mand:in3<=cameraPositionTorso;
+mand:in4<=cameraPositionRobot;
+mand:in5<=cameraPositionWorld;
+
+# OkaoFaceDetection
+mand:out2->detect:image;
+
+# ComputeDistanceFromSize
+detect:out->distance:objects;
+distance:realWidth[0.17]<=dummy;
+
+# SegmentationFromFacePositions
+mand:out2->seg:inputImage;
+detect:regions->seg:faceRegions;
+
+# ExtractObjects
+seg:out->extract:segmentated;
+mand:out2->extract:image;
+distance:distances->extract:distances;
+mand:out3->extract:cameraPositionTorso;
+mand:out4->extract:cameraPositionRobot;
+mand:out5->extract:cameraPositionWorld;
+
+# ExtractTopOfBlobs
+extract:objectsArray->tops:objectsArrayIn;
+
+#### Switch from Objects3D to Humans
+# CreateHuman
+tops:objectsArrayOut->hum:in;
+####
+
+# NearPopulation (filtering of the population)
+hum:out->nearPop:populationIn;
+nearPop:maxDistance <= maxDistance;
+
+# ApplyVerticalOffet
+nearPop:populationOut->applyOffset:objectsArrayIn;
+applyOffset:verticalOffset[-0.1]<=dummyOffset;
+
+# ComputeTopPosition
+applyOffset:objectsArrayOut->toppos:populationIn;
+toppos:heightOffset<=heightOffset;
+
+# ExtractTorsoMask, ColorDescriptor & SetShirtColorName
+toppos:populationOut->torso:populationIn;
+torso:populationOut->color:populationIn;
+color:populationOut->shirtCol:populationIn;
+
+
+# Output
+shirtCol:populationOut=>populationOut;
+}

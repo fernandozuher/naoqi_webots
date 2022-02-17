@@ -1,0 +1,49 @@
+filter FastPersonTracking3D
+{
+Mandatory6 mand;
+ImprovedSegmentation3D seg;
+Compute3DPositions pos3D;
+NearestObject nearest;
+ApplyVerticalOffset applyOffset;
+
+# Inputs -- filtered using Mandatory
+mand:in1 <= state;
+mand:in2 <= depthInputImage;
+mand:in3 <= irInputImage;
+mand:in4 <= cameraPositionTorso;
+mand:in5 <= cameraPositionRobot;
+mand:in6 <= cameraPositionWorld;
+
+
+# ImprovedSegmentation3D
+mand:out2->seg:depthImage;
+mand:out3->seg:irImage;
+mand:out4->seg:cameraPositionTorso;
+mand:out5->seg:cameraPositionRobot;
+mand:out6->seg:cameraPositionWorld;
+seg:heightOffset <= heightOffset;
+
+# Compute3DPositions
+seg:objectsArray->pos3D:objectsArrayIn;
+
+# NearestObject
+pos3D:objectsArrayOut->nearest:objectsArrayIn;
+nearest:distance <= distance;
+nearest:previousPosition <= previousPosition;
+
+# ApplyVerticalOffet
+nearest:out->applyOffset:objectsArrayIn;
+applyOffset:verticalOffset[-0.1]<=dummyOffset;
+
+
+applyOffset:objectsArrayOut => nearestObject;
+
+
+# Parameters for Segmentation
+seg:kernel[5] <= dummyKernel;
+seg:tolerance[100] <= dummyTolerance;
+
+# Parameters
+seg:min[0.03] <= dummyMin;
+seg:max[1.0] <= dummyMax;
+}

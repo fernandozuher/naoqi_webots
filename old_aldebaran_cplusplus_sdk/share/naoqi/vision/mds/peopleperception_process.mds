@@ -1,0 +1,53 @@
+process PeoplePerception_process(PeoplePerception, 3, 10)
+{
+# Statuses
+modeIs3D <= PeopleDetection_ModeIs3D;
+movementStatus3D <= MovementDetection_Status;
+faceStatus3D <= FaceDetection_Status;
+
+depthInputImage <= VideoDevice_DistanceCamera<QQVGA>;
+irInputImage<=VideoDevice_IRCamera<QQVGA>;
+rgbInputImage <= VideoDevice_TopCamera<QVGA>;
+
+cameraTopPositionTorso <= Motion_CameraTop<TORSO>;
+cameraTopPositionRobot <= Motion_CameraTop<ROBOT>;
+cameraTopPositionWorld <= Motion_CameraTop<WORLD>;
+
+cameraDepthPositionTorso <= Motion_CameraDepth<TORSO>;
+cameraDepthPositionRobot <= Motion_CameraDepth<ROBOT>;
+cameraDepthPositionWorld <= Motion_CameraDepth<WORLD>;
+
+heightOffset<=RobotHeightOffset;
+
+
+population => population;
+removedPopulation => removedPopulation;
+visiblePopulation => visiblePopulation;
+nonVisiblePopulation => nonVisiblePopulation;
+regroupedSink => out;
+
+
+# Parameters for NearPopulation in PeopleDetection 2D and 3D
+maxDistance <= NearPopulation_MaximumDetectionRange;
+
+# Parameters for BodySize
+minBodyHeight3D <= BodySize_MinBodyHeight;
+maxBodyHeight3D <= BodySize_MaxBodyHeight;
+minBodyWidth3D <= BodySize_MinBodyWidth;
+maxBodyWidth3D <= BodySize_MaxBodyWidth;
+
+# Parameters for Segmentation in PeopleDetection3D
+kernel3D<=5;
+tolerance3D<=100;
+min3D<=0.03;
+max3D<=1.0;
+
+# Parameters for MovementDetection in PeopleDetection3D
+movementThreshold3D <= 0.1;
+
+# Parameters for HumanTracker
+maxSpeed <= 2.5;
+persistenceNonVisible <= Tracker_TimeBeforeNonVisiblePersonDisappears;
+persistenceVisible <= Tracker_TimeBeforeVisiblePersonDisappears;
+colorWeight <= Tracker_ColorWeight;
+}

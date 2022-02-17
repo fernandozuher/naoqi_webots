@@ -1,0 +1,11 @@
+filter EngagementZonesMovements
+{
+ComputeEngagementZones ez;
+
+ez:in<=in;
+ez:angle<=angle;
+ez:firstDistance<=firstDistance;
+ez:secondDistance<=secondDistance;
+
+ez:out=>out;
+}

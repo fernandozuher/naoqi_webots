@@ -1,0 +1,28 @@
+source FindPersonHead_ModeIs3D {true}
+
+source FindPersonHead_Distance {-1.0}
+source FindPersonHead_PreviousPosition {null}
+
+process FindPersonHead_process(FindPersonHead, 3, 10)
+{
+modeIs3D <= FindPersonHead_ModeIs3D;
+distance <= FindPersonHead_Distance;
+previousPosition <= FindPersonHead_PreviousPosition;
+
+depthInputImage <= VideoDevice_DistanceCamera<QQVGA>;
+irInputImage <= VideoDevice_IRCamera<QQVGA>;
+rgbInputImage <= FindPersonHead_RGBCameraSource;
+
+cameraTopPositionTorso <= Motion_CameraTop<TORSO>;
+cameraTopPositionRobot <= Motion_CameraTop<ROBOT>;
+cameraTopPositionWorld <= Motion_CameraTop<WORLD>;
+
+cameraDepthPositionTorso <= Motion_CameraDepth<TORSO>;
+cameraDepthPositionRobot <= Motion_CameraDepth<ROBOT>;
+cameraDepthPositionWorld <= Motion_CameraDepth<WORLD>;
+
+heightOffset <= RobotHeightOffset;
+
+
+personHeadObject=>personHeadObject;
+}

@@ -1,0 +1,1257 @@
+conjugator: conjugaison () 
+language:enu  
+
+v: abide
+g: 2
+r: abide
+
+v: awake
+g: 2
+r: awake
+
+v: be
+g: 2
+r: be
+
+v: bear
+g: 2
+r: bear
+
+v: beat
+g: 2
+r: beat
+
+v: become
+g: 2
+r: become
+
+v: beget
+g: 2
+r: beget
+
+v: begin
+g: 2
+r: begin
+
+v: bend
+g: 2
+r: bend
+
+v: bereave
+g: 2
+r: bereave
+
+v: beseech
+g: 2
+r: beseech
+
+v: bet
+g: 2
+r: bet
+
+v: bid
+g: 2
+r: bid
+
+v: bind
+g: 2
+r: bind
+
+v: bite
+g: 2
+r: bite
+
+v: bleed
+g: 2
+r: bleed
+
+v: blow
+g: 2
+r: blow
+
+v: break
+g: 2
+r: break
+
+v: breed
+g: 2
+r: breed
+
+v: bring
+g: 2
+r: bring
+
+v: build
+g: 2
+r: build
+
+v: burn
+g: 2
+r: burn
+
+v: burst
+g: 2
+r: burst
+
+v: buy
+g: 2
+r: buy
+
+v: cast
+g: 2
+r: cast
+
+v: catch
+g: 2
+r: catch
+
+v: chide
+g: 2
+r: chide
+
+v: choose
+g: 2
+r: choose
+
+v: cleave
+g: 2
+r: cleave
+
+v: cling
+g: 2
+r: cling
+
+v: come
+g: 2
+r: come
+
+v: cost
+g: 2
+r: cost
+
+v: creep
+g: 2
+r: creep
+
+v: crow
+g: 2
+r: crow
+
+v: cut
+g: 2
+r: cut
+
+v: deal
+g: 2
+r: deal
+
+v: dig
+g: 2
+r: dig
+
+v: do
+g: 2
+r: do
+
+v: draw
+g: 2
+r: draw
+
+v: dream
+g: 2
+r: dream
+
+v: drink
+g: 2
+r: drink
+
+v: drive
+g: 2
+r: drive
+
+v: dwell
+g: 2
+r: dwell
+
+v: eat
+g: 2
+r: eat
+
+v: fall
+g: 2
+r: fall
+
+v: feed
+g: 2
+r: feed
+
+v: feel
+g: 2
+r: feel
+
+v: fight
+g: 2
+r: fight
+
+v: find
+g: 2
+r: find
+
+v: flee
+g: 2
+r: flee
+
+v: fling
+g: 2
+r: fling
+
+v: fly
+g: 2
+r: fly
+
+v: forbid
+g: 2
+r: forbid
+
+v: forget
+g: 2
+r: forget
+
+v: forgive
+g: 2
+r: forgive
+
+v: forsake
+g: 2
+r: forsake
+
+v: freeze
+g: 2
+r: freeze
+
+v: get
+g: 2
+r: get
+
+v: gird
+g: 2
+r: gird
+
+v: give
+g: 2
+r: give
+
+v: go
+g: 2
+r: go
+
+v: grind
+g: 2
+r: grind
+
+v: grow
+g: 2
+r: grow
+
+v: hang
+g: 2
+r: hang
+
+v: have
+g: 2
+r: have
+
+v: hear
+g: 2
+r: hear
+
+v: heave
+g: 2
+r: heave
+
+v: hew
+g: 2
+r: hew
+
+v: hide
+g: 2
+r: hide
+
+v: hit
+g: 2
+r: hit
+
+v: hold
+g: 2
+r: hold
+
+v: hurt
+g: 2
+r: hurt
+
+v: keep
+g: 2
+r: keep
+
+v: kneel
+g: 2
+r: kneel
+
+v: knit
+g: 2
+r: knit
+
+v: know
+g: 2
+r: know
+
+v: lay
+g: 2
+r: lay
+
+v: lead
+g: 2
+r: lead
+
+v: lean
+g: 2
+r: lean
+
+v: leap
+g: 2
+r: leap
+
+v: learn
+g: 2
+r: learn
+
+v: leave
+g: 2
+r: leave
+
+v: lend
+g: 2
+r: lend
+
+v: let
+g: 2
+r: let
+
+v: lie
+g: 2
+r: lie
+
+v: light
+g: 2
+r: light
+
+v: lose
+g: 2
+r: lose
+
+v: make
+g: 2
+r: make
+
+v: mean
+g: 2
+r: mean
+
+v: meet
+g: 2
+r: meet
+
+v: mow
+g: 2
+r: mow
+
+v: pay
+g: 2
+r: pay
+
+v: prove
+g: 2
+r: prove
+
+v: put
+g: 2
+r: put
+
+v: quit
+g: 2
+r: quit
+
+v: read
+g: 2
+r: read
+
+v: rend
+g: 2
+r: rend
+
+v: rid
+g: 2
+r: rid
+
+v: ride
+g: 2
+r: ride
+
+v: ring
+g: 2
+r: ring
+
+v: rise
+g: 2
+r: rise
+
+v: run
+g: 2
+r: run
+
+v: saw
+g: 2
+r: saw
+
+v: say
+g: 2
+r: say
+
+v: see
+g: 2
+r: see
+
+v: seek
+g: 2
+r: seek
+
+v: sell
+g: 2
+r: sell
+
+v: send
+g: 2
+r: send
+
+v: set
+g: 2
+r: set
+
+v: sew
+g: 2
+r: sew
+
+v: shake
+g: 2
+r: shake
+
+v: shear
+g: 2
+r: shear
+
+v: shed
+g: 2
+r: shed
+
+v: shine
+g: 2
+r: shine
+
+v: shoe
+g: 2
+r: shoe
+
+v: shoot
+g: 2
+r: shoot
+
+v: show
+g: 2
+r: show
+
+v: shrink
+g: 2
+r: shrink
+
+v: shrive
+g: 2
+r: shrive
+
+v: shut
+g: 2
+r: shut
+
+v: sing
+g: 2
+r: sing
+
+v: sink
+g: 2
+r: sink
+
+v: sit
+g: 2
+r: sit
+
+v: slay
+g: 2
+r: slay
+
+v: sleep
+g: 2
+r: sleep
+
+v: slide
+g: 2
+r: slide
+
+v: sling
+g: 2
+r: sling
+
+v: slink
+g: 2
+r: slink
+
+v: slit
+g: 2
+r: slit
+
+v: smell
+g: 2
+r: smell
+
+v: smite
+g: 2
+r: smite
+
+v: sow
+g: 2
+r: sow
+
+v: speak
+g: 2
+r: speak
+
+v: speed
+g: 2
+r: speed
+
+v: spell
+g: 2
+r: spell
+
+v: spend
+g: 2
+r: spend
+
+v: spill
+g: 2
+r: spill
+
+v: spin
+g: 2
+r: spin
+
+v: spit
+g: 2
+r: spit
+
+v: split
+g: 2
+r: split
+
+v: spoil
+g: 2
+r: spoil
+
+v: spread
+g: 2
+r: spread
+
+v: spring
+g: 2
+r: spring
+
+v: stand
+g: 2
+r: stand
+
+v: stave
+g: 2
+r: stave
+
+v: steal
+g: 2
+r: steal
+
+v: stick
+g: 2
+r: stick
+
+v: sting
+g: 2
+r: sting
+
+v: stink
+g: 2
+r: stink
+
+v: strew
+g: 2
+r: strew
+
+v: stride
+g: 2
+r: stride
+
+v: strike
+g: 2
+r: strike
+
+v: string
+g: 2
+r: string
+
+v: strive
+g: 2
+r: strive
+
+v: swear
+g: 2
+r: swear
+
+v: sweep
+g: 2
+r: sweep
+
+v: swell
+g: 2
+r: swell
+
+v: swim
+g: 2
+r: swim
+
+v: swing
+g: 2
+r: swing
+
+v: take
+g: 2
+r: take
+
+v: teach
+g: 2
+r: teach
+
+v: tear
+g: 2
+r: tear
+
+v: tell
+g: 2
+r: tell
+
+v: think
+g: 2
+r: think
+
+v: thrive
+g: 2
+r: thrive
+
+v: throw
+g: 2
+r: throw
+
+v: thrust
+g: 2
+r: thrust
+
+v: tread
+g: 2
+r: tread
+
+v: understand
+g: 2
+r: understand
+
+v: wake
+g: 2
+r: wake
+
+v: wear
+g: 2
+r: wear
+
+v: weave
+g: 2
+r: weave
+
+v: wed
+g: 2
+r: wed
+
+v: weep
+g: 2
+r: weep
+
+v: wet
+g: 2
+r: wet
+
+v: win
+g: 2
+r: win
+
+v: wind
+g: 2
+r: wind
+
+v: wring
+g: 2
+r: wring
+
+v: write
+g: 2
+r: write
+
+
+c: +abide
+present: [ abide abide abide abide abide abide ]
+
+c: +awake
+present: [ awake awake awake awake awake awake ]
+
+c: +be
+present: [ am is are are are are ]
+
+c: +bear
+present: [ bear bear bear bear bear bear ]
+
+c: +beat
+present: [ beat beat beat beat beat beat ]
+
+c: +become
+present: [ become become become become become become ]
+
+c: +beget
+present: [ beget beget beget beget beget beget ]
+
+c: +begin
+present: [ begin begin begin begin begin begin ]
+
+c: +bend
+present: [ bend bend bend bend bend bend ]
+
+c: +bereave
+present: [ bereave bereave bereave bereave bereave bereave ]
+
+c: +beseech
+present: [ beseech beseech beseech beseech beseech beseech ]
+
+c: +bet
+present: [ bet bet bet bet bet bet ]
+
+c: +bid
+present: [ bid bid bid bid bid bid ]
+
+c: +bind
+present: [ bind bind bind bind bind bind ]
+
+c: +bite
+present: [ bite bite bite bite bite bite ]
+
+c: +bleed
+present: [ bleed bleed bleed bleed bleed bleed ]
+
+c: +blow
+present: [ blow blow blow blow blow blow ]
+
+c: +break
+present: [ break break break break break break ]
+
+c: +breed
+present: [ breed breed breed breed breed breed ]
+
+c: +bring
+present: [ bring bring bring bring bring bring ]
+
+c: +build
+present: [ build build build build build build ]
+
+c: +burn
+present: [ burn burn burn burn burn burn ]
+
+c: +burst
+present: [ burst burst burst burst burst burst ]
+
+c: +buy
+present: [ buy buy buy buy buy buy ]
+
+c: +cast
+present: [ cast cast cast cast cast cast ]
+
+c: +catch
+present: [ catch catch catch catch catch catch ]
+
+c: +chide
+present: [ chide chide chide chide chide chide ]
+
+c: +choose
+present: [ choose choose choose choose choose choose ]
+
+c: +cleave
+present: [ cleave cleave cleave cleave cleave cleave ]
+
+c: +cling
+present: [ cling cling cling cling cling cling ]
+
+c: +come
+present: [ come come come come come come ]
+
+c: +cost
+present: [ cost cost cost cost cost cost ]
+
+c: +creep
+present: [ creep creep creep creep creep creep ]
+
+c: +crow
+present: [ crow crow crow crow crow crow ]
+
+c: +cut
+present: [ cut cut cut cut cut cut ]
+
+c: +deal
+present: [ deal deal deal deal deal deal ]
+
+c: +dig
+present: [ dig dig dig dig dig dig ]
+
+c: +do
+present: [ do do do do do do ]
+
+c: +draw
+present: [ draw draw draw draw draw draw ]
+
+c: +dream
+present: [ dream dream dream dream dream dream ]
+
+c: +drink
+present: [ drink drink drink drink drink drink ]
+
+c: +drive
+present: [ drive drive drive drive drive drive ]
+
+c: +dwell
+present: [ dwell dwell dwell dwell dwell dwell ]
+
+c: +eat
+present: [ eat eat eat eat eat eat ]
+
+c: +fall
+present: [ fall fall fall fall fall fall ]
+
+c: +feed
+present: [ feed feed feed feed feed feed ]
+
+c: +feel
+present: [ feel feel feel feel feel feel ]
+
+c: +fight
+present: [ fight fight fight fight fight fight ]
+
+c: +find
+present: [ find find find find find find ]
+
+c: +flee
+present: [ flee flee flee flee flee flee ]
+
+c: +fling
+present: [ fling fling fling fling fling fling ]
+
+c: +fly
+present: [ fly fly fly fly fly fly ]
+
+c: +forbid
+present: [ forbid forbid forbid forbid forbid forbid ]
+
+c: +forget
+present: [ forget forget forget forget forget forget ]
+
+c: +forgive
+present: [ forgive forgive forgive forgive forgive forgive ]
+
+c: +forsake
+present: [ forsake forsake forsake forsake forsake forsake ]
+
+c: +freeze
+present: [ freeze freeze freeze freeze freeze freeze ]
+
+c: +get
+present: [ get get get get get get ]
+
+c: +gird
+present: [ gird gird gird gird gird gird ]
+
+c: +give
+present: [ give give give give give give ]
+
+c: +go
+present: [ go go go go go go ]
+
+c: +grind
+present: [ grind grind grind grind grind grind ]
+
+c: +grow
+present: [ grow grow grow grow grow grow ]
+
+c: +hang
+present: [ hang hang hang hang hang hang ]
+
+c: +have
+present: [ have have have have have have ]
+
+c: +hear
+present: [ hear hear hear hear hear hear ]
+
+c: +heave
+present: [ heave heave heave heave heave heave ]
+
+c: +hew
+present: [ hew hew hew hew hew hew ]
+
+c: +hide
+present: [ hide hide hide hide hide hide ]
+
+c: +hit
+present: [ hit hit hit hit hit hit ]
+
+c: +hold
+present: [ hold hold hold hold hold hold ]
+
+c: +hurt
+present: [ hurt hurt hurt hurt hurt hurt ]
+
+c: +keep
+present: [ keep keep keep keep keep keep ]
+
+c: +kneel
+present: [ kneel kneel kneel kneel kneel kneel ]
+
+c: +knit
+present: [ knit knit knit knit knit knit ]
+
+c: +know
+present: [ know know know know know know ]
+
+c: +lay
+present: [ lay lay lay lay lay lay ]
+
+c: +lead
+present: [ lead lead lead lead lead lead ]
+
+c: +lean
+present: [ lean lean lean lean lean lean ]
+
+c: +leap
+present: [ leap leap leap leap leap leap ]
+
+c: +learn
+present: [ learn learn learn learn learn learn ]
+
+c: +leave
+present: [ leave leave leave leave leave leave ]
+
+c: +lend
+present: [ lend lend lend lend lend lend ]
+
+c: +let
+present: [ let let let let let let ]
+
+c: +lie
+present: [ lie lie lie lie lie lie ]
+
+c: +light
+present: [ light light light light light light ]
+
+c: +lose
+present: [ lose lose lose lose lose lose ]
+
+c: +make
+present: [ make make make make make make ]
+
+c: +mean
+present: [ mean mean mean mean mean mean ]
+
+c: +meet
+present: [ meet meet meet meet meet meet ]
+
+c: +mow
+present: [ mow mow mow mow mow mow ]
+
+c: +pay
+present: [ pay pay pay pay pay pay ]
+
+c: +prove
+present: [ prove prove prove prove prove prove ]
+
+c: +put
+present: [ put put put put put put ]
+
+c: +quit
+present: [ quit quit quit quit quit quit ]
+
+c: +read
+present: [ read read read read read read ]
+
+c: +rend
+present: [ rend rend rend rend rend rend ]
+
+c: +rid
+present: [ rid rid rid rid rid rid ]
+
+c: +ride
+present: [ ride ride ride ride ride ride ]
+
+c: +ring
+present: [ ring ring ring ring ring ring ]
+
+c: +rise
+present: [ rise rise rise rise rise rise ]
+
+c: +run
+present: [ run run run run run run ]
+
+c: +saw
+present: [ saw saw saw saw saw saw ]
+
+c: +say
+present: [ say say say say say say ]
+
+c: +see
+present: [ see see see see see see ]
+
+c: +seek
+present: [ seek seek seek seek seek seek ]
+
+c: +sell
+present: [ sell sell sell sell sell sell ]
+
+c: +send
+present: [ send send send send send send ]
+
+c: +set
+present: [ set set set set set set ]
+
+c: +sew
+present: [ sew sew sew sew sew sew ]
+
+c: +shake
+present: [ shake shake shake shake shake shake ]
+
+c: +shear
+present: [ shear shear shear shear shear shear ]
+
+c: +shed
+present: [ shed shed shed shed shed shed ]
+
+c: +shine
+present: [ shine shine shine shine shine shine ]
+
+c: +shoe
+present: [ shoe shoe shoe shoe shoe shoe ]
+
+c: +shoot
+present: [ shoot shoot shoot shoot shoot shoot ]
+
+c: +show
+present: [ show show show show show show ]
+
+c: +shrink
+present: [ shrink shrink shrink shrink shrink shrink ]
+
+c: +shrive
+present: [ shrive shrive shrive shrive shrive shrive ]
+
+c: +shut
+present: [ shut shut shut shut shut shut ]
+
+c: +sing
+present: [ sing sing sing sing sing sing ]
+
+c: +sink
+present: [ sink sink sink sink sink sink ]
+
+c: +sit
+present: [ sit sit sit sit sit sit ]
+
+c: +slay
+present: [ slay slay slay slay slay slay ]
+
+c: +sleep
+present: [ sleep sleep sleep sleep sleep sleep ]
+
+c: +slide
+present: [ slide slide slide slide slide slide ]
+
+c: +sling
+present: [ sling sling sling sling sling sling ]
+
+c: +slink
+present: [ slink slink slink slink slink slink ]
+
+c: +slit
+present: [ slit slit slit slit slit slit ]
+
+c: +smell
+present: [ smell smell smell smell smell smell ]
+
+c: +smite
+present: [ smite smite smite smite smite smite ]
+
+c: +sow
+present: [ sow sow sow sow sow sow ]
+
+c: +speak
+present: [ speak speak speak speak speak speak ]
+
+c: +speed
+present: [ speed speed speed speed speed speed ]
+
+c: +spell
+present: [ spell spell spell spell spell spell ]
+
+c: +spend
+present: [ spend spend spend spend spend spend ]
+
+c: +spill
+present: [ spill spill spill spill spill spill ]
+
+c: +spin
+present: [ spin spin spin spin spin spin ]
+
+c: +spit
+present: [ spit spit spit spit spit spit ]
+
+c: +split
+present: [ split split split split split split ]
+
+c: +spoil
+present: [ spoil spoil spoil spoil spoil spoil ]
+
+c: +spread
+present: [ spread spread spread spread spread spread ]
+
+c: +spring
+present: [ spring spring spring spring spring spring ]
+
+c: +stand
+present: [ stand stand stand stand stand stand ]
+
+c: +stave
+present: [ stave stave stave stave stave stave ]
+
+c: +steal
+present: [ steal steal steal steal steal steal ]
+
+c: +stick
+present: [ stick stick stick stick stick stick ]
+
+c: +sting
+present: [ sting sting sting sting sting sting ]
+
+c: +stink
+present: [ stink stink stink stink stink stink ]
+
+c: +strew
+present: [ strew strew strew strew strew strew ]
+
+c: +stride
+present: [ stride stride stride stride stride stride ]
+
+c: +strike
+present: [ strike strike strike strike strike strike ]
+
+c: +string
+present: [ string string string string string string ]
+
+c: +strive
+present: [ strive strive strive strive strive strive ]
+
+c: +swear
+present: [ swear swear swear swear swear swear ]
+
+c: +sweep
+present: [ sweep sweep sweep sweep sweep sweep ]
+
+c: +swell
+present: [ swell swell swell swell swell swell ]
+
+c: +swim
+present: [ swim swim swim swim swim swim ]
+
+c: +swing
+present: [ swing swing swing swing swing swing ]
+
+c: +take
+present: [ take take take take take take ]
+
+c: +teach
+present: [ teach teach teach teach teach teach ]
+
+c: +tear
+present: [ tear tear tear tear tear tear ]
+
+c: +tell
+present: [ tell tell tell tell tell tell ]
+
+c: +think
+present: [ think think think think think think ]
+
+c: +thrive
+present: [ thrive thrive thrive thrive thrive thrive ]
+
+c: +throw
+present: [ throw throw throw throw throw throw ]
+
+c: +thrust
+present: [ thrust thrust thrust thrust thrust thrust ]
+
+c: +tread
+present: [ tread tread tread tread tread tread ]
+
+c: +understand
+present: [ understand understand understand understand understand understand ]
+
+c: +wake
+present: [ wake wake wake wake wake wake ]
+
+c: +wear
+present: [ wear wear wear wear wear wear ]
+
+c: +weave
+present: [ weave weave weave weave weave weave ]
+
+c: +wed
+present: [ wed wed wed wed wed wed ]
+
+c: +weep
+present: [ weep weep weep weep weep weep ]
+
+c: +wet
+present: [ wet wet wet wet wet wet ]
+
+c: +win
+present: [ win win win win win win ]
+
+c: +wind
+present: [ wind wind wind wind wind wind ]
+
+c: +wring
+present: [ wring wring wring wring wring wring ]
+
+c: +write
+present: [ write write write write write write ]
+

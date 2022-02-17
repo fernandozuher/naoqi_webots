@@ -1,0 +1,29 @@
+filter Segmentation3D
+{
+ImprovedLabelize lab;
+ExtractObjects extract;
+ComputeHorizontalHistogram horhist;
+ExtractTopOfBlobs tops;
+ExtractBottomDistance bottomDist;
+
+lab:inputImage<=inputImage;
+
+extract:cameraPositionTorso<=cameraPositionTorso;
+extract:cameraPositionRobot<=cameraPositionRobot;
+extract:cameraPositionWorld<=cameraPositionWorld;
+
+lab:labelizedImage->extract:segmentated;
+lab:dilatedImage->extract:image;
+extract:objectsArray->horhist:objectsArrayIn;
+horhist:objectsArrayOut->tops:objectsArrayIn;
+tops:objectsArrayOut->bottomDist:objectsArrayIn;
+
+bottomDist:objectsArrayOut=>objectsArray;
+lab:labelizedImage=>labelizedImage;
+
+# Parameters
+lab:kernel<=kernel;
+lab:tolerance<=tolerance;
+lab:min<=min;
+lab:max<=max;
+}

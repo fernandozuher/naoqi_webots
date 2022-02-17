@@ -1,0 +1,7 @@
+Politicien	politicien
+Musiqueartiste	musiqueartiste
+Pays	pays
+Postepolitique	postepolitique
+Cinémapersonnalité	Cinemapersonnality
+CommunedeFrance	city
+

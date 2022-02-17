@@ -1,0 +1,24 @@
+source MovementDetection_ModeIs3D {true}
+
+source MovementDetection_ColorSensitivity {0.8}
+source MovementDetection_DepthSensitivity {0.2}
+
+process MovementDetection_process(MovementDetection, 3, 0)
+{
+modeIs3D<=MovementDetection_ModeIs3D;
+
+colorSensitivity<=MovementDetection_ColorSensitivity;
+depthSensitivity<=MovementDetection_DepthSensitivity;
+
+rgbInputImage<=MovementDetection_RGBCameraSource;
+depthInputImage<=ALMovementDetection_DepthSource;
+cameraTopPositionTorso <= Motion_CameraTop<TORSO>;
+cameraTopPositionRobot <= Motion_CameraTop<ROBOT>;
+cameraTopPositionWorld <= Motion_CameraTop<WORLD>;
+
+cameraDepthPositionTorso <= Motion_CameraDepth<TORSO>;
+cameraDepthPositionRobot <= Motion_CameraDepth<ROBOT>;
+cameraDepthPositionWorld <= Motion_CameraDepth<WORLD>;
+
+movements=>movements;
+}

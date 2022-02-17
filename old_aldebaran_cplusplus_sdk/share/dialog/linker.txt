@@ -1,0 +1,186 @@
+Politicien	charte	Charte
+Politicien	nom	Name
+Politicien	image	Image
+Politicien	légende	Legend
+Politicien	fonction1	Job
+Politicien	élection1	JobDate
+Politicien	réélection1	JobDate2
+Politicien	depuis le fonction1	JobDate
+Politicien	vice-président 1	Vice
+Politicien	prédécesseur 1	Previous
+Politicien	successeur 1	Next
+Politicien	fonction2	Job2
+Politicien	a partir du fonction2	Job2Date
+Politicien	jusqu'au fonction2	Job2End
+Politicien	nom naissance	Name2
+Politicien	naissance	BornDate
+Politicien	lieu de naissance	BornPlace
+Politicien	nationalité	Nationality
+Politicien	profession	JobOther
+Politicien	parti	Parti
+Politicien	conjoint	Wife
+Politicien	entourage	Wife
+Politicien	université	University
+Politicien	religion	Religion
+Politicien	décès	DeathDate
+Politicien	lieu de décès	DeathPlace
+Politicien	nature	DeathReason
+Politicien	conjoints	Wife
+Politicien	enfants	Children
+Musiqueartiste	charte	charte
+Musiqueartiste	nom	name
+Musiqueartiste	image	image
+Musiqueartiste	légende	legend
+Musiqueartiste	nom de naissance	BornName
+Musiqueartiste	date de naissance	BornDate
+Musiqueartiste	lieu de naissance	BornPlace
+Musiqueartiste	profession	Job
+Musiqueartiste	genre	JobGenre
+Musiqueartiste	années actives	ActivityDate
+Musiqueartiste	label	MusicLabel
+Musiqueartiste	site web	WebSite
+Musiqueartiste	date de décès	DeathDate
+Musiqueartiste	lieu de décès	DeathPlace
+Musiqueartiste	instrument	Instrument
+Pays	nom_local	LocalName
+Pays	langue	Language
+Pays	nom_français	FrenchName
+Pays	capitale	Capital
+Pays	langues	Language
+Pays	plus_grande_ville	BiggestCity
+Pays	type_gouvernement	Government
+Pays	titre_dirigeant	Leader
+Pays	titre_dirigeant2	Leader2
+Pays	nom_dirigeant	LeaderName
+Pays	nom_dirigeant2	LeaderName2
+Pays	superficie_totale	Surface
+Pays	population_totale	Number
+Pays	gentilé	Gentile
+Pays	fuseau_horaire	Fuseau
+Pays	domaine_internet	Domain
+Pays	indicatif_téléphonique	Phone
+Postepolitique	nom	Name
+Postepolitique	durée mandat	Mandat
+Postepolitique	création	Creation
+Postepolitique	prem titulaire	First
+Postepolitique	titulaire actuel	Who
+Postepolitique	depuis	Start
+Postepolitique	résidence officielle	House
+Cinémapersonnalité	nom	Name
+Cinémapersonnalité	nom de naissance	BornName
+Cinémapersonnalité	surnom	NickName
+Cinémapersonnalité	date de naissance	BornDate
+Cinémapersonnalité	lieu de naissance	BornPlace
+Cinémapersonnalité	nationalité	Nationality
+Cinémapersonnalité	profession s	Job
+Cinémapersonnalité	profession	Job
+Cinémapersonnalité	films notables	Realisation
+CommunedeFrance	département	Departement
+CommunedeFrance	arrondissement	Arrondissement
+CommunedeFrance	canton	Canton
+CommunedeFrance	maire	Maire
+CommunedeFrance	mandat maire	Mandat
+CommunedeFrance	superficie	Surface
+CommunedeFrance	population	Number
+CommunedeFrance	gentilé	Gentile
+CommunedeFrance	gentilé	Name
+CommunedeFrance	population agglomération	Number
+Cinémapersonnalité	nom	Name
+Cinémapersonnalité	nom de naissance	BornName
+Cinémapersonnalité	surnom	NickName
+Cinémapersonnalité	date de mort	DeathDate
+Cinémapersonnalité	lieu de mort	DeathPlace
+Cinémapersonnalité	conjoint	Wife
+Cinémapersonnalité	enfant	Children
+Cinémapersonnalité	site web	Web
+Personnagefiction	oeuvre	Source
+Personnagefiction	nom	Name
+Personnagefiction	origine	Source
+Personnagefiction	espèce	Eth
+Personnagefiction	famille	Family
+Personnagefiction	affiliation	Family2
+Personnagefiction	ennemi	Ennemy
+Personnagefiction	créateur	Creator
+Personnagefiction	première apparition	FirstSeen
+Personnagefiction	éditeur	Editor
+Cinémapersonnalité	récompense	Win
+Cinémapersonnalité	conjoint	Wife
+Cinémapersonnalité	imdb	Imdb
+Cinémapersonnalité	profession	Job
+Cinémapersonnalité	séries notables	Series
+Biographie	nom	Name
+Biographie	nom de naissance	BornName
+Biographie	surnom	NickName
+Biographie	date de naissance	BornDate
+Biographie	lieu de naissance	BornPlace
+Biographie	date de décès	DeathDate
+Biographie	lieu de décès	DeathPlace
+Biographie	nationalité	Nationality
+Biographie	pays de résidence	LivePlace
+Biographie	diplôme	Diplom
+Biographie	profession	Job
+Biographie	activité principale	Job2
+Biographie	activités autres	Job3
+Biographie	formation	Diplom2
+Biographie	ascendants	Family2
+Biographie	conjoint	Wife
+Biographie	descendant	Children2
+Biographie	famille	Family
+Joueurdebasket-ball	nom_du_joueur	Name
+Joueurdebasket-ball	nom_complet	FullName
+Joueurdebasket-ball	pays	Country
+Joueurdebasket-ball	date_de_naissance	BornDate
+Joueurdebasket-ball	ville	City
+Joueurdebasket-ball	taille	Size
+Joueurdebasket-ball	poids	Weight
+Joueurdebasket-ball	surnom	NickName
+Joueurdebasket-ball	club_actuel	Club
+Joueurdebasket-ball	numero_en_club	Number
+Joueurdebasket-ball	position	Position
+Joueurdebasket-ball	club_junior	ClubJunior
+Joueurdebasket-ball	annee_selection	SelectionYear
+Joueurdebasket-ball	club_entraineur	Trainer
+Footballeur	nom_du_joueur	Name
+Footballeur	période pro	ProDate
+Footballeur	date_de_naissance	BornDate
+Footballeur	ville	City
+Footballeur	pays	Country
+Footballeur	date_de_décès	DeathDate
+Footballeur	lieu_de_décès	DeathPlace
+Footballeur	taille	Size
+Footballeur	position	Position
+Footballeur	parcours pro	Career
+Footballeur	sélection nationale	CarreerNational
+Footballeur	carrière entraineur	CarreerTrainner
+Écrivain	nom	Name
+Écrivain	nom de naissance	BornName
+Écrivain	date de naissance	BornDate
+Écrivain	lieu de naissance	BornPlace
+Écrivain	date de décès	DeathDate
+Écrivain	lieu de décès	DeathPlace
+Écrivain	langue	Language
+Écrivain	mouvement	Genre
+Écrivain	genre	Genre
+Écrivain	distinctions	Win
+Écrivain	œuvre	Main
+officeholder	charte	Charte
+officeholder	nom	Name
+officeholder	image	Image
+officeholder	légende	Legend
+officeholder	fonction1	Job
+officeholder	office	Job
+officeholder	vicepresident	Vice
+officeholder	predecessor	Previous
+officeholder	birth_name	Name2
+officeholder	birth_date	BornDate
+officeholder	birth_place	BornPlace
+officeholder	nationalité	Nationality
+officeholder	profession	JobOther
+officeholder	parti	Parti
+officeholder	spouse	Wife
+officeholder	entourage	Wife
+officeholder	religion	Religion
+officeholder	nature	DeathReason
+officeholder	conjoints	Wife
+officeholder	children	Children
+officeholder	residence	residence

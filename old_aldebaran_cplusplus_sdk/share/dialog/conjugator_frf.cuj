@@ -1,0 +1,23090 @@
+conjugator: conjugaison () 
+language:frf  
+
+v: abaisser
+g:1
+
+v: abandonner
+g:1
+
+v: abasourdir
+g:2
+r: finir
+
+v: abâtardir
+g:2
+r: finir
+
+v: abattre
+g:2
+r: battre
+
+v: abcéder
+g:2
+r: céder
+
+v: abdiquer
+g:1
+
+v: aberrer
+g:1
+
+v: abêtir
+g:2
+r: finir
+
+v: abhorrer
+g:1
+
+v: abîmer
+g:1
+
+v: abjurer
+g:1
+
+v: ablater
+g:1
+
+v: abloquer
+g:1
+
+v: abolir
+g:2
+r: finir
+
+v: abominer
+g:1
+
+v: abonder
+g:1
+
+v: abonner
+g:1
+
+v: abonnir
+g:2
+r: finir
+
+v: aborder
+g:1
+
+v: aboucher
+g:1
+
+v: abouler
+g:1
+
+v: abouter
+g:1
+
+v: aboutir
+g:2
+r: finir
+
+v: aboyer
+g:2
+r: nettoyer
+
+v: abraser
+g:1
+
+v: abréger
+g:2
+r: abréger
+
+v: abreuver
+g:1
+
+v: abricoter
+g:1
+
+v: abrier
+g:1
+
+v: abriter
+g:1
+
+v: abroger
+g:2
+r: manger
+
+v: abrutir
+g:2
+r: finir
+
+v: absenter
+g:1
+
+v: absorber
+g:1
+
+v: absoudre
+g:2
+r: absoudre
+
+v: abstenir
+g:2
+r: tenir
+
+v: abstraire
+g:2
+r: extraire
+
+v: abuser
+g:1
+
+v: accabler
+g:1
+
+v: accaparer
+g:1
+
+v: accastiller
+g:1
+
+v: accéder
+g:2
+r: céder
+
+v: accélérer
+g:2
+r: référer
+
+v: accentuer
+g:1
+
+v: accepter
+g:1
+
+v: accessoiriser
+g:1
+
+v: accidenter
+g:1
+
+v: acclamer
+g:1
+
+v: acclimater
+g:1
+
+v: accointer
+g:1
+
+v: accoler
+g:1
+
+v: accommoder
+g:1
+
+v: accompagner
+g:1
+
+v: accomplir
+g:2
+r: finir
+
+v: accorder
+g:1
+
+v: accorer
+g:1
+
+v: accoster
+g:1
+
+v: accoter
+g:1
+
+v: accoucher
+g:1
+
+v: accouder
+g:1
+
+v: accouer
+g:1
+
+v: accoupler
+g:1
+
+v: accourcir
+g:2
+r: finir
+
+v: accourir
+g:2
+r: courir
+
+v: accoutrer
+g:1
+
+v: accoutumer
+g:1
+
+v: accréditer
+g:1
+
+v: accréter
+g:2
+r: décréter
+
+v: accrocher
+g:1
+
+v: accroître
+g:2
+r: croître
+
+v: accroupir
+g:2
+r: finir
+
+v: accueillir
+g:2
+r: cueillir
+
+v: acculer
+g:1
+
+v: acculturer
+g:1
+
+v: accumuler
+g:1
+
+v: accuser
+g:1
+
+v: acérer
+g:2
+r: référer
+
+v: acétifier
+g:1
+
+v: acétyler
+g:1
+
+v: achalander
+g:1
+
+v: achaler
+g:1
+
+v: acharner
+g:1
+
+v: acheminer
+g:1
+
+v: acheter
+g:2
+r: acheter
+
+v: achever
+g:2
+r: lever
+
+v: achopper
+g:1
+
+v: achromatiser
+g:1
+
+v: acidifier
+g:1
+
+v: aciduler
+g:1
+
+v: aciérer
+g:2
+r: référer
+
+v: aciseler
+g:2
+r: peler
+
+v: acoquiner
+g:1
+
+v: acquérir
+g:2
+r: acquérir
+
+v: acquiescer
+g:2
+r: placer
+
+v: acquitter
+g:1
+
+v: acter
+g:1
+
+v: actionner
+g:1
+
+v: activer
+g:1
+
+v: actualiser
+g:1
+
+v: adapter
+g:1
+
+v: additionner
+g:1
+
+v: adhérer
+g:2
+r: référer
+
+v: adjectiver
+g:1
+
+v: adjectiviser
+g:1
+
+v: adjoindre
+g:2
+r: craindre
+
+v: adjuger
+g:2
+r: manger
+
+v: adjurer
+g:1
+
+v: admettre
+g:2
+r: mettre
+
+v: administrer
+g:1
+
+v: admirer
+g:1
+
+v: admonester
+g:1
+
+v: adonner
+g:1
+
+v: adopter
+g:1
+
+v: adorer
+g:1
+
+v: adosser
+g:1
+
+v: adouber
+g:1
+
+v: adoucir
+g:2
+r: finir
+
+v: adresser
+g:1
+
+v: adsorber
+g:1
+
+v: aduler
+g:1
+
+v: adultérer
+g:2
+r: référer
+
+v: advenir
+g:2
+r: advenir
+
+v: aérer
+g:2
+r: référer
+
+v: affabuler
+g:1
+
+v: affadir
+g:2
+r: finir
+
+v: affaiblir
+g:2
+r: finir
+
+v: affairer
+g:1
+
+v: affaisser
+g:1
+
+v: affaler
+g:1
+
+v: affamer
+g:1
+
+v: afféager
+g:2
+r: manger
+
+v: affecter
+g:1
+
+v: affectionner
+g:1
+
+v: affermer
+g:1
+
+v: affermir
+g:2
+r: finir
+
+v: afficher
+g:1
+
+v: affiler
+g:1
+
+v: affilier
+g:1
+
+v: affiner
+g:1
+
+v: affirmer
+g:1
+
+v: affleurer
+g:1
+
+v: affliger
+g:2
+r: manger
+
+v: afflouer
+g:1
+
+v: affluer
+g:1
+
+v: affoler
+g:1
+
+v: affouager
+g:2
+r: manger
+
+v: affouiller
+g:1
+
+v: affourager
+g:2
+r: manger
+
+v: affourcher
+g:1
+
+v: affourrager
+g:2
+r: manger
+
+v: affranchir
+g:2
+r: finir
+
+v: affréter
+g:2
+r: décréter
+
+v: affriander
+g:1
+
+v: affricher
+g:1
+
+v: affrioler
+g:1
+
+v: affriter
+g:1
+
+v: affronter
+g:1
+
+v: affruiter
+g:1
+
+v: affubler
+g:1
+
+v: affurer
+g:1
+
+v: affûter
+g:1
+
+v: africaniser
+g:1
+
+v: agacer
+g:2
+r: placer
+
+v: agencer
+g:2
+r: placer
+
+v: agender
+g:1
+
+v: agenouiller
+g:1
+
+v: agglomérer
+g:2
+r: référer
+
+v: agglutiner
+g:1
+
+v: aggraver
+g:1
+
+v: agioter
+g:1
+
+v: agir
+g:2
+r: finir
+
+v: agiter
+g:1
+
+v: agneler
+g:2
+r: appeler
+
+v: agoniser
+g:1
+
+v: agrafer
+g:1
+
+v: agrainer
+g:1
+
+v: agrandir
+g:2
+r: finir
+
+v: agréer
+g:1
+
+v: agréger
+g:2
+r: abréger
+
+v: agrémenter
+g:1
+
+v: agresser
+g:1
+
+v: agricher
+g:1
+
+v: agriffer
+g:1
+
+v: agripper
+g:1
+
+v: aguerrir
+g:2
+r: finir
+
+v: aguicher
+g:1
+
+v: ahaner
+g:1
+
+v: ahurir
+g:2
+r: finir
+
+v: aider
+g:1
+
+v: aigrir
+g:2
+r: finir
+
+v: aiguiller
+g:1
+
+v: aiguilleter
+g:2
+r: jeter
+
+v: aiguillonner
+g:1
+
+v: aiguiser
+g:1
+
+v: ailler
+g:1
+
+v: aimanter
+g:1
+
+v: aimer
+g:1
+
+v: airer
+g:1
+
+v: ajointer
+g:1
+
+v: ajourer
+g:1
+
+v: ajourner
+g:1
+
+v: ajouter
+g:1
+
+v: ajuster
+g:1
+
+v: alambiquer
+g:1
+
+v: alanguir
+g:2
+r: finir
+
+v: alarmer
+g:1
+
+v: alcaliniser
+g:1
+
+v: alcaliser
+g:1
+
+v: alcooliser
+g:1
+
+v: alentir
+g:2
+r: finir
+
+v: alerter
+g:1
+
+v: aléser
+g:2
+r: léser
+
+v: aleviner
+g:1
+
+v: aliéner
+g:2
+r: aliéner
+
+v: aligner
+g:1
+
+v: alimenter
+g:1
+
+v: aliter
+g:1
+
+v: allaiter
+g:1
+
+v: allécher
+g:2
+r: sécher
+
+v: alléger
+g:2
+r: abréger
+
+v: allégir
+g:2
+r: finir
+
+v: allégoriser
+g:1
+
+v: alléguer
+g:2
+r: léguer
+
+v: aller
+g:2
+r: aller
+
+v: allier
+g:1
+
+v: allonger
+g:2
+r: manger
+
+v: allotir
+g:2
+r: finir
+
+v: allouer
+g:1
+
+v: allumer
+g:1
+
+v: alluvionner
+g:1
+
+v: alourdir
+g:2
+r: finir
+
+v: alpaguer
+g:1
+
+v: alphabétiser
+g:1
+
+v: altérer
+g:2
+r: référer
+
+v: alterner
+g:1
+
+v: aluminer
+g:1
+
+v: aluner
+g:1
+
+v: alunir
+g:2
+r: finir
+
+v: amadouer
+g:1
+
+v: amaigrir
+g:2
+r: finir
+
+v: amalgamer
+g:1
+
+v: amancher
+g:1
+
+v: amariner
+g:1
+
+v: amarrer
+g:1
+
+v: amasser
+g:1
+
+v: amatir
+g:2
+r: finir
+
+v: ambiancer
+g:2
+r: placer
+
+v: ambitionner
+g:1
+
+v: ambler
+g:1
+
+v: ambrer
+g:1
+
+v: améliorer
+g:1
+
+v: aménager
+g:2
+r: manger
+
+v: amender
+g:1
+
+v: amener
+g:2
+r: mener
+
+v: amenuiser
+g:1
+
+v: américaniser
+g:1
+
+v: amerrir
+g:2
+r: finir
+
+v: ameublir
+g:2
+r: finir
+
+v: ameuter
+g:1
+
+v: amidonner
+g:1
+
+v: amincir
+g:2
+r: finir
+
+v: amnistier
+g:1
+
+v: amocher
+g:1
+
+v: amodier
+g:1
+
+v: amoindrir
+g:2
+r: finir
+
+v: amollir
+g:2
+r: finir
+
+v: amonceler
+g:2
+r: appeler
+
+v: amorcer
+g:2
+r: placer
+
+v: amordancer
+g:2
+r: placer
+
+v: amortir
+g:2
+r: finir
+
+v: amouracher
+g:1
+
+v: amplifier
+g:1
+
+v: amputer
+g:1
+
+v: amuïr
+g:2
+r: amuïr
+
+v: amurer
+g:1
+
+v: amuser
+g:1
+
+v: analgésier
+g:1
+
+v: analyser
+g:1
+
+v: anastomoser
+g:1
+
+v: anathématiser
+g:1
+
+v: anatomiser
+g:1
+
+v: ancrer
+g:1
+
+v: anéantir
+g:2
+r: finir
+
+v: anémier
+g:1
+
+v: anesthésier
+g:1
+
+v: anglaiser
+g:1
+
+v: angliciser
+g:1
+
+v: angoisser
+g:1
+
+v: anhéler
+g:2
+r: révéler
+
+v: animaliser
+g:1
+
+v: animer
+g:1
+
+v: aniser
+g:1
+
+v: ankyloser
+g:1
+
+v: anneler
+g:2
+r: appeler
+
+v: annexer
+g:1
+
+v: annihiler
+g:1
+
+v: annoncer
+g:2
+r: placer
+
+v: annoter
+g:1
+
+v: annualiser
+g:1
+
+v: annuler
+g:1
+
+v: anoblir
+g:2
+r: finir
+
+v: anodiser
+g:1
+
+v: ânonner
+g:1
+
+v: anordir
+g:2
+r: finir
+
+v: antéposer
+g:1
+
+v: anticiper
+g:1
+
+v: anticommuter
+g:1
+
+v: antidater
+g:1
+
+v: antiparasiter
+g:1
+
+v: antiquer
+g:1
+
+v: aoûter
+g:1
+
+v: apaiser
+g:1
+
+v: apanager
+g:2
+r: manger
+
+v: apercevoir
+g:2
+r: décevoir
+
+v: apeurer
+g:1
+
+v: apiquer
+g:1
+
+v: apitoyer
+g:2
+r: nettoyer
+
+v: aplanir
+g:2
+r: finir
+
+v: aplatir
+g:2
+r: finir
+
+v: apostasier
+g:1
+
+v: aposter
+g:1
+
+v: apostiller
+g:1
+
+v: apostropher
+g:1
+
+v: appairer
+g:1
+
+v: apparaître
+g:2
+r: repaître
+
+v: appareiller
+g:1
+
+v: apparenter
+g:1
+
+v: apparier
+g:1
+
+v: apparoir
+g:2
+r: apparoir
+
+v: appartenir
+g:2
+r: tenir
+
+v: appâter
+g:1
+
+v: appauvrir
+g:2
+r: finir
+
+v: appeler
+g:2
+r: appeler
+
+v: appendre
+g:2
+r: tendre
+
+v: appesantir
+g:2
+r: finir
+
+v: applaudir
+g:2
+r: finir
+
+v: appliquer
+g:1
+
+v: appointer
+g:1
+
+v: appointir
+g:2
+r: finir
+
+v: appondre
+g:2
+r: tendre
+
+v: apponter
+g:1
+
+v: apporter
+g:1
+
+v: apposer
+g:1
+
+v: apprécier
+g:1
+
+v: appréhender
+g:1
+
+v: apprendre
+g:2
+r: prendre
+
+v: apprêter
+g:1
+
+v: apprivoiser
+g:1
+
+v: approcher
+g:1
+
+v: approfondir
+g:2
+r: finir
+
+v: approprier
+g:1
+
+v: approuver
+g:1
+
+v: approvisionner
+g:1
+
+v: approximer
+g:1
+
+v: appuyer
+g:2
+r: nettoyer
+
+v: apurer
+g:1
+
+v: arabiser
+g:1
+
+v: araser
+g:1
+
+v: arbitrer
+g:1
+
+v: arborer
+g:1
+
+v: arboriser
+g:1
+
+v: arc-bouter
+g:1
+
+v: archaïser
+g:1
+
+v: architecturer
+g:1
+
+v: archiver
+g:1
+
+v: arçonner
+g:1
+
+v: ardoiser
+g:1
+
+v: argenter
+g:1
+
+v: arguer
+g:1
+
+v: argumenter
+g:1
+
+v: ariser
+g:1
+
+v: armer
+g:1
+
+v: armorier
+g:1
+
+v: arnaquer
+g:1
+
+v: aromatiser
+g:1
+
+v: arpéger
+g:2
+r: abréger
+
+v: arpenter
+g:1
+
+v: arquer
+g:1
+
+v: arracher
+g:1
+
+v: arraisonner
+g:1
+
+v: arranger
+g:2
+r: manger
+
+v: arrenter
+g:1
+
+v: arrérager
+g:2
+r: manger
+
+v: arrêter
+g:1
+
+v: arriérer
+g:2
+r: référer
+
+v: arrimer
+g:1
+
+v: arriser
+g:1
+
+v: arriver
+g:1
+
+v: arroger
+g:2
+r: manger
+
+v: arrondir
+g:2
+r: finir
+
+v: arroser
+g:1
+
+v: articuler
+g:1
+
+v: ascensionner
+g:1
+
+v: aseptiser
+g:1
+
+v: aspecter
+g:1
+
+v: asperger
+g:2
+r: manger
+
+v: asphalter
+g:1
+
+v: asphyxier
+g:1
+
+v: aspirer
+g:1
+
+v: assagir
+g:2
+r: finir
+
+v: assaillir
+g:2
+r: assaillir
+
+v: assainir
+g:2
+r: finir
+
+v: assaisonner
+g:1
+
+v: assarmenter
+g:1
+
+v: assassiner
+g:1
+
+v: assécher
+g:2
+r: sécher
+
+v: assembler
+g:1
+
+v: asséner
+g:2
+r: aliéner
+
+v: assener
+g:2
+r: mener
+
+v: asseoir
+g:2
+r: asseoir
+
+v: assermenter
+g:1
+
+v: asservir
+g:2
+r: finir
+
+v: assibiler
+g:1
+
+v: assiéger
+g:2
+r: abréger
+
+v: assigner
+g:1
+
+v: assimiler
+g:1
+
+v: assister
+g:1
+
+v: associer
+g:1
+
+v: assoiffer
+g:1
+
+v: assoir
+g:2
+r: assoir
+
+v: assoler
+g:1
+
+v: assombrir
+g:2
+r: finir
+
+v: assommer
+g:1
+
+v: assoner
+g:1
+
+v: assortir
+g:2
+r: finir
+
+v: assoupir
+g:2
+r: finir
+
+v: assouplir
+g:2
+r: finir
+
+v: assourdir
+g:2
+r: finir
+
+v: assouvir
+g:2
+r: finir
+
+v: assujettir
+g:2
+r: finir
+
+v: assumer
+g:1
+
+v: assurer
+g:1
+
+v: asticoter
+g:1
+
+v: astiquer
+g:1
+
+v: astreindre
+g:2
+r: craindre
+
+v: atermoyer
+g:2
+r: nettoyer
+
+v: atomiser
+g:1
+
+v: atrophier
+g:1
+
+v: attabler
+g:1
+
+v: attacher
+g:1
+
+v: attaquer
+g:1
+
+v: attarder
+g:1
+
+v: atteindre
+g:2
+r: craindre
+
+v: atteler
+g:2
+r: appeler
+
+v: attendre
+g:2
+r: tendre
+
+v: attendrir
+g:2
+r: finir
+
+v: attenter
+g:1
+
+v: atténuer
+g:1
+
+v: atterrer
+g:1
+
+v: atterrir
+g:2
+r: finir
+
+v: attester
+g:1
+
+v: attiédir
+g:2
+r: finir
+
+v: attifer
+g:1
+
+v: attiger
+g:2
+r: manger
+
+v: attirer
+g:1
+
+v: attiser
+g:1
+
+v: attitrer
+g:1
+
+v: attraire
+g:2
+r: extraire
+
+v: attraper
+g:1
+
+v: attribuer
+g:1
+
+v: attriquer
+g:1
+
+v: attrister
+g:1
+
+v: attrouper
+g:1
+
+v: auditer
+g:1
+
+v: auditionner
+g:1
+
+v: augmenter
+g:1
+
+v: augurer
+g:1
+
+v: auréoler
+g:1
+
+v: aurifier
+g:1
+
+v: ausculter
+g:1
+
+v: authentifier
+g:1
+
+v: authentiquer
+g:1
+
+v: autocensurer
+g:1
+
+v: autodétruire
+g:2
+r: conduire
+
+v: autodissoudre
+g:2
+r: dissoudre
+
+v: autofinancer
+g:2
+r: placer
+
+v: autographier
+g:1
+
+v: automatiser
+g:1
+
+v: autoproclamer
+g:1
+
+v: autopsier
+g:1
+
+v: autoriser
+g:1
+
+v: avachir
+g:2
+r: finir
+
+v: avaler
+g:1
+
+v: avaliser
+g:1
+
+v: avancer
+g:2
+r: placer
+
+v: avantager
+g:2
+r: manger
+
+v: avarier
+g:1
+
+v: aventurer
+g:1
+
+v: avérer
+g:2
+r: référer
+
+v: avertir
+g:2
+r: finir
+
+v: aveugler
+g:1
+
+v: aveulir
+g:2
+r: finir
+
+v: avilir
+g:2
+r: finir
+
+v: aviner
+g:1
+
+v: aviser
+g:1
+
+v: avitailler
+g:1
+
+v: aviver
+g:1
+
+v: avoir
+g:2
+r: avoir
+
+v: avoisiner
+g:1
+
+v: avorter
+g:1
+
+v: avouer
+g:1
+
+v: axer
+g:1
+
+v: axiomatiser
+g:1
+
+v: azorer
+g:1
+
+v: azurer
+g:1
+
+v: babiller
+g:1
+
+v: baboler
+g:1
+
+v: bâcher
+g:1
+
+v: bachoter
+g:1
+
+v: bâcler
+g:1
+
+v: badauder
+g:1
+
+v: bader
+g:1
+
+v: badger
+g:2
+r: manger
+
+v: badigeonner
+g:1
+
+v: badiner
+g:1
+
+v: baffer
+g:1
+
+v: bafouer
+g:1
+
+v: bafouiller
+g:1
+
+v: bâfrer
+g:1
+
+v: bagarrer
+g:1
+
+v: baguenauder
+g:1
+
+v: baguer
+g:1
+
+v: baigner
+g:1
+
+v: bailler
+g:1
+
+v: bâiller
+g:1
+
+v: bâillonner
+g:1
+
+v: baiser
+g:1
+
+v: baisoter
+g:1
+
+v: baisser
+g:1
+
+v: balader
+g:1
+
+v: balafrer
+g:1
+
+v: balancer
+g:2
+r: placer
+
+v: balayer
+g:2
+r: payer
+
+v: balbutier
+g:1
+
+v: baleiner
+g:1
+
+v: baliser
+g:1
+
+v: balkaniser
+g:1
+
+v: ballaster
+g:1
+
+v: baller
+g:1
+
+v: ballonner
+g:1
+
+v: ballotter
+g:1
+
+v: bambocher
+g:1
+
+v: banaliser
+g:1
+
+v: bancher
+g:1
+
+v: bander
+g:1
+
+v: banner
+g:1
+
+v: bannir
+g:2
+r: finir
+
+v: banquer
+g:1
+
+v: banqueter
+g:2
+r: jeter
+
+v: baptiser
+g:1
+
+v: baqueter
+g:2
+r: jeter
+
+v: baragouiner
+g:1
+
+v: baraquer
+g:1
+
+v: baratiner
+g:1
+
+v: baratter
+g:1
+
+v: barber
+g:1
+
+v: barbifier
+g:1
+
+v: barboter
+g:1
+
+v: barbouiller
+g:1
+
+v: barder
+g:1
+
+v: baréter
+g:2
+r: décréter
+
+v: barguigner
+g:1
+
+v: barioler
+g:1
+
+v: barjaquer
+g:1
+
+v: baronner
+g:1
+
+v: barouder
+g:1
+
+v: barrer
+g:1
+
+v: barricader
+g:1
+
+v: barrir
+g:2
+r: finir
+
+v: basaner
+g:1
+
+v: basculer
+g:1
+
+v: baser
+g:1
+
+v: bassiner
+g:1
+
+v: baster
+g:1
+
+v: bastillonner
+g:1
+
+v: bastionner
+g:1
+
+v: batailler
+g:1
+
+v: bateler
+g:2
+r: appeler
+
+v: bâter
+g:1
+
+v: batifoler
+g:1
+
+v: bâtir
+g:2
+r: finir
+
+v: batoiller
+g:1
+
+v: bâtonner
+g:1
+
+v: battre
+g:2
+r: battre
+
+v: bauger
+g:2
+r: manger
+
+v: bavarder
+g:1
+
+v: bavasser
+g:1
+
+v: baver
+g:1
+
+v: bavocher
+g:1
+
+v: bayer
+g:2
+r: payer
+
+v: bazarder
+g:1
+
+v: béatifier
+g:1
+
+v: bêcher
+g:1
+
+v: bêcheveter
+g:2
+r: jeter
+
+v: bécoter
+g:1
+
+v: becquer
+g:1
+
+v: becqueter
+g:2
+r: jeter
+
+v: becter
+g:1
+
+v: bedonner
+g:1
+
+v: bégayer
+g:2
+r: payer
+
+v: bégueter
+g:2
+r: acheter
+
+v: bêler
+g:1
+
+v: bémoliser
+g:1
+
+v: bénéficier
+g:1
+
+v: bénir
+g:2
+r: finir
+
+v: béqueter
+g:2
+r: jeter
+
+v: béquiller
+g:1
+
+v: bercer
+g:2
+r: placer
+
+v: berner
+g:1
+
+v: besogner
+g:1
+
+v: bêtifier
+g:1
+
+v: bêtiser
+g:1
+
+v: bétonner
+g:1
+
+v: beugler
+g:1
+
+v: beurrer
+g:1
+
+v: biaiser
+g:1
+
+v: bibeloter
+g:1
+
+v: biberonner
+g:1
+
+v: bicher
+g:1
+
+v: bichonner
+g:1
+
+v: bichoter
+g:1
+
+v: bidonner
+g:1
+
+v: bidouiller
+g:1
+
+v: biffer
+g:1
+
+v: bifurquer
+g:1
+
+v: bigarrer
+g:1
+
+v: bigler
+g:1
+
+v: bigophoner
+g:1
+
+v: bigorner
+g:1
+
+v: biler
+g:1
+
+v: billebauder
+g:1
+
+v: biller
+g:1
+
+v: billonner
+g:1
+
+v: biloquer
+g:1
+
+v: biner
+g:1
+
+v: biscuiter
+g:1
+
+v: biseauter
+g:1
+
+v: bisegmenter
+g:1
+
+v: biser
+g:1
+
+v: bisquer
+g:1
+
+v: bisser
+g:1
+
+v: bistourner
+g:1
+
+v: bistrer
+g:1
+
+v: biter
+g:1
+
+v: bitter
+g:1
+
+v: bitturer
+g:1
+
+v: bitumer
+g:1
+
+v: bituminer
+g:1
+
+v: biturer
+g:1
+
+v: bivouaquer
+g:1
+
+v: bizuter
+g:1
+
+v: blablater
+g:1
+
+v: blackbouler
+g:1
+
+v: blaguer
+g:1
+
+v: blairer
+g:1
+
+v: blâmer
+g:1
+
+v: blanchir
+g:2
+r: finir
+
+v: blaser
+g:1
+
+v: blasonner
+g:1
+
+v: blasphémer
+g:2
+r: crémer
+
+v: blatérer
+g:2
+r: référer
+
+v: blêmir
+g:2
+r: finir
+
+v: bléser
+g:2
+r: léser
+
+v: blesser
+g:1
+
+v: blettir
+g:2
+r: finir
+
+v: bleuir
+g:2
+r: finir
+
+v: bleuter
+g:1
+
+v: blinder
+g:1
+
+v: blinquer
+g:1
+
+v: blondir
+g:2
+r: finir
+
+v: blondoyer
+g:2
+r: nettoyer
+
+v: bloquer
+g:1
+
+v: blottir
+g:2
+r: finir
+
+v: blouser
+g:1
+
+v: bluffer
+g:1
+
+v: bluter
+g:1
+
+v: bobiner
+g:1
+
+v: bocarder
+g:1
+
+v: boetter
+g:1
+
+v: boire
+g:2
+r: boire
+
+v: boiser
+g:1
+
+v: boiter
+g:1
+
+v: boitiller
+g:1
+
+v: bolchéviser
+g:1
+
+v: bombarder
+g:1
+
+v: bomber
+g:1
+
+v: bondériser
+g:1
+
+v: bonder
+g:1
+
+v: bondir
+g:2
+r: finir
+
+v: bondonner
+g:1
+
+v: bonifier
+g:1
+
+v: bonimenter
+g:1
+
+v: border
+g:1
+
+v: borner
+g:1
+
+v: bornoyer
+g:2
+r: nettoyer
+
+v: bosseler
+g:2
+r: appeler
+
+v: bosser
+g:1
+
+v: bossuer
+g:1
+
+v: bostonner
+g:1
+
+v: botaniser
+g:1
+
+v: botteler
+g:2
+r: appeler
+
+v: botter
+g:1
+
+v: boubouler
+g:1
+
+v: boucaner
+g:1
+
+v: boucharder
+g:1
+
+v: boucher
+g:1
+
+v: bouchonner
+g:1
+
+v: bouchoyer
+g:2
+r: nettoyer
+
+v: boucler
+g:1
+
+v: bouder
+g:1
+
+v: boudiner
+g:1
+
+v: bouéler
+g:2
+r: révéler
+
+v: bouffer
+g:1
+
+v: bouffir
+g:2
+r: finir
+
+v: bouffonner
+g:1
+
+v: bouger
+g:2
+r: manger
+
+v: bougonner
+g:1
+
+v: bouillir
+g:2
+r: bouillir
+
+v: bouillonner
+g:1
+
+v: bouillotter
+g:1
+
+v: boulanger
+g:2
+r: manger
+
+v: bouléguer
+g:2
+r: léguer
+
+v: bouler
+g:1
+
+v: bouleverser
+g:1
+
+v: boulocher
+g:1
+
+v: boulonner
+g:1
+
+v: boulotter
+g:1
+
+v: boumer
+g:1
+
+v: bouquiner
+g:1
+
+v: bourasser
+g:1
+
+v: bourder
+g:1
+
+v: bourdonner
+g:1
+
+v: bourgeonner
+g:1
+
+v: bourlinguer
+g:1
+
+v: bouronner
+g:1
+
+v: bourreler
+g:2
+r: appeler
+
+v: bourrer
+g:1
+
+v: bourriquer
+g:1
+
+v: boursicoter
+g:1
+
+v: boursoufler
+g:1
+
+v: bousculer
+g:1
+
+v: bousiller
+g:1
+
+v: boustifailler
+g:1
+
+v: bouter
+g:1
+
+v: boutonner
+g:1
+
+v: bouturer
+g:1
+
+v: boxer
+g:1
+
+v: boyauter
+g:1
+
+v: boycotter
+g:1
+
+v: braconner
+g:1
+
+v: brader
+g:1
+
+v: brailler
+g:1
+
+v: braire
+g:2
+r: braire
+
+v: braiser
+g:1
+
+v: bramer
+g:1
+
+v: brancarder
+g:1
+
+v: brancher
+g:1
+
+v: brandiller
+g:1
+
+v: brandir
+g:2
+r: finir
+
+v: branler
+g:1
+
+v: braquer
+g:1
+
+v: braser
+g:1
+
+v: brasiller
+g:1
+
+v: brasser
+g:1
+
+v: braver
+g:1
+
+v: brayer
+g:2
+r: payer
+
+v: bredouiller
+g:1
+
+v: brêler
+g:1
+
+v: bréler
+g:2
+r: révéler
+
+v: breller
+g:1
+
+v: brésiller
+g:1
+
+v: bretailler
+g:1
+
+v: bretteler
+g:2
+r: appeler
+
+v: bretter
+g:1
+
+v: breveter
+g:2
+r: jeter
+
+v: bricoler
+g:1
+
+v: brider
+g:1
+
+v: bridger
+g:2
+r: manger
+
+v: briefer
+g:1
+
+v: brifer
+g:1
+
+v: briffer
+g:1
+
+v: brigander
+g:1
+
+v: briguer
+g:1
+
+v: brillanter
+g:1
+
+v: brillantiner
+g:1
+
+v: briller
+g:1
+
+v: brimbaler
+g:1
+
+v: brimer
+g:1
+
+v: bringuebaler
+g:1
+
+v: bringueballer
+g:1
+
+v: bringuer
+g:1
+
+v: brinquebaler
+g:1
+
+v: brinqueballer
+g:1
+
+v: briquer
+g:1
+
+v: briqueter
+g:2
+r: jeter
+
+v: briser
+g:1
+
+v: brocanter
+g:1
+
+v: brocarder
+g:1
+
+v: brocher
+g:1
+
+v: broder
+g:1
+
+v: broncher
+g:1
+
+v: bronzer
+g:1
+
+v: brosser
+g:1
+
+v: brouetter
+g:1
+
+v: brouillasser
+g:1
+
+v: brouiller
+g:1
+
+v: brouillonner
+g:1
+
+v: brouter
+g:1
+
+v: broyer
+g:2
+r: nettoyer
+
+v: bruiner
+g:1
+
+v: bruire
+g:2
+r: bruire
+
+v: bruir
+g:2
+r: finir
+
+v: bruisser
+g:1
+
+v: bruiter
+g:1
+
+v: brûler
+g:1
+
+v: brumasser
+g:2
+r: brumasser
+
+v: brumer
+g:1
+
+v: bruncher
+g:1
+
+v: brunir
+g:2
+r: finir
+
+v: brusquer
+g:1
+
+v: brutaliser
+g:1
+
+v: bûcher
+g:1
+
+v: budgéter
+g:2
+r: décréter
+
+v: budgétiser
+g:1
+
+v: buller
+g:1
+
+v: bureaucratiser
+g:1
+
+v: buriner
+g:1
+
+v: buser
+g:1
+
+v: busquer
+g:1
+
+v: buter
+g:1
+
+v: butiner
+g:1
+
+v: butter
+g:1
+
+v: buvoter
+g:1
+
+v: cabaler
+g:1
+
+v: cabaner
+g:1
+
+v: câbler
+g:1
+
+v: cabosser
+g:1
+
+v: caboter
+g:1
+
+v: cabotiner
+g:1
+
+v: cabrer
+g:1
+
+v: cabrioler
+g:1
+
+v: cacaber
+g:1
+
+v: cacarder
+g:1
+
+v: cacher
+g:1
+
+v: cacheter
+g:2
+r: jeter
+
+v: cachetonner
+g:1
+
+v: cadancher
+g:1
+
+v: cadastrer
+g:1
+
+v: cadenasser
+g:1
+
+v: cadencer
+g:2
+r: placer
+
+v: cadmier
+g:1
+
+v: cadrer
+g:1
+
+v: cafarder
+g:1
+
+v: cafouiller
+g:1
+
+v: cafter
+g:1
+
+v: cagnarder
+g:1
+
+v: cagner
+g:1
+
+v: cahoter
+g:1
+
+v: caillasser
+g:1
+
+v: caillebotter
+g:1
+
+v: cailler
+g:1
+
+v: cailleter
+g:2
+r: jeter
+
+v: caillouter
+g:1
+
+v: cajoler
+g:1
+
+v: calaminer
+g:1
+
+v: calamistrer
+g:1
+
+v: calancher
+g:1
+
+v: calandrer
+g:1
+
+v: calciner
+g:1
+
+v: calculer
+g:1
+
+v: caler
+g:1
+
+v: caleter
+g:2
+r: jeter
+
+v: calfater
+g:1
+
+v: calfeutrer
+g:1
+
+v: calibrer
+g:1
+
+v: câliner
+g:1
+
+v: calligraphier
+g:1
+
+v: calmer
+g:1
+
+v: calmir
+g:2
+r: finir
+
+v: calomnier
+g:1
+
+v: calorifuger
+g:2
+r: manger
+
+v: calotter
+g:1
+
+v: calquer
+g:1
+
+v: calter
+g:1
+
+v: caluger
+g:2
+r: manger
+
+v: camber
+g:1
+
+v: cambrer
+g:1
+
+v: cambrioler
+g:1
+
+v: cambuter
+g:1
+
+v: cameloter
+g:1
+
+v: camer
+g:1
+
+v: camionner
+g:1
+
+v: camoufler
+g:1
+
+v: camper
+g:1
+
+v: canaliser
+g:1
+
+v: canarder
+g:1
+
+v: cancaner
+g:1
+
+v: cancériser
+g:1
+
+v: candir
+g:2
+r: finir
+
+v: caner
+g:1
+
+v: canneler
+g:2
+r: appeler
+
+v: canner
+g:1
+
+v: cannibaliser
+g:1
+
+v: cannoner
+g:1
+
+v: canoniser
+g:1
+
+v: canonner
+g:1
+
+v: canoter
+g:1
+
+v: cantiner
+g:1
+
+v: cantonner
+g:1
+
+v: canuler
+g:1
+
+v: caoutchouter
+g:1
+
+v: caparaçonner
+g:1
+
+v: capéer
+g:1
+
+v: capeler
+g:2
+r: appeler
+
+v: caper
+g:1
+
+v: capeyer
+g:1
+
+v: capitaliser
+g:1
+
+v: capitonner
+g:1
+
+v: capituler
+g:1
+
+v: caponner
+g:1
+
+v: caporaliser
+g:1
+
+v: capoter
+g:1
+
+v: capsuler
+g:1
+
+v: capter
+g:1
+
+v: captiver
+g:1
+
+v: capturer
+g:1
+
+v: capuchonner
+g:1
+
+v: caquer
+g:1
+
+v: caqueter
+g:2
+r: jeter
+
+v: caracoler
+g:1
+
+v: caractériser
+g:1
+
+v: caramboler
+g:1
+
+v: caraméliser
+g:1
+
+v: carapater
+g:1
+
+v: carbonater
+g:1
+
+v: carboniser
+g:1
+
+v: carburer
+g:1
+
+v: carcailler
+g:1
+
+v: carder
+g:1
+
+v: carencer
+g:2
+r: placer
+
+v: caréner
+g:2
+r: aliéner
+
+v: caresser
+g:1
+
+v: carguer
+g:1
+
+v: caricaturer
+g:1
+
+v: carier
+g:1
+
+v: carillonner
+g:1
+
+v: carmer
+g:1
+
+v: carminer
+g:1
+
+v: carnifier
+g:1
+
+v: carotter
+g:1
+
+v: carreauter
+g:1
+
+v: carreler
+g:2
+r: appeler
+
+v: carrer
+g:1
+
+v: carrosser
+g:1
+
+v: carroyer
+g:2
+r: nettoyer
+
+v: cartelliser
+g:1
+
+v: carter
+g:1
+
+v: cartographier
+g:1
+
+v: cartonner
+g:1
+
+v: cascader
+g:1
+
+v: caséfier
+g:1
+
+v: casemater
+g:1
+
+v: caser
+g:1
+
+v: caserner
+g:1
+
+v: casquer
+g:1
+
+v: casser
+g:1
+
+v: castagner
+g:1
+
+v: castrer
+g:1
+
+v: cataloguer
+g:1
+
+v: catalyser
+g:1
+
+v: catapulter
+g:1
+
+v: catastropher
+g:1
+
+v: catcher
+g:1
+
+v: catéchiser
+g:1
+
+v: catégoriser
+g:1
+
+v: catir
+g:2
+r: finir
+
+v: cauchemarder
+g:1
+
+v: causer
+g:1
+
+v: cautériser
+g:1
+
+v: cautionner
+g:1
+
+v: cavalcader
+g:1
+
+v: cavaler
+g:1
+
+v: caver
+g:1
+
+v: caviarder
+g:1
+
+v: céder
+g:2
+r: céder
+
+v: ceindre
+g:2
+r: craindre
+
+v: ceinturer
+g:1
+
+v: célébrer
+g:2
+r: célébrer
+
+v: celer
+g:2
+r: peler
+
+v: cémenter
+g:1
+
+v: cendrer
+g:1
+
+v: censurer
+g:1
+
+v: centraliser
+g:1
+
+v: centrer
+g:1
+
+v: centrifuger
+g:2
+r: manger
+
+v: centupler
+g:1
+
+v: cercler
+g:1
+
+v: cerner
+g:1
+
+v: certifier
+g:1
+
+v: césariser
+g:1
+
+v: cesser
+g:1
+
+v: chabler
+g:1
+
+v: chagriner
+g:1
+
+v: chahuter
+g:1
+
+v: chaîner
+g:1
+
+v: challenger
+g:2
+r: manger
+
+v: chaloir
+g:2
+r: chaloir
+
+v: chalouper
+g:1
+
+v: chamailler
+g:1
+
+v: chamarrer
+g:1
+
+v: chambarder
+g:1
+
+v: chambouler
+g:1
+
+v: chambrer
+g:1
+
+v: chamoiser
+g:1
+
+v: champagniser
+g:1
+
+v: champignonner
+g:1
+
+v: champlever
+g:2
+r: lever
+
+v: chanceler
+g:2
+r: appeler
+
+v: chancir
+g:2
+r: finir
+
+v: chanfreiner
+g:1
+
+v: changer
+g:2
+r: manger
+
+v: chansonner
+g:1
+
+v: chanstiquer
+g:1
+
+v: chanter
+g:1
+
+v: chantonner
+g:1
+
+v: chantourner
+g:1
+
+v: chaparder
+g:1
+
+v: chapeauter
+g:1
+
+v: chapeler
+g:2
+r: appeler
+
+v: chaperonner
+g:1
+
+v: chapitrer
+g:1
+
+v: chaponner
+g:1
+
+v: chaptaliser
+g:1
+
+v: charbonner
+g:1
+
+v: charcuter
+g:1
+
+v: charger
+g:2
+r: manger
+
+v: charioter
+g:1
+
+v: charmer
+g:1
+
+v: charpenter
+g:1
+
+v: charrier
+g:1
+
+v: charroyer
+g:2
+r: nettoyer
+
+v: chasser
+g:1
+
+v: châtier
+g:1
+
+v: chatonner
+g:1
+
+v: chatouiller
+g:1
+
+v: chatoyer
+g:2
+r: nettoyer
+
+v: châtrer
+g:1
+
+v: chauffer
+g:1
+
+v: chauler
+g:1
+
+v: chaumer
+g:1
+
+v: chausser
+g:1
+
+v: chauvir
+g:2
+r: chauvir
+
+v: chavirer
+g:1
+
+v: chelinguer
+g:1
+
+v: cheminer
+g:1
+
+v: chemiser
+g:1
+
+v: chercher
+g:1
+
+v: chérer
+g:2
+r: référer
+
+v: chérir
+g:2
+r: finir
+
+v: cherrer
+g:1
+
+v: chevaler
+g:1
+
+v: chevaucher
+g:1
+
+v: cheviller
+g:1
+
+v: chevrer
+g:1
+
+v: chevreter
+g:2
+r: jeter
+
+v: chevronner
+g:1
+
+v: chevroter
+g:1
+
+v: chiader
+g:1
+
+v: chialer
+g:1
+
+v: chicaner
+g:1
+
+v: chicoter
+g:1
+
+v: chienner
+g:1
+
+v: chier
+g:1
+
+v: chiffonner
+g:1
+
+v: chiffrer
+g:1
+
+v: chinder
+g:1
+
+v: chiner
+g:1
+
+v: chinoiser
+g:1
+
+v: chiper
+g:1
+
+v: chipoter
+g:1
+
+v: chiquer
+g:1
+
+v: chirographier
+g:1
+
+v: chlinguer
+g:1
+
+v: chlorer
+g:1
+
+v: chloroformer
+g:1
+
+v: chlorurer
+g:1
+
+v: choir
+g:2
+r: choir
+
+v: choisir
+g:2
+r: finir
+
+v: chômer
+g:1
+
+v: choper
+g:1
+
+v: chopiner
+g:1
+
+v: chopper
+g:1
+
+v: choquer
+g:1
+
+v: chorégraphier
+g:1
+
+v: chosifier
+g:1
+
+v: chouchouter
+g:1
+
+v: chouiner
+g:1
+
+v: chouraver
+g:1
+
+v: chourer
+g:1
+
+v: chouriner
+g:1
+
+v: choyer
+g:2
+r: nettoyer
+
+v: christianiser
+g:1
+
+v: chromer
+g:1
+
+v: chromiser
+g:1
+
+v: chroniquer
+g:1
+
+v: chronométrer
+g:2
+r: impétrer
+
+v: chuchoter
+g:1
+
+v: chuinter
+g:1
+
+v: chuter
+g:1
+
+v: cibler
+g:1
+
+v: cicatriser
+g:1
+
+v: cicler
+g:1
+
+v: ciller
+g:1
+
+v: cimenter
+g:1
+
+v: cinématographier
+g:1
+
+v: cingler
+g:1
+
+v: cintrer
+g:1
+
+v: circoncire
+g:2
+r: circoncire
+
+v: circonscrire
+g:2
+r: écrire
+
+v: circonstancier
+g:1
+
+v: circonvenir
+g:2
+r: tenir
+
+v: circulariser
+g:1
+
+v: circuler
+g:1
+
+v: cirer
+g:1
+
+v: cisailler
+g:1
+
+v: ciseler
+g:2
+r: peler
+
+v: citer
+g:1
+
+v: civiliser
+g:1
+
+v: clabauder
+g:1
+
+v: claboter
+g:1
+
+v: claironner
+g:1
+
+v: clamecer
+g:2
+r: dépecer
+
+v: clamer
+g:1
+
+v: clamper
+g:1
+
+v: clampser
+g:1
+
+v: clamser
+g:1
+
+v: claper
+g:1
+
+v: clapir
+g:2
+r: finir
+
+v: clapoter
+g:1
+
+v: clapper
+g:1
+
+v: clapser
+g:1
+
+v: claquemurer
+g:1
+
+v: claquer
+g:1
+
+v: claqueter
+g:2
+r: jeter
+
+v: clarifier
+g:1
+
+v: classer
+g:1
+
+v: classifier
+g:1
+
+v: claudiquer
+g:1
+
+v: claustrer
+g:1
+
+v: clavarder
+g:1
+
+v: claver
+g:1
+
+v: claveter
+g:2
+r: jeter
+
+v: clavetter
+g:1
+
+v: clayonner
+g:1
+
+v: clicher
+g:1
+
+v: cligner
+g:1
+
+v: clignoter
+g:1
+
+v: climatiser
+g:1
+
+v: cliquer
+g:1
+
+v: cliqueter
+g:2
+r: jeter
+
+v: clisser
+g:1
+
+v: cliver
+g:1
+
+v: clochardiser
+g:1
+
+v: clocher
+g:1
+
+v: cloisonner
+g:1
+
+v: cloîtrer
+g:1
+
+v: cloner
+g:1
+
+v: clopiner
+g:1
+
+v: cloquer
+g:1
+
+v: clore
+g:2
+r: clore
+
+v: clôturer
+g:1
+
+v: clouer
+g:1
+
+v: clouter
+g:1
+
+v: coacher
+g:1
+
+v: coaguler
+g:1
+
+v: coalescer
+g:2
+r: placer
+
+v: coaliser
+g:1
+
+v: coasser
+g:1
+
+v: cocher
+g:1
+
+v: côcher
+g:1
+
+v: cochonner
+g:1
+
+v: cocoler
+g:1
+
+v: cocoter
+g:1
+
+v: cocotter
+g:1
+
+v: cocufier
+g:1
+
+v: coder
+g:1
+
+v: codifier
+g:1
+
+v: coéditer
+g:1
+
+v: coexister
+g:1
+
+v: coffrer
+g:1
+
+v: cofinancer
+g:2
+r: placer
+
+v: cogérer
+g:2
+r: référer
+
+v: cogiter
+g:1
+
+v: cogner
+g:1
+
+v: cohabiter
+g:1
+
+v: cohériter
+g:1
+
+v: coiffer
+g:1
+
+v: coincer
+g:2
+r: placer
+
+v: coïncider
+g:1
+
+v: coïter
+g:1
+
+v: cokéfier
+g:1
+
+v: collaborer
+g:1
+
+v: collationner
+g:1
+
+v: collecter
+g:1
+
+v: collectionner
+g:1
+
+v: collectiviser
+g:1
+
+v: coller
+g:1
+
+v: colleter
+g:2
+r: jeter
+
+v: colliger
+g:2
+r: manger
+
+v: colloquer
+g:1
+
+v: colmater
+g:1
+
+v: coloniser
+g:1
+
+v: colorer
+g:1
+
+v: colorier
+g:1
+
+v: coloriser
+g:1
+
+v: colporter
+g:1
+
+v: coltiner
+g:1
+
+v: combattre
+g:2
+r: battre
+
+v: combiner
+g:1
+
+v: combler
+g:1
+
+v: commander
+g:1
+
+v: commanditer
+g:1
+
+v: commémorer
+g:1
+
+v: commencer
+g:2
+r: placer
+
+v: commenter
+g:1
+
+v: commercer
+g:2
+r: placer
+
+v: commercialiser
+g:1
+
+v: commérer
+g:2
+r: référer
+
+v: commettre
+g:2
+r: mettre
+
+v: commissionner
+g:1
+
+v: commotionner
+g:1
+
+v: commuer
+g:1
+
+v: communaliser
+g:1
+
+v: communautariser
+g:1
+
+v: communier
+g:1
+
+v: communiquer
+g:1
+
+v: commuter
+g:1
+
+v: compacter
+g:1
+
+v: comparaître
+g:2
+r: repaître
+
+v: comparer
+g:1
+
+v: compartimenter
+g:1
+
+v: compasser
+g:1
+
+v: compatir
+g:2
+r: finir
+
+v: compenser
+g:1
+
+v: compétitionner
+g:1
+
+v: compiler
+g:1
+
+v: compisser
+g:1
+
+v: complaire
+g:2
+r: plaire
+
+v: complanter
+g:1
+
+v: compléter
+g:2
+r: décréter
+
+v: complexer
+g:1
+
+v: complexifier
+g:1
+
+v: complimenter
+g:1
+
+v: compliquer
+g:1
+
+v: comploter
+g:1
+
+v: comporter
+g:1
+
+v: composer
+g:1
+
+v: composter
+g:1
+
+v: comprendre
+g:2
+r: prendre
+
+v: compresser
+g:1
+
+v: comprimer
+g:1
+
+v: compromettre
+g:2
+r: mettre
+
+v: comptabiliser
+g:1
+
+v: compter
+g:1
+
+v: compulser
+g:1
+
+v: computer
+g:1
+
+v: concasser
+g:1
+
+v: concaténer
+g:2
+r: aliéner
+
+v: concéder
+g:2
+r: céder
+
+v: concélébrer
+g:2
+r: célébrer
+
+v: concentrer
+g:1
+
+v: conceptualiser
+g:1
+
+v: concerner
+g:1
+
+v: concerter
+g:1
+
+v: concevoir
+g:2
+r: décevoir
+
+v: concilier
+g:1
+
+v: conclure
+g:2
+r: conclure
+
+v: concocter
+g:1
+
+v: concorder
+g:1
+
+v: concourir
+g:2
+r: courir
+
+v: concréter
+g:2
+r: décréter
+
+v: concrétiser
+g:1
+
+v: concurrencer
+g:2
+r: placer
+
+v: condamner
+g:1
+
+v: condenser
+g:1
+
+v: condescendre
+g:2
+r: tendre
+
+v: conditionner
+g:1
+
+v: conduire
+g:2
+r: conduire
+
+v: confectionner
+g:1
+
+v: confédérer
+g:2
+r: référer
+
+v: conférer
+g:2
+r: référer
+
+v: confesser
+g:1
+
+v: confier
+g:1
+
+v: configurer
+g:1
+
+v: confiner
+g:1
+
+v: confire
+g:2
+r: dire
+
+v: confirmer
+g:1
+
+v: confisquer
+g:1
+
+v: confluer
+g:1
+
+v: confondre
+g:2
+r: tendre
+
+v: conformer
+g:1
+
+v: conforter
+g:1
+
+v: confronter
+g:1
+
+v: congédier
+g:1
+
+v: congeler
+g:2
+r: peler
+
+v: congestionner
+g:1
+
+v: conglomérer
+g:2
+r: référer
+
+v: conglutiner
+g:1
+
+v: congratuler
+g:1
+
+v: congréer
+g:1
+
+v: cônir
+g:2
+r: finir
+
+v: conjecturer
+g:1
+
+v: conjoindre
+g:2
+r: craindre
+
+v: conjuguer
+g:1
+
+v: conjurer
+g:1
+
+v: connaître
+g:2
+r: repaître
+
+v: connecter
+g:1
+
+v: connoter
+g:1
+
+v: conobrer
+g:1
+
+v: conquérir
+g:2
+r: acquérir
+
+v: consacrer
+g:1
+
+v: conscientiser
+g:1
+
+v: conscrire
+g:2
+r: écrire
+
+v: conseiller
+g:1
+
+v: consentir
+g:2
+r: mentir
+
+v: conserver
+g:1
+
+v: considérer
+g:2
+r: référer
+
+v: consigner
+g:1
+
+v: consister
+g:1
+
+v: consoler
+g:1
+
+v: consolider
+g:1
+
+v: consommer
+g:1
+
+v: consoner
+g:1
+
+v: conspirer
+g:1
+
+v: conspuer
+g:1
+
+v: constater
+g:1
+
+v: consteller
+g:1
+
+v: consterner
+g:1
+
+v: constiper
+g:1
+
+v: constituer
+g:1
+
+v: constitutionnaliser
+g:1
+
+v: construire
+g:2
+r: conduire
+
+v: consulter
+g:1
+
+v: consumer
+g:1
+
+v: contacter
+g:1
+
+v: contagionner
+g:1
+
+v: containeriser
+g:1
+
+v: containériser
+g:1
+
+v: contaminer
+g:1
+
+v: contempler
+g:1
+
+v: conteneuriser
+g:1
+
+v: contenir
+g:2
+r: tenir
+
+v: contenter
+g:1
+
+v: conter
+g:1
+
+v: contester
+g:1
+
+v: contextualiser
+g:1
+
+v: contingenter
+g:1
+
+v: continuer
+g:1
+
+v: contorsionner
+g:1
+
+v: contourner
+g:1
+
+v: contracter
+g:1
+
+v: contractualiser
+g:1
+
+v: contracturer
+g:1
+
+v: contraindre
+g:2
+r: craindre
+
+v: contraposer
+g:1
+
+v: contrarier
+g:1
+
+v: contraster
+g:1
+
+v: contre-attaquer
+g:1
+
+v: contrebalancer
+g:2
+r: placer
+
+v: contrebattre
+g:2
+r: battre
+
+v: contre-bouter
+g:1
+
+v: contrebouter
+g:1
+
+v: contre-braquer
+g:1
+
+v: contre-buter
+g:1
+
+v: contrebuter
+g:1
+
+v: contrecarrer
+g:1
+
+v: contredire
+g:2
+r: médire
+
+v: contrefaire
+g:2
+r: faire
+
+v: contreficher
+g:1
+
+v: contrefoutre
+g:2
+r: foutre
+
+v: contre-indiquer
+g:1
+
+v: contremander
+g:1
+
+v: contre-manifester
+g:1
+
+v: contremarquer
+g:1
+
+v: contre-miner
+g:1
+
+v: contre-passer
+g:1
+
+v: contre-plaquer
+g:1
+
+v: contreplaquer
+g:1
+
+v: contrer
+g:1
+
+v: contre-sceller
+g:1
+
+v: contresigner
+g:1
+
+v: contre-tirer
+g:1
+
+v: contretyper
+g:1
+
+v: contrevenir
+g:2
+r: tenir
+
+v: contreventer
+g:1
+
+v: contribuer
+g:1
+
+v: contrister
+g:1
+
+v: contrôler
+g:1
+
+v: controuver
+g:1
+
+v: controverser
+g:1
+
+v: contusionner
+g:1
+
+v: convaincre
+g:2
+r: vaincre
+
+v: convenir
+g:2
+r: tenir
+
+v: conventionner
+g:1
+
+v: converger
+g:2
+r: manger
+
+v: converser
+g:1
+
+v: convertir
+g:2
+r: finir
+
+v: convier
+g:1
+
+v: convoiter
+g:1
+
+v: convoler
+g:1
+
+v: convoquer
+g:1
+
+v: convoyer
+g:2
+r: nettoyer
+
+v: convulser
+g:1
+
+v: convulsionner
+g:1
+
+v: coopérer
+g:2
+r: référer
+
+v: coopter
+g:1
+
+v: coordonner
+g:1
+
+v: copartager
+g:2
+r: manger
+
+v: copermuter
+g:1
+
+v: copier
+g:1
+
+v: copiner
+g:1
+
+v: coposséder
+g:2
+r: céder
+
+v: coproduire
+g:2
+r: conduire
+
+v: copuler
+g:1
+
+v: coquer
+g:1
+
+v: coqueter
+g:2
+r: jeter
+
+v: coquiller
+g:1
+
+v: cordeler
+g:2
+r: appeler
+
+v: corder
+g:1
+
+v: cordonner
+g:1
+
+v: cornaquer
+g:1
+
+v: corner
+g:1
+
+v: correctionnaliser
+g:1
+
+v: corréler
+g:2
+r: révéler
+
+v: correspondre
+g:2
+r: tendre
+
+v: corriger
+g:2
+r: manger
+
+v: corroborer
+g:1
+
+v: corroder
+g:1
+
+v: corrompre
+g:2
+r: rompre
+
+v: corroyer
+g:2
+r: nettoyer
+
+v: corser
+g:1
+
+v: corseter
+g:2
+r: acheter
+
+v: cosigner
+g:1
+
+v: cosmétiquer
+g:1
+
+v: cosser
+g:1
+
+v: costumer
+g:1
+
+v: coter
+g:1
+
+v: cotir
+g:2
+r: finir
+
+v: cotiser
+g:1
+
+v: cotonner
+g:1
+
+v: côtoyer
+g:2
+r: nettoyer
+
+v: couchailler
+g:1
+
+v: coucher
+g:1
+
+v: couder
+g:1
+
+v: coudoyer
+g:2
+r: nettoyer
+
+v: coudre
+g:2
+r: coudre
+
+v: couillonner
+g:1
+
+v: couiner
+g:1
+
+v: couler
+g:1
+
+v: coulisser
+g:1
+
+v: coupailler
+g:1
+
+v: coupeller
+g:1
+
+v: couper
+g:1
+
+v: coupler
+g:1
+
+v: courailler
+g:1
+
+v: courbaturer
+g:1
+
+v: courber
+g:1
+
+v: courcailler
+g:1
+
+v: courir
+g:2
+r: courir
+
+v: couronner
+g:1
+
+v: courroucer
+g:2
+r: placer
+
+v: courser
+g:1
+
+v: courtauder
+g:1
+
+v: court-circuiter
+g:1
+
+v: courtiser
+g:1
+
+v: cousiner
+g:1
+
+v: coûter
+g:1
+
+v: couturer
+g:1
+
+v: couver
+g:1
+
+v: couvrir
+g:2
+r: ouvrir
+
+v: craboter
+g:1
+
+v: cracher
+g:1
+
+v: crachiner
+g:1
+
+v: crachoter
+g:1
+
+v: crachouiller
+g:1
+
+v: crailler
+g:1
+
+v: craindre
+g:2
+r: craindre
+
+v: cramer
+g:1
+
+v: cramper
+g:1
+
+v: cramponner
+g:1
+
+v: crampser
+g:1
+
+v: cramser
+g:1
+
+v: craner
+g:1
+
+v: crâner
+g:1
+
+v: cranter
+g:1
+
+v: crapahuter
+g:1
+
+v: crapaüter
+g:1
+
+v: crapuler
+g:1
+
+v: craqueler
+g:2
+r: appeler
+
+v: craquer
+g:1
+
+v: craqueter
+g:2
+r: jeter
+
+v: crasser
+g:1
+
+v: cravacher
+g:1
+
+v: cravater
+g:1
+
+v: crawler
+g:1
+
+v: crayonner
+g:1
+
+v: crécher
+g:2
+r: sécher
+
+v: crédibiliser
+g:1
+
+v: créditer
+g:1
+
+v: créer
+g:1
+
+v: crémer
+g:2
+r: crémer
+
+v: créneler
+g:2
+r: appeler
+
+v: créner
+g:2
+r: aliéner
+
+v: créoliser
+g:1
+
+v: créosoter
+g:1
+
+v: crêper
+g:1
+
+v: crépir
+g:2
+r: finir
+
+v: crépiter
+g:1
+
+v: crétiniser
+g:1
+
+v: creuser
+g:1
+
+v: crevasser
+g:1
+
+v: crever
+g:2
+r: lever
+
+v: crevoter
+g:1
+
+v: criailler
+g:1
+
+v: cribler
+g:1
+
+v: crier
+g:1
+
+v: criminaliser
+g:1
+
+v: crinquer
+g:1
+
+v: crisper
+g:1
+
+v: crisser
+g:1
+
+v: cristalliser
+g:1
+
+v: criticailler
+g:1
+
+v: critiquer
+g:1
+
+v: croasser
+g:1
+
+v: crocher
+g:1
+
+v: crocheter
+g:2
+r: acheter
+
+v: crochir
+g:2
+r: finir
+
+v: croire
+g:2
+r: croire
+
+v: croiser
+g:1
+
+v: croître
+g:2
+r: croître
+
+v: croquer
+g:1
+
+v: crosser
+g:1
+
+v: crotter
+g:1
+
+v: crouler
+g:1
+
+v: croupir
+g:2
+r: finir
+
+v: croustiller
+g:1
+
+v: croûter
+g:1
+
+v: crucifier
+g:1
+
+v: crypter
+g:1
+
+v: cuber
+g:1
+
+v: cueillir
+g:2
+r: cueillir
+
+v: cuirasser
+g:1
+
+v: cuire
+g:2
+r: conduire
+
+v: cuisiner
+g:1
+
+v: cuiter
+g:1
+
+v: cuivrer
+g:1
+
+v: culbuter
+g:1
+
+v: culer
+g:1
+
+v: culminer
+g:1
+
+v: culotter
+g:1
+
+v: culpabiliser
+g:1
+
+v: cultiver
+g:1
+
+v: cumuler
+g:1
+
+v: curer
+g:1
+
+v: cureter
+g:2
+r: jeter
+
+v: cuveler
+g:2
+r: appeler
+
+v: cuver
+g:1
+
+v: cyanoser
+g:1
+
+v: cyanurer
+g:1
+
+v: cycliser
+g:1
+
+v: cylindrer
+g:1
+
+v: dactylographier
+g:1
+
+v: daguer
+g:1
+
+v: daigner
+g:1
+
+v: daller
+g:1
+
+v: damasquiner
+g:1
+
+v: damasser
+g:1
+
+v: damer
+g:1
+
+v: damner
+g:1
+
+v: dandiner
+g:1
+
+v: danser
+g:1
+
+v: dansoter
+g:1
+
+v: dansotter
+g:1
+
+v: darder
+g:1
+
+v: dater
+g:1
+
+v: dauber
+g:1
+
+v: déactiver
+g:1
+
+v: déambuler
+g:1
+
+v: débâcher
+g:1
+
+v: débâcler
+g:1
+
+v: débagouler
+g:1
+
+v: débâillonner
+g:1
+
+v: débalancer
+g:2
+r: placer
+
+v: déballer
+g:1
+
+v: déballonner
+g:1
+
+v: débalourder
+g:1
+
+v: débanaliser
+g:1
+
+v: débander
+g:1
+
+v: débaptiser
+g:1
+
+v: débarbouiller
+g:1
+
+v: débarder
+g:1
+
+v: débarquer
+g:1
+
+v: débarrasser
+g:1
+
+v: débarrer
+g:1
+
+v: débâter
+g:1
+
+v: débâtir
+g:2
+r: finir
+
+v: débattre
+g:2
+r: battre
+
+v: débaucher
+g:1
+
+v: débecqueter
+g:2
+r: jeter
+
+v: débecter
+g:1
+
+v: débenzoler
+g:1
+
+v: débiliter
+g:1
+
+v: débillarder
+g:1
+
+v: débiner
+g:1
+
+v: débiter
+g:1
+
+v: déblatérer
+g:2
+r: référer
+
+v: déblayer
+g:2
+r: payer
+
+v: débleuir
+g:2
+r: finir
+
+v: débloquer
+g:1
+
+v: débobiner
+g:1
+
+v: déboguer
+g:1
+
+v: déboiser
+g:1
+
+v: déboîter
+g:1
+
+v: débonder
+g:1
+
+v: déborder
+g:1
+
+v: débosseler
+g:2
+r: appeler
+
+v: débotter
+g:1
+
+v: déboucher
+g:1
+
+v: déboucler
+g:1
+
+v: débouder
+g:1
+
+v: débouler
+g:1
+
+v: déboulonner
+g:1
+
+v: débouquer
+g:1
+
+v: débourber
+g:1
+
+v: débourrer
+g:1
+
+v: débourser
+g:1
+
+v: déboussoler
+g:1
+
+v: débouter
+g:1
+
+v: déboutonner
+g:1
+
+v: débraguetter
+g:1
+
+v: débrailler
+g:1
+
+v: débrancher
+g:1
+
+v: débraser
+g:1
+
+v: débrayer
+g:2
+r: payer
+
+v: débrider
+g:1
+
+v: débriefer
+g:1
+
+v: débrocher
+g:1
+
+v: débrouiller
+g:1
+
+v: débroussailler
+g:1
+
+v: débrousser
+g:1
+
+v: débucher
+g:1
+
+v: débudgétiser
+g:1
+
+v: débuller
+g:1
+
+v: débureaucratiser
+g:1
+
+v: débusquer
+g:1
+
+v: débuter
+g:1
+
+v: décacheter
+g:2
+r: jeter
+
+v: décadenasser
+g:1
+
+v: décaféiner
+g:1
+
+v: décaisser
+g:1
+
+v: décalaminer
+g:1
+
+v: décalcifier
+g:1
+
+v: décaler
+g:1
+
+v: décalotter
+g:1
+
+v: décalquer
+g:1
+
+v: décamper
+g:1
+
+v: décaniller
+g:1
+
+v: décanter
+g:1
+
+v: décapeler
+g:2
+r: appeler
+
+v: décaper
+g:1
+
+v: décapitaliser
+g:1
+
+v: décapiter
+g:1
+
+v: décapoter
+g:1
+
+v: décapsuler
+g:1
+
+v: décapuchonner
+g:1
+
+v: décarbonater
+g:1
+
+v: décarburer
+g:1
+
+v: décarcasser
+g:1
+
+v: décarreler
+g:2
+r: appeler
+
+v: décarrer
+g:1
+
+v: décartonner
+g:1
+
+v: décatir
+g:2
+r: finir
+
+v: décauser
+g:1
+
+v: décavaillonner
+g:1
+
+v: décaver
+g:1
+
+v: décéder
+g:2
+r: céder
+
+v: décélérer
+g:2
+r: référer
+
+v: déceler
+g:2
+r: peler
+
+v: décentraliser
+g:1
+
+v: décentrer
+g:1
+
+v: décercler
+g:1
+
+v: décérébrer
+g:2
+r: célébrer
+
+v: décerner
+g:1
+
+v: décerveler
+g:2
+r: appeler
+
+v: décesser
+g:1
+
+v: décevoir
+g:2
+r: décevoir
+
+v: déchagriner
+g:1
+
+v: déchaîner
+g:1
+
+v: déchanter
+g:1
+
+v: déchaper
+g:1
+
+v: déchaperonner
+g:1
+
+v: décharger
+g:2
+r: manger
+
+v: décharner
+g:1
+
+v: déchaumer
+g:1
+
+v: déchausser
+g:1
+
+v: déchevêtrer
+g:1
+
+v: décheviller
+g:1
+
+v: déchiffonner
+g:1
+
+v: déchiffrer
+g:1
+
+v: déchiqueter
+g:2
+r: jeter
+
+v: déchirer
+g:1
+
+v: déchlorurer
+g:1
+
+v: déchoir
+g:2
+r: déchoir
+
+v: déchristianiser
+g:1
+
+v: déchromer
+g:1
+
+v: décider
+g:1
+
+v: décimaliser
+g:1
+
+v: décimer
+g:1
+
+v: décintrer
+g:1
+
+v: déclamer
+g:1
+
+v: déclarer
+g:1
+
+v: déclasser
+g:1
+
+v: déclassifier
+g:1
+
+v: déclaveter
+g:2
+r: jeter
+
+v: déclencher
+g:1
+
+v: décléricaliser
+g:1
+
+v: décliner
+g:1
+
+v: déclinquer
+g:1
+
+v: décliqueter
+g:2
+r: jeter
+
+v: décloisonner
+g:1
+
+v: déclore
+g:2
+r: éclore
+
+v: déclouer
+g:1
+
+v: décocher
+g:1
+
+v: décoder
+g:1
+
+v: décoffrer
+g:1
+
+v: décoiffer
+g:1
+
+v: décoincer
+g:2
+r: placer
+
+v: décolérer
+g:2
+r: référer
+
+v: décollectiviser
+g:1
+
+v: décoller
+g:1
+
+v: décolleter
+g:2
+r: jeter
+
+v: décoloniser
+g:1
+
+v: décolorer
+g:1
+
+v: décommander
+g:1
+
+v: décompenser
+g:1
+
+v: décomplexer
+g:1
+
+v: décomposer
+g:1
+
+v: compoter
+g:1
+
+v: décompresser
+g:1
+
+v: décomprimer
+g:1
+
+v: décompter
+g:1
+
+v: déconcentrer
+g:1
+
+v: déconcerter
+g:1
+
+v: déconcrisser
+g:1
+
+v: déconditionner
+g:1
+
+v: décongeler
+g:2
+r: peler
+
+v: décongestionner
+g:1
+
+v: déconjuguer
+g:1
+
+v: déconnecter
+g:1
+
+v: déconner
+g:1
+
+v: déconseiller
+g:1
+
+v: déconsidérer
+g:2
+r: référer
+
+v: déconsigner
+g:1
+
+v: déconstiper
+g:1
+
+v: déconstruire
+g:2
+r: conduire
+
+v: décontaminer
+g:1
+
+v: décontenancer
+g:2
+r: placer
+
+v: décontracter
+g:1
+
+v: déconventionner
+g:1
+
+v: décorder
+g:1
+
+v: décorer
+g:1
+
+v: décorner
+g:1
+
+v: décortiquer
+g:1
+
+v: découcher
+g:1
+
+v: découdre
+g:2
+r: coudre
+
+v: découler
+g:1
+
+v: découper
+g:1
+
+v: découpler
+g:1
+
+v: décourager
+g:2
+r: manger
+
+v: découronner
+g:1
+
+v: découvrir
+g:2
+r: ouvrir
+
+v: décrasser
+g:1
+
+v: décréditer
+g:1
+
+v: décrémenter
+g:1
+
+v: décrêper
+g:1
+
+v: décrépir
+g:2
+r: finir
+
+v: décrépiter
+g:1
+
+v: décréter
+g:2
+r: décréter
+
+v: décreuser
+g:1
+
+v: décrier
+g:1
+
+v: décriminaliser
+g:1
+
+v: décrire
+g:2
+r: écrire
+
+v: décrisper
+g:1
+
+v: décrocher
+g:1
+
+v: décroiser
+g:1
+
+v: décroître
+g:2
+r: croître
+
+v: décrotter
+g:1
+
+v: décroûter
+g:1
+
+v: décruer
+g:1
+
+v: décruser
+g:1
+
+v: décrypter
+g:1
+
+v: décuivrer
+g:1
+
+v: déculasser
+g:1
+
+v: déculotter
+g:1
+
+v: déculpabiliser
+g:1
+
+v: décupler
+g:1
+
+v: décuver
+g:1
+
+v: dédaigner
+g:1
+
+v: dédicacer
+g:2
+r: placer
+
+v: dédier
+g:1
+
+v: dédifférencier
+g:1
+
+v: dédire
+g:2
+r: dire
+
+v: dédommager
+g:2
+r: manger
+
+v: dédorer
+g:1
+
+v: dédouaner
+g:1
+
+v: dédoubler
+g:1
+
+v: dédramatiser
+g:1
+
+v: déduire
+g:2
+r: conduire
+
+v: défaillir
+g:2
+r: assaillir
+
+v: défaire
+g:2
+r: faire
+
+v: défalquer
+g:1
+
+v: défarder
+g:1
+
+v: défatiguer
+g:1
+
+v: défaufiler
+g:1
+
+v: défausser
+g:1
+
+v: défavoriser
+g:1
+
+v: défendre
+g:2
+r: tendre
+
+v: déféquer
+g:2
+r: disséquer
+
+v: déférer
+g:2
+r: référer
+
+v: déferler
+g:1
+
+v: déferrer
+g:1
+
+v: déferriser
+g:1
+
+v: défeuiller
+g:1
+
+v: défeutrer
+g:1
+
+v: défibrer
+g:1
+
+v: déficeler
+g:2
+r: appeler
+
+v: défier
+g:1
+
+v: défiger
+g:2
+r: manger
+
+v: défigurer
+g:1
+
+v: défiler
+g:1
+
+v: définir
+g:2
+r: finir
+
+v: déflagrer
+g:1
+
+v: déflaquer
+g:1
+
+v: défléchir
+g:2
+r: finir
+
+v: défleurir
+g:2
+r: finir
+
+v: déflorer
+g:1
+
+v: défolier
+g:1
+
+v: défoncer
+g:2
+r: placer
+
+v: déforcer
+g:2
+r: placer
+
+v: déformer
+g:1
+
+v: défouler
+g:1
+
+v: défourailler
+g:1
+
+v: défourner
+g:1
+
+v: défourrer
+g:1
+
+v: défraîchir
+g:2
+r: finir
+
+v: défranciser
+g:1
+
+v: défrayer
+g:2
+r: payer
+
+v: défretter
+g:1
+
+v: défricher
+g:1
+
+v: défringuer
+g:1
+
+v: défriper
+g:1
+
+v: défriser
+g:1
+
+v: défroisser
+g:1
+
+v: défroncer
+g:2
+r: placer
+
+v: défroquer
+g:1
+
+v: défruiter
+g:1
+
+v: dégager
+g:2
+r: manger
+
+v: dégainer
+g:1
+
+v: dégalonner
+g:1
+
+v: déganter
+g:1
+
+v: dégarnir
+g:2
+r: finir
+
+v: dégasoliner
+g:1
+
+v: dégauchir
+g:2
+r: finir
+
+v: dégazer
+g:1
+
+v: dégazoliner
+g:1
+
+v: dégazonner
+g:1
+
+v: dégeler
+g:2
+r: peler
+
+v: dégénérer
+g:2
+r: référer
+
+v: dégermer
+g:1
+
+v: dégingander
+g:1
+
+v: dégîter
+g:1
+
+v: dégivrer
+g:1
+
+v: déglacer
+g:2
+r: placer
+
+v: déglinguer
+g:1
+
+v: dégluer
+g:1
+
+v: déglutir
+g:2
+r: finir
+
+v: dégobiller
+g:1
+
+v: dégoiser
+g:1
+
+v: dégommer
+g:1
+
+v: dégonder
+g:1
+
+v: dégonfler
+g:1
+
+v: dégorger
+g:2
+r: manger
+
+v: dégoter
+g:1
+
+v: dégotter
+g:1
+
+v: dégoudronner
+g:1
+
+v: dégouliner
+g:1
+
+v: dégoupiller
+g:1
+
+v: dégourdir
+g:2
+r: finir
+
+v: dégoûter
+g:1
+
+v: dégoutter
+g:1
+
+v: dégrader
+g:1
+
+v: dégrafer
+g:1
+
+v: dégraisser
+g:1
+
+v: dégravoyer
+g:2
+r: nettoyer
+
+v: dégréer
+g:1
+
+v: dégrever
+g:2
+r: lever
+
+v: dégringoler
+g:1
+
+v: dégripper
+g:1
+
+v: dégriser
+g:1
+
+v: dégrosser
+g:1
+
+v: dégrossir
+g:2
+r: finir
+
+v: dégrouiller
+g:1
+
+v: dégrouper
+g:1
+
+v: déguerpir
+g:2
+r: finir
+
+v: dégueuler
+g:1
+
+v: déguiser
+g:1
+
+v: dégurgiter
+g:1
+
+v: déguster
+g:1
+
+v: déhaler
+g:1
+
+v: déhancher
+g:1
+
+v: déharder
+g:1
+
+v: déharnacher
+g:1
+
+v: déhotter
+g:1
+
+v: déhouiller
+g:1
+
+v: déifier
+g:1
+
+v: déjanter
+g:1
+
+v: déjauger
+g:2
+r: manger
+
+v: déjaunir
+g:2
+r: finir
+
+v: déjeter
+g:2
+r: jeter
+
+v: déjeuner
+g:1
+
+v: déjouer
+g:1
+
+v: déjucher
+g:1
+
+v: déjuger
+g:2
+r: manger
+
+v: délabialiser
+g:1
+
+v: délabrer
+g:1
+
+v: délacer
+g:2
+r: placer
+
+v: délainer
+g:1
+
+v: délaisser
+g:1
+
+v: délaiter
+g:1
+
+v: délarder
+g:1
+
+v: délasser
+g:1
+
+v: délatter
+g:1
+
+v: délaver
+g:1
+
+v: délayer
+g:2
+r: payer
+
+v: délecter
+g:1
+
+v: déléguer
+g:2
+r: léguer
+
+v: délester
+g:1
+
+v: délibérer
+g:2
+r: référer
+
+v: délier
+g:1
+
+v: délignifier
+g:1
+
+v: délimiter
+g:1
+
+v: délinéamenter
+g:1
+
+v: délinéer
+g:1
+
+v: délirer
+g:1
+
+v: délisser
+g:1
+
+v: déliter
+g:1
+
+v: délivrer
+g:1
+
+v: déloger
+g:2
+r: manger
+
+v: déloquer
+g:1
+
+v: délover
+g:1
+
+v: délurer
+g:1
+
+v: délustrer
+g:1
+
+v: déluter
+g:1
+
+v: démaçonner
+g:1
+
+v: démagnétiser
+g:1
+
+v: démaigrir
+g:2
+r: finir
+
+v: démailler
+g:1
+
+v: démailloter
+g:1
+
+v: démancher
+g:1
+
+v: demander
+g:1
+
+v: démanger
+g:2
+r: manger
+
+v: démanteler
+g:2
+r: peler
+
+v: démantibuler
+g:1
+
+v: démaquiller
+g:1
+
+v: démarcher
+g:1
+
+v: démarier
+g:1
+
+v: démarquer
+g:1
+
+v: démarrer
+g:1
+
+v: démascler
+g:1
+
+v: démasquer
+g:1
+
+v: démastiquer
+g:1
+
+v: dématérialiser
+g:1
+
+v: démâter
+g:1
+
+v: démazouter
+g:1
+
+v: démêler
+g:1
+
+v: démembrer
+g:1
+
+v: déménager
+g:2
+r: manger
+
+v: démener
+g:2
+r: mener
+
+v: démentir
+g:2
+r: mentir
+
+v: démerder
+g:1
+
+v: démériter
+g:1
+
+v: déméthaniser
+g:1
+
+v: démettre
+g:2
+r: mettre
+
+v: démeubler
+g:1
+
+v: demeurer
+g:1
+
+v: démieller
+g:1
+
+v: démilitariser
+g:1
+
+v: déminéraliser
+g:1
+
+v: déminer
+g:1
+
+v: démissionner
+g:1
+
+v: démobiliser
+g:1
+
+v: démocratiser
+g:1
+
+v: démoder
+g:1
+
+v: démoduler
+g:1
+
+v: démolir
+g:2
+r: finir
+
+v: démonétiser
+g:1
+
+v: démonter
+g:1
+
+v: démontrer
+g:1
+
+v: démoraliser
+g:1
+
+v: démordre
+g:2
+r: tendre
+
+v: démotiver
+g:1
+
+v: démoucheter
+g:2
+r: jeter
+
+v: démouler
+g:1
+
+v: démouscailler
+g:1
+
+v: démoustiquer
+g:1
+
+v: démultiplier
+g:1
+
+v: démunir
+g:2
+r: finir
+
+v: démurer
+g:1
+
+v: démurger
+g:2
+r: manger
+
+v: démuseler
+g:2
+r: appeler
+
+v: démystifier
+g:1
+
+v: démythifier
+g:1
+
+v: dénantir
+g:2
+r: finir
+
+v: dénasaliser
+g:1
+
+v: dénationaliser
+g:1
+
+v: dénatter
+g:1
+
+v: dénaturaliser
+g:1
+
+v: dénaturer
+g:1
+
+v: dénazifier
+g:1
+
+v: dénébuler
+g:1
+
+v: déneiger
+g:2
+r: manger
+
+v: dénerver
+g:1
+
+v: déniaiser
+g:1
+
+v: dénicher
+g:1
+
+v: dénickeler
+g:1
+
+v: dénicotiniser
+g:1
+
+v: dénier
+g:1
+
+v: dénigrer
+g:1
+
+v: dénitrer
+g:1
+
+v: dénitrifier
+g:1
+
+v: déniveler
+g:2
+r: appeler
+
+v: dénombrer
+g:1
+
+v: dénommer
+g:1
+
+v: dénoncer
+g:2
+r: placer
+
+v: dénoter
+g:1
+
+v: dénouer
+g:1
+
+v: dénoyauter
+g:1
+
+v: dénoyer
+g:2
+r: nettoyer
+
+v: denteler
+g:2
+r: appeler
+
+v: dénucléariser
+g:1
+
+v: dénuder
+g:1
+
+v: dénuer
+g:1
+
+v: dépailler
+g:1
+
+v: dépaisseler
+g:2
+r: appeler
+
+v: dépalisser
+g:1
+
+v: dépanner
+g:1
+
+v: dépaqueter
+g:2
+r: jeter
+
+v: déparaffiner
+g:1
+
+v: dépareiller
+g:1
+
+v: déparer
+g:1
+
+v: déparier
+g:1
+
+v: déparler
+g:1
+
+v: départager
+g:2
+r: manger
+
+v: départir
+g:2
+r: mentir
+
+v: dépasser
+g:1
+
+v: dépassionner
+g:1
+
+v: dépatouiller
+g:1
+
+v: dépaver
+g:1
+
+v: dépayser
+g:1
+
+v: dépecer
+g:2
+r: dépecer
+
+v: dépêcher
+g:1
+
+v: dépeigner
+g:1
+
+v: dépeindre
+g:2
+r: craindre
+
+v: dépelotonner
+g:1
+
+v: dépendre
+g:2
+r: tendre
+
+v: dépenser
+g:1
+
+v: dépérir
+g:2
+r: finir
+
+v: dépersonnaliser
+g:1
+
+v: dépêtrer
+g:1
+
+v: dépeupler
+g:1
+
+v: déphaser
+g:1
+
+v: déphosphorer
+g:1
+
+v: dépiauter
+g:1
+
+v: dépiler
+g:1
+
+v: dépingler
+g:1
+
+v: dépiquer
+g:1
+
+v: dépister
+g:1
+
+v: dépiter
+g:1
+
+v: déplacer
+g:2
+r: placer
+
+v: déplafonner
+g:1
+
+v: déplaire
+g:2
+r: plaire
+
+v: déplanquer
+g:1
+
+v: déplanter
+g:1
+
+v: déplâtrer
+g:1
+
+v: déplier
+g:1
+
+v: déplisser
+g:1
+
+v: déplomber
+g:1
+
+v: déplorer
+g:1
+
+v: déployer
+g:2
+r: nettoyer
+
+v: déplumer
+g:1
+
+v: dépoétiser
+g:1
+
+v: dépointer
+g:1
+
+v: dépolariser
+g:1
+
+v: dépolir
+g:2
+r: finir
+
+v: dépolitiser
+g:1
+
+v: dépolluer
+g:1
+
+v: dépolymériser
+g:1
+
+v: dépontiller
+g:1
+
+v: déporter
+g:1
+
+v: déposer
+g:1
+
+v: déposséder
+g:2
+r: céder
+
+v: dépoter
+g:1
+
+v: dépoudrer
+g:1
+
+v: dépouiller
+g:1
+
+v: dépoussiérer
+g:2
+r: référer
+
+v: dépraver
+g:1
+
+v: déprécier
+g:1
+
+v: déprendre
+g:2
+r: prendre
+
+v: dépressuriser
+g:1
+
+v: déprimer
+g:1
+
+v: dépriser
+g:1
+
+v: déprogrammer
+g:1
+
+v: déprolétariser
+g:1
+
+v: dépropaniser
+g:1
+
+v: dépuceler
+g:2
+r: appeler
+
+v: dépulper
+g:1
+
+v: dépurer
+g:1
+
+v: députer
+g:1
+
+v: déquiller
+g:1
+
+v: déraciner
+g:1
+
+v: dérader
+g:1
+
+v: dérager
+g:2
+r: manger
+
+v: déraidir
+g:2
+r: finir
+
+v: dérailler
+g:1
+
+v: déraisonner
+g:1
+
+v: déranger
+g:2
+r: manger
+
+v: déraper
+g:1
+
+v: déraser
+g:1
+
+v: dérater
+g:1
+
+v: dératiser
+g:1
+
+v: dérayer
+g:2
+r: payer
+
+v: déréaliser
+g:1
+
+v: dérégler
+g:2
+r: régler
+
+v: déréguler
+g:1
+
+v: dérider
+g:1
+
+v: dériver
+g:1
+
+v: dérober
+g:1
+
+v: dérocher
+g:1
+
+v: déroder
+g:1
+
+v: déroger
+g:2
+r: manger
+
+v: dérougir
+g:2
+r: finir
+
+v: dérouiller
+g:1
+
+v: dérouler
+g:1
+
+v: dérouter
+g:1
+
+v: désabonner
+g:1
+
+v: désabuser
+g:1
+
+v: désacclimater
+g:1
+
+v: désaccorder
+g:1
+
+v: désaccoupler
+g:1
+
+v: désaccoutumer
+g:1
+
+v: désacraliser
+g:1
+
+v: désactiver
+g:1
+
+v: désadapter
+g:1
+
+v: désaérer
+g:2
+r: référer
+
+v: désaffecter
+g:1
+
+v: désaffectionner
+g:1
+
+v: désaffilier
+g:1
+
+v: désagencer
+g:2
+r: placer
+
+v: désagrafer
+g:1
+
+v: désagréger
+g:2
+r: abréger
+
+v: désaimanter
+g:1
+
+v: désajuster
+g:1
+
+v: désaligner
+g:1
+
+v: désalper
+g:1
+
+v: désaltérer
+g:2
+r: référer
+
+v: désamarrer
+g:1
+
+v: désambiguïser
+g:1
+
+v: désamidonner
+g:1
+
+v: désamorcer
+g:2
+r: placer
+
+v: désannexer
+g:1
+
+v: désapparier
+g:1
+
+v: désappointer
+g:1
+
+v: désapprendre
+g:2
+r: prendre
+
+v: désapprouver
+g:1
+
+v: désapprovisionner
+g:1
+
+v: désarçonner
+g:1
+
+v: désargenter
+g:1
+
+v: désarmer
+g:1
+
+v: désarrimer
+g:1
+
+v: désarticuler
+g:1
+
+v: désassembler
+g:1
+
+v: désassimiler
+g:1
+
+v: désassortir
+g:2
+r: finir
+
+v: désatomiser
+g:1
+
+v: désavantager
+g:2
+r: manger
+
+v: désaveugler
+g:1
+
+v: désavouer
+g:1
+
+v: désaxer
+g:1
+
+v: desceller
+g:1
+
+v: désceller
+g:1
+
+v: descendre
+g:2
+r: tendre
+
+v: déséchouer
+g:1
+
+v: désembourber
+g:1
+
+v: désembourgeoiser
+g:1
+
+v: désembouteiller
+g:1
+
+v: désembrayer
+g:2
+r: payer
+
+v: désembuer
+g:1
+
+v: désemmancher
+g:1
+
+v: désemparer
+g:1
+
+v: désemplir
+g:2
+r: finir
+
+v: désemprisonner
+g:1
+
+v: désencadrer
+g:1
+
+v: désencarter
+g:1
+
+v: désenchaîner
+g:1
+
+v: désenchanter
+g:1
+
+v: désenclaver
+g:1
+
+v: désencoller
+g:1
+
+v: désencombrer
+g:1
+
+v: désencrasser
+g:1
+
+v: désendetter
+g:1
+
+v: désénerver
+g:1
+
+v: désenfiler
+g:1
+
+v: désenflammer
+g:1
+
+v: désenfler
+g:1
+
+v: désenfumer
+g:1
+
+v: désengager
+g:2
+r: manger
+
+v: désengorger
+g:2
+r: manger
+
+v: désengrener
+g:2
+r: mener
+
+v: désenivrer
+g:1
+
+v: désenlacer
+g:2
+r: placer
+
+v: désenlaider
+g:1
+
+v: désenlaidir
+g:2
+r: finir
+
+v: désennuyer
+g:2
+r: nettoyer
+
+v: désenrayer
+g:2
+r: payer
+
+v: désenrhumer
+g:1
+
+v: désenrouer
+g:1
+
+v: désensabler
+g:1
+
+v: désensibiliser
+g:1
+
+v: désensorceler
+g:2
+r: appeler
+
+v: désentoiler
+g:1
+
+v: désentortiller
+g:1
+
+v: désentraver
+g:1
+
+v: désenvaser
+g:1
+
+v: désenvelopper
+g:1
+
+v: désenvenimer
+g:1
+
+v: désenverguer
+g:1
+
+v: désépaissir
+g:2
+r: finir
+
+v: déséquilibrer
+g:1
+
+v: déséquiper
+g:1
+
+v: déserter
+g:1
+
+v: désespérer
+g:2
+r: référer
+
+v: désétablir
+g:2
+r: finir
+
+v: désétamer
+g:1
+
+v: désétatiser
+g:1
+
+v: désexualiser
+g:1
+
+v: déshabiller
+g:1
+
+v: déshabituer
+g:1
+
+v: désherber
+g:1
+
+v: déshériter
+g:1
+
+v: déshonorer
+g:1
+
+v: déshuiler
+g:1
+
+v: déshumaniser
+g:1
+
+v: déshumidifier
+g:1
+
+v: déshydrater
+g:1
+
+v: désigner
+g:1
+
+v: désillusionner
+g:1
+
+v: désincarner
+g:1
+
+v: désincorporer
+g:1
+
+v: désincruster
+g:1
+
+v: désinculper
+g:1
+
+v: désindexer
+g:1
+
+v: désinfecter
+g:1
+
+v: désinsectiser
+g:1
+
+v: désinstitutionnaliser
+g:1
+
+v: désintégrer
+g:2
+r: intégrer
+
+v: désintéresser
+g:1
+
+v: désintoxiquer
+g:1
+
+v: désinvestir
+g:2
+r: finir
+
+v: désinviter
+g:1
+
+v: désirer
+g:1
+
+v: désister
+g:1
+
+v: désobéir
+g:2
+r: finir
+
+v: désobliger
+g:2
+r: manger
+
+v: désoccuper
+g:1
+
+v: désodoriser
+g:1
+
+v: désoler
+g:1
+
+v: désolidariser
+g:1
+
+v: désoperculer
+g:1
+
+v: désopiler
+g:1
+
+v: désorber
+g:1
+
+v: désorbiter
+g:1
+
+v: désordonner
+g:1
+
+v: désorganiser
+g:1
+
+v: désorienter
+g:1
+
+v: désosser
+g:1
+
+v: désoxyder
+g:1
+
+v: desquamer
+g:1
+
+v: dessabler
+g:1
+
+v: dessaisir
+g:2
+r: finir
+
+v: dessaler
+g:1
+
+v: dessangler
+g:1
+
+v: dessaouler
+g:1
+
+v: dessécher
+g:2
+r: sécher
+
+v: desseller
+g:1
+
+v: desserrer
+g:1
+
+v: dessertir
+g:2
+r: finir
+
+v: desservir
+g:2
+r: servir
+
+v: dessiller
+g:1
+
+v: dessiner
+g:1
+
+v: dessoler
+g:1
+
+v: dessouder
+g:1
+
+v: dessouler
+g:1
+
+v: dessoûler
+g:1
+
+v: dessuinter
+g:1
+
+v: dessuiter
+g:1
+
+v: déstabiliser
+g:1
+
+v: destiner
+g:1
+
+v: destituer
+g:1
+
+v: déstocker
+g:1
+
+v: destructurer
+g:1
+
+v: désubjectiviser
+g:1
+
+v: désulfiter
+g:1
+
+v: désulfurer
+g:1
+
+v: désunir
+g:2
+r: finir
+
+v: désynchroniser
+g:1
+
+v: détacher
+g:1
+
+v: détailler
+g:1
+
+v: détaler
+g:1
+
+v: détaller
+g:1
+
+v: détapisser
+g:1
+
+v: détartrer
+g:1
+
+v: détaxer
+g:1
+
+v: détecter
+g:1
+
+v: déteindre
+g:2
+r: craindre
+
+v: dételer
+g:2
+r: appeler
+
+v: détendre
+g:2
+r: tendre
+
+v: détenir
+g:2
+r: tenir
+
+v: déterger
+g:2
+r: manger
+
+v: détériorer
+g:1
+
+v: déterminer
+g:1
+
+v: déterrer
+g:1
+
+v: détester
+g:1
+
+v: détirer
+g:1
+
+v: détisser
+g:1
+
+v: détoner
+g:1
+
+v: détonneler
+g:2
+r: appeler
+
+v: détonner
+g:1
+
+v: détordre
+g:2
+r: tendre
+
+v: détortiller
+g:1
+
+v: détourer
+g:1
+
+v: détourner
+g:1
+
+v: détracter
+g:1
+
+v: détrancher
+g:1
+
+v: détransposer
+g:1
+
+v: détraquer
+g:1
+
+v: détremper
+g:1
+
+v: détresser
+g:1
+
+v: détricoter
+g:1
+
+v: détromper
+g:1
+
+v: détroncher
+g:1
+
+v: détrôner
+g:1
+
+v: détroquer
+g:1
+
+v: détrousser
+g:1
+
+v: détruire
+g:2
+r: conduire
+
+v: dévaler
+g:1
+
+v: dévalider
+g:1
+
+v: dévaliser
+g:1
+
+v: dévaloriser
+g:1
+
+v: dévaluer
+g:1
+
+v: devancer
+g:2
+r: placer
+
+v: dévaser
+g:1
+
+v: dévaster
+g:1
+
+v: développer
+g:1
+
+v: devenir
+g:2
+r: tenir
+
+v: déventer
+g:1
+
+v: déverdir
+g:2
+r: finir
+
+v: dévergonder
+g:1
+
+v: déverguer
+g:1
+
+v: dévernir
+g:2
+r: finir
+
+v: déverrouiller
+g:1
+
+v: déverser
+g:1
+
+v: dévêtir
+g:2
+r: vêtir
+
+v: dévider
+g:1
+
+v: dévier
+g:1
+
+v: deviner
+g:1
+
+v: dévirer
+g:1
+
+v: dévirginiser
+g:1
+
+v: déviriliser
+g:1
+
+v: déviroler
+g:1
+
+v: dévisager
+g:2
+r: manger
+
+v: deviser
+g:1
+
+v: dévisser
+g:1
+
+v: dévitaliser
+g:1
+
+v: dévitrifier
+g:1
+
+v: dévoiler
+g:1
+
+v: devoir
+g:2
+r: devoir
+
+v: dévolter
+g:1
+
+v: dévorer
+g:1
+
+v: dévouer
+g:1
+
+v: dévoyer
+g:2
+r: nettoyer
+
+v: diagnostiquer
+g:1
+
+v: diagonaliser
+g:1
+
+v: dialectaliser
+g:1
+
+v: dialectiser
+g:1
+
+v: dialoguer
+g:1
+
+v: dialyser
+g:1
+
+v: diamanter
+g:1
+
+v: diaphragmer
+g:1
+
+v: diaprer
+g:1
+
+v: dicter
+g:1
+
+v: diéser
+g:2
+r: léser
+
+v: diffamer
+g:1
+
+v: différencier
+g:1
+
+v: différentier
+g:1
+
+v: différer
+g:2
+r: référer
+
+v: difformer
+g:1
+
+v: diffracter
+g:1
+
+v: diffuser
+g:1
+
+v: digérer
+g:2
+r: référer
+
+v: digitaliser
+g:1
+
+v: dilacérer
+g:2
+r: référer
+
+v: dilapider
+g:1
+
+v: dilater
+g:1
+
+v: diligenter
+g:1
+
+v: diluer
+g:1
+
+v: dimensionner
+g:1
+
+v: diminuer
+g:1
+
+v: dindonner
+g:1
+
+v: dîner
+g:1
+
+v: dinguer
+g:1
+
+v: diphtonguer
+g:1
+
+v: diplômer
+g:1
+
+v: dire
+g:2
+r: dire
+
+v: diriger
+g:2
+r: manger
+
+v: discerner
+g:1
+
+v: discipliner
+g:1
+
+v: discontinuer
+g:1
+
+v: disconvenir
+g:2
+r: tenir
+
+v: discorder
+g:1
+
+v: discourir
+g:2
+r: courir
+
+v: discréditer
+g:1
+
+v: discrétiser
+g:1
+
+v: discriminer
+g:1
+
+v: disculper
+g:1
+
+v: discutailler
+g:1
+
+v: discuter
+g:1
+
+v: disgracier
+g:1
+
+v: disjoindre
+g:2
+r: craindre
+
+v: disjoncter
+g:1
+
+v: disloquer
+g:1
+
+v: disparaître
+g:2
+r: repaître
+
+v: dispenser
+g:1
+
+v: disperser
+g:1
+
+v: disposer
+g:1
+
+v: disproportionner
+g:1
+
+v: disputailler
+g:1
+
+v: disputer
+g:1
+
+v: disqualifier
+g:1
+
+v: disséminer
+g:1
+
+v: disséquer
+g:2
+r: disséquer
+
+v: disserter
+g:1
+
+v: dissimuler
+g:1
+
+v: dissiper
+g:1
+
+v: dissocier
+g:1
+
+v: dissoner
+g:1
+
+v: dissoudre
+g:2
+r: dissoudre
+
+v: dissuader
+g:1
+
+v: distancer
+g:2
+r: placer
+
+v: distancier
+g:1
+
+v: distendre
+g:2
+r: tendre
+
+v: distiller
+g:1
+
+v: distinguer
+g:1
+
+v: distordre
+g:2
+r: tendre
+
+v: distraire
+g:2
+r: extraire
+
+v: distribuer
+g:1
+
+v: divaguer
+g:1
+
+v: diverger
+g:2
+r: manger
+
+v: diversifier
+g:1
+
+v: divertir
+g:2
+r: finir
+
+v: diviniser
+g:1
+
+v: diviser
+g:1
+
+v: divorcer
+g:2
+r: placer
+
+v: divulguer
+g:1
+
+v: documenter
+g:1
+
+v: dodeliner
+g:1
+
+v: dodiner
+g:1
+
+v: dogmatiser
+g:1
+
+v: doigter
+g:1
+
+v: doler
+g:1
+
+v: domestiquer
+g:1
+
+v: domicilier
+g:1
+
+v: dominer
+g:1
+
+v: dompter
+g:1
+
+v: donjuaniser
+g:1
+
+v: donner
+g:1
+
+v: doper
+g:1
+
+v: dorer
+g:1
+
+v: dorloter
+g:1
+
+v: dormir
+g:2
+r: dormir
+
+v: doser
+g:1
+
+v: doter
+g:1
+
+v: double-cliquer
+g:1
+
+v: doubler
+g:1
+
+v: doucher
+g:1
+
+v: doucir
+g:2
+r: finir
+
+v: douer
+g:1
+
+v: douter
+g:1
+
+v: dragéifier
+g:1
+
+v: drageonner
+g:1
+
+v: draguer
+g:1
+
+v: drainer
+g:1
+
+v: dramatiser
+g:1
+
+v: draper
+g:1
+
+v: drayer
+g:2
+r: payer
+
+v: dresser
+g:1
+
+v: dribbler
+g:1
+
+v: driller
+g:1
+
+v: driver
+g:1
+
+v: droguer
+g:1
+
+v: droper
+g:1
+
+v: dropper
+g:1
+
+v: drosser
+g:1
+
+v: dulcifier
+g:1
+
+v: duper
+g:1
+
+v: duplexer
+g:1
+
+v: dupliquer
+g:1
+
+v: durcir
+g:2
+r: finir
+
+v: durer
+g:1
+
+v: duveter
+g:2
+r: jeter
+
+v: dynamiser
+g:1
+
+v: dynamiter
+g:1
+
+v: ébahir
+g:2
+r: finir
+
+v: ébarber
+g:1
+
+v: ébattre
+g:2
+r: battre
+
+v: ébaubir
+g:2
+r: finir
+
+v: ébaucher
+g:1
+
+v: ébavurer
+g:1
+
+v: éberluer
+g:1
+
+v: éblouir
+g:2
+r: finir
+
+v: éborgner
+g:1
+
+v: ébosser
+g:1
+
+v: ébouer
+g:1
+
+v: ébouillanter
+g:1
+
+v: ébouler
+g:1
+
+v: ébourgeonner
+g:1
+
+v: ébouriffer
+g:1
+
+v: ébourrer
+g:1
+
+v: ébouter
+g:1
+
+v: ébraiser
+g:1
+
+v: ébrancher
+g:1
+
+v: ébranler
+g:1
+
+v: ébraser
+g:1
+
+v: ébrécher
+g:2
+r: sécher
+
+v: ébrouer
+g:1
+
+v: ébruiter
+g:1
+
+v: écacher
+g:1
+
+v: écaffer
+g:1
+
+v: écailler
+g:1
+
+v: écaler
+g:1
+
+v: écanguer
+g:1
+
+v: écarquiller
+g:1
+
+v: écarteler
+g:2
+r: peler
+
+v: écarter
+g:1
+
+v: écatir
+g:2
+r: finir
+
+v: échafauder
+g:1
+
+v: échalasser
+g:1
+
+v: échampir
+g:2
+r: finir
+
+v: échancrer
+g:1
+
+v: échanfreiner
+g:1
+
+v: échanger
+g:2
+r: manger
+
+v: échantillonner
+g:1
+
+v: échapper
+g:1
+
+v: échardonner
+g:1
+
+v: écharner
+g:1
+
+v: écharper
+g:1
+
+v: échauder
+g:1
+
+v: échauffer
+g:1
+
+v: échauler
+g:1
+
+v: échaumer
+g:1
+
+v: échelonner
+g:1
+
+v: écheniller
+g:1
+
+v: écheveler
+g:2
+r: appeler
+
+v: échiner
+g:1
+
+v: échoir
+g:2
+r: échoir
+
+v: échopper
+g:1
+
+v: échouer
+g:1
+
+v: écimer
+g:1
+
+v: éclabousser
+g:1
+
+v: éclaircir
+g:2
+r: finir
+
+v: éclairer
+g:1
+
+v: éclater
+g:1
+
+v: éclipser
+g:1
+
+v: éclisser
+g:1
+
+v: écloper
+g:1
+
+v: éclore
+g:2
+r: éclore
+
+v: écluser
+g:1
+
+v: écobuer
+g:1
+
+v: écoeurer
+g:1
+
+v: éconduire
+g:2
+r: conduire
+
+v: économiser
+g:1
+
+v: écoper
+g:1
+
+v: écorcer
+g:2
+r: placer
+
+v: écorcher
+g:1
+
+v: écorer
+g:1
+
+v: écorner
+g:1
+
+v: écornifler
+g:1
+
+v: écosser
+g:1
+
+v: écouler
+g:1
+
+v: écourter
+g:1
+
+v: écouter
+g:1
+
+v: écouvillonner
+g:1
+
+v: écrabouiller
+g:1
+
+v: écrapoutir
+g:2
+r: finir
+
+v: écraser
+g:1
+
+v: écrémer
+g:2
+r: crémer
+
+v: écrêter
+g:1
+
+v: écrier
+g:1
+
+v: écrire
+g:2
+r: écrire
+
+v: écrivailler
+g:1
+
+v: écrivasser
+g:1
+
+v: écrouer
+g:1
+
+v: écrouir
+g:2
+r: finir
+
+v: écrouler
+g:1
+
+v: écroûter
+g:1
+
+v: écuisser
+g:1
+
+v: éculer
+g:1
+
+v: écumer
+g:1
+
+v: écurer
+g:1
+
+v: écussonner
+g:1
+
+v: édenter
+g:1
+
+v: édicter
+g:1
+
+v: édifier
+g:1
+
+v: éditer
+g:1
+
+v: éditionner
+g:1
+
+v: éditorialiser
+g:1
+
+v: édulcorer
+g:1
+
+v: éduquer
+g:1
+
+v: éfaufiler
+g:1
+
+v: effacer
+g:2
+r: placer
+
+v: effaner
+g:1
+
+v: effarer
+g:1
+
+v: effaroucher
+g:1
+
+v: effectuer
+g:1
+
+v: efféminer
+g:1
+
+v: effeuiller
+g:1
+
+v: effiler
+g:1
+
+v: effilocher
+g:1
+
+v: efflanquer
+g:1
+
+v: effleurer
+g:1
+
+v: effleurir
+g:2
+r: finir
+
+v: effluver
+g:1
+
+v: effondrer
+g:1
+
+v: efforcer
+g:2
+r: placer
+
+v: effranger
+g:2
+r: manger
+
+v: effrayer
+g:2
+r: payer
+
+v: effriter
+g:1
+
+v: égailler
+g:1
+
+v: égaler
+g:1
+
+v: égaliser
+g:1
+
+v: égarer
+g:1
+
+v: égayer
+g:2
+r: payer
+
+v: égermer
+g:1
+
+v: égorger
+g:2
+r: manger
+
+v: égosiller
+g:1
+
+v: égoutter
+g:1
+
+v: égrainer
+g:1
+
+v: égrapper
+g:1
+
+v: égratigner
+g:1
+
+v: égravillonner
+g:1
+
+v: égrener
+g:2
+r: mener
+
+v: égriser
+g:1
+
+v: égruger
+g:2
+r: manger
+
+v: égueuler
+g:1
+
+v: éhahir
+g:2
+r: finir
+
+v: éjaculer
+g:1
+
+v: éjecter
+g:1
+
+v: éjointer
+g:1
+
+v: élaborer
+g:1
+
+v: élaguer
+g:1
+
+v: élancer
+g:2
+r: placer
+
+v: élargir
+g:2
+r: finir
+
+v: électrifier
+g:1
+
+v: électriser
+g:1
+
+v: électrocuter
+g:1
+
+v: électrolyser
+g:1
+
+v: électroniser
+g:1
+
+v: élever
+g:2
+r: lever
+
+v: élider
+g:1
+
+v: élimer
+g:1
+
+v: éliminer
+g:1
+
+v: élinguer
+g:1
+
+v: élire
+g:2
+r: lire
+
+v: éloigner
+g:1
+
+v: élonger
+g:2
+r: manger
+
+v: élucider
+g:1
+
+v: élucubrer
+g:1
+
+v: éluder
+g:1
+
+v: émacier
+g:1
+
+v: émailler
+g:1
+
+v: émanciper
+g:1
+
+v: émaner
+g:1
+
+v: émarger
+g:2
+r: manger
+
+v: émasculer
+g:1
+
+v: emballer
+g:1
+
+v: emballotter
+g:1
+
+v: embarbouiller
+g:1
+
+v: embarder
+g:1
+
+v: embarquer
+g:1
+
+v: embarrasser
+g:1
+
+v: embarrer
+g:1
+
+v: embastiller
+g:1
+
+v: embastionner
+g:1
+
+v: embattre
+g:2
+r: battre
+
+v: embaucher
+g:1
+
+v: embaumer
+g:1
+
+v: embecquer
+g:1
+
+v: embellir
+g:2
+r: finir
+
+v: emberlificoter
+g:1
+
+v: embêter
+g:1
+
+v: embidonner
+g:1
+
+v: emblaver
+g:1
+
+v: embobeliner
+g:1
+
+v: embobiner
+g:1
+
+v: emboîter
+g:1
+
+v: embosser
+g:1
+
+v: embotteler
+g:2
+r: appeler
+
+v: emboucher
+g:1
+
+v: embouer
+g:1
+
+v: embouquer
+g:1
+
+v: embourber
+g:1
+
+v: embourgeoiser
+g:1
+
+v: embourrer
+g:1
+
+v: embouteiller
+g:1
+
+v: emboutir
+g:2
+r: finir
+
+v: embrancher
+g:1
+
+v: embraquer
+g:1
+
+v: embraser
+g:1
+
+v: embrasser
+g:1
+
+v: embrayer
+g:2
+r: payer
+
+v: embreler
+g:2
+r: peler
+
+v: embrever
+g:2
+r: lever
+
+v: embrigader
+g:1
+
+v: embringuer
+g:1
+
+v: embrocher
+g:1
+
+v: embroncher
+g:1
+
+v: embrouiller
+g:1
+
+v: embroussailler
+g:1
+
+v: embrumer
+g:1
+
+v: embrunir
+g:2
+r: finir
+
+v: embuer
+g:1
+
+v: embusquer
+g:1
+
+v: émécher
+g:2
+r: sécher
+
+v: émerger
+g:2
+r: manger
+
+v: émerillonner
+g:1
+
+v: émeriser
+g:1
+
+v: émerveiller
+g:1
+
+v: émettre
+g:2
+r: mettre
+
+v: émier
+g:1
+
+v: émietter
+g:1
+
+v: émigrer
+g:1
+
+v: émincer
+g:2
+r: placer
+
+v: emmagasiner
+g:1
+
+v: emmailler
+g:1
+
+v: emmailloter
+g:1
+
+v: emmancher
+g:1
+
+v: emmarger
+g:2
+r: manger
+
+v: emmêler
+g:1
+
+v: emménager
+g:2
+r: manger
+
+v: emmener
+g:2
+r: mener
+
+v: emmerder
+g:1
+
+v: emmieller
+g:1
+
+v: emmitonner
+g:1
+
+v: emmitoufler
+g:1
+
+v: emmortaiser
+g:1
+
+v: emmouscailler
+g:1
+
+v: emmurer
+g:1
+
+v: émonder
+g:1
+
+v: émorfiler
+g:1
+
+v: émotionner
+g:1
+
+v: émotter
+g:1
+
+v: émoucher
+g:1
+
+v: émoucheter
+g:2
+r: acheter
+
+v: émoudre
+g:2
+r: moudre
+
+v: émousser
+g:1
+
+v: émoustiller
+g:1
+
+v: émouvoir
+g:2
+r: promouvoir
+
+v: empailler
+g:1
+
+v: empaler
+g:1
+
+v: empalmer
+g:1
+
+v: empanacher
+g:1
+
+v: empanner
+g:1
+
+v: empapilloter
+g:1
+
+v: empaqueter
+g:2
+r: jeter
+
+v: emparer
+g:1
+
+v: emparquer
+g:1
+
+v: empâter
+g:1
+
+v: empatter
+g:1
+
+v: empaumer
+g:1
+
+v: empêcher
+g:1
+
+v: empeigner
+g:1
+
+v: empêner
+g:1
+
+v: empenner
+g:1
+
+v: empercher
+g:1
+
+v: emperler
+g:1
+
+v: empeser
+g:2
+r: peser
+
+v: empester
+g:1
+
+v: empêtrer
+g:1
+
+v: empierrer
+g:1
+
+v: empiéter
+g:2
+r: décréter
+
+v: empiffrer
+g:1
+
+v: empiler
+g:1
+
+v: empirer
+g:1
+
+v: emplir
+g:2
+r: finir
+
+v: employer
+g:2
+r: nettoyer
+
+v: emplumer
+g:1
+
+v: empocher
+g:1
+
+v: empoigner
+g:1
+
+v: empoisonner
+g:1
+
+v: empoisser
+g:1
+
+v: empoissonner
+g:1
+
+v: emporter
+g:1
+
+v: empoter
+g:1
+
+v: empourprer
+g:1
+
+v: empoussiérer
+g:2
+r: référer
+
+v: empreindre
+g:2
+r: craindre
+
+v: empresser
+g:1
+
+v: emprésurer
+g:1
+
+v: emprisonner
+g:1
+
+v: emprunter
+g:1
+
+v: empuantir
+g:2
+r: finir
+
+v: émuler
+g:1
+
+v: émulsifier
+g:1
+
+v: émulsionner
+g:1
+
+v: énamourer
+g:1
+
+v: encabaner
+g:1
+
+v: encadrer
+g:1
+
+v: encager
+g:2
+r: manger
+
+v: encaisser
+g:1
+
+v: encanailler
+g:1
+
+v: encapuchonner
+g:1
+
+v: encaquer
+g:1
+
+v: encarter
+g:1
+
+v: encartonner
+g:1
+
+v: encartoucher
+g:1
+
+v: encaserner
+g:1
+
+v: encasteler
+g:2
+r: peler
+
+v: encastrer
+g:1
+
+v: encaustiquer
+g:1
+
+v: encaver
+g:1
+
+v: enceindre
+g:2
+r: craindre
+
+v: encenser
+g:1
+
+v: encercler
+g:1
+
+v: enchaîner
+g:1
+
+v: enchanter
+g:1
+
+v: enchaperonner
+g:1
+
+v: encharner
+g:1
+
+v: enchâsser
+g:1
+
+v: enchatonner
+g:1
+
+v: enchausser
+g:1
+
+v: enchemiser
+g:1
+
+v: enchérir
+g:2
+r: finir
+
+v: enchevaucher
+g:1
+
+v: enchevêtrer
+g:1
+
+v: encirer
+g:1
+
+v: enclaver
+g:1
+
+v: enclencher
+g:1
+
+v: encliqueter
+g:2
+r: jeter
+
+v: encloîtrer
+g:1
+
+v: enclore
+g:2
+r: clore
+
+v: enclouer
+g:1
+
+v: encocher
+g:1
+
+v: encoder
+g:1
+
+v: encoffrer
+g:1
+
+v: encoller
+g:1
+
+v: encombrer
+g:1
+
+v: encorder
+g:1
+
+v: encorner
+g:1
+
+v: encourager
+g:2
+r: manger
+
+v: encourir
+g:2
+r: courir
+
+v: encrasser
+g:1
+
+v: encrêper
+g:1
+
+v: encrer
+g:1
+
+v: encroûter
+g:1
+
+v: enculer
+g:1
+
+v: encuver
+g:1
+
+v: endauber
+g:1
+
+v: endenter
+g:1
+
+v: endetter
+g:1
+
+v: endeuiller
+g:1
+
+v: endêver
+g:1
+
+v: endiabler
+g:1
+
+v: endiguer
+g:1
+
+v: endimancher
+g:1
+
+v: endivisionner
+g:1
+
+v: endoctriner
+g:1
+
+v: endolorir
+g:2
+r: finir
+
+v: endommager
+g:2
+r: manger
+
+v: endormir
+g:2
+r: dormir
+
+v: endosser
+g:1
+
+v: enduire
+g:2
+r: conduire
+
+v: endurcir
+g:2
+r: finir
+
+v: endurer
+g:1
+
+v: énerver
+g:1
+
+v: enfaîter
+g:1
+
+v: enfanter
+g:1
+
+v: enfariner
+g:1
+
+v: enfermer
+g:1
+
+v: enferrer
+g:1
+
+v: enficher
+g:1
+
+v: enfieller
+g:1
+
+v: enfiévrer
+g:2
+r: enfiévrer
+
+v: enfiler
+g:1
+
+v: enflammer
+g:1
+
+v: enfler
+g:1
+
+v: enfleurer
+g:1
+
+v: enfoncer
+g:2
+r: placer
+
+v: enforcir
+g:2
+r: finir
+
+v: enfouir
+g:2
+r: finir
+
+v: enfourcher
+g:1
+
+v: enfourner
+g:1
+
+v: enfreindre
+g:2
+r: craindre
+
+v: enfuir
+g:2
+r: fuir
+
+v: enfumer
+g:1
+
+v: enfutailler
+g:1
+
+v: enfûter
+g:1
+
+v: engager
+g:2
+r: manger
+
+v: engainer
+g:1
+
+v: engamer
+g:1
+
+v: engargousser
+g:1
+
+v: engaver
+g:1
+
+v: engazonner
+g:1
+
+v: engendrer
+g:1
+
+v: engerber
+g:1
+
+v: englacer
+g:2
+r: placer
+
+v: englober
+g:1
+
+v: engloutir
+g:2
+r: finir
+
+v: engluer
+g:1
+
+v: engober
+g:1
+
+v: engommer
+g:1
+
+v: engoncer
+g:2
+r: placer
+
+v: engorger
+g:2
+r: manger
+
+v: engouer
+g:1
+
+v: engouffrer
+g:1
+
+v: engouler
+g:1
+
+v: engourdir
+g:2
+r: finir
+
+v: engraisser
+g:1
+
+v: engranger
+g:2
+r: manger
+
+v: engraver
+g:1
+
+v: engrener
+g:2
+r: mener
+
+v: engrosser
+g:1
+
+v: engrumeler
+g:2
+r: appeler
+
+v: engueuler
+g:1
+
+v: enguirlander
+g:1
+
+v: enhardier
+g:1
+
+v: enhardir
+g:2
+r: finir
+
+v: enharnacher
+g:1
+
+v: enherber
+g:1
+
+v: énieller
+g:1
+
+v: enivrer
+g:1
+
+v: enjamber
+g:1
+
+v: enjaveler
+g:2
+r: appeler
+
+v: enjoindre
+g:2
+r: craindre
+
+v: enjôler
+g:1
+
+v: enjoliver
+g:1
+
+v: enjoncer
+g:2
+r: placer
+
+v: enjouer
+g:1
+
+v: enjuguer
+g:1
+
+v: enjuiver
+g:1
+
+v: enjuponner
+g:1
+
+v: enkyster
+g:1
+
+v: enlacer
+g:2
+r: placer
+
+v: enlaidir
+g:2
+r: finir
+
+v: enlever
+g:2
+r: lever
+
+v: enliasser
+g:1
+
+v: enlier
+g:1
+
+v: enligner
+g:1
+
+v: enliser
+g:1
+
+v: enluminer
+g:1
+
+v: enneiger
+g:2
+r: manger
+
+v: ennoblir
+g:2
+r: finir
+
+v: ennuager
+g:2
+r: manger
+
+v: ennuyer
+g:2
+r: nettoyer
+
+v: énoncer
+g:2
+r: placer
+
+v: enorgueillir
+g:2
+r: finir
+
+v: énouer
+g:1
+
+v: enquérir
+g:2
+r: acquérir
+
+v: enquêter
+g:1
+
+v: enquiquiner
+g:1
+
+v: enraciner
+g:1
+
+v: enrager
+g:2
+r: manger
+
+v: enrailler
+g:1
+
+v: enrayer
+g:2
+r: payer
+
+v: enrégimenter
+g:1
+
+v: enregistrer
+g:1
+
+v: enrêner
+g:1
+
+v: enrhumer
+g:1
+
+v: enrichir
+g:2
+r: finir
+
+v: enrober
+g:1
+
+v: enrocher
+g:1
+
+v: enrôler
+g:1
+
+v: enrouer
+g:1
+
+v: enrouiller
+g:1
+
+v: enrouler
+g:1
+
+v: enrubanner
+g:1
+
+v: ensabler
+g:1
+
+v: ensaboter
+g:1
+
+v: ensacher
+g:1
+
+v: ensaisiner
+g:1
+
+v: ensanglanter
+g:1
+
+v: ensauvager
+g:2
+r: manger
+
+v: enseigner
+g:1
+
+v: ensemencer
+g:2
+r: placer
+
+v: enserrer
+g:1
+
+v: ensevelir
+g:2
+r: finir
+
+v: ensiler
+g:1
+
+v: ensoleiller
+g:1
+
+v: ensorceler
+g:2
+r: appeler
+
+v: ensoufrer
+g:1
+
+v: ensoutaner
+g:1
+
+v: ensuivre
+g:2
+r: suivre
+
+v: entabler
+g:1
+
+v: entacher
+g:1
+
+v: entailler
+g:1
+
+v: entamer
+g:1
+
+v: entartrer
+g:1
+
+v: entasser
+g:1
+
+v: entendre
+g:2
+r: tendre
+
+v: enténébrer
+g:2
+r: célébrer
+
+v: entériner
+g:1
+
+v: enter
+g:1
+
+v: enterrer
+g:1
+
+v: entêter
+g:1
+
+v: enthousiasmer
+g:1
+
+v: enticher
+g:1
+
+v: entoiler
+g:1
+
+v: entôler
+g:1
+
+v: entonner
+g:1
+
+v: entortiller
+g:1
+
+v: entourer
+g:1
+
+v: entraider
+g:1
+
+v: entr'aimer
+g:1
+
+v: entraîner
+g:1
+
+v: entr'apercevoir
+g:2
+r: décevoir
+
+v: entraver
+g:1
+
+v: entrebâiller
+g:1
+
+v: entrechoquer
+g:1
+
+v: entrecouper
+g:1
+
+v: entrecroiser
+g:1
+
+v: entre-déchirer
+g:1
+
+v: entre-dévorer
+g:1
+
+v: entr'égorger
+g:2
+r: manger
+
+v: entre-heurter
+g:1
+
+v: entrelacer
+g:2
+r: placer
+
+v: entrelarder
+g:1
+
+v: entremêler
+g:1
+
+v: entremettre
+g:2
+r: mettre
+
+v: entreposer
+g:1
+
+v: entreprendre
+g:2
+r: prendre
+
+v: entre-regarder
+g:1
+
+v: entrer
+g:1
+
+v: entretailler
+g:1
+
+v: entretenir
+g:2
+r: tenir
+
+v: entre-tisser
+g:1
+
+v: entretoiser
+g:1
+
+v: entre-tuer
+g:1
+
+v: entretuer
+g:1
+
+v: entrevoir
+g:2
+r: voir
+
+v: entrevoûter
+g:1
+
+v: entrouvrir
+g:2
+r: ouvrir
+
+v: entuber
+g:1
+
+v: enucléer
+g:1
+
+v: énucléer
+g:1
+
+v: énumérer
+g:2
+r: référer
+
+v: envahir
+g:2
+r: finir
+
+v: envaser
+g:1
+
+v: envelopper
+g:1
+
+v: envenimer
+g:1
+
+v: enverger
+g:2
+r: manger
+
+v: enverguer
+g:1
+
+v: envider
+g:1
+
+v: envieillir
+g:2
+r: finir
+
+v: envier
+g:1
+
+v: environner
+g:1
+
+v: envisager
+g:2
+r: manger
+
+v: envoiler
+g:1
+
+v: envoler
+g:1
+
+v: envoûter
+g:1
+
+v: envoyer
+g:2
+r: envoyer
+
+v: épaissir
+g:2
+r: finir
+
+v: épaler
+g:1
+
+v: épamprer
+g:1
+
+v: épancher
+g:1
+
+v: épandre
+g:2
+r: tendre
+
+v: épanneler
+g:2
+r: appeler
+
+v: épanner
+g:1
+
+v: épanouir
+g:2
+r: finir
+
+v: épargner
+g:1
+
+v: éparpiller
+g:1
+
+v: épater
+g:1
+
+v: épaufrer
+g:1
+
+v: épauler
+g:1
+
+v: épeler
+g:2
+r: appeler
+
+v: épépiner
+g:1
+
+v: éperonner
+g:1
+
+v: épeuler
+g:1
+
+v: épeurer
+g:1
+
+v: épicer
+g:2
+r: placer
+
+v: épier
+g:1
+
+v: épierrer
+g:1
+
+v: épiler
+g:1
+
+v: épiloguer
+g:1
+
+v: épinceler
+g:2
+r: peler
+
+v: épincer
+g:2
+r: placer
+
+v: épinceter
+g:2
+r: jeter
+
+v: épiner
+g:1
+
+v: épingler
+g:1
+
+v: épisser
+g:1
+
+v: éployer
+g:2
+r: nettoyer
+
+v: éplucher
+g:1
+
+v: épointer
+g:1
+
+v: éponger
+g:2
+r: manger
+
+v: épontiller
+g:1
+
+v: épouiller
+g:1
+
+v: époumoner
+g:1
+
+v: épouser
+g:1
+
+v: épousseter
+g:2
+r: jeter
+
+v: époustoufler
+g:1
+
+v: époutier
+g:1
+
+v: époutir
+g:2
+r: finir
+
+v: épouvanter
+g:1
+
+v: éprendre
+g:2
+r: prendre
+
+v: éprouver
+g:1
+
+v: épucer
+g:2
+r: placer
+
+v: épuiser
+g:1
+
+v: épurer
+g:1
+
+v: équarrir
+g:2
+r: finir
+
+v: équerrer
+g:1
+
+v: équeuter
+g:1
+
+v: équilibrer
+g:1
+
+v: équiper
+g:1
+
+v: équivaloir
+g:2
+r: valoir
+
+v: équivoquer
+g:1
+
+v: éradiquer
+g:1
+
+v: érafler
+g:1
+
+v: érailler
+g:1
+
+v: érayer
+g:2
+r: payer
+
+v: éreinter
+g:1
+
+v: ergoter
+g:1
+
+v: ériger
+g:2
+r: manger
+
+v: éroder
+g:1
+
+v: érotiser
+g:1
+
+v: errer
+g:1
+
+v: éructer
+g:1
+
+v: esbigner
+g:1
+
+v: esbroufer
+g:1
+
+v: escadronner
+g:1
+
+v: escalader
+g:1
+
+v: escamoter
+g:1
+
+v: escarmoucher
+g:1
+
+v: escarrifier
+g:1
+
+v: escher
+g:1
+
+v: esclaffer
+g:1
+
+v: escoffier
+g:1
+
+v: escompter
+g:1
+
+v: escorter
+g:1
+
+v: escrimer
+g:1
+
+v: escroquer
+g:1
+
+v: espacer
+g:2
+r: placer
+
+v: espérer
+g:2
+r: référer
+
+v: espionner
+g:1
+
+v: espoliner
+g:1
+
+v: espouliner
+g:1
+
+v: esquicher
+g:1
+
+v: esquinter
+g:1
+
+v: esquisser
+g:1
+
+v: esquiver
+g:1
+
+v: essaimer
+g:1
+
+v: essanger
+g:2
+r: manger
+
+v: essarter
+g:1
+
+v: essayer
+g:2
+r: payer
+
+v: essorer
+g:1
+
+v: essoriller
+g:1
+
+v: essoucher
+g:1
+
+v: essouffler
+g:1
+
+v: essuyer
+g:2
+r: nettoyer
+
+v: estamper
+g:1
+
+v: estampiller
+g:1
+
+v: estérifier
+g:1
+
+v: ester
+g:2
+r: ester
+
+v: esthétiser
+g:1
+
+v: estimer
+g:1
+
+v: estiver
+g:1
+
+v: estomaquer
+g:1
+
+v: estomper
+g:1
+
+v: estoquer
+g:1
+
+v: estourbir
+g:2
+r: finir
+
+v: estrapader
+g:1
+
+v: estrapasser
+g:1
+
+v: estropier
+g:1
+
+v: établer
+g:1
+
+v: établir
+g:2
+r: finir
+
+v: étager
+g:2
+r: manger
+
+v: étalager
+g:2
+r: manger
+
+v: étaler
+g:1
+
+v: étalinguer
+g:1
+
+v: étaliser
+g:1
+
+v: étalonner
+g:1
+
+v: étamer
+g:1
+
+v: étamper
+g:1
+
+v: étancher
+g:1
+
+v: étançonner
+g:1
+
+v: étarquer
+g:1
+
+v: étatiser
+g:1
+
+v: étayer
+g:2
+r: payer
+
+v: éteindre
+g:2
+r: craindre
+
+v: étendre
+g:2
+r: tendre
+
+v: éterniser
+g:1
+
+v: éternuer
+g:1
+
+v: étêter
+g:1
+
+v: éthérifier
+g:1
+
+v: éthériser
+g:1
+
+v: étinceler
+g:2
+r: appeler
+
+v: étioler
+g:1
+
+v: étiqueter
+g:2
+r: jeter
+
+v: étirer
+g:1
+
+v: étoffer
+g:1
+
+v: étoiler
+g:1
+
+v: étonner
+g:1
+
+v: étouffer
+g:1
+
+v: étouper
+g:1
+
+v: étoupiller
+g:1
+
+v: étourdir
+g:2
+r: finir
+
+v: étrangler
+g:1
+
+v: étrécir
+g:2
+r: finir
+
+v: étreindre
+g:2
+r: craindre
+
+v: être
+g:2
+r: être
+
+v: étrenner
+g:1
+
+v: étrésillonner
+g:1
+
+v: étriller
+g:1
+
+v: étriper
+g:1
+
+v: étriquer
+g:1
+
+v: étronçonner
+g:1
+
+v: étudier
+g:1
+
+v: étuver
+g:1
+
+v: euphoriser
+g:1
+
+v: européaniser
+g:1
+
+v: euthanasier
+g:1
+
+v: évacuer
+g:1
+
+v: évader
+g:1
+
+v: évaluer
+g:1
+
+v: évangéliser
+g:1
+
+v: évanouir
+g:2
+r: finir
+
+v: évaporer
+g:1
+
+v: évaser
+g:1
+
+v: éveiller
+g:1
+
+v: éventer
+g:1
+
+v: éventrer
+g:1
+
+v: évertuer
+g:1
+
+v: évider
+g:1
+
+v: évincer
+g:2
+r: placer
+
+v: éviter
+g:1
+
+v: évoluer
+g:1
+
+v: évoquer
+g:1
+
+v: exacerber
+g:1
+
+v: exagérer
+g:2
+r: référer
+
+v: exalter
+g:1
+
+v: examiner
+g:1
+
+v: exaspérer
+g:2
+r: référer
+
+v: exaucer
+g:2
+r: placer
+
+v: excaver
+g:1
+
+v: excéder
+g:2
+r: céder
+
+v: exceller
+g:1
+
+v: excentrer
+g:1
+
+v: excepter
+g:1
+
+v: exciper
+g:1
+
+v: exciser
+g:1
+
+v: exciter
+g:1
+
+v: exclamer
+g:1
+
+v: exclure
+g:2
+r: conclure
+
+v: excommunier
+g:1
+
+v: excorier
+g:1
+
+v: excréter
+g:2
+r: décréter
+
+v: excursionner
+g:1
+
+v: excuser
+g:1
+
+v: exécrer
+g:2
+r: exécrer
+
+v: exécuter
+g:1
+
+v: exemplifier
+g:1
+
+v: exempter
+g:1
+
+v: exercer
+g:2
+r: placer
+
+v: exfolier
+g:1
+
+v: exhaler
+g:1
+
+v: exhausser
+g:1
+
+v: exhéréder
+g:2
+r: céder
+
+v: exhiber
+g:1
+
+v: exhorter
+g:1
+
+v: exhumer
+g:1
+
+v: exiger
+g:2
+r: manger
+
+v: exiler
+g:1
+
+v: exister
+g:1
+
+v: exonérer
+g:2
+r: référer
+
+v: exorciser
+g:1
+
+v: expatrier
+g:1
+
+v: expectorer
+g:1
+
+v: expédier
+g:1
+
+v: expérimenter
+g:1
+
+v: expertiser
+g:1
+
+v: expier
+g:1
+
+v: expirer
+g:1
+
+v: expliciter
+g:1
+
+v: expliquer
+g:1
+
+v: exploiter
+g:1
+
+v: explorer
+g:1
+
+v: exploser
+g:1
+
+v: exporter
+g:1
+
+v: exposer
+g:1
+
+v: exprimer
+g:1
+
+v: exproprier
+g:1
+
+v: expulser
+g:1
+
+v: expurger
+g:2
+r: manger
+
+v: exsuder
+g:1
+
+v: extasier
+g:1
+
+v: exténuer
+g:1
+
+v: extérioriser
+g:1
+
+v: exterminer
+g:1
+
+v: extirper
+g:1
+
+v: extorquer
+g:1
+
+v: extrader
+g:1
+
+v: extraire
+g:2
+r: extraire
+
+v: extrapoler
+g:1
+
+v: extravaguer
+g:1
+
+v: extravaser
+g:1
+
+v: extruder
+g:1
+
+v: exulter
+g:1
+
+v: fabriquer
+g:1
+
+v: fabuler
+g:1
+
+v: facetter
+g:1
+
+v: fâcher
+g:1
+
+v: faciliter
+g:1
+
+v: façonner
+g:1
+
+v: factoriser
+g:1
+
+v: facturer
+g:1
+
+v: fader
+g:1
+
+v: fagoter
+g:1
+
+v: faiblir
+g:2
+r: finir
+
+v: faignanter
+g:1
+
+v: failler
+g:1
+
+v: faillir
+g:2
+r: faillir
+
+v: fainéanter
+g:1
+
+v: faire
+g:2
+r: faire
+
+v: faisander
+g:1
+
+v: falloir
+g:2
+r: falloir
+
+v: falsifier
+g:1
+
+v: faluner
+g:1
+
+v: familiariser
+g:1
+
+v: fanatiser
+g:1
+
+v: faner
+g:1
+
+v: fanfaronner
+g:1
+
+v: fanfrelucher
+g:1
+
+v: fantasmer
+g:1
+
+v: farandoler
+g:1
+
+v: farcir
+g:2
+r: finir
+
+v: farder
+g:1
+
+v: farfouiller
+g:1
+
+v: fariner
+g:1
+
+v: farter
+g:1
+
+v: fasciner
+g:1
+
+v: fasciser
+g:1
+
+v: faseiller
+g:1
+
+v: faseyer
+g:1
+
+v: fatiguer
+g:1
+
+v: faucarder
+g:1
+
+v: faucher
+g:1
+
+v: fauconner
+g:1
+
+v: faufiler
+g:1
+
+v: fausser
+g:1
+
+v: fauter
+g:1
+
+v: favoriser
+g:1
+
+v: faxer
+g:1
+
+v: fayoter
+g:1
+
+v: fayotter
+g:1
+
+v: féconder
+g:1
+
+v: féculer
+g:1
+
+v: fédéraliser
+g:1
+
+v: fédérer
+g:2
+r: référer
+
+v: feignanter
+g:1
+
+v: feindre
+g:2
+r: craindre
+
+v: feinter
+g:1
+
+v: fêler
+g:1
+
+v: féliciter
+g:1
+
+v: féminiser
+g:1
+
+v: fendiller
+g:1
+
+v: fendre
+g:2
+r: tendre
+
+v: fenestrer
+g:1
+
+v: fenêtrer
+g:1
+
+v: férir
+g:2
+r: férir
+
+v: ferler
+g:1
+
+v: fermenter
+g:1
+
+v: fermer
+g:1
+
+v: ferrailler
+g:1
+
+v: ferrer
+g:1
+
+v: ferrouter
+g:1
+
+v: fertiliser
+g:1
+
+v: fesser
+g:1
+
+v: festonner
+g:1
+
+v: festoyer
+g:2
+r: nettoyer
+
+v: fêter
+g:1
+
+v: fétichiser
+g:1
+
+v: feuiller
+g:1
+
+v: feuilleter
+g:2
+r: jeter
+
+v: feuler
+g:1
+
+v: feutrer
+g:1
+
+v: fiancer
+g:2
+r: placer
+
+v: ficeler
+g:2
+r: appeler
+
+v: ficher
+g:1
+
+v: fidéliser
+g:1
+
+v: fieffer
+g:1
+
+v: fienter
+g:1
+
+v: fier
+g:1
+
+v: figer
+g:2
+r: manger
+
+v: fignoler
+g:1
+
+v: figurer
+g:1
+
+v: filer
+g:1
+
+v: fileter
+g:2
+r: acheter
+
+v: filigraner
+g:1
+
+v: filmer
+g:1
+
+v: filocher
+g:1
+
+v: filouter
+g:1
+
+v: filtrer
+g:1
+
+v: finaliser
+g:1
+
+v: financer
+g:2
+r: placer
+
+v: finasser
+g:1
+
+v: finir
+g:2
+r: finir
+
+v: finlandiser
+g:1
+
+v: fiscaliser
+g:1
+
+v: fissionner
+g:1
+
+v: fissurer
+g:1
+
+v: fixer
+g:1
+
+v: flageller
+g:1
+
+v: flageoler
+g:1
+
+v: flagorner
+g:1
+
+v: flairer
+g:1
+
+v: flamber
+g:1
+
+v: flamboyer
+g:2
+r: nettoyer
+
+v: flancher
+g:1
+
+v: flâner
+g:1
+
+v: flanquer
+g:1
+
+v: flaquer
+g:1
+
+v: flasher
+g:1
+
+v: flatter
+g:1
+
+v: flauper
+g:1
+
+v: flécher
+g:2
+r: sécher
+
+v: fléchir
+g:2
+r: finir
+
+v: flemmarder
+g:1
+
+v: flétrir
+g:2
+r: finir
+
+v: fleurer
+g:1
+
+v: fleureter
+g:2
+r: jeter
+
+v: fleurir
+g:2
+r: fleurir
+
+v: flibuster
+g:1
+
+v: flinguer
+g:1
+
+v: flipper
+g:1
+
+v: flirter
+g:1
+
+v: floconner
+g:1
+
+v: floculer
+g:1
+
+v: flotter
+g:1
+
+v: flouer
+g:1
+
+v: flouser
+g:1
+
+v: fluctuer
+g:1
+
+v: fluer
+g:1
+
+v: fluidifier
+g:1
+
+v: fluidiser
+g:1
+
+v: fluoriser
+g:1
+
+v: flûter
+g:1
+
+v: fluxer
+g:1
+
+v: focaliser
+g:1
+
+v: foirer
+g:1
+
+v: foisonner
+g:1
+
+v: folâtrer
+g:1
+
+v: folichonner
+g:1
+
+v: folioter
+g:1
+
+v: fomenter
+g:1
+
+v: foncer
+g:2
+r: placer
+
+v: fonctionnariser
+g:1
+
+v: fonctionner
+g:1
+
+v: fonder
+g:1
+
+v: fondre
+g:2
+r: tendre
+
+v: forcer
+g:2
+r: placer
+
+v: forcir
+g:2
+r: finir
+
+v: forclore
+g:2
+r: forclore
+
+v: forer
+g:1
+
+v: forfaire
+g:2
+r: faire
+
+v: forger
+g:2
+r: manger
+
+v: forjeter
+g:2
+r: jeter
+
+v: forlancer
+g:2
+r: placer
+
+v: forligner
+g:1
+
+v: forlonger
+g:2
+r: manger
+
+v: formaliser
+g:1
+
+v: formater
+g:1
+
+v: former
+g:1
+
+v: formoler
+g:1
+
+v: formuler
+g:1
+
+v: forniquer
+g:1
+
+v: fortifier
+g:1
+
+v: fossiliser
+g:1
+
+v: fossoyer
+g:2
+r: nettoyer
+
+v: fouailler
+g:1
+
+v: foudroyer
+g:2
+r: nettoyer
+
+v: fouetter
+g:1
+
+v: fouger
+g:2
+r: manger
+
+v: fouiller
+g:1
+
+v: fouiner
+g:1
+
+v: fouir
+g:2
+r: finir
+
+v: fouler
+g:1
+
+v: fourailler
+g:1
+
+v: fourber
+g:1
+
+v: fourbir
+g:2
+r: finir
+
+v: fourcher
+g:1
+
+v: fourgonner
+g:1
+
+v: fourguer
+g:1
+
+v: fourmiller
+g:1
+
+v: fournir
+g:2
+r: finir
+
+v: fourrager
+g:2
+r: manger
+
+v: fourrer
+g:1
+
+v: fourvoyer
+g:2
+r: nettoyer
+
+v: foutre
+g:2
+r: foutre
+
+v: fracasser
+g:1
+
+v: fractionner
+g:1
+
+v: fracturer
+g:1
+
+v: fragiliser
+g:1
+
+v: fragmenter
+g:1
+
+v: fraîchir
+g:2
+r: finir
+
+v: fraiser
+g:1
+
+v: framboiser
+g:1
+
+v: franchir
+g:2
+r: finir
+
+v: franciser
+g:1
+
+v: franger
+g:2
+r: manger
+
+v: frapper
+g:1
+
+v: fraterniser
+g:1
+
+v: frauder
+g:1
+
+v: frayer
+g:2
+r: payer
+
+v: fredonner
+g:1
+
+v: freiner
+g:1
+
+v: frelater
+g:1
+
+v: frémir
+g:2
+r: finir
+
+v: fréquenter
+g:1
+
+v: fréter
+g:2
+r: décréter
+
+v: frétiller
+g:1
+
+v: fretter
+g:1
+
+v: fricasser
+g:1
+
+v: fricoter
+g:1
+
+v: frictionner
+g:1
+
+v: frigorifier
+g:1
+
+v: frigorifuger
+g:2
+r: manger
+
+v: frimer
+g:1
+
+v: fringuer
+g:1
+
+v: friper
+g:1
+
+v: friponner
+g:1
+
+v: frire
+g:2
+r: frire
+
+v: friser
+g:1
+
+v: frisotter
+g:1
+
+v: frissonner
+g:1
+
+v: fritter
+g:1
+
+v: froidir
+g:2
+r: finir
+
+v: froisser
+g:1
+
+v: frôler
+g:1
+
+v: froncer
+g:2
+r: placer
+
+v: fronder
+g:1
+
+v: frotter
+g:1
+
+v: frouer
+g:1
+
+v: froufrouter
+g:1
+
+v: fructifier
+g:1
+
+v: frusquer
+g:1
+
+v: frustrer
+g:1
+
+v: fuguer
+g:1
+
+v: fuir
+g:2
+r: fuir
+
+v: fulgurer
+g:1
+
+v: fulminer
+g:1
+
+v: fumer
+g:1
+
+v: fumeronner
+g:1
+
+v: fumiger
+g:2
+r: manger
+
+v: fureter
+g:2
+r: acheter
+
+v: fuseler
+g:2
+r: appeler
+
+v: fuser
+g:1
+
+v: fusiller
+g:1
+
+v: fusionner
+g:1
+
+v: fustiger
+g:2
+r: manger
+
+v: gabionner
+g:1
+
+v: gâcher
+g:1
+
+v: gadgétiser
+g:1
+
+v: gaffer
+g:1
+
+v: gager
+g:2
+r: manger
+
+v: gagner
+g:1
+
+v: gainer
+g:1
+
+v: galber
+g:1
+
+v: galipoter
+g:1
+
+v: galonner
+g:1
+
+v: galoper
+g:1
+
+v: galvaniser
+g:1
+
+v: galvauder
+g:1
+
+v: gambader
+g:1
+
+v: gamberger
+g:2
+r: manger
+
+v: gambiller
+g:1
+
+v: gaminer
+g:1
+
+v: gangrener
+g:2
+r: mener
+
+v: ganser
+g:1
+
+v: ganter
+g:1
+
+v: garancer
+g:2
+r: placer
+
+v: garantir
+g:2
+r: finir
+
+v: garder
+g:1
+
+v: garer
+g:1
+
+v: gargariser
+g:1
+
+v: gargoter
+g:1
+
+v: gargouiller
+g:1
+
+v: garnir
+g:2
+r: finir
+
+v: garrotter
+g:1
+
+v: gasconner
+g:1
+
+v: gaspiller
+g:1
+
+v: gâter
+g:1
+
+v: gâtifier
+g:1
+
+v: gauchir
+g:2
+r: finir
+
+v: gauchiser
+g:1
+
+v: gaufrer
+g:1
+
+v: gauler
+g:1
+
+v: gausser
+g:1
+
+v: gaver
+g:1
+
+v: gazéifier
+g:1
+
+v: gazer
+g:1
+
+v: gazonner
+g:1
+
+v: gazouiller
+g:1
+
+v: geindre
+g:2
+r: craindre
+
+v: gélatiner
+g:1
+
+v: gélatiniser
+g:1
+
+v: geler
+g:2
+r: peler
+
+v: gélifier
+g:1
+
+v: géminer
+g:1
+
+v: gémir
+g:2
+r: finir
+
+v: gemmer
+g:1
+
+v: gendarmer
+g:1
+
+v: généraliser
+g:1
+
+v: générer
+g:2
+r: référer
+
+v: gêner
+g:1
+
+v: géométriser
+g:1
+
+v: gerber
+g:1
+
+v: gercer
+g:2
+r: placer
+
+v: gérer
+g:2
+r: référer
+
+v: germaniser
+g:1
+
+v: germer
+g:1
+
+v: gésir
+g:2
+r: gésir
+
+v: gesticuler
+g:1
+
+v: giboyer
+g:2
+r: nettoyer
+
+v: gicler
+g:1
+
+v: gifler
+g:1
+
+v: gigoter
+g:1
+
+v: gironner
+g:1
+
+v: girouetter
+g:1
+
+v: gîter
+g:1
+
+v: givrer
+g:1
+
+v: glacer
+g:2
+r: placer
+
+v: glairer
+g:1
+
+v: glaiser
+g:1
+
+v: glander
+g:1
+
+v: glandouiller
+g:1
+
+v: glaner
+g:1
+
+v: glapir
+g:2
+r: finir
+
+v: glatir
+g:2
+r: finir
+
+v: glavioter
+g:1
+
+v: glaviotter
+g:1
+
+v: glisser
+g:1
+
+v: globaliser
+g:1
+
+v: glorifier
+g:1
+
+v: gloser
+g:1
+
+v: glouglouter
+g:1
+
+v: glousser
+g:1
+
+v: glycériner
+g:1
+
+v: goberger
+g:2
+r: manger
+
+v: gober
+g:1
+
+v: gobeter
+g:2
+r: jeter
+
+v: gobichonner
+g:1
+
+v: godailler
+g:1
+
+v: goder
+g:1
+
+v: godiller
+g:1
+
+v: godronner
+g:1
+
+v: goguenarder
+g:1
+
+v: goinfrer
+g:1
+
+v: gominer
+g:1
+
+v: gommer
+g:1
+
+v: gonder
+g:1
+
+v: gondoler
+g:1
+
+v: gonfler
+g:1
+
+v: gorger
+g:2
+r: manger
+
+v: gosser
+g:1
+
+v: gouacher
+g:1
+
+v: gouailler
+g:1
+
+v: goudronner
+g:1
+
+v: goujonner
+g:1
+
+v: goupiller
+g:1
+
+v: goupillonner
+g:1
+
+v: gourer
+g:1
+
+v: gourmander
+g:1
+
+v: gourmer
+g:1
+
+v: goûter
+g:1
+
+v: goutter
+g:1
+
+v: gouverner
+g:1
+
+v: gracier
+g:1
+
+v: graduer
+g:1
+
+v: grailler
+g:1
+
+v: graillonner
+g:1
+
+v: grainer
+g:1
+
+v: graisser
+g:1
+
+v: grandir
+g:2
+r: finir
+
+v: graniter
+g:1
+
+v: granuler
+g:1
+
+v: graphiter
+g:1
+
+v: grappiller
+g:1
+
+v: grasseyer
+g:2
+r: grasseyer
+
+v: graticuler
+g:1
+
+v: gratifier
+g:1
+
+v: gratiner
+g:1
+
+v: gratter
+g:1
+
+v: graver
+g:1
+
+v: gravillonner
+g:1
+
+v: gravir
+g:2
+r: finir
+
+v: graviter
+g:1
+
+v: gréciser
+g:1
+
+v: grecquer
+g:1
+
+v: gréer
+g:1
+
+v: greffer
+g:1
+
+v: grêler
+g:1
+
+v: grelotter
+g:1
+
+v: grenailler
+g:1
+
+v: greneler
+g:2
+r: appeler
+
+v: grener
+g:2
+r: mener
+
+v: grenouiller
+g:1
+
+v: grésiller
+g:1
+
+v: grever
+g:2
+r: lever
+
+v: gribouiller
+g:1
+
+v: griffer
+g:1
+
+v: griffonner
+g:1
+
+v: grigner
+g:1
+
+v: grignoter
+g:1
+
+v: grillager
+g:2
+r: manger
+
+v: griller
+g:1
+
+v: grimacer
+g:2
+r: placer
+
+v: grimer
+g:1
+
+v: grimper
+g:1
+
+v: grincer
+g:2
+r: placer
+
+v: grincher
+g:1
+
+v: gringuer
+g:1
+
+v: gripper
+g:1
+
+v: grisailler
+g:1
+
+v: griser
+g:1
+
+v: grisoler
+g:1
+
+v: grisoller
+g:1
+
+v: grisonner
+g:1
+
+v: griveler
+g:2
+r: appeler
+
+v: grognasser
+g:1
+
+v: grogner
+g:1
+
+v: grognonner
+g:1
+
+v: grommeler
+g:2
+r: appeler
+
+v: gronder
+g:1
+
+v: grossir
+g:2
+r: finir
+
+v: grossoyer
+g:2
+r: nettoyer
+
+v: grouiller
+g:1
+
+v: grouper
+g:1
+
+v: gruger
+g:2
+r: manger
+
+v: grumeler
+g:2
+r: appeler
+
+v: guéer
+g:1
+
+v: guérir
+g:2
+r: finir
+
+v: guerroyer
+g:2
+r: nettoyer
+
+v: guêtrer
+g:1
+
+v: guetter
+g:1
+
+v: gueuler
+g:1
+
+v: gueuletonner
+g:1
+
+v: gueuser
+g:1
+
+v: guider
+g:1
+
+v: guigner
+g:1
+
+v: guillemeter
+g:2
+r: jeter
+
+v: guillocher
+g:1
+
+v: guillotiner
+g:1
+
+v: guincher
+g:1
+
+v: guinder
+g:1
+
+v: guiper
+g:1
+
+v: habiliter
+g:1
+
+v: habiller
+g:1
+
+v: habiter
+g:1
+
+v: habituer
+g:1
+
+v: habler
+g:1
+
+v: hacher
+g:1
+
+v: hachurer
+g:1
+
+v: haïr
+g:2
+r: haïr
+
+v: haler
+g:1
+
+v: hâler
+g:1
+
+v: haleter
+g:2
+r: acheter
+
+v: halluciner
+g:1
+
+v: hameçonner
+g:1
+
+v: hancher
+g:1
+
+v: handicaper
+g:1
+
+v: hannetonner
+g:1
+
+v: hanter
+g:1
+
+v: happer
+g:1
+
+v: haranguer
+g:1
+
+v: harasser
+g:1
+
+v: harceler
+g:2
+r: harceler
+
+v: harder
+g:1
+
+v: harmoniser
+g:1
+
+v: harnacher
+g:1
+
+v: harpailler
+g:1
+
+v: harper
+g:1
+
+v: harponner
+g:1
+
+v: hasarder
+g:1
+
+v: hâter
+g:1
+
+v: haubaner
+g:1
+
+v: hausser
+g:1
+
+v: haver
+g:1
+
+v: havir
+g:2
+r: finir
+
+v: héberger
+g:2
+r: manger
+
+v: hébéter
+g:2
+r: hébéter
+
+v: hébraïser
+g:1
+
+v: héler
+g:2
+r: révéler
+
+v: helléniser
+g:1
+
+v: hennir
+g:2
+r: finir
+
+v: herbager
+g:2
+r: manger
+
+v: herber
+g:1
+
+v: herboriser
+g:1
+
+v: hercher
+g:1
+
+v: hérisser
+g:1
+
+v: hérissonner
+g:1
+
+v: hériter
+g:1
+
+v: herscher
+g:1
+
+v: herser
+g:1
+
+v: hésiter
+g:1
+
+v: heurter
+g:1
+
+v: hiberner
+g:1
+
+v: hiérarchiser
+g:1
+
+v: hisser
+g:1
+
+v: historier
+g:1
+
+v: hiverner
+g:1
+
+v: hocher
+g:1
+
+v: homogénéifier
+g:1
+
+v: homogénéiser
+g:1
+
+v: homologuer
+g:1
+
+v: hongrer
+g:1
+
+v: hongroyer
+g:2
+r: nettoyer
+
+v: honnir
+g:2
+r: finir
+
+v: honorer
+g:1
+
+v: hoqueter
+g:2
+r: jeter
+
+v: hormoner
+g:1
+
+v: horrifier
+g:1
+
+v: horripiler
+g:1
+
+v: hospitaliser
+g:1
+
+v: hotter
+g:1
+
+v: houblonner
+g:1
+
+v: houer
+g:1
+
+v: houpper
+g:1
+
+v: hourder
+g:1
+
+v: hourdir
+g:2
+r: finir
+
+v: houspiller
+g:1
+
+v: housser
+g:1
+
+v: houssiner
+g:1
+
+v: hucher
+g:1
+
+v: huer
+g:1
+
+v: huiler
+g:1
+
+v: hululer
+g:1
+
+v: humaniser
+g:1
+
+v: humecter
+g:1
+
+v: humer
+g:1
+
+v: humidifier
+g:1
+
+v: humilier
+g:1
+
+v: hurler
+g:1
+
+v: hybrider
+g:1
+
+v: hydrater
+g:1
+
+v: hydrofuger
+g:2
+r: manger
+
+v: hydrogéner
+g:2
+r: aliéner
+
+v: hydrolyser
+g:1
+
+v: hypnotiser
+g:1
+
+v: hypostasier
+g:1
+
+v: hypothéquer
+g:2
+r: disséquer
+
+v: idéaliser
+g:1
+
+v: identifier
+g:1
+
+v: idéologiser
+g:1
+
+v: idiotifier
+g:1
+
+v: idiotiser
+g:1
+
+v: idolâtrer
+g:1
+
+v: ignifuger
+g:2
+r: manger
+
+v: ignorer
+g:1
+
+v: illuminer
+g:1
+
+v: illusionner
+g:1
+
+v: illustrer
+g:1
+
+v: imager
+g:2
+r: manger
+
+v: imaginer
+g:1
+
+v: imbiber
+g:1
+
+v: imbriquer
+g:1
+
+v: imiter
+g:1
+
+v: immatérialiser
+g:1
+
+v: immatriculer
+g:1
+
+v: immerger
+g:2
+r: manger
+
+v: immigrer
+g:1
+
+v: immiscer
+g:2
+r: placer
+
+v: immobiliser
+g:1
+
+v: immoler
+g:1
+
+v: immortaliser
+g:1
+
+v: immuniser
+g:1
+
+v: impacter
+g:1
+
+v: impartir
+g:2
+r: finir
+
+v: impatienter
+g:1
+
+v: impatroniser
+g:1
+
+v: imperméabiliser
+g:1
+
+v: impétrer
+g:2
+r: impétrer
+
+v: implanter
+g:1
+
+v: implémenter
+g:1
+
+v: impliquer
+g:1
+
+v: implorer
+g:1
+
+v: imploser
+g:1
+
+v: importer
+g:1
+
+v: importuner
+g:1
+
+v: imposer
+g:1
+
+v: imprégner
+g:2
+r: régner
+
+v: impressionner
+g:1
+
+v: imprimer
+g:1
+
+v: improuver
+g:1
+
+v: improviser
+g:1
+
+v: impulser
+g:1
+
+v: imputer
+g:1
+
+v: inaugurer
+g:1
+
+v: incarcérer
+g:2
+r: référer
+
+v: incarner
+g:1
+
+v: incendier
+g:1
+
+v: incinérer
+g:2
+r: référer
+
+v: inciser
+g:1
+
+v: inciter
+g:1
+
+v: incliner
+g:1
+
+v: inclure
+g:2
+r: inclure
+
+v: incomber
+g:1
+
+v: incommoder
+g:1
+
+v: incorporer
+g:1
+
+v: incrémenter
+g:1
+
+v: incriminer
+g:1
+
+v: incruster
+g:1
+
+v: incuber
+g:1
+
+v: inculper
+g:1
+
+v: inculquer
+g:1
+
+v: incurver
+g:1
+
+v: indemniser
+g:1
+
+v: indexer
+g:1
+
+v: indicer
+g:2
+r: placer
+
+v: indifférer
+g:2
+r: référer
+
+v: indigner
+g:1
+
+v: indiquer
+g:1
+
+v: indisposer
+g:1
+
+v: individualiser
+g:1
+
+v: induire
+g:2
+r: conduire
+
+v: indulgencier
+g:1
+
+v: indurer
+g:1
+
+v: industrialiser
+g:1
+
+v: infantiliser
+g:1
+
+v: infatuer
+g:1
+
+v: infecter
+g:1
+
+v: inféoder
+g:1
+
+v: inférer
+g:2
+r: référer
+
+v: inférioriser
+g:1
+
+v: infester
+g:1
+
+v: infiltrer
+g:1
+
+v: infirmer
+g:1
+
+v: infléchir
+g:2
+r: finir
+
+v: infliger
+g:2
+r: manger
+
+v: influencer
+g:2
+r: placer
+
+v: influer
+g:1
+
+v: informatiser
+g:1
+
+v: informer
+g:1
+
+v: infuser
+g:1
+
+v: ingénier
+g:1
+
+v: ingérer
+g:2
+r: référer
+
+v: ingurgiter
+g:1
+
+v: inhaler
+g:1
+
+v: inhiber
+g:1
+
+v: inhumer
+g:1
+
+v: initialiser
+g:1
+
+v: initier
+g:1
+
+v: injecter
+g:1
+
+v: injurier
+g:1
+
+v: innerver
+g:1
+
+v: innocenter
+g:1
+
+v: innover
+g:1
+
+v: inoculer
+g:1
+
+v: inonder
+g:1
+
+v: inquiéter
+g:2
+r: décréter
+
+v: inscrire
+g:2
+r: écrire
+
+v: insculper
+g:1
+
+v: inséminer
+g:1
+
+v: insensibiliser
+g:1
+
+v: insérer
+g:2
+r: référer
+
+v: insinuer
+g:1
+
+v: insister
+g:1
+
+v: insoler
+g:1
+
+v: insolubiliser
+g:1
+
+v: insonoriser
+g:1
+
+v: inspecter
+g:1
+
+v: inspirer
+g:1
+
+v: installer
+g:1
+
+v: instaurer
+g:1
+
+v: instiguer
+g:1
+
+v: instiller
+g:1
+
+v: instituer
+g:1
+
+v: institutionnaliser
+g:1
+
+v: instruire
+g:2
+r: conduire
+
+v: instrumenter
+g:1
+
+v: insuffler
+g:1
+
+v: insulter
+g:1
+
+v: insurger
+g:2
+r: manger
+
+v: intailler
+g:1
+
+v: intégrer
+g:2
+r: intégrer
+
+v: intellectualiser
+g:1
+
+v: intensifier
+g:1
+
+v: intenter
+g:1
+
+v: interagir
+g:2
+r: finir
+
+v: interagiter
+g:1
+
+v: intercaler
+g:1
+
+v: intercéder
+g:2
+r: céder
+
+v: intercepter
+g:1
+
+v: interclasser
+g:1
+
+v: interconnecter
+g:1
+
+v: interdire
+g:2
+r: interdire
+
+v: intéresser
+g:1
+
+v: interférer
+g:2
+r: référer
+
+v: interfolier
+g:1
+
+v: intérioriser
+g:1
+
+v: interjeter
+g:2
+r: jeter
+
+v: interligner
+g:1
+
+v: interloquer
+g:1
+
+v: internationaliser
+g:1
+
+v: interner
+g:1
+
+v: interpeler
+g:2
+r: appeler
+
+v: interpeller
+g:1
+
+v: interpénétrer
+g:2
+r: impétrer
+
+v: interpoler
+g:1
+
+v: interposer
+g:1
+
+v: interpréter
+g:2
+r: décréter
+
+v: interroger
+g:2
+r: manger
+
+v: interrompre
+g:2
+r: rompre
+
+v: intersecter
+g:1
+
+v: intervenir
+g:2
+r: tenir
+
+v: intervertir
+g:2
+r: finir
+
+v: interviewer
+g:1
+
+v: intimer
+g:1
+
+v: intimider
+g:1
+
+v: intituler
+g:1
+
+v: intoxiquer
+g:1
+
+v: intriguer
+g:1
+
+v: intriquer
+g:1
+
+v: introbvertir
+g:2
+r: finir
+
+v: introduire
+g:2
+r: conduire
+
+v: introjeter
+g:2
+r: jeter
+
+v: introniser
+g:1
+
+v: introspecter
+g:1
+
+v: intuber
+g:1
+
+v: intuiter
+g:1
+
+v: inutiliser
+g:1
+
+v: invaginer
+g:1
+
+v: invalider
+g:1
+
+v: invectiver
+g:1
+
+v: inventer
+g:1
+
+v: inventorier
+g:1
+
+v: inverser
+g:1
+
+v: invertir
+g:2
+r: finir
+
+v: investiguer
+g:1
+
+v: investir
+g:2
+r: finir
+
+v: invétérer
+g:2
+r: référer
+
+v: inviter
+g:1
+
+v: invoquer
+g:1
+
+v: ioder
+g:1
+
+v: iodler
+g:1
+
+v: ioniser
+g:1
+
+v: iouler
+g:1
+
+v: iraniser
+g:1
+
+v: iriser
+g:1
+
+v: ironiser
+g:1
+
+v: irradier
+g:1
+
+v: irréaliser
+g:1
+
+v: irriguer
+g:1
+
+v: irriter
+g:1
+
+v: irruer
+g:1
+
+v: ischémier
+g:1
+
+v: islamiser
+g:1
+
+v: isoler
+g:1
+
+v: isomériser
+g:1
+
+v: italianiser
+g:1
+
+v: itérer
+g:2
+r: référer
+
+v: ivrogner
+g:1
+
+v: ixer
+g:1
+
+v: jabler
+g:1
+
+v: jaboter
+g:1
+
+v: jabouiner
+g:1
+
+v: jacasser
+g:1
+
+v: jachérer
+g:2
+r: référer
+
+v: jacter
+g:1
+
+v: jaffer
+g:1
+
+v: jaillir
+g:2
+r: finir
+
+v: jalonner
+g:1
+
+v: jalouser
+g:1
+
+v: jamber
+g:1
+
+v: jambonner
+g:1
+
+v: japoniser
+g:1
+
+v: japonner
+g:1
+
+v: japper
+g:1
+
+v: jardiner
+g:1
+
+v: jargauder
+g:1
+
+v: jargonner
+g:1
+
+v: jargouiner
+g:1
+
+v: jarreter
+g:2
+r: acheter
+
+v: jaser
+g:1
+
+v: jasper
+g:1
+
+v: jaspiller
+g:1
+
+v: jaspiner
+g:1
+
+v: jasser
+g:1
+
+v: jauger
+g:2
+r: manger
+
+v: jaunir
+g:2
+r: finir
+
+v: javeler
+g:2
+r: appeler
+
+v: javelliser
+g:1
+
+v: jérémiader
+g:1
+
+v: jérémier
+g:1
+
+v: jerker
+g:1
+
+v: jeter
+g:2
+r: jeter
+
+v: jeûner
+g:1
+
+v: jinguer
+g:1
+
+v: jobarder
+g:1
+
+v: jodler
+g:1
+
+v: jogger
+g:1
+
+v: joindre
+g:2
+r: craindre
+
+v: jointer
+g:1
+
+v: jointoyer
+g:2
+r: nettoyer
+
+v: joncer
+g:2
+r: placer
+
+v: joncher
+g:1
+
+v: jongler
+g:1
+
+v: jouailler
+g:1
+
+v: jouer
+g:1
+
+v: jouir
+g:2
+r: finir
+
+v: journaliser
+g:1
+
+v: jouter
+g:1
+
+v: jouxter
+g:1
+
+v: jubiler
+g:1
+
+v: jucher
+g:1
+
+v: judaïser
+g:1
+
+v: judiciariser
+g:1
+
+v: juger
+g:2
+r: manger
+
+v: juguler
+g:1
+
+v: jumboïser
+g:1
+
+v: jumeler
+g:2
+r: appeler
+
+v: jumper
+g:1
+
+v: juponner
+g:1
+
+v: jurer
+g:1
+
+v: justifier
+g:1
+
+v: juter
+g:1
+
+v: juxtaposer
+g:1
+
+v: kaoliniser
+g:1
+
+v: kératiniser
+g:1
+
+v: kibitzer
+g:1
+
+v: kidnapper
+g:1
+
+v: kifer
+g:1
+
+v: kiffer
+g:1
+
+v: kilométrer
+g:2
+r: impétrer
+
+v: klaxonner
+g:1
+
+v: koter
+g:1
+
+v: labéliser
+g:1
+
+v: labelliser
+g:1
+
+v: labialiser
+g:1
+
+v: labourer
+g:1
+
+v: lacérer
+g:2
+r: référer
+
+v: lacer
+g:2
+r: placer
+
+v: lâcher
+g:1
+
+v: laïciser
+g:1
+
+v: lainer
+g:1
+
+v: laisser
+g:1
+
+v: laitonner
+g:1
+
+v: laïusser
+g:1
+
+v: lambiner
+g:1
+
+v: lambrisser
+g:1
+
+v: lamenter
+g:1
+
+v: lamer
+g:1
+
+v: laminer
+g:1
+
+v: lamper
+g:1
+
+v: lancequiner
+g:1
+
+v: lancer
+g:2
+r: placer
+
+v: lanciner
+g:1
+
+v: langer
+g:2
+r: manger
+
+v: langueter
+g:2
+r: jeter
+
+v: langueyer
+g:2
+r: grasseyer
+
+v: languir
+g:2
+r: finir
+
+v: lansquiner
+g:1
+
+v: lanterner
+g:1
+
+v: lantiponner
+g:1
+
+v: laper
+g:1
+
+v: lapider
+g:1
+
+v: lapidifier
+g:1
+
+v: lapiner
+g:1
+
+v: laquer
+g:1
+
+v: larder
+g:1
+
+v: lardonner
+g:1
+
+v: larguer
+g:1
+
+v: larmer
+g:1
+
+v: larmoyer
+g:2
+r: nettoyer
+
+v: larronner
+g:1
+
+v: laryngectomiser
+g:1
+
+v: lasser
+g:1
+
+v: latiniser
+g:1
+
+v: latter
+g:1
+
+v: laurer
+g:1
+
+v: laver
+g:1
+
+v: layer
+g:2
+r: payer
+
+v: layonner
+g:1
+
+v: lécher
+g:2
+r: sécher
+
+v: léchouiller
+g:1
+
+v: légaliser
+g:1
+
+v: légender
+g:1
+
+v: légiférer
+g:2
+r: référer
+
+v: légitimer
+g:1
+
+v: léguer
+g:2
+r: léguer
+
+v: lénifier
+g:1
+
+v: léser
+g:2
+r: léser
+
+v: lésiner
+g:1
+
+v: lessiver
+g:1
+
+v: lester
+g:1
+
+v: lettrer
+g:1
+
+v: leurrer
+g:1
+
+v: lever
+g:2
+r: lever
+
+v: léviger
+g:2
+r: manger
+
+v: levretter
+g:1
+
+v: lexicaliser
+g:1
+
+v: lézarder
+g:1
+
+v: liaisonner
+g:1
+
+v: liarder
+g:1
+
+v: libeller
+g:1
+
+v: libéraliser
+g:1
+
+v: libérer
+g:2
+r: référer
+
+v: licencier
+g:1
+
+v: licher
+g:1
+
+v: liciter
+g:1
+
+v: lier
+g:1
+
+v: lifter
+g:1
+
+v: ligaturer
+g:1
+
+v: ligner
+g:1
+
+v: lignifier
+g:1
+
+v: ligoter
+g:1
+
+v: liguer
+g:1
+
+v: limander
+g:1
+
+v: limer
+g:1
+
+v: limiter
+g:1
+
+v: limoger
+g:2
+r: manger
+
+v: limoner
+g:1
+
+v: limousiner
+g:1
+
+v: linéariser
+g:1
+
+v: linger
+g:2
+r: manger
+
+v: liquéfier
+g:1
+
+v: liquider
+g:1
+
+v: lire
+g:2
+r: lire
+
+v: lisérer
+g:2
+r: référer
+
+v: lisser
+g:1
+
+v: lister
+g:1
+
+v: liter
+g:1
+
+v: lithographier
+g:1
+
+v: livrer
+g:1
+
+v: lober
+g:1
+
+v: localiser
+g:1
+
+v: locher
+g:1
+
+v: lock-outer
+g:1
+
+v: lofer
+g:1
+
+v: loger
+g:2
+r: manger
+
+v: longer
+g:2
+r: manger
+
+v: loquer
+g:1
+
+v: lorgner
+g:1
+
+v: lotionner
+g:1
+
+v: lotir
+g:2
+r: finir
+
+v: louanger
+g:2
+r: manger
+
+v: loucher
+g:1
+
+v: louchir
+g:2
+r: finir
+
+v: louer
+g:1
+
+v: loufer
+g:1
+
+v: louper
+g:1
+
+v: lourder
+g:1
+
+v: lourer
+g:1
+
+v: louver
+g:1
+
+v: louveter
+g:2
+r: jeter
+
+v: louvoyer
+g:2
+r: nettoyer
+
+v: lover
+g:1
+
+v: lubrifier
+g:1
+
+v: luger
+g:2
+r: manger
+
+v: luire
+g:2
+r: luire
+
+v: luncher
+g:1
+
+v: lustrer
+g:1
+
+v: luter
+g:1
+
+v: lutiner
+g:1
+
+v: lutter
+g:1
+
+v: luxer
+g:1
+
+v: lyncher
+g:1
+
+v: lyophiliser
+g:1
+
+v: lyser
+g:1
+
+v: macadamiser
+g:1
+
+v: macérer
+g:2
+r: référer
+
+v: mâcher
+g:1
+
+v: machicoter
+g:1
+
+v: machiner
+g:1
+
+v: mâchonner
+g:1
+
+v: mâchouiller
+g:1
+
+v: mâchurer
+g:1
+
+v: macler
+g:1
+
+v: maçonner
+g:1
+
+v: macquer
+g:1
+
+v: maculer
+g:1
+
+v: madéfier
+g:1
+
+v: madériser
+g:1
+
+v: madrigaliser
+g:1
+
+v: magasiner
+g:1
+
+v: magner
+g:1
+
+v: magnétiser
+g:1
+
+v: magnétoscoper
+g:1
+
+v: magnifier
+g:1
+
+v: maigrir
+g:2
+r: finir
+
+v: mailler
+g:1
+
+v: maintenir
+g:2
+r: tenir
+
+v: maîtriser
+g:1
+
+v: majorer
+g:1
+
+v: malaxer
+g:1
+
+v: malfaire
+g:2
+r: faire
+
+v: malléabiliser
+g:1
+
+v: malmener
+g:2
+r: mener
+
+v: malter
+g:1
+
+v: maltraiter
+g:1
+
+v: mamelonner
+g:1
+
+v: manager
+g:2
+r: manger
+
+v: manchonner
+g:1
+
+v: mandater
+g:1
+
+v: mander
+g:1
+
+v: mangeotter
+g:1
+
+v: manger
+g:2
+r: manger
+
+v: manier
+g:1
+
+v: manifester
+g:1
+
+v: manigancer
+g:2
+r: placer
+
+v: manipuler
+g:1
+
+v: mannequiner
+g:1
+
+v: manoeuvrer
+g:1
+
+v: manoquer
+g:1
+
+v: manquer
+g:1
+
+v: mansarder
+g:1
+
+v: manucurer
+g:1
+
+v: manufacturer
+g:1
+
+v: manutentionner
+g:1
+
+v: maquereauter
+g:1
+
+v: maquereller
+g:1
+
+v: maquer
+g:1
+
+v: maquignonner
+g:1
+
+v: maquiller
+g:1
+
+v: marauder
+g:1
+
+v: marbrer
+g:1
+
+v: marchander
+g:1
+
+v: marcher
+g:1
+
+v: marcotter
+g:1
+
+v: margauder
+g:1
+
+v: marger
+g:2
+r: manger
+
+v: marginaliser
+g:1
+
+v: marginer
+g:1
+
+v: margoter
+g:1
+
+v: margotter
+g:1
+
+v: marier
+g:1
+
+v: mariner
+g:1
+
+v: marivauder
+g:1
+
+v: marmiter
+g:1
+
+v: marmonner
+g:1
+
+v: marmoriser
+g:1
+
+v: marmotter
+g:1
+
+v: marner
+g:1
+
+v: maronner
+g:1
+
+v: maroquiner
+g:1
+
+v: maroufler
+g:1
+
+v: marquer
+g:1
+
+v: marqueter
+g:2
+r: jeter
+
+v: marrer
+g:1
+
+v: marronner
+g:1
+
+v: marsouiner
+g:1
+
+v: marteler
+g:2
+r: peler
+
+v: martyriser
+g:1
+
+v: marxiser
+g:1
+
+v: masculiniser
+g:1
+
+v: masquer
+g:1
+
+v: massacrer
+g:1
+
+v: masser
+g:1
+
+v: massicoter
+g:1
+
+v: massifier
+g:1
+
+v: mastiquer
+g:1
+
+v: masturber
+g:1
+
+v: matcher
+g:1
+
+v: matelasser
+g:1
+
+v: matérialiser
+g:1
+
+v: mater
+g:1
+
+v: mâter
+g:1
+
+v: materner
+g:1
+
+v: materniser
+g:1
+
+v: mathématiser
+g:1
+
+v: mâtiner
+g:1
+
+v: matir
+g:2
+r: mentir
+
+v: matraquer
+g:1
+
+v: matricer
+g:2
+r: placer
+
+v: matriculer
+g:1
+
+v: maturer
+g:1
+
+v: maudire
+g:2
+r: maudire
+
+v: maugréer
+g:1
+
+v: maximaliser
+g:1
+
+v: maximiser
+g:1
+
+v: mazouter
+g:1
+
+v: mécaniser
+g:1
+
+v: mécher
+g:2
+r: sécher
+
+v: mécompter
+g:1
+
+v: méconnaître
+g:2
+r: repaître
+
+v: mécontenter
+g:1
+
+v: médailler
+g:1
+
+v: médiatiser
+g:1
+
+v: médicaliser
+g:1
+
+v: médicamenter
+g:1
+
+v: médire
+g:2
+r: médire
+
+v: médiser
+g:1
+
+v: méditer
+g:1
+
+v: méduser
+g:1
+
+v: méfaire
+g:2
+r: faire
+
+v: méfier
+g:1
+
+v: mégir
+g:2
+r: finir
+
+v: mégisser
+g:1
+
+v: mégoter
+g:1
+
+v: méjuger
+g:2
+r: manger
+
+v: mélanger
+g:2
+r: manger
+
+v: mêler
+g:1
+
+v: mémoriser
+g:1
+
+v: menacer
+g:2
+r: placer
+
+v: ménager
+g:2
+r: manger
+
+v: mendier
+g:1
+
+v: mendigoter
+g:1
+
+v: mener
+g:2
+r: mener
+
+v: mensualiser
+g:1
+
+v: mensurer
+g:1
+
+v: mentionner
+g:1
+
+v: mentir
+g:2
+r: mentir
+
+v: menuiser
+g:1
+
+v: méprendre
+g:2
+r: prendre
+
+v: mépriser
+g:1
+
+v: mercantiliser
+g:1
+
+v: merceriser
+g:1
+
+v: merder
+g:1
+
+v: merdouiller
+g:1
+
+v: merdoyer
+g:2
+r: nettoyer
+
+v: meringuer
+g:1
+
+v: mériter
+g:1
+
+v: mésallier
+g:1
+
+v: mésestimer
+g:1
+
+v: messeoir
+g:2
+r: seoir
+
+v: mesurer
+g:1
+
+v: mésuser
+g:1
+
+v: métalliser
+g:1
+
+v: métamorphiser
+g:1
+
+v: métamorphoser
+g:1
+
+v: météoriser
+g:1
+
+v: métisser
+g:1
+
+v: métrer
+g:2
+r: impétrer
+
+v: mettre
+g:2
+r: mettre
+
+v: meubler
+g:1
+
+v: meugler
+g:1
+
+v: meuler
+g:1
+
+v: meurtrir
+g:2
+r: finir
+
+v: mévendre
+g:2
+r: tendre
+
+v: miauler
+g:1
+
+v: microfilmer
+g:1
+
+v: mignarder
+g:1
+
+v: mignoter
+g:1
+
+v: migrer
+g:1
+
+v: mijoter
+g:1
+
+v: militariser
+g:1
+
+v: militer
+g:1
+
+v: millésimer
+g:1
+
+v: mimer
+g:1
+
+v: minauder
+g:1
+
+v: mincir
+g:2
+r: finir
+
+v: minéraliser
+g:1
+
+v: miner
+g:1
+
+v: miniaturer
+g:1
+
+v: miniaturiser
+g:1
+
+v: minimiser
+g:1
+
+v: minorer
+g:1
+
+v: minuter
+g:1
+
+v: mirer
+g:1
+
+v: miroiter
+g:1
+
+v: miser
+g:1
+
+v: miter
+g:1
+
+v: mithridater
+g:1
+
+v: mithridatiser
+g:1
+
+v: mitiger
+g:2
+r: manger
+
+v: mitonner
+g:1
+
+v: mitrailler
+g:1
+
+v: mixer
+g:1
+
+v: mixtionner
+g:1
+
+v: mobiliser
+g:1
+
+v: modeler
+g:2
+r: peler
+
+v: modérer
+g:2
+r: référer
+
+v: moderniser
+g:1
+
+v: modifier
+g:1
+
+v: moduler
+g:1
+
+v: moirer
+g:1
+
+v: moiser
+g:1
+
+v: moisir
+g:2
+r: finir
+
+v: moissonner
+g:1
+
+v: moiter
+g:1
+
+v: moitir
+g:2
+r: finir
+
+v: molester
+g:1
+
+v: moleter
+g:2
+r: jeter
+
+v: mollarder
+g:1
+
+v: molletonner
+g:1
+
+v: mollir
+g:2
+r: finir
+
+v: momifier
+g:1
+
+v: monder
+g:1
+
+v: mondialiser
+g:1
+
+v: monétiser
+g:1
+
+v: monnayer
+g:2
+r: payer
+
+v: monologuer
+g:1
+
+v: monopoliser
+g:1
+
+v: monter
+g:1
+
+v: montrer
+g:1
+
+v: moquer
+g:1
+
+v: moquetter
+g:1
+
+v: moraliser
+g:1
+
+v: morceler
+g:2
+r: appeler
+
+v: mordancer
+g:2
+r: placer
+
+v: mordiller
+g:1
+
+v: mordorer
+g:1
+
+v: mordre
+g:2
+r: tendre
+
+v: morfiler
+g:1
+
+v: morfler
+g:1
+
+v: morfondre
+g:2
+r: tendre
+
+v: morguer
+g:1
+
+v: morigéner
+g:2
+r: aliéner
+
+v: mortaiser
+g:1
+
+v: mortifier
+g:1
+
+v: motionner
+g:1
+
+v: motiver
+g:1
+
+v: motoriser
+g:1
+
+v: motter
+g:1
+
+v: moucharder
+g:1
+
+v: moucher
+g:1
+
+v: moucheronner
+g:1
+
+v: moucheter
+g:2
+r: jeter
+
+v: moudre
+g:2
+r: moudre
+
+v: mouetter
+g:1
+
+v: moufter
+g:1
+
+v: mouiller
+g:1
+
+v: mouler
+g:1
+
+v: mouliner
+g:1
+
+v: moulurer
+g:1
+
+v: mourir
+g:2
+r: mourir
+
+v: mouronner
+g:1
+
+v: mousser
+g:1
+
+v: moutonner
+g:1
+
+v: mouvementer
+g:1
+
+v: mouver
+g:1
+
+v: mouvoir
+g:2
+r: mouvoir
+
+v: moyenner
+g:1
+
+v: mucher
+g:1
+
+v: muer
+g:1
+
+v: mugir
+g:2
+r: finir
+
+v: mugueter
+g:2
+r: jeter
+
+v: muloter
+g:1
+
+v: multiplexer
+g:1
+
+v: multiplier
+g:1
+
+v: municipaliser
+g:1
+
+v: munir
+g:2
+r: finir
+
+v: munitionner
+g:1
+
+v: murailler
+g:1
+
+v: murer
+g:1
+
+v: mûrir
+g:2
+r: finir
+
+v: murmurer
+g:1
+
+v: musarder
+g:1
+
+v: muscler
+g:1
+
+v: museler
+g:2
+r: appeler
+
+v: muser
+g:1
+
+v: musiquer
+g:1
+
+v: musquer
+g:1
+
+v: musser
+g:1
+
+v: muter
+g:1
+
+v: mutiler
+g:1
+
+v: mutiner
+g:1
+
+v: mutualiser
+g:1
+
+v: mystifier
+g:1
+
+v: nacrer
+g:1
+
+v: nager
+g:2
+r: manger
+
+v: naître
+g:2
+r: naître
+
+v: nantir
+g:2
+r: finir
+
+v: napper
+g:1
+
+v: narguer
+g:1
+
+v: narrer
+g:1
+
+v: nasaliser
+g:1
+
+v: nasiller
+g:1
+
+v: nationaliser
+g:1
+
+v: natter
+g:1
+
+v: naturaliser
+g:1
+
+v: naufrager
+g:2
+r: manger
+
+v: naviguer
+g:1
+
+v: navrer
+g:1
+
+v: néantiser
+g:1
+
+v: nécessiter
+g:1
+
+v: nécroser
+g:1
+
+v: négliger
+g:2
+r: manger
+
+v: négocier
+g:1
+
+v: neiger
+g:2
+r: manger
+
+v: nervurer
+g:1
+
+v: nettoyer
+g:2
+r: nettoyer
+
+v: neutraliser
+g:1
+
+v: niaiser
+g:1
+
+v: nicher
+g:1
+
+v: nickeler
+g:2
+r: appeler
+
+v: nicotiniser
+g:1
+
+v: nidifier
+g:1
+
+v: nieller
+g:1
+
+v: nier
+g:1
+
+v: nimber
+g:1
+
+v: nipper
+g:1
+
+v: nitrater
+g:1
+
+v: nitrer
+g:1
+
+v: nitrifier
+g:1
+
+v: nitrurer
+g:1
+
+v: niveler
+g:2
+r: appeler
+
+v: noircir
+g:2
+r: finir
+
+v: noliser
+g:1
+
+v: nomadiser
+g:1
+
+v: nominaliser
+g:1
+
+v: nommer
+g:1
+
+v: noper
+g:1
+
+v: nordir
+g:2
+r: finir
+
+v: normaliser
+g:1
+
+v: noter
+g:1
+
+v: notifier
+g:1
+
+v: nouer
+g:1
+
+v: nourrir
+g:2
+r: finir
+
+v: nover
+g:1
+
+v: noyauter
+g:1
+
+v: noyer
+g:2
+r: nettoyer
+
+v: nuancer
+g:2
+r: placer
+
+v: nucléer
+g:1
+
+v: nuer
+g:1
+
+v: nuire
+g:2
+r: nuire
+
+v: numériser
+g:1
+
+v: numéroter
+g:1
+
+v: obéir
+g:2
+r: finir
+
+v: obérer
+g:2
+r: référer
+
+v: objecter
+g:1
+
+v: objectiver
+g:1
+
+v: objurguer
+g:1
+
+v: obliger
+g:2
+r: manger
+
+v: obliquer
+g:1
+
+v: oblitérer
+g:2
+r: référer
+
+v: obnubiler
+g:1
+
+v: obombrer
+g:1
+
+v: obscurcir
+g:2
+r: finir
+
+v: obséder
+g:2
+r: céder
+
+v: observer
+g:1
+
+v: obstiner
+g:1
+
+v: obstruer
+g:1
+
+v: obtempérer
+g:2
+r: référer
+
+v: obtenir
+g:2
+r: tenir
+
+v: obturer
+g:1
+
+v: obvenir
+g:2
+r: tenir
+
+v: obvier
+g:1
+
+v: occasionner
+g:1
+
+v: occidentaliser
+g:1
+
+v: occire
+g:2
+r: occire
+
+v: occlure
+g:2
+r: inclure
+
+v: occulter
+g:1
+
+v: occuper
+g:1
+
+v: ocrer
+g:1
+
+v: octavier
+g:1
+
+v: octroyer
+g:2
+r: nettoyer
+
+v: octupler
+g:1
+
+v: oeilletonner
+g:1
+
+v: oeuvrer
+g:1
+
+v: offenser
+g:1
+
+v: officialiser
+g:1
+
+v: officier
+g:1
+
+v: offrir
+g:2
+r: ouvrir
+
+v: offusquer
+g:1
+
+v: oindre
+g:2
+r: oindre
+
+v: oiseler
+g:2
+r: appeler
+
+v: ombrager
+g:2
+r: manger
+
+v: ombrer
+g:1
+
+v: omettre
+g:2
+r: mettre
+
+v: ondoyer
+g:2
+r: nettoyer
+
+v: onduler
+g:1
+
+v: opacifier
+g:1
+
+v: opaliser
+g:1
+
+v: opérer
+g:2
+r: référer
+
+v: opiacer
+g:2
+r: placer
+
+v: opiner
+g:1
+
+v: opiniâtrer
+g:1
+
+v: opposer
+g:1
+
+v: oppresser
+g:1
+
+v: opprimer
+g:1
+
+v: opter
+g:1
+
+v: optimaliser
+g:1
+
+v: optimiser
+g:1
+
+v: oranger
+g:2
+r: manger
+
+v: orbiter
+g:1
+
+v: orchestrer
+g:1
+
+v: ordonnancer
+g:2
+r: placer
+
+v: ordonner
+g:1
+
+v: organiser
+g:1
+
+v: organsiner
+g:1
+
+v: orienter
+g:1
+
+v: oringuer
+g:1
+
+v: ornementer
+g:1
+
+v: orner
+g:1
+
+v: orthographier
+g:1
+
+v: osciller
+g:1
+
+v: oser
+g:1
+
+v: ossifier
+g:1
+
+v: ostraciser
+g:1
+
+v: ôter
+g:1
+
+v: ouater
+g:1
+
+v: ouatiner
+g:1
+
+v: oublier
+g:1
+
+v: ouiller
+g:1
+
+v: ouïr
+g:2
+r: ouïr
+
+v: ourdir
+g:2
+r: finir
+
+v: ourler
+g:1
+
+v: outiller
+g:1
+
+v: outrager
+g:2
+r: manger
+
+v: outrepasser
+g:1
+
+v: outrer
+g:1
+
+v: ouvrager
+g:2
+r: manger
+
+v: ouvrer
+g:1
+
+v: ouvrir
+g:2
+r: ouvrir
+
+v: ovaliser
+g:1
+
+v: ovationner
+g:1
+
+v: ovuler
+g:1
+
+v: oxyder
+g:1
+
+v: oxygéner
+g:2
+r: aliéner
+
+v: ozoniser
+g:1
+
+v: pacager
+g:2
+r: manger
+
+v: pacifier
+g:1
+
+v: pacquer
+g:1
+
+v: pactiser
+g:1
+
+v: paganiser
+g:1
+
+v: pagayer
+g:2
+r: payer
+
+v: pageoter
+g:1
+
+v: pager
+g:2
+r: manger
+
+v: paginer
+g:1
+
+v: pagnoter
+g:1
+
+v: paillarder
+g:1
+
+v: paillassonner
+g:1
+
+v: pailler
+g:1
+
+v: pailleter
+g:2
+r: jeter
+
+v: paillonner
+g:1
+
+v: paisseler
+g:2
+r: appeler
+
+v: paître
+g:2
+r: paître
+
+v: pajoter
+g:1
+
+v: palabrer
+g:1
+
+v: palancrer
+g:1
+
+v: palangrer
+g:1
+
+v: palanguer
+g:1
+
+v: palanquer
+g:1
+
+v: palataliser
+g:1
+
+v: paletter
+g:1
+
+v: palettiser
+g:1
+
+v: pâlir
+g:2
+r: finir
+
+v: palissader
+g:1
+
+v: palisser
+g:1
+
+v: palissonner
+g:1
+
+v: pallier
+g:1
+
+v: palmer
+g:1
+
+v: paloter
+g:1
+
+v: palper
+g:1
+
+v: palpiter
+g:1
+
+v: pâmer
+g:1
+
+v: panacher
+g:1
+
+v: paner
+g:1
+
+v: panifier
+g:1
+
+v: paniquer
+g:1
+
+v: panneauter
+g:1
+
+v: panner
+g:1
+
+v: panoramiquer
+g:1
+
+v: panser
+g:1
+
+v: panteler
+g:2
+r: appeler
+
+v: pantoufler
+g:1
+
+v: papillonner
+g:1
+
+v: papilloter
+g:1
+
+v: papoter
+g:1
+
+v: papouiller
+g:1
+
+v: paqueter
+g:2
+r: jeter
+
+v: parachever
+g:2
+r: lever
+
+v: parachuter
+g:1
+
+v: parader
+g:1
+
+v: parafer
+g:1
+
+v: paraffiner
+g:1
+
+v: paraisonner
+g:1
+
+v: paraître
+g:2
+r: repaître
+
+v: paralléliser
+g:1
+
+v: paralyser
+g:1
+
+v: paramétriser
+g:1
+
+v: parangonner
+g:1
+
+v: parapher
+g:1
+
+v: paraphraser
+g:1
+
+v: parasiter
+g:1
+
+v: parcellariser
+g:1
+
+v: parceller
+g:1
+
+v: parcelliser
+g:1
+
+v: parcheminer
+g:1
+
+v: parcourir
+g:2
+r: courir
+
+v: pardonner
+g:1
+
+v: parementer
+g:1
+
+v: parer
+g:1
+
+v: paresser
+g:1
+
+v: parfaire
+g:2
+r: faire
+
+v: parfiler
+g:1
+
+v: parfondre
+g:2
+r: tendre
+
+v: parfumer
+g:1
+
+v: parier
+g:1
+
+v: parjurer
+g:1
+
+v: parkériser
+g:1
+
+v: parlementer
+g:1
+
+v: parler
+g:1
+
+v: parloter
+g:1
+
+v: parodier
+g:1
+
+v: parquer
+g:1
+
+v: parqueter
+g:2
+r: jeter
+
+v: parrainer
+g:1
+
+v: parsemer
+g:2
+r: semer
+
+v: partager
+g:2
+r: manger
+
+v: participer
+g:1
+
+v: particulariser
+g:1
+
+v: partir
+g:2
+r: mentir
+
+v: partitionner
+g:1
+
+v: parvenir
+g:2
+r: tenir
+
+v: passementer
+g:1
+
+v: passepoiler
+g:1
+
+v: passer
+g:1
+
+v: passionner
+g:1
+
+v: pasteller
+g:1
+
+v: pasteuriser
+g:1
+
+v: pasticher
+g:1
+
+v: pastiller
+g:1
+
+v: patafioler
+g:1
+
+v: patauger
+g:2
+r: manger
+
+v: pateliner
+g:1
+
+v: patenter
+g:1
+
+v: pâter
+g:1
+
+v: patienter
+g:1
+
+v: patiner
+g:1
+
+v: pâtir
+g:2
+r: finir
+
+v: pâtisser
+g:1
+
+v: patoiser
+g:1
+
+v: patouiller
+g:1
+
+v: patronner
+g:1
+
+v: patrouiller
+g:1
+
+v: patter
+g:1
+
+v: pâturer
+g:1
+
+v: paumer
+g:1
+
+v: paumoyer
+g:2
+r: nettoyer
+
+v: paupériser
+g:1
+
+v: pauser
+g:1
+
+v: pavaner
+g:1
+
+v: paver
+g:1
+
+v: pavoiser
+g:1
+
+v: payer
+g:2
+r: payer
+
+v: peaufiner
+g:1
+
+v: peausser
+g:1
+
+v: pêcher
+g:1
+
+v: pécher
+g:2
+r: sécher
+
+v: pécloter
+g:1
+
+v: pédaler
+g:1
+
+v: peigner
+g:1
+
+v: peindre
+g:2
+r: craindre
+
+v: peiner
+g:1
+
+v: peinturer
+g:1
+
+v: peinturlurer
+g:1
+
+v: peler
+g:2
+r: peler
+
+v: pelleter
+g:2
+r: jeter
+
+v: peloter
+g:1
+
+v: pelotonner
+g:1
+
+v: pelucher
+g:1
+
+v: pénaliser
+g:1
+
+v: pencher
+g:1
+
+v: pendiller
+g:1
+
+v: pendouiller
+g:1
+
+v: pendre
+g:2
+r: tendre
+
+v: penduler
+g:1
+
+v: pénétrer
+g:2
+r: impétrer
+
+v: penser
+g:1
+
+v: pensionner
+g:1
+
+v: pépier
+g:1
+
+v: percer
+g:2
+r: placer
+
+v: percevoir
+g:2
+r: décevoir
+
+v: percher
+g:1
+
+v: percuter
+g:1
+
+v: perdre
+g:2
+r: tendre
+
+v: perdurer
+g:1
+
+v: pérégriner
+g:1
+
+v: pérenniser
+g:1
+
+v: perfectionner
+g:1
+
+v: perforer
+g:1
+
+v: perfuser
+g:1
+
+v: péricliter
+g:1
+
+v: périmer
+g:1
+
+v: périphraser
+g:1
+
+v: périr
+g:2
+r: finir
+
+v: perler
+g:1
+
+v: permanenter
+g:1
+
+v: perméabiliser
+g:1
+
+v: permettre
+g:2
+r: mettre
+
+v: permuter
+g:1
+
+v: pérorer
+g:1
+
+v: peroxyder
+g:1
+
+v: péroxyder
+g:1
+
+v: perpétrer
+g:2
+r: impétrer
+
+v: perpétuer
+g:1
+
+v: perquisitionner
+g:1
+
+v: persécuter
+g:1
+
+v: persévérer
+g:2
+r: référer
+
+v: persifler
+g:1
+
+v: persiller
+g:1
+
+v: persister
+g:1
+
+v: personnaliser
+g:1
+
+v: personnifier
+g:1
+
+v: persuader
+g:1
+
+v: perturber
+g:1
+
+v: pervertir
+g:2
+r: finir
+
+v: pervibrer
+g:1
+
+v: peser
+g:2
+r: peser
+
+v: pester
+g:1
+
+v: pétarader
+g:1
+
+v: pétarder
+g:1
+
+v: péter
+g:2
+r: décréter
+
+v: pétiller
+g:1
+
+v: pétitionner
+g:1
+
+v: pétouiller
+g:1
+
+v: pétrarquiser
+g:1
+
+v: pétrifier
+g:1
+
+v: pétrir
+g:2
+r: finir
+
+v: pétuner
+g:1
+
+v: peupler
+g:1
+
+v: phagocyter
+g:1
+
+v: philosopher
+g:1
+
+v: phosphater
+g:1
+
+v: phosphorer
+g:1
+
+v: photocopier
+g:1
+
+v: photographier
+g:1
+
+v: phraser
+g:1
+
+v: piaffer
+g:1
+
+v: piailler
+g:1
+
+v: pianoter
+g:1
+
+v: piauler
+g:1
+
+v: picoler
+g:1
+
+v: picorer
+g:1
+
+v: picoter
+g:1
+
+v: piéger
+g:2
+r: abréger
+
+v: pierrer
+g:1
+
+v: piéter
+g:2
+r: décréter
+
+v: piétiner
+g:1
+
+v: pieuter
+g:1
+
+v: pifer
+g:1
+
+v: piffer
+g:1
+
+v: pigeonner
+g:1
+
+v: piger
+g:2
+r: manger
+
+v: pigmenter
+g:1
+
+v: pignocher
+g:1
+
+v: piler
+g:1
+
+v: piller
+g:1
+
+v: pilonner
+g:1
+
+v: piloter
+g:1
+
+v: pimenter
+g:1
+
+v: pinailler
+g:1
+
+v: pincer
+g:2
+r: placer
+
+v: pindariser
+g:1
+
+v: pinter
+g:1
+
+v: piocher
+g:1
+
+v: pioncer
+g:2
+r: placer
+
+v: pionner
+g:1
+
+v: piper
+g:1
+
+v: pique-niquer
+g:1
+
+v: piquer
+g:1
+
+v: piqueter
+g:2
+r: jeter
+
+v: pirater
+g:1
+
+v: pirouetter
+g:1
+
+v: pisser
+g:1
+
+v: pistacher
+g:1
+
+v: pister
+g:1
+
+v: pistonner
+g:1
+
+v: pitonner
+g:1
+
+v: pituiter
+g:1
+
+v: pivoter
+g:1
+
+v: placarder
+g:1
+
+v: placer
+g:2
+r: placer
+
+v: plafonner
+g:1
+
+v: plagier
+g:1
+
+v: plaider
+g:1
+
+v: plaindre
+g:2
+r: craindre
+
+v: plainer
+g:1
+
+v: plaire
+g:2
+r: plaire
+
+v: plaisanter
+g:1
+
+v: plancher
+g:1
+
+v: planer
+g:1
+
+v: planifier
+g:1
+
+v: planquer
+g:1
+
+v: planter
+g:1
+
+v: plaquer
+g:1
+
+v: plasmifier
+g:1
+
+v: plastifier
+g:1
+
+v: plastiquer
+g:1
+
+v: plastronner
+g:1
+
+v: platiner
+g:1
+
+v: platiniser
+g:1
+
+v: plâtrer
+g:1
+
+v: plébisciter
+g:1
+
+v: pleurer
+g:1
+
+v: pleurnicher
+g:1
+
+v: pleuvasser
+g:1
+
+v: pleuviner
+g:1
+
+v: pleuvoir
+g:2
+r: pleuvoir
+
+v: plier
+g:1
+
+v: plisser
+g:1
+
+v: plomber
+g:1
+
+v: plonger
+g:2
+r: manger
+
+v: ploquer
+g:1
+
+v: ployer
+g:2
+r: nettoyer
+
+v: plucher
+g:1
+
+v: plumer
+g:1
+
+v: pluraliser
+g:1
+
+v: pocher
+g:1
+
+v: podzoliser
+g:1
+
+v: poêler
+g:1
+
+v: poétiser
+g:1
+
+v: poignarder
+g:1
+
+v: poiler
+g:1
+
+v: poinçonner
+g:1
+
+v: poindre
+g:2
+r: poindre
+
+v: pointer
+g:1
+
+v: pointiller
+g:1
+
+v: poireauter
+g:1
+
+v: poiroter
+g:1
+
+v: poisser
+g:1
+
+v: poivrer
+g:1
+
+v: polariser
+g:1
+
+v: polémiquer
+g:1
+
+v: policer
+g:2
+r: placer
+
+v: polir
+g:2
+r: finir
+
+v: polissonner
+g:1
+
+v: politiquer
+g:1
+
+v: politiser
+g:1
+
+v: polluer
+g:1
+
+v: polycopier
+g:1
+
+v: polymériser
+g:1
+
+v: pommader
+g:1
+
+v: pommeler
+g:2
+r: appeler
+
+v: pommer
+g:1
+
+v: pomper
+g:1
+
+v: pomponner
+g:1
+
+v: poncer
+g:2
+r: placer
+
+v: ponctionner
+g:1
+
+v: ponctuer
+g:1
+
+v: pondérer
+g:2
+r: référer
+
+v: pondre
+g:2
+r: tendre
+
+v: ponter
+g:1
+
+v: pontifier
+g:1
+
+v: pontiller
+g:1
+
+v: populariser
+g:1
+
+v: poquer
+g:1
+
+v: porphyriser
+g:1
+
+v: porter
+g:1
+
+v: poser
+g:1
+
+v: positionner
+g:1
+
+v: posséder
+g:2
+r: céder
+
+v: postdater
+g:1
+
+v: poster
+g:1
+
+v: posticher
+g:1
+
+v: postillonner
+g:1
+
+v: postposer
+g:1
+
+v: postsynchroniser
+g:1
+
+v: postuler
+g:1
+
+v: potasser
+g:1
+
+v: potentialiser
+g:1
+
+v: potiner
+g:1
+
+v: poudrer
+g:1
+
+v: poudroyer
+g:2
+r: nettoyer
+
+v: pouffer
+g:1
+
+v: pouliner
+g:1
+
+v: pouponner
+g:1
+
+v: pourchasser
+g:1
+
+v: pourfendre
+g:2
+r: tendre
+
+v: pourlécher
+g:2
+r: sécher
+
+v: pourprer
+g:1
+
+v: pourrir
+g:2
+r: finir
+
+v: poursuivre
+g:2
+r: suivre
+
+v: pourvoir
+g:2
+r: pourvoir
+
+v: pousser
+g:1
+
+v: poutser
+g:1
+
+v: pouvoir
+g:2
+r: pouvoir
+
+v: praliner
+g:1
+
+v: pratiquer
+g:1
+
+v: préacheter
+g:2
+r: acheter
+
+v: préaviser
+g:1
+
+v: précariser
+g:1
+
+v: précautionner
+g:1
+
+v: précéder
+g:2
+r: céder
+
+v: préchauffer
+g:1
+
+v: prêcher
+g:1
+
+v: précipiter
+g:1
+
+v: préciser
+g:1
+
+v: précompter
+g:1
+
+v: préconiser
+g:1
+
+v: prédéfinir
+g:2
+r: finir
+
+v: prédestiner
+g:1
+
+v: prédéterminer
+g:1
+
+v: prédiquer
+g:1
+
+v: prédire
+g:2
+r: dire
+
+v: prédisposer
+g:1
+
+v: prédominer
+g:1
+
+v: préempter
+g:1
+
+v: préétablir
+g:2
+r: finir
+
+v: préexister
+g:1
+
+v: préfabriquer
+g:1
+
+v: préfacer
+g:2
+r: placer
+
+v: préférer
+g:2
+r: référer
+
+v: préfigurer
+g:1
+
+v: préfixer
+g:1
+
+v: préformer
+g:1
+
+v: préjudicier
+g:1
+
+v: préjuger
+g:2
+r: manger
+
+v: prélasser
+g:1
+
+v: prélever
+g:2
+r: lever
+
+v: préluder
+g:1
+
+v: préméditer
+g:1
+
+v: prémunir
+g:2
+r: finir
+
+v: prendre
+g:2
+r: prendre
+
+v: prénommer
+g:1
+
+v: préoccuper
+g:1
+
+v: préparer
+g:1
+
+v: prépayer
+g:2
+r: payer
+
+v: préposer
+g:1
+
+v: présager
+g:2
+r: manger
+
+v: prescrire
+g:2
+r: écrire
+
+v: présenter
+g:1
+
+v: préserver
+g:1
+
+v: présider
+g:1
+
+v: pressentir
+g:2
+r: mentir
+
+v: presser
+g:1
+
+v: pressurer
+g:1
+
+v: pressuriser
+g:1
+
+v: présumer
+g:1
+
+v: présupposer
+g:1
+
+v: présurer
+g:1
+
+v: prétendre
+g:2
+r: tendre
+
+v: prêter
+g:1
+
+v: prétexter
+g:1
+
+v: prévaloir
+g:2
+r: prévaloir
+
+v: prévariquer
+g:1
+
+v: prévenir
+g:2
+r: tenir
+
+v: prévoir
+g:2
+r: prévoir
+
+v: prier
+g:1
+
+v: primariser
+g:1
+
+v: primer
+g:1
+
+v: prioriser
+g:1
+
+v: priser
+g:1
+
+v: privatiser
+g:1
+
+v: priver
+g:1
+
+v: privilégier
+g:1
+
+v: procéder
+g:2
+r: céder
+
+v: proclamer
+g:1
+
+v: procrastiner
+g:1
+
+v: procréer
+g:1
+
+v: procurer
+g:1
+
+v: prodiguer
+g:1
+
+v: produire
+g:2
+r: conduire
+
+v: profaner
+g:1
+
+v: proférer
+g:2
+r: référer
+
+v: professer
+g:1
+
+v: profiler
+g:1
+
+v: profiter
+g:1
+
+v: programmer
+g:1
+
+v: progresser
+g:1
+
+v: prohiber
+g:1
+
+v: projeter
+g:2
+r: jeter
+
+v: prolétariser
+g:1
+
+v: proliférer
+g:2
+r: référer
+
+v: prolonger
+g:2
+r: manger
+
+v: promener
+g:2
+r: mener
+
+v: promettre
+g:2
+r: mettre
+
+v: promouvoir
+g:2
+r: promouvoir
+
+v: promulguer
+g:1
+
+v: prôner
+g:1
+
+v: prononcer
+g:2
+r: placer
+
+v: pronostiquer
+g:1
+
+v: propager
+g:2
+r: manger
+
+v: prophétiser
+g:1
+
+v: proportionner
+g:1
+
+v: proposer
+g:1
+
+v: propulser
+g:1
+
+v: proroger
+g:2
+r: manger
+
+v: proscrire
+g:2
+r: écrire
+
+v: prosodier
+g:1
+
+v: prospecter
+g:1
+
+v: prospérer
+g:2
+r: référer
+
+v: prosterner
+g:1
+
+v: prostituer
+g:1
+
+v: protéger
+g:2
+r: abréger
+
+v: protester
+g:1
+
+v: prouver
+g:1
+
+v: provenir
+g:2
+r: tenir
+
+v: proverbialiser
+g:1
+
+v: provigner
+g:1
+
+v: provisionner
+g:1
+
+v: provoquer
+g:1
+
+v: psalmodier
+g:1
+
+v: psychanalyser
+g:1
+
+v: psychiatriser
+g:1
+
+v: publier
+g:1
+
+v: puddler
+g:1
+
+v: puer
+g:1
+
+v: puiser
+g:1
+
+v: pulluler
+g:1
+
+v: pulser
+g:1
+
+v: pulvériser
+g:1
+
+v: punaiser
+g:1
+
+v: punir
+g:2
+r: finir
+
+v: purger
+g:2
+r: manger
+
+v: purifier
+g:1
+
+v: putréfier
+g:1
+
+v: pyramider
+g:1
+
+v: pyrograver
+g:1
+
+v: quadriller
+g:1
+
+v: quadrupler
+g:1
+
+v: qualifier
+g:1
+
+v: quantifier
+g:1
+
+v: quarderonner
+g:1
+
+v: quarrer
+g:1
+
+v: quartager
+g:2
+r: manger
+
+v: quarter
+g:1
+
+v: québéciser
+g:1
+
+v: quémander
+g:1
+
+v: quereller
+g:1
+
+v: quérir
+g:2
+r: quérir
+
+v: querner
+g:1
+
+v: questionner
+g:1
+
+v: quêter
+g:1
+
+v: queuter
+g:1
+
+v: quiller
+g:1
+
+v: quimper
+g:1
+
+v: quintessencier
+g:1
+
+v: quintupler
+g:1
+
+v: quittancer
+g:2
+r: placer
+
+v: quitter
+g:1
+
+v: quotienter
+g:1
+
+v: quotter
+g:1
+
+v: rabâcher
+g:1
+
+v: rabaisser
+g:1
+
+v: rabanter
+g:1
+
+v: rabattre
+g:2
+r: battre
+
+v: rabibocher
+g:1
+
+v: rabioter
+g:1
+
+v: râbler
+g:1
+
+v: rabonnir
+g:2
+r: finir
+
+v: raboter
+g:1
+
+v: rabougrir
+g:2
+r: finir
+
+v: rabouter
+g:1
+
+v: rabrouer
+g:1
+
+v: raccommoder
+g:1
+
+v: raccompagner
+g:1
+
+v: raccorder
+g:1
+
+v: raccourcir
+g:2
+r: finir
+
+v: raccoutrer
+g:1
+
+v: raccoutumer
+g:1
+
+v: raccrocher
+g:1
+
+v: racheter
+g:2
+r: acheter
+
+v: raciner
+g:1
+
+v: racler
+g:1
+
+v: racoler
+g:1
+
+v: raconter
+g:1
+
+v: racornir
+g:2
+r: finir
+
+v: rader
+g:1
+
+v: radicaliser
+g:1
+
+v: radier
+g:1
+
+v: radiner
+g:1
+
+v: radiobaliser
+g:1
+
+v: radiodiffuser
+g:1
+
+v: radiographier
+g:1
+
+v: radioguider
+g:1
+
+v: radioscoper
+g:1
+
+v: radiotélégraphier
+g:1
+
+v: radoter
+g:1
+
+v: radouber
+g:1
+
+v: radoucir
+g:2
+r: finir
+
+v: raffermir
+g:2
+r: finir
+
+v: raffiner
+g:1
+
+v: raffoler
+g:1
+
+v: raffûter
+g:1
+
+v: rafistoler
+g:1
+
+v: rafler
+g:1
+
+v: rafraîchir
+g:2
+r: finir
+
+v: ragaillardir
+g:2
+r: finir
+
+v: rager
+g:2
+r: manger
+
+v: ragoter
+g:1
+
+v: ragoûter
+g:1
+
+v: ragrafer
+g:1
+
+v: ragréer
+g:1
+
+v: raguer
+g:1
+
+v: railler
+g:1
+
+v: rainer
+g:1
+
+v: raineter
+g:2
+r: jeter
+
+v: rainurer
+g:1
+
+v: raire
+g:2
+r: extraire
+
+v: raisonner
+g:1
+
+v: rajeunir
+g:2
+r: finir
+
+v: rajouter
+g:1
+
+v: rajuster
+g:1
+
+v: ralentir
+g:2
+r: finir
+
+v: râler
+g:1
+
+v: ralinguer
+g:1
+
+v: raller
+g:1
+
+v: rallier
+g:1
+
+v: rallonger
+g:2
+r: manger
+
+v: rallumer
+g:1
+
+v: ramager
+g:2
+r: manger
+
+v: ramailler
+g:1
+
+v: ramander
+g:1
+
+v: ramarrer
+g:1
+
+v: ramasser
+g:1
+
+v: ramender
+g:1
+
+v: ramener
+g:2
+r: mener
+
+v: ramer
+g:1
+
+v: rameuter
+g:1
+
+v: ramifier
+g:1
+
+v: ramollir
+g:2
+r: finir
+
+v: ramoner
+g:1
+
+v: ramper
+g:1
+
+v: rancarder
+g:1
+
+v: rancir
+g:2
+r: finir
+
+v: rançonner
+g:1
+
+v: randomiser
+g:1
+
+v: randonner
+g:1
+
+v: ranger
+g:2
+r: manger
+
+v: ranimer
+g:1
+
+v: rapapilloter
+g:1
+
+v: rapatrier
+g:1
+
+v: rapatronner
+g:1
+
+v: râper
+g:1
+
+v: rapetasser
+g:1
+
+v: rapetisser
+g:1
+
+v: rapiner
+g:1
+
+v: raplatir
+g:2
+r: finir
+
+v: rapointir
+g:2
+r: finir
+
+v: rappareiller
+g:1
+
+v: rapparier
+g:1
+
+v: rappeler
+g:2
+r: appeler
+
+v: rappliquer
+g:1
+
+v: rapporter
+g:1
+
+v: rapprêter
+g:1
+
+v: rapprocher
+g:1
+
+v: rapproprier
+g:1
+
+v: rapprovisionner
+g:1
+
+v: raquer
+g:1
+
+v: raréfier
+g:1
+
+v: raser
+g:1
+
+v: rassasier
+g:1
+
+v: rassembler
+g:1
+
+v: rasseoir
+g:2
+r: asseoir
+
+v: rasséréner
+g:2
+r: aliéner
+
+v: rassir
+g:2
+r: finir
+
+v: rassoir
+g:2
+r: assoir
+
+v: rassortir
+g:2
+r: finir
+
+v: rassurer
+g:1
+
+v: ratatiner
+g:1
+
+v: râteler
+g:2
+r: appeler
+
+v: rater
+g:1
+
+v: ratiboiser
+g:1
+
+v: ratifier
+g:1
+
+v: ratiner
+g:1
+
+v: ratiociner
+g:1
+
+v: rationaliser
+g:1
+
+v: rationner
+g:1
+
+v: ratisser
+g:1
+
+v: rattacher
+g:1
+
+v: rattraper
+g:1
+
+v: raturer
+g:1
+
+v: raugmenter
+g:1
+
+v: rauquer
+g:1
+
+v: ravager
+g:2
+r: manger
+
+v: ravaler
+g:1
+
+v: ravauder
+g:1
+
+v: ravigoter
+g:1
+
+v: ravilir
+g:2
+r: finir
+
+v: raviner
+g:1
+
+v: ravir
+g:2
+r: finir
+
+v: raviser
+g:1
+
+v: ravitailler
+g:1
+
+v: raviver
+g:1
+
+v: ravoir
+g:2
+r: ravoir
+
+v: rayer
+g:2
+r: payer
+
+v: rayonner
+g:1
+
+v: razzier
+g:1
+
+v: réabonner
+g:1
+
+v: réabsorber
+g:1
+
+v: réaccoutumer
+g:1
+
+v: réactiver
+g:1
+
+v: réactualiser
+g:1
+
+v: réadapter
+g:1
+
+v: réadmettre
+g:2
+r: mettre
+
+v: réaffirmer
+g:1
+
+v: réaffûter
+g:1
+
+v: réagir
+g:2
+r: finir
+
+v: réajuster
+g:1
+
+v: réaléser
+g:2
+r: léser
+
+v: réaligner
+g:1
+
+v: réaliser
+g:1
+
+v: réaménager
+g:2
+r: manger
+
+v: réamorcer
+g:2
+r: placer
+
+v: réanimer
+g:1
+
+v: réapparaître
+g:2
+r: repaître
+
+v: réapprendre
+g:2
+r: prendre
+
+v: réapprovisionner
+g:1
+
+v: réargenter
+g:1
+
+v: réarmer
+g:1
+
+v: réarranger
+g:2
+r: manger
+
+v: réassigner
+g:1
+
+v: réassortir
+g:2
+r: finir
+
+v: réassurer
+g:1
+
+v: rebaisser
+g:1
+
+v: rebander
+g:1
+
+v: rebaptiser
+g:1
+
+v: rebâtir
+g:2
+r: finir
+
+v: rebattre
+g:2
+r: battre
+
+v: rebeller
+g:1
+
+v: rebiffer
+g:1
+
+v: rebiquer
+g:1
+
+v: reblanchir
+g:2
+r: finir
+
+v: reboiser
+g:1
+
+v: rebondir
+g:2
+r: finir
+
+v: reborder
+g:1
+
+v: reboucher
+g:1
+
+v: rebouter
+g:1
+
+v: reboutonner
+g:1
+
+v: rebraguetter
+g:1
+
+v: rebroder
+g:1
+
+v: rebrousser
+g:1
+
+v: rebrûler
+g:1
+
+v: rebuter
+g:1
+
+v: recacheter
+g:2
+r: jeter
+
+v: recalcifier
+g:1
+
+v: récalcitrer
+g:1
+
+v: recalculer
+g:1
+
+v: recaler
+g:1
+
+v: récapituler
+g:1
+
+v: recarder
+g:1
+
+v: recarreler
+g:2
+r: appeler
+
+v: recaser
+g:1
+
+v: recauser
+g:1
+
+v: recéder
+g:2
+r: céder
+
+v: receler
+g:2
+r: peler
+
+v: recenser
+g:1
+
+v: recentrer
+g:1
+
+v: receper
+g:2
+r: receper
+
+v: recéper
+g:2
+r: recéper
+
+v: réceptionner
+g:1
+
+v: recercler
+g:1
+
+v: recevoir
+g:2
+r: décevoir
+
+v: réchampir
+g:2
+r: finir
+
+v: rechanger
+g:2
+r: manger
+
+v: rechanter
+g:1
+
+v: rechaper
+g:1
+
+v: réchapper
+g:1
+
+v: recharger
+g:2
+r: manger
+
+v: rechasser
+g:1
+
+v: réchauffer
+g:1
+
+v: rechausser
+g:1
+
+v: rechercher
+g:1
+
+v: rechigner
+g:1
+
+v: rechristianiser
+g:1
+
+v: rechuter
+g:1
+
+v: récidiver
+g:1
+
+v: réciproquer
+g:1
+
+v: réciter
+g:1
+
+v: réclamer
+g:1
+
+v: reclasser
+g:1
+
+v: récliner
+g:1
+
+v: reclouer
+g:1
+
+v: recoiffer
+g:1
+
+v: récoler
+g:1
+
+v: recoller
+g:1
+
+v: recolorer
+g:1
+
+v: récolter
+g:1
+
+v: recommander
+g:1
+
+v: recommencer
+g:2
+r: placer
+
+v: recomparaître
+g:2
+r: paraître
+
+v: récompenser
+g:1
+
+v: recomposer
+g:1
+
+v: recompter
+g:1
+
+v: réconcilier
+g:1
+
+v: recondamner
+g:1
+
+v: reconduire
+g:2
+r: conduire
+
+v: réconforter
+g:1
+
+v: recongeler
+g:2
+r: peler
+
+v: reconnaître
+g:2
+r: repaître
+
+v: reconnecter
+g:1
+
+v: reconquérir
+g:2
+r: acquérir
+
+v: reconsidérer
+g:2
+r: référer
+
+v: reconsolider
+g:1
+
+v: reconstituer
+g:1
+
+v: reconstruire
+g:2
+r: conduire
+
+v: reconvertir
+g:2
+r: finir
+
+v: recopier
+g:1
+
+v: recoquiller
+g:1
+
+v: recorder
+g:1
+
+v: recorriger
+g:2
+r: manger
+
+v: recoucher
+g:1
+
+v: recoudre
+g:2
+r: coudre
+
+v: recouper
+g:1
+
+v: recouponner
+g:1
+
+v: recourber
+g:1
+
+v: recourir
+g:2
+r: courir
+
+v: recouvrer
+g:1
+
+v: recouvrir
+g:2
+r: ouvrir
+
+v: recracher
+g:1
+
+v: recréer
+g:1
+
+v: récréer
+g:1
+
+v: recrépir
+g:2
+r: finir
+
+v: recreuser
+g:1
+
+v: récrier
+g:1
+
+v: récriminer
+g:1
+
+v: récrire
+g:2
+r: écrire
+
+v: recristalliser
+g:1
+
+v: recroqueviller
+g:1
+
+v: recruter
+g:1
+
+v: rectifier
+g:1
+
+v: recueillir
+g:2
+r: cueillir
+
+v: recuire
+g:2
+r: conduire
+
+v: reculer
+g:1
+
+v: reculotter
+g:1
+
+v: récupérer
+g:2
+r: référer
+
+v: récurer
+g:1
+
+v: récuser
+g:1
+
+v: recycler
+g:1
+
+v: redécouvrir
+g:2
+r: ouvrir
+
+v: redéfaire
+g:2
+r: faire
+
+v: redéfinir
+g:2
+r: finir
+
+v: redemander
+g:1
+
+v: redémarrer
+g:1
+
+v: redémolir
+g:2
+r: finir
+
+v: redépecer
+g:2
+r: dépecer
+
+v: redéployer
+g:2
+r: nettoyer
+
+v: redescendre
+g:2
+r: tendre
+
+v: redévelopper
+g:1
+
+v: redevenir
+g:2
+r: tenir
+
+v: rediffuser
+g:1
+
+v: rédiger
+g:2
+r: manger
+
+v: rédimer
+g:1
+
+v: redire
+g:2
+r: dire
+
+v: rediscuter
+g:1
+
+v: redistribuer
+g:1
+
+v: redonder
+g:1
+
+v: redonner
+g:1
+
+v: redorer
+g:1
+
+v: redoubler
+g:1
+
+v: redouter
+g:1
+
+v: redresser
+g:1
+
+v: réduire
+g:2
+r: conduire
+
+v: redynamiser
+g:1
+
+v: réécouter
+g:1
+
+v: réédifier
+g:1
+
+v: rééditer
+g:1
+
+v: rééduquer
+g:1
+
+v: réélire
+g:2
+r: lire
+
+v: réembaucher
+g:1
+
+v: réemployer
+g:2
+r: nettoyer
+
+v: réemprunter
+g:1
+
+v: réengager
+g:2
+r: manger
+
+v: réenregistrer
+g:1
+
+v: réensemencer
+g:2
+r: placer
+
+v: rééquilibrer
+g:1
+
+v: réer
+g:1
+
+v: réescompter
+g:1
+
+v: réessayer
+g:2
+r: payer
+
+v: réévaluer
+g:1
+
+v: réexaminer
+g:1
+
+v: réexpédier
+g:1
+
+v: réexporter
+g:1
+
+v: refaçonner
+g:1
+
+v: refendre
+g:2
+r: tendre
+
+v: référencer
+g:2
+r: placer
+
+v: référencier
+g:2
+r: référencier
+
+v: référer
+g:2
+r: référer
+
+v: refermer
+g:1
+
+v: refiler
+g:1
+
+v: réfléchir
+g:2
+r: finir
+
+v: refléter
+g:2
+r: décréter
+
+v: refleurir
+g:2
+r: finir
+
+v: refluer
+g:1
+
+v: refondre
+g:2
+r: tendre
+
+v: reforger
+g:2
+r: manger
+
+v: reformer
+g:1
+
+v: réformer
+g:1
+
+v: reformuler
+g:1
+
+v: refouiller
+g:1
+
+v: refouler
+g:1
+
+v: refourrer
+g:1
+
+v: réfracter
+g:1
+
+v: réfréner
+g:2
+r: aliéner
+
+v: réfrigérer
+g:2
+r: référer
+
+v: refroidir
+g:2
+r: finir
+
+v: réfugier
+g:1
+
+v: refuser
+g:1
+
+v: réfuter
+g:1
+
+v: regagner
+g:1
+
+v: régaler
+g:1
+
+v: regarder
+g:1
+
+v: regarnir
+g:2
+r: finir
+
+v: régater
+g:1
+
+v: regazonner
+g:1
+
+v: regeler
+g:2
+r: peler
+
+v: regénérer
+g:2
+r: référer
+
+v: régénérer
+g:2
+r: référer
+
+v: régenter
+g:1
+
+v: regimber
+g:1
+
+v: régionaliser
+g:1
+
+v: régir
+g:2
+r: finir
+
+v: registrer
+g:1
+
+v: réglementer
+g:1
+
+v: régler
+g:2
+r: régler
+
+v: régner
+g:2
+r: régner
+
+v: regonfler
+g:1
+
+v: regorger
+g:2
+r: manger
+
+v: regratter
+g:1
+
+v: regréer
+g:1
+
+v: regreffer
+g:1
+
+v: régresser
+g:1
+
+v: regretter
+g:1
+
+v: regrimper
+g:1
+
+v: regrossir
+g:2
+r: finir
+
+v: regrouper
+g:1
+
+v: régulariser
+g:1
+
+v: réguler
+g:1
+
+v: régurgiter
+g:1
+
+v: réhabiliter
+g:1
+
+v: réhabituer
+g:1
+
+v: rehausser
+g:1
+
+v: réhydrater
+g:1
+
+v: réifier
+g:1
+
+v: réimperméabiliser
+g:1
+
+v: réimplanter
+g:1
+
+v: réimporter
+g:1
+
+v: réimposer
+g:1
+
+v: réimprimer
+g:1
+
+v: réincarner
+g:1
+
+v: réincorporer
+g:1
+
+v: réinfecter
+g:1
+
+v: réinscrire
+g:2
+r: écrire
+
+v: réinsérer
+g:2
+r: référer
+
+v: réinstaller
+g:1
+
+v: réintégrer
+g:2
+r: intégrer
+
+v: réintroduire
+g:2
+r: conduire
+
+v: réinventer
+g:1
+
+v: réinvestir
+g:2
+r: finir
+
+v: réinviter
+g:1
+
+v: réitérer
+g:2
+r: référer
+
+v: rejaillir
+g:2
+r: finir
+
+v: rejeter
+g:2
+r: jeter
+
+v: rejoindre
+g:2
+r: craindre
+
+v: rejointoyer
+g:2
+r: nettoyer
+
+v: rejouer
+g:1
+
+v: réjouir
+g:2
+r: finir
+
+v: rejuger
+g:2
+r: manger
+
+v: relâcher
+g:1
+
+v: relaisser
+g:1
+
+v: relancer
+g:2
+r: placer
+
+v: rélargir
+g:2
+r: finir
+
+v: relater
+g:1
+
+v: relativiser
+g:1
+
+v: relaver
+g:1
+
+v: relaxer
+g:1
+
+v: relayer
+g:2
+r: payer
+
+v: reléguer
+g:2
+r: léguer
+
+v: relever
+g:2
+r: lever
+
+v: relier
+g:1
+
+v: relire
+g:2
+r: lire
+
+v: reloger
+g:2
+r: manger
+
+v: reloqueter
+g:2
+r: jeter
+
+v: relouer
+g:1
+
+v: reluire
+g:2
+r: nuire
+
+v: reluquer
+g:1
+
+v: remâcher
+g:1
+
+v: remailler
+g:1
+
+v: remanger
+g:2
+r: manger
+
+v: remanier
+g:1
+
+v: remaquiller
+g:1
+
+v: remarcher
+g:1
+
+v: remarier
+g:1
+
+v: remarquer
+g:1
+
+v: remastiquer
+g:1
+
+v: remballer
+g:1
+
+v: rembarquer
+g:1
+
+v: rembarrer
+g:1
+
+v: rembiner
+g:1
+
+v: remblaver
+g:1
+
+v: remblayer
+g:2
+r: payer
+
+v: remboîter
+g:1
+
+v: rembouger
+g:2
+r: manger
+
+v: rembourrer
+g:1
+
+v: rembourser
+g:1
+
+v: rembrunir
+g:2
+r: finir
+
+v: rembucher
+g:1
+
+v: remédier
+g:1
+
+v: remembrer
+g:1
+
+v: remémorer
+g:1
+
+v: remercier
+g:1
+
+v: remettre
+g:2
+r: mettre
+
+v: remeubler
+g:1
+
+v: remilitariser
+g:1
+
+v: remiser
+g:1
+
+v: remmailler
+g:1
+
+v: remmailloter
+g:1
+
+v: remmancher
+g:1
+
+v: remmener
+g:2
+r: mener
+
+v: remodeler
+g:2
+r: peler
+
+v: remonter
+g:1
+
+v: remontrer
+g:1
+
+v: remordre
+g:2
+r: tendre
+
+v: remorquer
+g:1
+
+v: remoucher
+g:1
+
+v: remoudre
+g:2
+r: moudre
+
+v: remouiller
+g:1
+
+v: rempailler
+g:1
+
+v: rempaqueter
+g:2
+r: jeter
+
+v: remparer
+g:1
+
+v: rempiéter
+g:2
+r: décréter
+
+v: rempiler
+g:1
+
+v: remplacer
+g:2
+r: placer
+
+v: remplier
+g:1
+
+v: remplir
+g:2
+r: finir
+
+v: remployer
+g:2
+r: nettoyer
+
+v: remplumer
+g:1
+
+v: rempocher
+g:1
+
+v: rempoissonner
+g:1
+
+v: remporter
+g:1
+
+v: rempoter
+g:1
+
+v: remprunter
+g:1
+
+v: remuer
+g:1
+
+v: rémunérer
+g:2
+r: référer
+
+v: renâcler
+g:1
+
+v: renaître
+g:2
+r: renaître
+
+v: renarder
+g:1
+
+v: renauder
+g:1
+
+v: rencaisser
+g:1
+
+v: renchaîner
+g:1
+
+v: renchérir
+g:2
+r: finir
+
+v: rencogner
+g:1
+
+v: rencontrer
+g:1
+
+v: rendormir
+g:2
+r: dormir
+
+v: rendosser
+g:1
+
+v: rendre
+g:2
+r: tendre
+
+v: renégocier
+g:1
+
+v: rénetter
+g:1
+
+v: renfaîter
+g:1
+
+v: renfermer
+g:1
+
+v: renfiler
+g:1
+
+v: renflammer
+g:1
+
+v: renfler
+g:1
+
+v: renflouer
+g:1
+
+v: renfoncer
+g:2
+r: placer
+
+v: renforcer
+g:2
+r: placer
+
+v: renformir
+g:2
+r: finir
+
+v: renfrogner
+g:1
+
+v: rengager
+g:2
+r: manger
+
+v: rengainer
+g:1
+
+v: rengorger
+g:2
+r: manger
+
+v: rengracier
+g:1
+
+v: rengraisser
+g:1
+
+v: rengréner
+g:2
+r: aliéner
+
+v: rengrener
+g:2
+r: mener
+
+v: renier
+g:1
+
+v: renifler
+g:1
+
+v: renommer
+g:1
+
+v: renoncer
+g:2
+r: placer
+
+v: renouer
+g:1
+
+v: renouveler
+g:2
+r: appeler
+
+v: rénover
+g:1
+
+v: renquiller
+g:1
+
+v: renseigner
+g:1
+
+v: rentabiliser
+g:1
+
+v: rentamer
+g:1
+
+v: renter
+g:1
+
+v: rentoiler
+g:1
+
+v: rentraîner
+g:1
+
+v: rentraire
+g:2
+r: extraire
+
+v: rentrer
+g:1
+
+v: rentrouvrir
+g:2
+r: ouvrir
+
+v: renvelopper
+g:1
+
+v: renvenimer
+g:1
+
+v: renverger
+g:2
+r: manger
+
+v: renverser
+g:1
+
+v: renvider
+g:1
+
+v: renvier
+g:1
+
+v: renvoyer
+g:2
+r: envoyer
+
+v: réoccuper
+g:1
+
+v: réopérer
+g:2
+r: référer
+
+v: réorchestrer
+g:1
+
+v: réordonnancer
+g:2
+r: placer
+
+v: réordonner
+g:1
+
+v: réorganiser
+g:1
+
+v: réorienter
+g:1
+
+v: repairer
+g:1
+
+v: repaître
+g:2
+r: repaître
+
+v: répandre
+g:2
+r: tendre
+
+v: reparaître
+g:2
+r: repaître
+
+v: réparer
+g:1
+
+v: reparler
+g:1
+
+v: repartager
+g:2
+r: manger
+
+v: répartir
+g:2
+r: finir
+
+v: repartir
+g:2
+r: mentir
+
+v: repasser
+g:1
+
+v: repatiner
+g:1
+
+v: repaver
+g:1
+
+v: repayer
+g:2
+r: payer
+
+v: repêcher
+g:1
+
+v: repeigner
+g:1
+
+v: repeindre
+g:2
+r: craindre
+
+v: rependre
+g:2
+r: tendre
+
+v: repenser
+g:1
+
+v: repentir
+g:2
+r: mentir
+
+v: repercer
+g:2
+r: placer
+
+v: répercuter
+g:1
+
+v: reperdre
+g:2
+r: tendre
+
+v: repérer
+g:2
+r: référer
+
+v: répertorier
+g:1
+
+v: répéter
+g:2
+r: décréter
+
+v: repeupler
+g:1
+
+v: repincer
+g:2
+r: placer
+
+v: repiquer
+g:1
+
+v: replacer
+g:2
+r: placer
+
+v: replanter
+g:1
+
+v: replâtrer
+g:1
+
+v: replier
+g:1
+
+v: répliquer
+g:1
+
+v: replisser
+g:1
+
+v: replonger
+g:2
+r: manger
+
+v: reployer
+g:2
+r: nettoyer
+
+v: repolir
+g:2
+r: finir
+
+v: répondre
+g:2
+r: tendre
+
+v: reporter
+g:1
+
+v: reposer
+g:1
+
+v: repousser
+g:1
+
+v: reprendre
+g:2
+r: prendre
+
+v: représenter
+g:1
+
+v: réprimander
+g:1
+
+v: réprimer
+g:1
+
+v: repriser
+g:1
+
+v: reprocher
+g:1
+
+v: reproduire
+g:2
+r: conduire
+
+v: reprogrammer
+g:1
+
+v: reprographier
+g:1
+
+v: reprouver
+g:1
+
+v: réprouver
+g:1
+
+v: républicaniser
+g:1
+
+v: répudier
+g:1
+
+v: répugner
+g:1
+
+v: réputer
+g:1
+
+v: requérir
+g:2
+r: acquérir
+
+v: requinquer
+g:1
+
+v: réquisitionner
+g:1
+
+v: resaler
+g:1
+
+v: resaluer
+g:1
+
+v: rescinder
+g:1
+
+v: réséquer
+g:2
+r: disséquer
+
+v: réserver
+g:1
+
+v: résider
+g:1
+
+v: résigner
+g:1
+
+v: résilier
+g:1
+
+v: résiner
+g:1
+
+v: résinifier
+g:1
+
+v: résister
+g:1
+
+v: resocialiser
+g:1
+
+v: résonner
+g:1
+
+v: résorber
+g:1
+
+v: résoudre
+g:2
+r: résoudre
+
+v: respecter
+g:1
+
+v: respirer
+g:1
+
+v: resplendir
+g:2
+r: finir
+
+v: responsabiliser
+g:1
+
+v: resquiller
+g:1
+
+v: ressaigner
+g:1
+
+v: ressaisir
+g:2
+r: finir
+
+v: ressasser
+g:1
+
+v: ressauter
+g:1
+
+v: ressayer
+g:2
+r: payer
+
+v: ressembler
+g:1
+
+v: ressemeler
+g:2
+r: appeler
+
+v: ressemer
+g:2
+r: semer
+
+v: ressentir
+g:2
+r: mentir
+
+v: resserrer
+g:1
+
+v: resservir
+g:2
+r: servir
+
+v: ressortir
+g:2
+r: mentir
+
+v: ressouder
+g:1
+
+v: ressourcer
+g:2
+r: placer
+
+v: ressuer
+g:1
+
+v: ressurgir
+g:2
+r: finir
+
+v: ressusciter
+g:1
+
+v: ressuyer
+g:2
+r: nettoyer
+
+v: restaurer
+g:1
+
+v: rester
+g:1
+
+v: restituer
+g:1
+
+v: restreindre
+g:2
+r: craindre
+
+v: restructurer
+g:1
+
+v: résulter
+g:1
+
+v: résumer
+g:1
+
+v: resurchauffer
+g:1
+
+v: resurgir
+g:2
+r: finir
+
+v: rétablir
+g:2
+r: finir
+
+v: retailler
+g:1
+
+v: rétamer
+g:1
+
+v: retaper
+g:1
+
+v: retapisser
+g:1
+
+v: retarder
+g:1
+
+v: retâter
+g:1
+
+v: reteindre
+g:2
+r: craindre
+
+v: retendre
+g:2
+r: tendre
+
+v: retenir
+g:2
+r: tenir
+
+v: retenter
+g:1
+
+v: retentir
+g:2
+r: finir
+
+v: retercer
+g:2
+r: placer
+
+v: reterser
+g:1
+
+v: réticuler
+g:1
+
+v: retirer
+g:1
+
+v: retisser
+g:1
+
+v: retomber
+g:1
+
+v: retondre
+g:2
+r: tendre
+
+v: retordre
+g:2
+r: tendre
+
+v: rétorquer
+g:1
+
+v: retoucher
+g:1
+
+v: retouper
+g:1
+
+v: retourner
+g:1
+
+v: retracer
+g:2
+r: placer
+
+v: rétracter
+g:1
+
+v: retraduire
+g:2
+r: conduire
+
+v: retraiter
+g:1
+
+v: retrancher
+g:1
+
+v: retranscrire
+g:2
+r: écrire
+
+v: retransmettre
+g:2
+r: mettre
+
+v: retravailler
+g:1
+
+v: retraverser
+g:1
+
+v: rétrécir
+g:2
+r: finir
+
+v: rétreindre
+g:2
+r: craindre
+
+v: retremper
+g:1
+
+v: rétribuer
+g:1
+
+v: rétroagir
+g:2
+r: finir
+
+v: rétrocéder
+g:2
+r: céder
+
+v: rétrograder
+g:1
+
+v: retrousser
+g:1
+
+v: retrouver
+g:1
+
+v: réunifier
+g:1
+
+v: réunir
+g:2
+r: finir
+
+v: réussir
+g:2
+r: finir
+
+v: réutiliser
+g:1
+
+v: revacciner
+g:1
+
+v: revaloriser
+g:1
+
+v: revancher
+g:1
+
+v: rêvasser
+g:1
+
+v: réveiller
+g:1
+
+v: réveillonner
+g:1
+
+v: révéler
+g:2
+r: révéler
+
+v: revendiquer
+g:1
+
+v: revendre
+g:2
+r: tendre
+
+v: revenir
+g:2
+r: tenir
+
+v: réverbérer
+g:2
+r: référer
+
+v: revercher
+g:1
+
+v: reverdir
+g:2
+r: finir
+
+v: révérer
+g:2
+r: référer
+
+v: rêver
+g:1
+
+v: reverser
+g:1
+
+v: revêtir
+g:2
+r: vêtir
+
+v: revigorer
+g:1
+
+v: revirer
+g:1
+
+v: réviser
+g:1
+
+v: revisser
+g:1
+
+v: revitaliser
+g:1
+
+v: revivifier
+g:1
+
+v: revivre
+g:2
+r: vivre
+
+v: revoir
+g:2
+r: voir
+
+v: revoler
+g:1
+
+v: révolter
+g:1
+
+v: révolutionner
+g:1
+
+v: révolvériser
+g:1
+
+v: révoquer
+g:1
+
+v: revoter
+g:1
+
+v: révulser
+g:1
+
+v: rewriter
+g:1
+
+v: rhabiller
+g:1
+
+v: rhumer
+g:1
+
+v: ribler
+g:1
+
+v: ribouler
+g:1
+
+v: ricaner
+g:1
+
+v: ricocher
+g:1
+
+v: rider
+g:1
+
+v: ridiculiser
+g:1
+
+v: riffauder
+g:1
+
+v: rifler
+g:1
+
+v: rigidifier
+g:1
+
+v: rigoler
+g:1
+
+v: rimailler
+g:1
+
+v: rimer
+g:1
+
+v: rincer
+g:2
+r: placer
+
+v: ringarder
+g:1
+
+v: rioter
+g:1
+
+v: ripailler
+g:1
+
+v: riper
+g:1
+
+v: ripoliner
+g:1
+
+v: riposter
+g:1
+
+v: rire
+g:2
+r: rire
+
+v: risquer
+g:1
+
+v: rissoler
+g:1
+
+v: ristourner
+g:1
+
+v: ritualiser
+g:1
+
+v: rivaliser
+g:1
+
+v: river
+g:1
+
+v: riveter
+g:2
+r: jeter
+
+v: rober
+g:1
+
+v: robotiser
+g:1
+
+v: rocher
+g:1
+
+v: rocouer
+g:1
+
+v: rocquer
+g:1
+
+v: rôdailler
+g:1
+
+v: roder
+g:1
+
+v: rôder
+g:1
+
+v: rogner
+g:1
+
+v: rognonner
+g:1
+
+v: roidir
+g:2
+r: finir
+
+v: romancer
+g:2
+r: placer
+
+v: romaniser
+g:1
+
+v: rompre
+g:2
+r: rompre
+
+v: ronchonner
+g:1
+
+v: rondir
+g:2
+r: finir
+
+v: ronéoter
+g:1
+
+v: ronéotyper
+g:1
+
+v: ronflaguer
+g:1
+
+v: ronfler
+g:1
+
+v: ronger
+g:2
+r: manger
+
+v: ronronner
+g:1
+
+v: ronsardiser
+g:1
+
+v: roquer
+g:1
+
+v: roser
+g:1
+
+v: rosir
+g:2
+r: finir
+
+v: rosser
+g:1
+
+v: roter
+g:1
+
+v: rôtir
+g:2
+r: finir
+
+v: roucouler
+g:1
+
+v: rouer
+g:1
+
+v: rougeoyer
+g:2
+r: nettoyer
+
+v: rougir
+g:2
+r: finir
+
+v: rouiller
+g:1
+
+v: rouir
+g:2
+r: finir
+
+v: rouler
+g:1
+
+v: roulotter
+g:1
+
+v: roupiller
+g:1
+
+v: rouscailler
+g:1
+
+v: rouspéter
+g:2
+r: décréter
+
+v: roussir
+g:2
+r: finir
+
+v: roustir
+g:2
+r: finir
+
+v: router
+g:1
+
+v: rouvrir
+g:2
+r: ouvrir
+
+v: rubaner
+g:1
+
+v: rubéfier
+g:1
+
+v: rucher
+g:1
+
+v: rudenter
+g:1
+
+v: rudoyer
+g:2
+r: nettoyer
+
+v: ruer
+g:1
+
+v: rugir
+g:2
+r: finir
+
+v: ruiler
+g:1
+
+v: ruiner
+g:1
+
+v: ruisseler
+g:2
+r: appeler
+
+v: ruminer
+g:1
+
+v: rupiner
+g:1
+
+v: ruser
+g:1
+
+v: russifier
+g:1
+
+v: rustiquer
+g:1
+
+v: rutiler
+g:1
+
+v: rythmer
+g:1
+
+v: sabler
+g:1
+
+v: sablonner
+g:1
+
+v: saborder
+g:1
+
+v: saboter
+g:1
+
+v: sabouler
+g:1
+
+v: sabrer
+g:1
+
+v: sacagner
+g:1
+
+v: saccader
+g:1
+
+v: saccager
+g:2
+r: manger
+
+v: saccharifier
+g:1
+
+v: sacquer
+g:1
+
+v: sacraliser
+g:1
+
+v: sacrer
+g:1
+
+v: sacrifier
+g:1
+
+v: safraner
+g:1
+
+v: saietter
+g:1
+
+v: saigner
+g:1
+
+v: sailler
+g:1
+
+v: saillir
+g:2
+r: saillir
+
+v: saisir
+g:2
+r: finir
+
+v: saisonner
+g:1
+
+v: salarier
+g:1
+
+v: saler
+g:1
+
+v: salifier
+g:1
+
+v: salir
+g:2
+r: finir
+
+v: saliver
+g:1
+
+v: saloper
+g:1
+
+v: salpêtrer
+g:1
+
+v: saluer
+g:1
+
+v: sanctifier
+g:1
+
+v: sanctionner
+g:1
+
+v: sanctuariser
+g:1
+
+v: sandwicher
+g:1
+
+v: sangler
+g:1
+
+v: sangloter
+g:1
+
+v: santonner
+g:1
+
+v: saouler
+g:1
+
+v: saper
+g:1
+
+v: saponifier
+g:1
+
+v: saquer
+g:1
+
+v: sarcler
+g:1
+
+v: sarmenter
+g:1
+
+v: sasser
+g:1
+
+v: sataner
+g:1
+
+v: satelliser
+g:1
+
+v: satiner
+g:1
+
+v: satiriser
+g:1
+
+v: satisfaire
+g:2
+r: faire
+
+v: satonner
+g:1
+
+v: saturer
+g:1
+
+v: saucer
+g:2
+r: placer
+
+v: saucissonner
+g:1
+
+v: saumurer
+g:1
+
+v: sauner
+g:1
+
+v: saupoudrer
+g:1
+
+v: saurer
+g:1
+
+v: saurir
+g:2
+r: finir
+
+v: sauter
+g:1
+
+v: sautiller
+g:1
+
+v: sauvegarder
+g:1
+
+v: sauver
+g:1
+
+v: savoir
+g:2
+r: savoir
+
+v: savonner
+g:1
+
+v: savourer
+g:1
+
+v: scalper
+g:1
+
+v: scandaliser
+g:1
+
+v: scander
+g:1
+
+v: scarifier
+g:1
+
+v: sceller
+g:1
+
+v: scheider
+g:1
+
+v: schématiser
+g:1
+
+v: schlinguer
+g:1
+
+v: schlitter
+g:1
+
+v: scier
+g:1
+
+v: scinder
+g:1
+
+v: scintiller
+g:1
+
+v: sciotter
+g:1
+
+v: scissionner
+g:1
+
+v: scléroser
+g:1
+
+v: scolariser
+g:1
+
+v: scotcher
+g:1
+
+v: scotomiser
+g:1
+
+v: scratcher
+g:1
+
+v: scribouiller
+g:1
+
+v: scruter
+g:1
+
+v: sculpter
+g:1
+
+v: sécher
+g:2
+r: sécher
+
+v: seconder
+g:1
+
+v: secouer
+g:1
+
+v: secourir
+g:2
+r: courir
+
+v: sécréter
+g:2
+r: décréter
+
+v: sectionner
+g:1
+
+v: sectoriser
+g:1
+
+v: séculariser
+g:1
+
+v: sécuriser
+g:1
+
+v: sédentariser
+g:1
+
+v: sédimenter
+g:1
+
+v: séduire
+g:2
+r: conduire
+
+v: segmenter
+g:1
+
+v: séjourner
+g:1
+
+v: sélectionner
+g:1
+
+v: seller
+g:1
+
+v: sembler
+g:1
+
+v: semer
+g:2
+r: semer
+
+v: semoncer
+g:2
+r: placer
+
+v: sensibiliser
+g:1
+
+v: sentir
+g:2
+r: mentir
+
+v: seoir
+g:2
+r: seoir
+
+v: séparer
+g:1
+
+v: septupler
+g:1
+
+v: séquestrer
+g:1
+
+v: sérancer
+g:2
+r: placer
+
+v: serfouir
+g:2
+r: finir
+
+v: sérialiser
+g:1
+
+v: sérier
+g:1
+
+v: seriner
+g:1
+
+v: seringuer
+g:1
+
+v: sermonner
+g:1
+
+v: serpenter
+g:1
+
+v: serrer
+g:1
+
+v: sertir
+g:2
+r: finir
+
+v: servir
+g:2
+r: servir
+
+v: sévir
+g:2
+r: finir
+
+v: sevrer
+g:2
+r: sevrer
+
+v: sextupler
+g:1
+
+v: sexualiser
+g:1
+
+v: shampooingner
+g:1
+
+v: shampouiner
+g:1
+
+v: shooter
+g:1
+
+v: shunter
+g:1
+
+v: sidérer
+g:2
+r: référer
+
+v: siéger
+g:2
+r: abréger
+
+v: siffler
+g:1
+
+v: siffloter
+g:1
+
+v: signaler
+g:1
+
+v: signaliser
+g:1
+
+v: signer
+g:1
+
+v: signifier
+g:1
+
+v: silhouetter
+g:1
+
+v: silicatiser
+g:1
+
+v: siliconer
+g:1
+
+v: silicoser
+g:1
+
+v: sillonner
+g:1
+
+v: similiser
+g:1
+
+v: simplifier
+g:1
+
+v: simuler
+g:1
+
+v: singer
+g:2
+r: manger
+
+v: singulariser
+g:1
+
+v: siniser
+g:1
+
+v: sintériser
+g:1
+
+v: siphonner
+g:1
+
+v: siroter
+g:1
+
+v: situer
+g:1
+
+v: skier
+g:1
+
+v: slalomer
+g:1
+
+v: slaviser
+g:1
+
+v: smasher
+g:1
+
+v: smiller
+g:1
+
+v: sniffer
+g:1
+
+v: snober
+g:1
+
+v: socialiser
+g:1
+
+v: socratiser
+g:1
+
+v: sodomiser
+g:1
+
+v: soigner
+g:1
+
+v: solariser
+g:1
+
+v: solder
+g:1
+
+v: solenniser
+g:1
+
+v: solfier
+g:1
+
+v: solidariser
+g:1
+
+v: solidifier
+g:1
+
+v: solifluer
+g:1
+
+v: soliloquer
+g:1
+
+v: solliciter
+g:1
+
+v: solmiser
+g:1
+
+v: solubiliser
+g:1
+
+v: solutionner
+g:1
+
+v: somatiser
+g:1
+
+v: sombrer
+g:1
+
+v: sommeiller
+g:1
+
+v: sommer
+g:1
+
+v: somnoler
+g:1
+
+v: sonder
+g:1
+
+v: songer
+g:2
+r: manger
+
+v: sonnailler
+g:1
+
+v: sonner
+g:1
+
+v: sonoriser
+g:1
+
+v: sophistiquer
+g:1
+
+v: sorguer
+g:1
+
+v: sortir
+g:2
+r: mentir
+
+v: soubresauter
+g:1
+
+v: soucheter
+g:2
+r: jeter
+
+v: soucier
+g:1
+
+v: souder
+g:1
+
+v: soudoyer
+g:2
+r: nettoyer
+
+v: souffler
+g:1
+
+v: souffleter
+g:2
+r: jeter
+
+v: souffrir
+g:2
+r: ouvrir
+
+v: soufrer
+g:1
+
+v: souhaiter
+g:1
+
+v: souiller
+g:1
+
+v: soulager
+g:2
+r: manger
+
+v: soûler
+g:1
+
+v: soulever
+g:2
+r: lever
+
+v: souligner
+g:1
+
+v: soumettre
+g:2
+r: mettre
+
+v: soumissionner
+g:1
+
+v: soupçonner
+g:1
+
+v: souper
+g:1
+
+v: soupeser
+g:2
+r: peser
+
+v: soupirer
+g:1
+
+v: souquer
+g:1
+
+v: sourciller
+g:1
+
+v: sourdiner
+g:1
+
+v: sourdre
+g:2
+r: sourdre
+
+v: sourire
+g:2
+r: rire
+
+v: sous-alimenter
+g:1
+
+v: souscrire
+g:2
+r: écrire
+
+v: sous-entendre
+g:2
+r: tendre
+
+v: sous-estimer
+g:1
+
+v: sous-évaluer
+g:1
+
+v: sous-exploiter
+g:1
+
+v: sous-exposer
+g:1
+
+v: sous-louer
+g:1
+
+v: sous-payer
+g:2
+r: payer
+
+v: sous-tendre
+g:2
+r: tendre
+
+v: sous-titrer
+g:1
+
+v: soustraire
+g:2
+r: extraire
+
+v: sous-traiter
+g:1
+
+v: sous-utiliser
+g:1
+
+v: sous-virer
+g:1
+
+v: soutacher
+g:1
+
+v: soutenir
+g:2
+r: tenir
+
+v: soutirer
+g:1
+
+v: souvenir
+g:2
+r: tenir
+
+v: soviétiser
+g:1
+
+v: spathifier
+g:1
+
+v: spatialiser
+g:1
+
+v: spécialiser
+g:1
+
+v: spécifier
+g:1
+
+v: spéculer
+g:1
+
+v: sphacéler
+g:2
+r: révéler
+
+v: spiraler
+g:1
+
+v: spiritualiser
+g:1
+
+v: spitter
+g:1
+
+v: splitter
+g:1
+
+v: spolier
+g:1
+
+v: sponsoriser
+g:1
+
+v: sporuler
+g:1
+
+v: sprinter
+g:1
+
+v: squattériser
+g:1
+
+v: squatter
+g:1
+
+v: stabiliser
+g:1
+
+v: staffer
+g:1
+
+v: stagner
+g:1
+
+v: staliniser
+g:1
+
+v: standardiser
+g:1
+
+v: starifier
+g:1
+
+v: stariser
+g:1
+
+v: stationner
+g:1
+
+v: statuer
+g:1
+
+v: statufier
+g:1
+
+v: sténographier
+g:1
+
+v: sténotyper
+g:1
+
+v: stéréotyper
+g:1
+
+v: stérer
+g:2
+r: référer
+
+v: stériliser
+g:1
+
+v: stigmatiser
+g:1
+
+v: stimuler
+g:1
+
+v: stipendier
+g:1
+
+v: stipuler
+g:1
+
+v: stocker
+g:1
+
+v: stopper
+g:1
+
+v: stranguler
+g:1
+
+v: stratifier
+g:1
+
+v: stresser
+g:1
+
+v: striduler
+g:1
+
+v: strier
+g:1
+
+v: stripper
+g:1
+
+v: striquer
+g:1
+
+v: structurer
+g:1
+
+v: stupéfier
+g:1
+
+v: stuquer
+g:1
+
+v: styler
+g:1
+
+v: styliser
+g:1
+
+v: subdéléguer
+g:2
+r: léguer
+
+v: subdiviser
+g:1
+
+v: subir
+g:2
+r: finir
+
+v: subjuguer
+g:1
+
+v: sublimer
+g:1
+
+v: submerger
+g:2
+r: manger
+
+v: subodorer
+g:1
+
+v: subordonner
+g:1
+
+v: suborner
+g:1
+
+v: subroger
+g:2
+r: manger
+
+v: subsister
+g:1
+
+v: substantiver
+g:1
+
+v: substituer
+g:1
+
+v: subsumer
+g:1
+
+v: subtiliser
+g:1
+
+v: subvenir
+g:2
+r: tenir
+
+v: subventionner
+g:1
+
+v: subvertir
+g:2
+r: finir
+
+v: succéder
+g:2
+r: céder
+
+v: succomber
+g:1
+
+v: sucer
+g:2
+r: placer
+
+v: suçoter
+g:1
+
+v: sucrer
+g:1
+
+v: suer
+g:1
+
+v: suffire
+g:2
+r: suffire
+
+v: suffixer
+g:1
+
+v: suffoquer
+g:1
+
+v: suggérer
+g:2
+r: référer
+
+v: suggestionner
+g:1
+
+v: suicider
+g:1
+
+v: suifer
+g:1
+
+v: suiffer
+g:1
+
+v: suinter
+g:1
+
+v: suivre
+g:2
+r: suivre
+
+v: sulfater
+g:1
+
+v: sulfiter
+g:1
+
+v: sulfoner
+g:1
+
+v: sulfurer
+g:1
+
+v: superfinir
+g:2
+r: finir
+
+v: superposer
+g:1
+
+v: superviser
+g:1
+
+v: supplanter
+g:1
+
+v: suppléer
+g:1
+
+v: supplémenter
+g:1
+
+v: supplicier
+g:1
+
+v: supplier
+g:1
+
+v: supporter
+g:1
+
+v: supposer
+g:1
+
+v: supprimer
+g:1
+
+v: suppurer
+g:1
+
+v: supputer
+g:1
+
+v: surabonder
+g:1
+
+v: surajouter
+g:1
+
+v: suralimenter
+g:1
+
+v: surbaisser
+g:1
+
+v: surcharger
+g:2
+r: manger
+
+v: surchauffer
+g:1
+
+v: surclasser
+g:1
+
+v: surcomprimer
+g:1
+
+v: surcontrer
+g:1
+
+v: surcouper
+g:1
+
+v: surdorer
+g:1
+
+v: surdouer
+g:1
+
+v: surédifier
+g:1
+
+v: surélever
+g:2
+r: lever
+
+v: surenchérir
+g:2
+r: finir
+
+v: surentraîner
+g:1
+
+v: suréquiper
+g:1
+
+v: surestimer
+g:1
+
+v: surévaluer
+g:1
+
+v: surexciter
+g:1
+
+v: surexploiter
+g:1
+
+v: surexposer
+g:1
+
+v: surfacer
+g:2
+r: placer
+
+v: surfaire
+g:2
+r: faire
+
+v: surfer
+g:1
+
+v: surfiler
+g:1
+
+v: surgeler
+g:2
+r: peler
+
+v: surgeonner
+g:1
+
+v: surgir
+g:2
+r: finir
+
+v: surglacer
+g:2
+r: placer
+
+v: surhausser
+g:1
+
+v: surimposer
+g:1
+
+v: suriner
+g:1
+
+v: surir
+g:2
+r: finir
+
+v: surjaler
+g:1
+
+v: surjecter
+g:1
+
+v: surjeter
+g:2
+r: jeter
+
+v: surlier
+g:1
+
+v: surlouer
+g:1
+
+v: surmédicaliser
+g:1
+
+v: surmener
+g:2
+r: mener
+
+v: surmonter
+g:1
+
+v: surmouler
+g:1
+
+v: surnager
+g:2
+r: manger
+
+v: surnommer
+g:1
+
+v: suroxyder
+g:1
+
+v: surpasser
+g:1
+
+v: surpayer
+g:2
+r: payer
+
+v: surpeupler
+g:1
+
+v: surpiquer
+g:1
+
+v: surplomber
+g:1
+
+v: surprendre
+g:2
+r: prendre
+
+v: surproduire
+g:2
+r: conduire
+
+v: sursaturer
+g:1
+
+v: sursauter
+g:1
+
+v: sursemer
+g:2
+r: semer
+
+v: surseoir
+g:2
+r: surseoir
+
+v: sursoir
+g:2
+r: sursoir
+
+v: surtaxer
+g:1
+
+v: surveiller
+g:1
+
+v: survenir
+g:2
+r: tenir
+
+v: survirer
+g:1
+
+v: survivre
+g:2
+r: vivre
+
+v: survoler
+g:1
+
+v: survolter
+g:1
+
+v: susciter
+g:1
+
+v: suspecter
+g:1
+
+v: suspendre
+g:2
+r: tendre
+
+v: sustenter
+g:1
+
+v: susurrer
+g:1
+
+v: suturer
+g:1
+
+v: swinguer
+g:1
+
+v: syllaber
+g:1
+
+v: symboliser
+g:1
+
+v: symétriser
+g:1
+
+v: sympathiser
+g:1
+
+v: synchroniser
+g:1
+
+v: syncoper
+g:1
+
+v: syncristalliser
+g:1
+
+v: syndicaliser
+g:1
+
+v: syndiquer
+g:1
+
+v: synthétiser
+g:1
+
+v: syntoniser
+g:1
+
+v: systématiser
+g:1
+
+v: tabasser
+g:1
+
+v: tabler
+g:1
+
+v: tabouer
+g:1
+
+v: tabouiser
+g:1
+
+v: tabuler
+g:1
+
+v: tacher
+g:1
+
+v: tâcher
+g:1
+
+v: tacheter
+g:2
+r: jeter
+
+v: taillader
+g:1
+
+v: tailler
+g:1
+
+v: taire
+g:2
+r: taire
+
+v: taler
+g:1
+
+v: taller
+g:1
+
+v: talocher
+g:1
+
+v: talonner
+g:1
+
+v: talquer
+g:1
+
+v: tambouriner
+g:1
+
+v: tamiser
+g:1
+
+v: tamponner
+g:1
+
+v: tancer
+g:2
+r: placer
+
+v: tanguer
+g:1
+
+v: taniser
+g:1
+
+v: tanner
+g:1
+
+v: tanniser
+g:1
+
+v: tapager
+g:2
+r: manger
+
+v: taper
+g:1
+
+v: tapiner
+g:1
+
+v: tapir
+g:2
+r: finir
+
+v: tapisser
+g:1
+
+v: taponner
+g:1
+
+v: tapoter
+g:1
+
+v: taquer
+g:1
+
+v: taquiner
+g:1
+
+v: tarabiscoter
+g:1
+
+v: tarabuster
+g:1
+
+v: tarauder
+g:1
+
+v: tarder
+g:1
+
+v: tarer
+g:1
+
+v: targuer
+g:1
+
+v: tarifer
+g:1
+
+v: tarifier
+g:1
+
+v: tarir
+g:2
+r: finir
+
+v: tartiner
+g:1
+
+v: tartir
+g:2
+r: finir
+
+v: tasser
+g:1
+
+v: tâter
+g:1
+
+v: tatillonner
+g:1
+
+v: tâtonner
+g:1
+
+v: tatouer
+g:1
+
+v: taveler
+g:2
+r: appeler
+
+v: taveller
+g:1
+
+v: taxer
+g:1
+
+v: tayloriser
+g:1
+
+v: techniciser
+g:1
+
+v: techniser
+g:1
+
+v: technocratiser
+g:1
+
+v: teiller
+g:1
+
+v: teindre
+g:2
+r: craindre
+
+v: teinter
+g:1
+
+v: télécommander
+g:1
+
+v: télécopier
+g:1
+
+v: télédiffuser
+g:1
+
+v: télégraphier
+g:1
+
+v: téléguider
+g:1
+
+v: téléphoner
+g:1
+
+v: télescoper
+g:1
+
+v: téléviser
+g:1
+
+v: télexer
+g:1
+
+v: témoigner
+g:1
+
+v: tempérer
+g:2
+r: référer
+
+v: tempêter
+g:1
+
+v: temporiser
+g:1
+
+v: tenailler
+g:1
+
+v: tendre
+g:2
+r: tendre
+
+v: tenir
+g:2
+r: tenir
+
+v: tenonner
+g:1
+
+v: ténoriser
+g:1
+
+v: tensoriser
+g:1
+
+v: tenter
+g:1
+
+v: tercer
+g:2
+r: placer
+
+v: tergiverser
+g:1
+
+v: terminer
+g:1
+
+v: ternir
+g:2
+r: finir
+
+v: terrasser
+g:1
+
+v: terreauter
+g:1
+
+v: terrer
+g:1
+
+v: terrifier
+g:1
+
+v: terrir
+g:2
+r: finir
+
+v: terroriser
+g:1
+
+v: terser
+g:1
+
+v: tester
+g:1
+
+v: tétaniser
+g:1
+
+v: téter
+g:2
+r: décréter
+
+v: texturer
+g:1
+
+v: texturiser
+g:1
+
+v: théâtraliser
+g:1
+
+v: thématiser
+g:1
+
+v: théoriser
+g:1
+
+v: thésauriser
+g:1
+
+v: tictaquer
+g:1
+
+v: tiédir
+g:2
+r: finir
+
+v: tiercer
+g:2
+r: placer
+
+v: tigrer
+g:1
+
+v: tiller
+g:1
+
+v: timbrer
+g:1
+
+v: tinter
+g:1
+
+v: tintinnabuler
+g:1
+
+v: tiquer
+g:1
+
+v: tirailler
+g:1
+
+v: tire-bouchonner
+g:1
+
+v: tirebouchonner
+g:1
+
+v: tirer
+g:1
+
+v: tiser
+g:1
+
+v: tisonner
+g:1
+
+v: tisser
+g:1
+
+v: titiller
+g:1
+
+v: titrer
+g:1
+
+v: tituber
+g:1
+
+v: titulariser
+g:1
+
+v: toaster
+g:1
+
+v: toiler
+g:1
+
+v: toiletter
+g:1
+
+v: toiser
+g:1
+
+v: tolérer
+g:2
+r: référer
+
+v: tomber
+g:1
+
+v: tomer
+g:1
+
+v: tondre
+g:2
+r: tendre
+
+v: tonifier
+g:1
+
+v: tonitruer
+g:1
+
+v: tonner
+g:1
+
+v: tonsurer
+g:1
+
+v: tontiner
+g:1
+
+v: toper
+g:1
+
+v: topicaliser
+g:1
+
+v: toquer
+g:1
+
+v: torcher
+g:1
+
+v: torchonner
+g:1
+
+v: tordre
+g:2
+r: tendre
+
+v: toréer
+g:1
+
+v: toronner
+g:1
+
+v: torpiller
+g:1
+
+v: torréfier
+g:1
+
+v: torsader
+g:1
+
+v: tortiller
+g:1
+
+v: tortorer
+g:1
+
+v: torturer
+g:1
+
+v: totaliser
+g:1
+
+v: toucher
+g:1
+
+v: touer
+g:1
+
+v: touiller
+g:1
+
+v: toupiller
+g:1
+
+v: tourber
+g:1
+
+v: tourbillonner
+g:1
+
+v: tourillonner
+g:1
+
+v: tourmenter
+g:1
+
+v: tournailler
+g:1
+
+v: tournasser
+g:1
+
+v: tournebouler
+g:1
+
+v: tourner
+g:1
+
+v: tournicoter
+g:1
+
+v: tourniller
+g:1
+
+v: tourniquer
+g:1
+
+v: tournoyer
+g:2
+r: nettoyer
+
+v: toussailler
+g:1
+
+v: tousser
+g:1
+
+v: toussoter
+g:1
+
+v: trabouler
+g:1
+
+v: tracaner
+g:1
+
+v: tracasser
+g:1
+
+v: tracer
+g:2
+r: placer
+
+v: tracter
+g:1
+
+v: traduire
+g:2
+r: conduire
+
+v: traficoter
+g:1
+
+v: trafiquer
+g:1
+
+v: trahir
+g:2
+r: finir
+
+v: traînailler
+g:1
+
+v: traînasser
+g:1
+
+v: traîner
+g:1
+
+v: traire
+g:2
+r: extraire
+
+v: traiter
+g:1
+
+v: tramer
+g:1
+
+v: tranchefiler
+g:1
+
+v: trancher
+g:1
+
+v: tranquilliser
+g:1
+
+v: transbahuter
+g:1
+
+v: transborder
+g:1
+
+v: transcender
+g:1
+
+v: transcoder
+g:1
+
+v: transcrire
+g:2
+r: écrire
+
+v: transférer
+g:2
+r: référer
+
+v: transfigurer
+g:1
+
+v: transfiler
+g:1
+
+v: transformer
+g:1
+
+v: transfuser
+g:1
+
+v: transgresser
+g:1
+
+v: transhumer
+g:1
+
+v: transiger
+g:2
+r: manger
+
+v: transir
+g:2
+r: finir
+
+v: transistoriser
+g:1
+
+v: transiter
+g:1
+
+v: translater
+g:1
+
+v: transmettre
+g:2
+r: mettre
+
+v: transmigrer
+g:1
+
+v: transmuer
+g:1
+
+v: transmuter
+g:1
+
+v: transparaître
+g:2
+r: repaître
+
+v: transpercer
+g:2
+r: placer
+
+v: transpirer
+g:1
+
+v: transplanter
+g:1
+
+v: transporter
+g:1
+
+v: transposer
+g:1
+
+v: transsubstantier
+g:1
+
+v: transsuder
+g:1
+
+v: transvaser
+g:1
+
+v: transvider
+g:1
+
+v: traquer
+g:1
+
+v: traumatiser
+g:1
+
+v: travailler
+g:1
+
+v: travailloter
+g:1
+
+v: traverser
+g:1
+
+v: travestir
+g:2
+r: finir
+
+v: trébucher
+g:1
+
+v: tréfiler
+g:1
+
+v: treillager
+g:2
+r: manger
+
+v: treillisser
+g:1
+
+v: trémater
+g:1
+
+v: trembler
+g:1
+
+v: trembloter
+g:1
+
+v: trémousser
+g:1
+
+v: tremper
+g:1
+
+v: trémuler
+g:1
+
+v: trépaner
+g:1
+
+v: trépasser
+g:1
+
+v: trépider
+g:1
+
+v: trépigner
+g:1
+
+v: tressaillir
+g:2
+r: assaillir
+
+v: tressauter
+g:1
+
+v: tresser
+g:1
+
+v: treuiller
+g:1
+
+v: trévirer
+g:1
+
+v: triangulariser
+g:1
+
+v: trianguler
+g:1
+
+v: triballer
+g:1
+
+v: tricher
+g:1
+
+v: tricoter
+g:1
+
+v: trier
+g:1
+
+v: trifouiller
+g:1
+
+v: triller
+g:1
+
+v: trimarder
+g:1
+
+v: trimbaler
+g:1
+
+v: trimballer
+g:1
+
+v: trimer
+g:1
+
+v: tringler
+g:1
+
+v: trinquer
+g:1
+
+v: triompher
+g:1
+
+v: tripatouiller
+g:1
+
+v: tripler
+g:1
+
+v: tripoter
+g:1
+
+v: triquer
+g:1
+
+v: trisser
+g:1
+
+v: triturer
+g:1
+
+v: trivialiser
+g:1
+
+v: tromper
+g:1
+
+v: trompeter
+g:2
+r: jeter
+
+v: tronçonner
+g:1
+
+v: trôner
+g:1
+
+v: tronquer
+g:1
+
+v: tropicaliser
+g:1
+
+v: troquer
+g:1
+
+v: trotter
+g:1
+
+v: trottiner
+g:1
+
+v: troubler
+g:1
+
+v: trouer
+g:1
+
+v: troussequiner
+g:1
+
+v: trousser
+g:1
+
+v: trouver
+g:1
+
+v: truander
+g:1
+
+v: trucider
+g:1
+
+v: truffer
+g:1
+
+v: truquer
+g:1
+
+v: trusquiner
+g:1
+
+v: truster
+g:1
+
+v: tuberculiner
+g:1
+
+v: tuberculiniser
+g:1
+
+v: tuberculiser
+g:1
+
+v: tuber
+g:1
+
+v: tuer
+g:1
+
+v: tuiler
+g:1
+
+v: tuméfier
+g:1
+
+v: turbiner
+g:1
+
+v: turlupiner
+g:1
+
+v: tuteurer
+g:1
+
+v: tutoyer
+g:2
+r: nettoyer
+
+v: tuyauter
+g:1
+
+v: twister
+g:1
+
+v: tympaniser
+g:1
+
+v: typer
+g:1
+
+v: typiser
+g:1
+
+v: tyranniser
+g:1
+
+v: ulcérer
+g:2
+r: référer
+
+v: ultracentrifuger
+g:2
+r: manger
+
+v: ultrafiltrer
+g:1
+
+v: ululer
+g:1
+
+v: unifier
+g:1
+
+v: uniformiser
+g:1
+
+v: unir
+g:2
+r: finir
+
+v: universaliser
+g:1
+
+v: upériser
+g:1
+
+v: urbanifier
+g:1
+
+v: urbaniser
+g:1
+
+v: urger
+g:2
+r: manger
+
+v: uriner
+g:1
+
+v: user
+g:1
+
+v: usiner
+g:1
+
+v: usurper
+g:1
+
+v: utiliser
+g:1
+
+v: vacciner
+g:1
+
+v: vacher
+g:1
+
+v: vaciller
+g:1
+
+v: vacuoliser
+g:1
+
+v: vadrouiller
+g:1
+
+v: vagabonder
+g:1
+
+v: vagir
+g:2
+r: finir
+
+v: vaguer
+g:1
+
+v: vaincre
+g:2
+r: vaincre
+
+v: vaironner
+g:1
+
+v: valdinguer
+g:1
+
+v: valeter
+g:2
+r: acheter
+
+v: valider
+g:1
+
+v: valiser
+g:1
+
+v: vallonner
+g:1
+
+v: valoir
+g:2
+r: valoir
+
+v: valoriser
+g:1
+
+v: valouser
+g:1
+
+v: valser
+g:1
+
+v: vamper
+g:1
+
+v: vampiriser
+g:1
+
+v: vandaliser
+g:1
+
+v: vanner
+g:1
+
+v: vanter
+g:1
+
+v: vantiller
+g:1
+
+v: vapocraquer
+g:1
+
+v: vaporiser
+g:1
+
+v: vaquer
+g:1
+
+v: varapper
+g:1
+
+v: varier
+g:1
+
+v: varloper
+g:1
+
+v: vasectomiser
+g:1
+
+v: vaseliner
+g:1
+
+v: vaser
+g:1
+
+v: vasouiller
+g:1
+
+v: vassaliser
+g:1
+
+v: vaticiner
+g:1
+
+v: vautrer
+g:1
+
+v: vectoriser
+g:1
+
+v: vedettiser
+g:1
+
+v: végétaliser
+g:1
+
+v: végéter
+g:2
+r: décréter
+
+v: véhiculer
+g:1
+
+v: veiller
+g:1
+
+v: veiner
+g:1
+
+v: vélariser
+g:1
+
+v: vêler
+g:1
+
+v: velouter
+g:1
+
+v: velter
+g:1
+
+v: vendanger
+g:2
+r: manger
+
+v: vendiquer
+g:1
+
+v: vendre
+g:2
+r: tendre
+
+v: vénérer
+g:2
+r: référer
+
+v: vener
+g:2
+r: mener
+
+v: venger
+g:2
+r: manger
+
+v: venir
+g:2
+r: tenir
+
+v: venter
+g:1
+
+v: ventiler
+g:1
+
+v: ventouser
+g:1
+
+v: ventrouiller
+g:1
+
+v: verbaliser
+g:1
+
+v: verbiager
+g:2
+r: manger
+
+v: verdir
+g:2
+r: finir
+
+v: verdoyer
+g:2
+r: nettoyer
+
+v: verduniser
+g:1
+
+v: vergeter
+g:2
+r: acheter
+
+v: verglacer
+g:2
+r: placer
+
+v: vérifier
+g:1
+
+v: verjuter
+g:1
+
+v: vermiculer
+g:1
+
+v: vermifuger
+g:2
+r: manger
+
+v: vermiller
+g:1
+
+v: vermillonner
+g:1
+
+v: vermouler
+g:1
+
+v: vernaliser
+g:1
+
+v: vernir
+g:2
+r: finir
+
+v: vernisser
+g:1
+
+v: véroler
+g:1
+
+v: véroter
+g:1
+
+v: verrouiller
+g:1
+
+v: verser
+g:1
+
+v: versifier
+g:1
+
+v: vert-de-griser
+g:1
+
+v: verticaliser
+g:1
+
+v: vertir
+g:2
+r: finir
+
+v: vesser
+g:1
+
+v: vétiller
+g:1
+
+v: vêtir
+g:2
+r: vêtir
+
+v: vexer
+g:1
+
+v: viabiliser
+g:1
+
+v: viander
+g:1
+
+v: vibrer
+g:1
+
+v: vibrionner
+g:1
+
+v: vicier
+g:1
+
+v: victimer
+g:1
+
+v: victimiser
+g:1
+
+v: vidanger
+g:2
+r: manger
+
+v: videler
+g:2
+r: peler
+
+v: vider
+g:1
+
+v: vidimer
+g:1
+
+v: vieillir
+g:2
+r: finir
+
+v: vieller
+g:1
+
+v: vigneter
+g:2
+r: jeter
+
+v: vilipender
+g:1
+
+v: villégiaturer
+g:1
+
+v: vinaigrer
+g:1
+
+v: vinculer
+g:1
+
+v: viner
+g:1
+
+v: vinifier
+g:1
+
+v: violacer
+g:2
+r: placer
+
+v: violenter
+g:1
+
+v: violer
+g:1
+
+v: violeter
+g:2
+r: jeter
+
+v: violoner
+g:1
+
+v: vioquir
+g:2
+r: finir
+
+v: virailler
+g:1
+
+v: virer
+g:1
+
+v: virevolter
+g:1
+
+v: virevousser
+g:1
+
+v: virguler
+g:1
+
+v: viriliser
+g:1
+
+v: viroler
+g:1
+
+v: viser
+g:1
+
+v: visionner
+g:1
+
+v: visiter
+g:1
+
+v: visser
+g:1
+
+v: visualiser
+g:1
+
+v: vitaliser
+g:1
+
+v: vitaminer
+g:1
+
+v: vitrer
+g:1
+
+v: vitrifier
+g:1
+
+v: vitrioler
+g:1
+
+v: vituler
+g:1
+
+v: vitupérer
+g:2
+r: référer
+
+v: vivifier
+g:1
+
+v: vivisecter
+g:1
+
+v: vivoter
+g:1
+
+v: vivre
+g:2
+r: vivre
+
+v: vobuler
+g:1
+
+v: vocaliser
+g:1
+
+v: vociférer
+g:2
+r: référer
+
+v: voguer
+g:1
+
+v: voiler
+g:1
+
+v: voir
+g:2
+r: voir
+
+v: voisiner
+g:1
+
+v: voiturer
+g:1
+
+v: volatiliser
+g:1
+
+v: volcaniser
+g:1
+
+v: voler
+g:1
+
+v: voleter
+g:2
+r: jeter
+
+v: voliger
+g:2
+r: manger
+
+v: volleyer
+g:1
+
+v: volter
+g:1
+
+v: voltiger
+g:2
+r: manger
+
+v: vomir
+g:2
+r: finir
+
+v: voter
+g:1
+
+v: vouer
+g:1
+
+v: vouloir
+g:2
+r: vouloir
+
+v: vousoyer
+g:2
+r: nettoyer
+
+v: vousser
+g:1
+
+v: voussoyer
+g:2
+r: nettoyer
+
+v: voûter
+g:1
+
+v: vouvoyer
+g:2
+r: nettoyer
+
+v: voyager
+g:2
+r: manger
+
+v: vriller
+g:1
+
+v: vrombir
+g:2
+r: finir
+
+v: vulcaniser
+g:1
+
+v: vulgariser
+g:1
+
+v: vulnérabiliser
+g:1
+
+v: vulnérer
+g:2
+r: référer
+
+v: warranter
+g:1
+
+v: yasser
+g:1
+
+v: yodiser
+g:1
+
+v: yodler
+g:1
+
+v: youtser
+g:1
+
+v: yoyoter
+g:1
+
+v: yoyotter
+g:1
+
+v: zapper
+g:1
+
+v: zébrer
+g:2
+r: célébrer
+
+v: zéroter
+g:1
+
+v: zester
+g:1
+
+v: zézayer
+g:2
+r: payer
+
+v: ziber
+g:1
+
+v: zieuter
+g:1
+
+v: zigonner
+g:1
+
+v: zigouiller
+g:1
+
+v: ziguer
+g:1
+
+v: zigzaguer
+g:1
+
+v: zinguer
+g:1
+
+v: zinzinuler
+g:1
+
+v: zipper
+g:1
+
+v: zoner
+g:1
+
+v: zonzonner
+g:1
+
+v: zoomer
+g:1
+
+v: zouker
+g:1
+
+v: zozoter
+g:1
+
+v: zwanzer
+g:1
+
+v: zyeuter
+g:1
+
+c: pla+cer
+
+present: [ ce ces ce çons cez cent]
+
+c: référenci+er
+
+present: [ e es e ons ez ent]
+
+c: dép+ecer
+
+present: [ ece eces ece eçons ecez ecent]
+
+c: man+ger
+
+present: [ ge ges ge geons gez gent]
+
+c: pa+yer
+
+present: [ ie ies ie yons yez ient]
+
+c: netto+yer
+
+present: [ ie ies ie yons yez ient]
+
+c: grasse+yer
+
+present: [ ye yes ye yons yez yent]
+
+c: app+eler
+
+present: [ elle elles elle elons elez ellent]
+
+c: p+eler
+
+present: [ èle èles èle elons elez èlent]
+
+c: harc+eler
+
+present: [ elle elles elle elons elez ellent]
+
+c: j+eter
+
+present: [ ette ettes ette etons etez ettent]
+
+c: ach+eter
+
+present: [ ète ètes ète etons etez ètent]
+
+c: héb+éter
+
+present: [ ète ètes ète étons étez ètent]
+
+c: s+emer
+
+present: [ ème èmes ème emons emez èment]
+
+c: l+éguer
+
+present: [ ègue ègues ègue éguons éguez èguent]
+
+c: diss+équer
+
+present: [ èque èques èque équons équez èquent]
+
+c: rév+éler
+
+present: [ èle èles èle élons élez èlent]
+
+c: imp+étrer
+
+present: [ ètre ètres ètre étrons étrez ètrent]
+
+c: r+égler
+
+present: [ ègle ègles ègle églons églez èglent]
+
+c: r+égner
+
+present: [ ègne ègnes ègne égnons égnez ègnent]
+
+c: cél+ébrer
+
+present: [ èbre èbres èbre ébrons ébrez èbrent]
+
+c: int+égrer
+
+present: [ ègre ègres ègre égrons égrez ègrent]
+
+c: décr+éter
+
+present: [ ète ètes ète étons étez ètent]
+
+c: ali+éner
+
+present: [ ène ènes ène énons énez ènent]
+
+c: m+ener
+
+present: [ ène ènes ène enons enez ènent]
+
+c: l+ever
+
+present: [ ève èves ève evons evez èvent]
+
+c: p+eser
+
+present: [ èse èses èse esons esez èsent]
+
+c: s+écher
+
+present: [ èche èches èche échons échez èchent]
+
+c: réf+érer
+
+present: [ ère ères ère érons érez èrent]
+
+c: s+evrer
+
+present: [ èvre èvres èvre evrons evrez èvrent]
+
+c: c+éder
+
+present: [ ède èdes ède édons édez èdent]
+
+c: rec+éper
+
+present: [ èpe èpes èpe épons épez èpent]
+
+c: rec+eper
+
+present: [ èpe èpes èpe epons epez èpent]
+
+c: l+éser
+
+present: [ èse èses èse ésons ésez èsent]
+
+c: cr+émer
+
+present: [ ème èmes ème émons émez èment]
+
+c: abr+éger
+
+present: [ ège èges ège égeons égez ègent]
+
+c: aim+er
+
+present: [ e es e ons ez ent]
+
+c: enfi+évrer
+
+present: [ èvre èvres èvre évrons évrez èvrent]
+
+c: ex+écrer
+
+present: [ ècre ècres ècre écrons écrez ècrent]
+
+c: acqu+érir
+
+present: [ iers iers iert érons érez ièrent]
+
+c: ha+ïr
+
+present: [ is is it ïssons ïssez ïssent]
+
+c: amu+ïr
+
+present: [ ïs ïs ït ïssons ïssez ïssent]
+
+c: fl+eurir
+
+present: [ euris euris eurit eurissons eurissez eurissent]
+
+c: ouv+rir
+
+present: [ re res re rons rez rent]
+
+c: dor+mir
+
+present: [ s s t mons mez ment]
+
+c: men+tir
+
+present: [ s s t tons tez tent]
+
+c: ser+vir
+
+present: [ s s t vons vez vent]
+
+c: bou+illir
+
+present: [ s s t illons illez illent]
+
+c: assaill+ir
+
+present: [ e es e ons ez ent]
+
+c: saill+ir
+
+present: [ is is it issons issez issent]
+
+c: cueill+ir
+
+present: [ e es e ons ez ent]
+
+c: t+enir
+
+present: [ iens iens ient enons enez iennent]
+
+c: fu+ir
+
+present: [ is is it yons yez ient]
+
+c: m+ourir
+
+present: [ eurs eurs eurt ourons ourez eurent]
+
+c: cour+ir
+
+present: [ s s t ons ez ent]
+
+c: fin+ir
+
+present: [ is is it issons issez issent]
+
+c: chauv+ir
+
+present: [ is is it ons ez ent]
+
+c: maud+ire
+
+present: [ is is it issons issez issent]
+
+c: fa+illir
+
+present: [ ux ux ut illons illez illent]
+
+c: g+ésir
+
+present: [ is is ît isons isez isent]
+
+c: dé+cevoir
+
+present: [ çois çois çoit cevons cevez çoivent]
+
+c: d+evoir
+
+present: [ ois ois oit evons evez oivent]
+
+c: m+ouvoir
+
+present: [ eus eus eut ouvons ouvez euvent]
+
+c: prom+ouvoir
+
+present: [ eus eus eut ouvons ouvez euvent]
+
+c: s+avoir
+
+present: [ ais ais ait avons avez avent]
+
+c: v+ouloir
+
+present: [ eux eux eut oulons oulez eulent]
+
+c: va+loir
+
+present: [ ux ux ut lons lez lent]
+
+c: préva+loir
+
+present: [ ux ux ut lons lez lent]
+
+c: p+ouvoir
+
+present: [ eux eux eut ouvons ouvez euvent]
+
+c: v+oir
+
+present: [ ois ois oit oyons oyez oient]
+
+c: prév+oir
+
+present: [ ois ois oit oyons oyez oient]
+
+c: ass+eoir
+
+present: [ ieds ieds ied eyons eyez eyent]
+
+c: ass+oir
+
+present: [ ieds ieds ied eyons eyez eyent]
+
+c: surs+eoir
+
+present: [ ois ois oit oyons oyez oient]
+
+c: surs+oir
+
+present: [ ois ois oit oyons oyez oient]
+
+c: déch+oir
+
+present: [ ois ois oit oyons oyez oient]
+
+c: pourv+oir
+
+present: [ ois ois oit oyons oyez oient]
+
+c: ch+oir
+
+present: [ ois ois oit oyons oyez oient]
+
+c: ten+dre
+
+present: [ ds ds d dons dez dent]
+
+c: vain+cre
+
+present: [ cs cs c quons quez quent]
+
+c: fou+tre
+
+present: [ s s t tons tez tent]
+
+c: m+ettre
+
+present: [ ets ets et ettons ettez ettent]
+
+c: pr+endre
+
+present: [ ends ends end enons enez ennent]
+
+c: rom+pre
+
+present: [ ps ps pt pons pez pent]
+
+c: mou+dre
+
+present: [ ds ds d lons lez lent]
+
+c: cou+dre
+
+present: [ ds ds d sons sez sent]
+
+c: réso+udre
+
+present: [ us us ut lvons lvez lvent]
+
+c: abso+udre
+
+present: [ us us ut lvons lvez lvent]
+
+c: disso+udre
+
+present: [ us us ut lvons lvez lvent]
+
+c: crai+ndre
+
+present: [ ns ns nt gnons gnez gnent]
+
+c: poi+ndre
+
+present: [ ns ns nt gnons gnez gnent]
+
+c: sui+vre
+
+present: [ s s t vons vez vent]
+
+c: v+ivre
+
+present: [ is is it ivons ivez ivent]
+
+c: rep+aître
+
+present: [ ais ais aît aissons aissez aissent]
+
+c: p+aître
+
+present: [ ais ais aît aissons aissez aissent]
+
+c: par+aître
+
+present: [ ais ais aît aissons aissez aissent]
+
+c: n+aître
+
+present: [ ais ais aît aissons aissez aissent]
+
+c: ren+aître
+
+present: [ ais ais aît aissons aissez aissent]
+
+c: cr+oître
+
+present: [ oîs oîs oît oissons oissez oissent]
+
+c: r+ire
+
+present: [ is is it ions iez ient]
+
+c: circonc+ire
+
+present: [ is is it isons isez isent]
+
+c: concl+ure
+
+present: [ us us ut uons uez uent]
+
+c: incl+ure
+
+present: [ us us ut uons uez uent]
+
+c: nui+re
+
+present: [ s s t sons sez sent]
+
+c: lu+ire
+
+present: [ is is it isons isez isent]
+
+c: condui+re
+
+present: [ s s t sons sez sent]
+
+c: écri+re
+
+present: [ s s t vons vez vent]
+
+c: cr+oire
+
+present: [ ois ois oit oyons oyez oient]
+
+c: suff+ire
+
+present: [ is is it isons isez isent]
+
+c: d+ire
+
+present: [ is is it isons ites isent]
+
+c: interd+ire
+
+present: [ is is it isons isez isent]
+
+c: méd+ire
+
+present: [ is is it isons isez isent]
+
+c: l+ire
+
+present: [ is is it isons isez isent]
+
+c: b+oire
+
+present: [ ois ois oit uvons uvez oivent]
+
+c: t+aire
+
+present: [ ais ais ait aisons aisez aisent]
+
+c: pl+aire
+
+present: [ ais ais aît aisons aisez aisent]
+
+c: f+aire
+
+present: [ ais ais ait aisons aites ont]
+
+c: extra+ire
+
+present: [ is is it yons yez ient]
+
+c: bra+ire
+
+present: [ is is it yons yez ient]
+
+c: oi+ndre
+
+present: [ ns ns nt gnons gnez gnent]
+
+c: env+oyer
+
+present: [ oie oies oie oyons oyez oient]
+
+c: +avoir
+
+present: [ ai as a avons avez ont]
+
+c: +être
+
+present: [ suis es est sommes êtes sont]
+
+c: +aller
+
+present: [ vais vas va allons allez vont]
+
+c: o+uïr
+
+present: [ is is it yons yez ient]

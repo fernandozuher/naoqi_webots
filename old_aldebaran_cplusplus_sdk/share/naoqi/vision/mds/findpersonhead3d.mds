@@ -1,0 +1,57 @@
+filter FindPersonHead3D
+{
+Mandatory6 mand;
+Identity idHeightOffset;
+ImprovedSegmentation3D seg;
+Compute3DPositions pos3D;
+NearestObject nearest;
+RemoveTooHighObjects removehigh;
+ApplyVerticalOffset applyOffset;
+
+# Inputs -- filtered using Mandatory
+mand:in1 <= state;
+mand:in2 <= depthInputImage;
+mand:in3 <= irInputImage;
+mand:in4 <= cameraPositionTorso;
+mand:in5 <= cameraPositionRobot;
+mand:in6 <= cameraPositionWorld;
+
+idHeightOffset:in <= heightOffset;
+
+
+# ImprovedSegmentation3D
+mand:out2->seg:depthImage;
+mand:out3->seg:irImage;
+mand:out4->seg:cameraPositionTorso;
+mand:out5->seg:cameraPositionRobot;
+mand:out6->seg:cameraPositionWorld;
+idHeightOffset:out->seg:heightOffset;
+
+# Compute3DPositions
+seg:objectsArray->pos3D:objectsArrayIn;
+
+# NearestObject
+pos3D:objectsArrayOut->nearest:objectsArrayIn;
+nearest:distance <= distance;
+nearest:previousPosition <= previousPosition;
+
+# RemoveTooHighObjects
+nearest:out->removehigh:objectsArrayIn;
+idHeightOffset:out->removehigh:heightOffset;
+
+# ApplyVerticalOffet
+removehigh:objectsArrayOut->applyOffset:objectsArrayIn;
+applyOffset:verticalOffset[-0.1]<=dummyOffset;
+
+
+applyOffset:objectsArrayOut => personHeadObject;
+
+
+# Parameters for Segmentation
+seg:kernel[5] <= dummyKernel;
+seg:tolerance[100] <= dummyTolerance;
+
+# Parameters
+seg:min[0.03]<=dummyMin;
+seg:max[1.0]<=dummyMax;
+}

@@ -1,0 +1,409 @@
+//// -------------------------------
+//// Cel Shading Section
+//// -------------------------------
+//vertex_program Ogre/CelShadingVP cg
+//{
+//  source examples_celshading.cg
+//  entry_point main_vp
+//  profiles vs_1_1 arbvp1
+//
+//  default_params
+//  {
+//    param_named_auto lightPosition light_position_object_space 0
+//    param_named_auto eyePosition camera_position_object_space
+//    param_named_auto worldViewProj worldviewproj_matrix
+//    param_named shininess float 10
+//  }
+//}
+
+fragment_program Ogre/CelShadingFP cg
+{
+  source examples_celshading.cg
+  entry_point main_fp
+  profiles ps_1_1 arbfp1 fp20
+}
+material NaoMat_SecondarySkin
+{
+  technique
+  {
+    pass
+    {
+      ambient 0 0.235294 0.835294 1
+      diffuse 0 0.235294 0.835294 1
+      specular 0.7 0.7 0.7 0.7 30
+    }
+  }
+}
+
+material NaoMat_SecondarySkin2
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.753 0.753 0.753 1
+      diffuse 0.753 0.753 0.753 1
+      specular 0.7 0.7 0.7 0.7 30
+    }
+  }
+}
+
+material NaoMat_SecondarySkin3
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.961 0.251 0.129 1
+      diffuse 0.961 0.251 0.129 1
+      specular 0.7 0.7 0.7 0.7 30
+    }
+  }
+}
+
+material NaoMat_SecondarySkin4
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.878 0 0.204 1
+      diffuse 0.878 0 0.204 1
+      specular 0.7 0.7 0.7 0.7 30
+    }
+  }
+}
+
+material NaoMat_Structure
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.4 0.4 0.4 1
+      diffuse 0.4 0.4 0.4 1
+      specular 0.4 0.4 0.4 0.4 10
+    }
+  }
+}
+material NaoMat_MainSkin
+{
+  technique
+  {
+    pass
+    {
+            lighting on
+            ambient 1.0 1.0 1.0 1.0
+            diffuse 0.8333 0.8333 0.8333 1.0
+            normalise_normals on
+    }
+  }
+}
+material NaoMat_Reye
+{
+  technique
+  {
+    pass
+    {
+    }
+  }
+}
+material NaoMat_Leye
+{
+  technique
+  {
+    pass
+    {
+    }
+  }
+}
+material NaoMat_Foot
+{
+  technique
+  {
+    pass
+    {
+      ambient 0 0.235294 0.835294 1
+      diffuse 0 0.235294 0.835294 1
+      specular 0.7 0.7 0.7 0.7 30
+      texture_unit
+      {
+        texture nao_Left_foot_button.png
+        tex_address_mode wrap
+        filtering trilinear
+        colour_op alpha_blend
+      }
+    }
+  }
+}
+material NaoMat_Foot2
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.753 0.753 0.753 1
+      diffuse 0.753 0.753 0.753 1
+      specular 0.7 0.7 0.7 0.7 30
+      texture_unit
+      {
+        texture nao_Left_foot_button.png
+        tex_address_mode wrap
+        filtering trilinear
+	colour_op replace
+      }
+    }
+  }
+}
+material NaoMat_Foot3
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.961 0.251 0.129 1
+      diffuse 0.961 0.251 0.129 1
+      specular 0.7 0.7 0.7 0.7 30
+      texture_unit
+      {
+        texture nao_Left_foot_button.png
+        tex_address_mode wrap
+        filtering trilinear
+        colour_op alpha_blend
+      }
+    }
+  }
+}
+material NaoMat_Foot4
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.878 0 0.204 1
+      diffuse 0.878 0 0.204 1
+      specular 0.7 0.7 0.7 0.7 30
+      texture_unit
+      {
+        texture nao_Left_foot_button.png
+        tex_address_mode wrap
+        filtering trilinear
+        colour_op alpha_blend
+      }
+    }
+  }
+}
+material NaoMat_Pupil
+{
+  technique
+  {
+    pass
+    {
+      ambient 0 0 0 1
+      diffuse 0 0 0 1
+    }
+  }
+}
+material NaoMat_Hear
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.4 0.4 0.4 1
+      diffuse 0.4 0.4 0.4 1
+      texture_unit
+      {
+        texture nao_hear.png
+        tex_address_mode wrap
+        filtering trilinear
+	colour_op alpha_blend
+      }
+    }
+  }
+}
+material NaoMat_Bandeau
+{
+  technique
+  {
+    pass
+    {
+      ambient 0 0.235294 0.835294 1
+      diffuse 0 0.235294 0.835294 1
+      specular 0.7 0.7 0.7 0.7 30
+      texture_unit
+      {
+        texture nao_tex_bandeau.png
+        tex_address_mode wrap
+        filtering trilinear
+        colour_op alpha_blend
+      }
+    }
+  }
+}
+material NaoMat_Bandeau2
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.753 0.753 0.753 1
+      diffuse 0.753 0.753 0.753 1
+      specular 0.7 0.7 0.7 0.7 30
+      texture_unit
+      {
+        texture nao_tex_bandeau.png
+        tex_address_mode wrap
+        filtering trilinear
+        colour_op alpha_blend
+      }
+    }
+  }
+}
+material NaoMat_Bandeau3
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.961 0.251 0.129 1
+      diffuse 0.961 0.251 0.129 1
+      specular 0.7 0.7 0.7 0.7 30
+      texture_unit
+      {
+        texture nao_tex_bandeau.png
+        tex_address_mode wrap
+        filtering trilinear
+        colour_op alpha_blend
+      }
+    }
+  }
+}
+material NaoMat_Bandeau4
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.878 0 0.204 1
+      diffuse 0.878 0 0.204 1
+      specular 0.7 0.7 0.7 0.7 30
+      texture_unit
+      {
+        texture nao_tex_bandeau.png
+        tex_address_mode wrap
+        filtering trilinear
+        colour_op alpha_blend
+      }
+    }
+  }
+}
+material NaoMat_Buton
+{
+  technique
+  {
+    pass
+    {
+      ambient 0 0.235294 0.835294 1
+      diffuse 0 0.235294 0.835294 1
+      specular 0.7 0.7 0.7 0.7 30
+      texture_unit
+      {
+        texture nao_tex_button.png
+        tex_address_mode wrap
+        filtering trilinear
+        colour_op alpha_blend
+      }
+    }
+  }
+}
+material NaoMat_Buton2
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.753 0.753 0.753 1
+      diffuse 0.753 0.753 0.753 1
+      specular 0.7 0.7 0.7 0.7 30
+      texture_unit
+      {
+        texture nao_tex_button.png
+        tex_address_mode wrap
+        filtering trilinear
+        colour_op alpha_blend
+      }
+    }
+  }
+}
+
+material NaoMat_Buton3
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.961 0.251 0.129 1
+      diffuse 0.961 0.251 0.129 1
+      specular 0.7 0.7 0.7 0.7 30
+      texture_unit
+      {
+        texture nao_tex_button.png
+        tex_address_mode wrap
+        filtering trilinear
+        colour_op alpha_blend
+      }
+    }
+  }
+}
+
+material NaoMat_Buton4
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.878 0 0.204 1
+      diffuse 0.878 0 0.204 1
+      specular 0.7 0.7 0.7 0.7 30
+      texture_unit
+      {
+        texture nao_tex_button.png
+        tex_address_mode wrap
+        filtering trilinear
+        colour_op alpha_blend
+      }
+    }
+  }
+}
+
+
+
+//material Examples/CelShading
+//{
+//  technique
+//  {
+//    pass
+//    {
+//      vertex_program_ref Ogre/CelShadingVP
+//      {
+//        // map shininess from custom renderable param 1
+//        param_named_auto shininess custom 1
+//      }
+//      fragment_program_ref Ogre/CelShadingFP
+//      {
+//        // map diffuse from custom renderable param 2
+//        param_named_auto diffuse custom 2
+//        // map specular from custom renderable param 3
+//        param_named_auto ambient custom 4
+//        // map specular from custom renderable param 4
+//      }
+//      texture_unit
+//      {
+//        texture cel_shading_edge.png 1d
+//        tex_address_mode clamp
+//        filtering none
+//      }
+//    }
+//  }
+//}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<postures class_id="0" tracking_level="0" version="0">
+  <count>2</count>
+  <item_version>0</item_version>
+  <item class_id="1" tracking_level="0" version="0">
+    <first>0</first>
+    <second class_id="2" tracking_level="0" version="0">
+      <id>0</id>
+      <name>0</name>
+      <familyId>0</familyId>
+      <familyName>Standing</familyName>
+      <neighbours class_id="3" tracking_level="0" version="0">
+        <count>1</count>
+        <item_version>0</item_version>
+        <item class_id="4" tracking_level="0" version="0">
+          <postureIndex>1</postureIndex>
+          <cost>3</cost>
+          <enableAntiCollision>1</enableAntiCollision>
+          <speedCoefficient>1</speedCoefficient>
+        </item>
+      </neighbours>
+      <signature class_id="5" tracking_level="0" version="0">
+        <jointAngles>
+          <count>17</count>
+          <item_version>0</item_version>
+          <item>0.0</item>
+          <item>-0.089013904</item>
+          <item>1.57</item>
+          <item>0.12</item>
+          <item>-1.1982934</item>
+          <item>-0.494</item>
+          <item>-0.20091181</item>
+          <item>0.41159999</item>
+          <item>0</item>
+          <item>-0.16406101</item>
+          <item>0.061086446</item>
+          <item>1.57</item>
+          <item>-0.12</item>
+          <item>1.1982934</item>
+          <item>0.494</item>
+          <item>0.20091181</item>
+          <item>0.41159999</item>
+        </jointAngles>
+        <inertialAngles>
+          <count>2</count>
+          <item_version>0</item_version>
+          <item>0</item>
+          <item>0</item>
+        </inertialAngles>
+      </signature>
+    </second>
+  </item>
+  <item>
+    <first>1</first>
+    <second>
+      <id>1</id>
+      <name>1</name>
+      <familyId>0</familyId>
+      <familyName>Standing</familyName>
+      <neighbours>
+        <count>1</count>
+        <item_version>0</item_version>
+        <item>
+          <postureIndex>0</postureIndex>
+          <cost>2</cost>
+          <enableAntiCollision>1</enableAntiCollision>
+          <speedCoefficient>1</speedCoefficient>
+        </item>
+      </neighbours>
+      <signature>
+        <jointAngles>
+          <count>17</count>
+          <item_version>0</item_version>
+          <item>0.0</item>
+          <item>-0.26082182</item>
+          <item>1.57</item>
+          <item>0.2</item>
+          <item>-1.16</item>
+          <item>-0.552</item>
+          <item>-0.20052278</item>
+          <item>0.38879067</item>
+          <item>0</item>
+          <item>-0.29810882</item>
+          <item>0.14354035</item>
+          <item>1.57</item>
+          <item>-0.2</item>
+          <item>1.16</item>
+          <item>0.552</item>
+          <item>0.20054983</item>
+          <item>0.39037389</item>
+        </jointAngles>
+        <inertialAngles>
+          <count>2</count>
+          <item_version>0</item_version>
+          <item>0</item>
+          <item>0</item>
+        </inertialAngles>
+      </signature>
+    </second>
+  </item>
+</postures>

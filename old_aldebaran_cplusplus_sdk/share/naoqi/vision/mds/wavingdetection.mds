@@ -1,0 +1,15 @@
+filter WavingDetection
+{
+BodyLimits body;
+HumanMovementsAnalysis analysis;
+ForWavingEvents events;
+
+body:populationIn<=populationIn;
+
+body:populationOut->analysis:populationIn;
+analysis:minSize<=minSize;
+analysis:maxDistance<=maxDistance;
+analysis:populationOut->events:populationIn;
+
+events:populationOut=>populationOut;
+}

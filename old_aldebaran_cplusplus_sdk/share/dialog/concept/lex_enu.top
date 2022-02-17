@@ -1,0 +1,1532 @@
+topic: ~lex()
+language: enu
+
+dynamic:robotname
+dynamic:friendlyname
+
+
+##general verbs
+concept:(iam) [I'm "I am"]
+concept:(ive) ["I've {got gotten}" "I have {got gotten}"]
+concept:(iwill) [I'll "I will"]
+concept:(i_would) [I'd "I would"]
+
+concept:(iamnot) ["I'm not" "I am not" "I ain't"]
+concept:(ivenot) ["I haven't {got gotten}" "I don't have {got gotten}" "I do not have {got gotten}" "I have not {got gotten}"]
+concept:(idonot) ["I do not" "I don't"]
+concept:(ididnot) ["I did not" "I didn't"]
+concept:(i_will_not) ["I will not" "I'll not" "I won't"]
+concept:(i_would_not) ["I would not" "I'd not" "I wouldn't"]
+
+concept:(you_are)[you're "you are"]
+concept:(youve)["you've {got gotten}" "you have {got gotten}"]
+concept:(youll)[you'll "you will"]
+
+concept:(you_are_not) ["you're not" "you are not" "you aren't"]
+concept:(youvenot) ["you haven't {got gotten}" "you don't have {got gotten}" "you do not have {got gotten}" "you have not {got gotten}"]
+concept:(youdonot) ["you do not" "you don't"]
+concept:(youdidnot) ["you did not" "you didn't"]
+concept:(youwillnot) ["you will not" "you won't"]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(do_you_have) ["{do} you have" "have you got"]
+concept:(do_you_like) ["{do} you like"]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(dont) [don't "do not"]
+concept:(didnt) [didn't "did not"]
+concept:(havent) [haven't "have not"]
+concept:(doesnt) [doesn't "does not"]
+
+concept:(whats) ["what is" what's]
+concept:(whos) ["who is" who's]
+
+concept:(thats) ["that is" that's]
+concept:(thatsnot) ["that is not" "that's not" "that isn't"]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(can_you)[
+"can you {please}"
+"could you {please}"
+"do you think you could"
+]
+
+concept:(can_i)
+[
+"can I"
+"could I"
+"I'd like to"
+"I would like to"
+"do you agree if"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#=====================================================================================================================================#
+concept:(adverbs) [really absolutely completely truly royally "a little" totally strictly perfectly enormously "too much" very rather]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(adj_addicted) ["[crazy passionate fanatical avid] about" "keen on" "["in love" enamored] with" "addicted [with to]"]
+concept:(adj_total) ["very strongly" total complete absolute categorical radical integral unconditional]
+concept:(adj_size) [big fat enormous tiny small minuscule]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_like) [
+    "I {really} [like love adore dig]"
+    "~iam {~adverbs} ~adj_addicted"
+    "I worship"
+    "I have an affinity for"
+    "I have a {"little bit of a"} preference for"
+    "I'm {"a bit"} weak for"
+]
+#"I'm {totally completely "a big" "an enormous" "a mega" "an ultra"} fan of" "I'm {totally} into" "I'm obsessed with"    
+#new concept?
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(asklike) "do you [like love]"
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_dont_like) [
+    "I [detest hate]"
+    "~i_do_not [like love adore]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_want_to) ["want to" i_want_to]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+#-------------------------------------------------------------------------------------------------------------------------------------#
+# Useful commands
+concept:(vb_imp_speak) "~dont talk to me {about}"
+concept:(vb_imp_chat) "~dont chat with me {about}"
+concept:(vb_imp_say) "~dont say anything {"about it"}"
+concept:(vb_imp_discuss) "~dont discuss it"
+concept:(vb_imp_gossip) "~dont gossip {"about it"}"
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(verbs_inf_talk) "to [talk discuss gossip chat say]"
+concept:(verbs_imp_talk) [~vb_imp_speak ~vb_imp_chat ~vb_imp_say ~vb_imp_discuss ~vb_imp_gossip]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(confirmation)
+[
+"yes {please "me too" "of course" "I do" sure}"
+yep
+"yeah {sure}"
+"[ok okay] {sure}"
+good
+right
+alright
+"all right"
+nice
+"of course"
+sure
+true
+let's go
+"do it"
+"go on"
+"~thats [it right good certain]"
+"[~thats it's] true"
+"you're right"
+perfect
+"why not"
+absolutely
+"go ahead"
+"I'd love to"
+"[with my] pleasure"
+"if you want to"
+indeed
+"no [problem worries problemo]"
+"not a problem"
+"no doubt"
+"so to speak"
+"["good" excellent] idea"
+exactly
+"very well"
+"you got it" 
+awesome
+excellent
+"it sure is"
+"we sure are"
+"I don't feel like it"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept: (negation) [
+"no {thanks "thank you" "it's enough" "it's [fine ok]"}"
+"no way"
+"yeah right"
+"not [really "at all" "in the least" "right now" exactly "so much"]"
+"I'm not interested"
+# "that doesn't interest me"
+# leave
+# to leave
+"I don't want to"
+nah
+"I'll think about it"
+"not at all"
+"[definitely absolutely] not"
+"in your dreams"
+"[were are] you dreaming"
+"dream on"
+# "what else"
+"not for ["the time being" "the moment"]"
+"not so much"
+"I don't agree"
+#" ["I don't want to" I don't i_want_to]"
+#"i don't like that"
+"{no} that'll work {thanks} "
+"{no} it'll be fine {thanks}"
+"{no} it's ok"
+"that's not true"
+"that's false"
+"absolutely not"
+"not really"
+"not exactly"
+"{it's} none of your business"
+"it doesn't involve you"
+"why do you give a shit"
+"what are you getting involved in"
+"what do you give a shit about"
+"mind your own business"
+"what's it got to do with you"
+"never {"in my life"}"
+"it doesn't interest me"
+"it doesn't tempt me"
+"no thank you"
+"not especially"
+"no question"
+"it's not {exactly} that"
+"~you_are mistaken"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(a_little_bit) [
+"a {little "really little"} bit"
+"not a lot"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(simple_neg) [
+   no nah "no no" "no no {and} no"
+"{no} ["not at all" "absolutely not" "that's [false "not true"]"]"
+"never {"in my life"}"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#        
+concept:(stupid_question) [
+"that's {really} a {completely truly perfectly frankly particularly} ["damn lousy" "shitty" idiotic imbecile stupid "uninteresting" question]"
+"~whats ["this ["piece of shit" "{shitty lousy} question"]"]"
+"~thats {completely} [stupid lousy imbecile crap]"
+"~thatsnot {very} [clever fun interesting]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(thank_you)[
+"I ["thank you" "give you my thanks"]"
+"thank you {"very much" "a million" "from the bottom of my heart"}"
+"thanks {"a lot"}"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(im_good) [
+"{~iam} {very} well"
+"~iam [good "full of get up and go" "in a great mood"]"
+"not bad"
+"I feel in shape"
+super
+perfect
+"all's well"
+"{I'm} fine"
+"{very} good {thanks}"
+"doing well {thanks}"
+"it goes [well super perfect]"
+"hey yeah I'm good"
+"rather well"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(im_ok) [
+"~iam ok"
+"so so"
+"not {too} bad"
+"well enough"
+meh
+average
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_dont_feel_good) [
+"it's not going so well"
+"I don't feel ["{very} well" good "at my best" special great "in "the best" shape"]"
+"I've been better"
+"it goes ["{very rather pretty} poorly" "not {very} well"]"
+"I hurt myself"
+"~iam hurt"
+"I hurt myself"
+"not {very} well"
+"not good"
+"~iamnot so good"
+"not super"
+"I'm not in the best shape"
+"I have a [sprain tendonitis break "twisted ankle"]"
+"I [open cut broke] {my}"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(im_sick) [
+"~iam {"a little" "a bit" very feeling} [ill sick snuffly queasy congested]"
+"~ive ["a {"{very} bad"} [headache "sore throat" "stomach ache" cold "stiff neck" "throat infection" "sore throat" strep migraine "stomach [flu ache]" cough]" "an {ear} infection" "the flu" blisters "chicken pox" measles]"
+"~iam coughing"
+"my head hurts"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(im_tired) [
+"I need to {"go to" "get some"} sleep"
+"~iam ["{feeling} {suddenly "a [little bit]" very super too} tired" exhausted "worn out" dead "knocked out" knackered "out of it" spacey "{feeling} [sleepy drowsy]"]"
+]
+#=====================================================================================================================================#
+# Patterns
+concept:(i_dont_understand)[
+"{sorry} [~ididnot ~i_do_not] [understand grasp get] [it "anything {"at all"}" zilch nada]"
+"{sorry} [~ididnot ~i_do_not] understand {you "a thing" "what you {just} said"}"
+"~ivenot understood"
+"{sorry} {I} ~didnt catch that"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(robot_didnt_understand)[
+"you [~didnt ~dont] [understand grasp get] [anything {"at all"} "a thing" "{"a word of"} what ["I say" "I'm saying"]" zilch nada]"
+"it's not that {"at all"}"
+"you {still} [~didnt ~havent ~dont] understand [anything "very well"]"
+"you're wrong"
+"you [~didnt ~dont] get it"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_dont_care) [
+"~i_do_not [care "give a shit"]"
+whatever
+"~iamnot interested"
+"I have no interest"
+"I couldn't care less"
+"I {really} don't give a [damn shit "two cents" "rat's ass" ]"
+"[that] ~doesnt interest me {anymore "at all" "in the least"}"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_dont_know) [
+"~i_do_not know {"anything about that"}"
+"I know nothing"
+"~ivenot the least idea"
+"{I} dunno"
+"~whats that"
+"~ive {never} heard {"of that"}"
+"I have no [clue idea]"
+"~i_do_not have the slightest idea"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(im_not_sure) [
+"~iamnot sure"
+"not sure"
+"I'm hesitant"
+"no idea"
+"["I'm going to" ~iwill] think about it"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(apps_sing) [application app activity]
+concept:(apps_plur) [applications apps activities]
+
+concept:(stop_it) [
+"cut it out"
+"knock it off"
+"stop {"[the this] ~apps_sing"}"
+"[that it] no longer interests me"
+"that's enough"
+"stop talking"
+"that's ["a pain" "not interesting" useless boring]"
+"~ive ["had it" "had enough" "had it up to here" "have had a bellyfull of it"]"
+]
+#"stop ["it all" "[the this] [program software dialogue]"]"
+#"change ["[the this] ~app_sing" "[the this] [program software]"]"
+
+###for another rule
+#"you ["get on my nerves" "annoy me" "wear me out" "bug the shit out of me"]"
+
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(restart_it) "[restart start again reboot replay] {"[this the] application"}"
+#all [the this] [program software dialog]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(repeat_it) [
+"[restate repeat] {me} [the your] {last} question"
+"~whats the question {again}"
+"repeat ["the sentence" "your last sentence" "what you just said"] {again} {please}"
+"~can_you repeat {please}"
+"~can_you ask {me} the question {again}"
+"~can_you ask {me} the question one more time"
+"tell ["it to me" me] again"
+"what [is was] the question {again}"
+"what ["did you say" "were you [saying "asking me"]"] {again}"
+"ask {me} [the that] question {again}"
+"repeat please"
+"come again"
+"[say ask] {that} again"
+"what was the question"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_insult) [
+"[~you_are ~thats] [crazy ugly shitty useless rubbish crap rotten sick stupid idiotic moronic "wide off the mark" "completely mistaken" "half-assed"]
+"~you_are ["an [idiot imbecile]" "a [moron pain numbskull]"]
+"[it that this] sucks"
+"you stink"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_already_know) [
+"I already know"
+"I'm already familiar with"
+"I already heard about"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(i_will_try) [
+"I'm going to [try attempt "take a shot"]"
+"let's try [it this]"
+"let's take a shot at [it this]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(happy_user) [
+wonderful excellent super "too [good cool]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(ask_to_be_familiar_with) ["do you know" "are you familiar with"]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(who_is) [
+"{"do you know"} who is"
+#~whos
+~ask_to_be_familiar_with
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(what_is)
+"{"{~can_you} ["explain to me" "tell me"]"}
+    ["~whats [this that it]"
+    "what are [these those]"
+    "what was [this that it these those]"]"
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(whats_your_name)
+"~whats your name"
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(whats_his_name) [
+"~whats the [name title]"
+"what ["is the name of" "is [his her] name"]"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(what_are_you_talking_about) [
+"what are you taking about"
+"what are you ["telling me" saying]"
+"~whats the [subject topic] {"of the [discussion conversation]"}"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(who_wrote) [
+"who wrote"
+"who is the author of"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(how_much_is) [
+"how much ["does it cost" "is that {worth}" "is it"]"
+"what's the value of"
+]
+#-------------------------------------------------------------------------------------------------------------------------------------#
+concept:(about) [
+about
+"on the subject of"
+]
+#=====================================================================================================================================#
+
+concept:(help)[
+"{"would you" ~can_you} help me {please}"
+"your assistance please"
+"how ~can_you help me"
+"~can_you give me {some} [information informations]"
+"I need {some} [information informations details help]"
+"give me a hand"
+"~iam looking for [info information "more details" help]"
+]
+
+concept:(guess)[
+guess
+"in your opinion"
+"what do you think {"about it"}"
+"what do you advise me"
+"what do you recommend"
+"what would you [advise recommend]"
+"what is your advice"
+]
+
+concept:(too) [
+"me too"
+equally
+"me the same"
+"same {"for me"}"
+]
+
+concept:(nice) [
+"that's {really} nice"
+"that's [super good marvelous magnificent awesome]"
+"it's {very} nice of you"
+"you're {really very} nice"
+]
+
+concept:(whatprice_of) ["what's the price of" "what's its price"]
+concept:(whatpricce) ["it costs how much" " how much does it cost"]
+
+concept:(names_masc) [
+Aaron
+Adam
+Aden
+Adrian
+Aidan
+Al
+Alan
+Alain
+Alejandro
+Alex
+Alexander
+Alexis
+Allen
+Andre
+Andreas
+Andrew
+Andy
+Anthony
+Antonio
+Arnold
+Ben
+Benjamin
+Bill
+Blain
+Blake
+Brad
+Brandon
+Brenden
+Bruce
+Bruno
+Caleb
+Chad
+Charles
+Charlie
+Chase
+Chris
+Christian
+Christopher
+Chuck
+Clayton
+Colin
+Connor
+Craig
+Daniel
+David
+Dennis
+Dick
+Dominic
+Doug
+Duncan
+Dylan
+Ed
+Eddy
+Edgar
+Elliot
+Emmanuel
+Eric
+Esteban
+Ethan
+Fabian
+fabrice
+Frank
+Fred
+Frederic
+Freddie
+Gabe
+Gabriel
+Gale
+Garry
+Gavin
+Geoffrey
+George
+Gerald
+Gerry
+Gilbert
+Glenn
+Graham
+Grant
+Gregg
+Gregory
+Guillermo
+Hank
+Harold
+Harrison
+Hayden
+Heath
+Henry
+Herman
+Howard
+Ian
+Ilmo
+Isaac
+Isaiah
+Ivan
+Jack
+Jackson
+Jacob
+Jaden
+Jake
+James
+Jared
+Jason
+Jean
+Jed
+Jeff
+Jeffrey
+Jérôme
+Jerry
+Jesse
+Jim
+Jimmy
+Joel
+Joey
+John
+Johnathan
+Jonas
+Jordan
+Joseph
+Josh
+Joshua
+Julian
+Justin
+Keaton
+Keith
+Kent
+Killian
+Lance
+Landon
+Larry
+Leo
+Leonard
+Leroy
+Levi
+Liam
+Lionel
+Logan
+Louis
+Lucas
+Luis
+Luke
+Mack
+Malcolm
+Mark
+Marshal
+Martin
+Matt
+Matthew
+Max
+Maximillian
+Michael
+Mike
+Mitch
+Murphey
+Miles
+Nate
+Nathan
+Neil
+Nick
+Nicolas
+Nile
+Noah
+Olly
+Oscar
+Palmer
+Parker
+Pascal
+Patrick
+Paul
+Pedro
+Pete
+Peter
+Phil    
+Phillip
+Quentin
+Quinn
+Ralph
+Randall
+Randy
+Raphael
+Reggie
+Reid
+Ricardo
+Rick
+Riley
+Rob
+Robert
+Roger
+Sam
+Samuel
+Scott
+Sean
+Sidney
+Spencer
+Stan
+Stephen
+Steve
+Stuart
+Tate
+Taylor
+Ted
+Teo
+Terry
+Thomas
+Tim
+Timothy
+Tod
+Tom
+Tommy
+Travis
+Trent
+Tristan
+Troy
+Tyler
+Victor
+Vince
+Vincent
+Walker
+Walter
+Wayne
+Wendell
+Will
+William
+Winston
+Wyatt
+Yufo
+Yuri
+Yves
+Zac
+Zach
+Zachariah
+Zachary
+Zack
+]
+
+concept:(names_fem) [
+Abby
+Abigail
+Addison
+Adele
+Adrianna
+Agatha
+Agnes
+Alaina
+Alecia
+Alexandra
+Allison
+Alyssa
+Amanda
+Amber
+Amelia
+Amy
+Andrea
+Angel
+Angelica
+Anita
+Ann
+Anna
+Annette
+Annmarie
+April
+Arianna
+Ariadne
+Ariel
+Ashley
+Audrey
+Beatrice
+Becca
+Beth
+Bianca
+Bonnie
+Brandy
+Brianna
+Bridget
+Britney
+Bronwyn
+Caitlin
+Candace
+Carla
+Carmen
+Carol
+Carolyn
+Carrie
+Cassandra
+Catherine
+Cathleen
+Cecilia
+Charlotte
+Chelsea
+Cheryl
+Chloe
+Christina
+Christine
+Claire
+Clara
+Clarissa
+Claudia
+Colleen
+Connie
+Corinne
+Courtney
+Cynthia
+Danielle
+Darcy
+Dawn
+Deanna
+Debbie
+Deborah
+Delaney
+Diana
+Diane
+Donna
+Doreen
+Dorothy
+Edith
+Eileen
+Elaina
+Elaine
+Elisabeth
+Elizabeth
+Elodie
+Emilia
+Emily
+Emma
+Erica
+Erin
+Eva
+Faith
+Fanny
+Faye
+Felicia
+Felicity
+Fiona
+Francesca
+Gabby
+Gabriella
+Gail
+Gemma
+Genevieve
+Georgia
+Gillian
+Gloria
+Grace
+Gretchen
+Gwen
+Gwyneth
+Haley
+Halley
+Hannah
+Heather
+Heidi
+Helen
+Hermione
+Hilary
+Holly
+Hope
+Ilene
+Imogene
+Ines
+Irene
+Iris
+Isabelle
+Ivana
+Jackie
+Jacqueline
+Jamie
+Jana
+Janet
+Janice
+Jasmine
+Jean
+Jeanette
+Jenna
+Jennie
+Jennifer
+Jessica
+Jillian
+Joan
+Joanna
+Joanne
+Jocelyn
+Jodie
+Jolene
+Joselyn
+Josephine
+Joy
+Judy
+Julianne
+Julie
+Justine
+Kaleigh
+Karen
+Kat
+Katarina
+Kate
+Katelynn
+Katharine
+Katherine
+Kathleen
+Kay
+Keria
+Kelli
+Kelly
+Kelsey
+Kendall
+Kendra
+Kerri
+Kim
+Kimberley
+Kirsten
+Krista
+Kristie
+Kylee
+Kyra
+Lacey
+Lana
+Larissa
+Laura
+Laurel
+Lauren
+Lea
+Leah
+Leann
+Lee
+Leia
+Leila
+Leslie
+Lexie
+Libby
+Lila
+Lillian
+Lillith
+Lily
+Linda
+Lindsay
+Lindsey
+Lisa
+Liz
+Lola
+Lori
+Louisa
+Lucie
+Lucinda
+Lupita
+Lydia
+Lynn    
+Mackenzie
+Macy
+Maddie
+Madeline
+Madison
+Maia
+Mallory
+Margaret
+Mariah
+Marie
+Marilyn
+Marissa
+Martha
+Mary
+Maureen
+Maxine
+Meg
+Megan
+Melanie
+Melissa
+Meredith
+Mia
+Michelle
+Miley
+Mimi
+Miranda
+Molly
+Monica
+Monique
+Morgan
+Nadia
+Nadine
+Nancy
+Naomi
+Natalia
+Natasha
+Nicole
+Nikki
+Nina
+Noelle
+Nora
+Noreen
+Octavia
+Olivia
+Paeten
+Paige
+Pamela
+Paola
+Patrice
+Patricia
+Paula
+Penelope
+Phoebe
+Pippa
+Polly
+Quinn
+Rachael
+Rachel
+Ramona
+Reagan
+Rebecca
+Regina
+Rene
+Renee
+Rhian
+Rhianna    
+Rhonda
+Rita
+Roberta
+Robin
+Rosa
+Rose
+Sabrina
+Sadie
+Sally
+Samantha
+Sandra
+Sara
+Sarah
+Sasha
+Scarlett
+Selena
+Shannon
+Sharon
+Shauna
+Sheila
+Shelby
+Sheri
+Simone
+Sloane
+Sonya
+Sophia
+Sophie
+Stacy
+Stephanie
+Susan
+Sylvia
+Tabitha
+Tamara
+Tammie
+Tanya
+Tara
+Teresa
+Tiffany
+Tracey
+Trisha
+Valerie
+Vanessa
+Veronica
+Vicky
+Victoria
+Virginia
+Vivian
+Wanda
+Wendy
+Wilma
+Winnie
+Xena
+Yelena
+Yesenia
+Yolanda
+Yvonne
+Zoe
+]
+
+concept:(names_both)
+[
+Alex
+Dylan
+Harper
+Lane
+Morgan
+Rory
+Sam
+Taylor
+]
+
+##infos user
+concept:(myname)[
+"my [name "first name"] is"
+"you [can could] call me"
+"~iam named"
+"~iam known as"
+]
+concept:(myname_shorter)[
+"{"as for me"} it's"
+"{please} call me"
+"~iam"
+]
+
+concept:(notmyname) 
+[
+"you [misunderstood "didn't [get understand]"] ["my name" "what my name is"]"
+"[that's "this is" "that is"] not my name"
+"[~names_masc ~names_fem] is not my name"
+"~iam not named"
+"~iam not known as"
+"{no} ["that isn't" "that's not" "it's not"] my name"
+"{no} my name {still} [isn't "is not"]"
+"{"I [want "would like"] to"} [change modify fix correct] my name"
+"you got my name wrong"
+]
+
+concept:(i_want) [
+"I want"
+"[I'll I'd] like"
+"I wish"
+"I'm looking {forward} to"
+#"{do} you have"
+#"["it's that's] for"
+#"[it that] would be for"
+]
+
+##sports
+concept:(sportslist)[
+dance
+volleyball
+soccer
+football
+basketball
+swimming
+skiing
+"{stationary} bike"
+gymnastics
+gym
+weightlifting
+cardio
+stepclass
+pilates
+yoga
+jazzercise
+"body pump"
+"strength training"
+cycling
+]
+
+concept:(sportplaces)[
+beach
+mountains mountain
+ocean
+sea
+seaside
+ski
+resort
+forest
+woods
+"{swimming} pool"
+fishing
+vacation
+]
+
+##miscellaneous
+concept:(music) "{classical} music"
+
+concept:(instrument)[
+violin
+drums
+cello
+piano
+battery
+"{double} bass {recorder}"
+"{transverse} flute"
+piccolo
+clarinet
+saxophone
+trumpet
+harp
+alto
+harpsichord
+harp
+"{electric} guitar"
+kettledrum
+organ
+accordion
+harmonica
+bassoon
+viola
+]
+
+concept:(month)[
+january
+february
+march
+april
+may
+june
+july
+august
+september
+october
+november
+december
+]
+
+#concept:(mobile) [portable mobile phone smartphone iphone telephone terminal tablet]
+
+##verbs
+concept:(talk) [talk "talk to me" "let's talk"]
+
+concept:(idonthave) ["I don't have" "I do not have"]
+
+concept:(whatsthat) ["what's that" "what is {that}" explain "explain to me {"what that is"}"]
+
+concept:(difficult) "{wait "hold on"} [it's "this is"]  {super ultra too} [difficult hard]"
+
+concept:(its) [
+"{"I think" well "in my opinion"} it's"
+"it's without doubt"
+]
+
+concept:(confirmation_purikura) [yes yeah ok "do it" "go on" "exactly" "of course" "if you'd like" "why not" absolutely assuredly "that's [certain right]" certainly obviously perfect perfectly "very good" "with pleasure" precisely surely understood gladly indeed exactly  "no [problem worries problemo]" exactly "you got it" "you're [too really] good" "good answer" "well [said spoken]" "without a doubt" "no doubt" "not a single doubt" "that's sure" "good idea" "excellent idea" please]
+
+concept: (negation_purikura) [
+"no {thanks}"
+"not [really "at all" exactly]"
+"I'm not interested"
+"that doesn't interest me"
+quit
+stop
+"I dont [want "want to" i_want_to]"
+nah
+"I'll think about it"
+"[definitely absolutely] not"
+"in your dreams"
+"dream on"
+# "something else"
+"not for ["the time being" "the moment"]"
+"not right now"
+"I don't agree"
+"I don't like [it that]"
+"{no} ["that'll do" "that will do"] {thanks}"
+"{no} ["it'll be fine" "it will be fine"] {thanks}"
+"that's not true"
+"that's false"
+"it doesn't concern you"
+"what are you meddling in"
+"why does it concern you"
+"mind your own business"
+"what's it got to do with you"
+"never {"in my life"}"
+"it doesn't tempt me"
+"I can't relate to that"
+]
+
+concept:(legendary_creatures)[
+aegipan
+ankou
+basilisk
+"beast of Gévaudan"
+"beast of Vaccarès"
+bécut
+behemoth
+bigfoot
+bisclavret
+"blair witch"
+bogeyman
+bucentaur
+capricorn capricorns
+"{lou} Carcolh"
+chimaera
+chupacabra
+centaur centaurs
+cerberus
+"Ceryneian hind"
+chimera chimerae
+cyclops cyclopses
+"demon cat"
+diomedes
+"Diomedes's mares"
+"Diomede's man-eating horses"
+dragon dragons
+dwarf dwarves
+elf elves
+gargoyle    
+gnome
+goblin
+graoully
+gremlin
+griffin
+"headless horseman"
+hippogriff
+Jackalope
+"Jersey devil"
+kerberos
+korrigan
+ladon
+lamia
+unicorn unicorns
+"lion of nemea"
+leprechaun leprechauns
+"lochness monster"
+lutin
+mandragore
+mandragot
+matagot
+meliae
+meliai
+melusina
+melusine
+minotaur
+monocoli
+monopod monopods
+mothman
+"nemean lion"
+nessie
+nymph nymphs
+ogre ogres
+orc orcs
+peryton
+pegasus
+phoenix
+sasquatch
+satyr
+sciapods
+siren sirens
+skiapods
+scylla
+sphynx sphynxes
+"skunk ape"
+"stymphalian birds"
+"{lou} tac"
+tarasque
+thrace
+triton
+troll trolls
+uruk-hai
+"wampus cat"
+werewolf werewolves
+yeti
+]
+
+concept:(likeanimals)[~i_like it's "that is"]
+
+concept:(want_to_do)["["I [want wish]" "I [would will] [like love wish]" "I [will would] have liked" "I'll [like love wish]" "I'd [like love wish]"] to ["bring about" cause do]" "["that is" "that's" "[it that] would be" "[it that] would have been" "it'd [be been]"] in order to [make do]" "I want to ["bring about" cause do]"]
+
+
+##astrology
+
+concept:(Iam_astro)["I am" I'm "{"I think"} ["that was" "it was" "that is" that's "it is" it's]"]
+
+concept:(insult_astro)["you {little dirty} [boot-licker suck-up toadie]" "don't think you can fool me like that" "you think you've got me" "you won't fool me like that"]
+
+concept:(affirmation_soso)["that's a half truth" "one part truth one part lie" "not one or the other" "not entirely true"]
+
+
+##food
+
+concept:(like_drink_food)["I [love "{really} like"] {drinking "to drink"}" "I'm crazy about" "I'm nuts about" "I'm a big drinker"]
+
+
+##seasons
+
+concept:(to_like_season)["I {really} like" "I'm crazy about" it's "it is" that's "that is"]
+
+concept:(mybirthday) ["I was born {on the "on the"}" "it's {on the "on the"}" "my birthday is {on the "on the"}"]
+
+##meta_next
+
+concept:(proposition_next)["ask me ["some questions" "another question"]" "["ask me" suggest "tell me"] something" "you [can could] ask me ["some questions" "[a another] question"]" "suggest something {to me}" "talk about something else"]
+
+##food_1to10
+
+concept:(like_to_eat)"["I adore" "I really like" "I love" "I'm nuts about eating" "I'm a big eater of" "I'm crazy about"] {[a some] good}"
+concept:(have_eaten)["I ate" "I've eaten" "I scarfed" "I stuffed my pie hole" "I threw down"]
+
+concept:(countries)[
+afghanistan
+albania
+algeria
+andorra
+angola
+"antigua and barbuda"
+argentina
+armenia
+australia
+austria
+azerbaijan
+bahrain
+bangladesh
+barbados
+belarus
+belgium
+belarus
+belize
+benin
+bhutan
+birma
+bolivia
+"bosnia {herzegovina}"
+botswana
+brasil
+brunei
+bulgaria
+"burkina {faso}"
+burundi
+cambodia
+cameroon
+canada
+"cap vert"
+"central african republic"
+"central africa"
+chad
+chile
+colombia
+congo
+"costa rica"
+croatia
+cuba
+cyprus
+"czech republic"
+czechoslovakia
+denmark
+djibouti
+dominica
+"dominican republic"
+ecuador
+egypt
+england
+"{equatorial} guinea {bissau}"
+eritrea
+estonia
+ethiopia
+finland
+gabon
+gambia
+georgia
+germany
+ghana
+greece
+grenada
+guatemala
+guyana
+haïti
+honduras
+hungary
+iceland
+india
+indonesia
+iran
+iraq
+ireland
+israel
+italy
+"ivory coast"
+jamaica
+jordan
+kazakhstan
+kenya
+kiribati
+kuwait
+kirghizistan
+laos
+lesotho
+latvia
+liban
+liberia
+lichtenstein
+lithunia
+luxembourg
+lybia
+macedonia
+madagascar
+malawi
+mali
+malta
+malaysia
+mauritanius
+mauritius
+mexico
+micronesia
+moldavia
+monaco
+mongolia
+montenegro
+morocco
+mozambique
+myanmar
+namibia
+nauru
+nepal
+nicaragua
+niger
+nigeria
+niue
+"new zealand"
+"{north south} korea"
+norway
+norwegia
+oman
+pakistan
+palestine
+panama
+paraguay
+peru
+"{papua} new guinea"
+poland
+portugal
+"principality of andorra"
+qatar
+romania
+russia
+rwanda
+"saint christopher and nevis"
+"saint lucia"
+"saint martin"
+"saint vincent and the grenadines"
+salvador
+samoa
+"sao tomé and principe"
+"saudia arabia"
+senegal
+serbia
+"sierra leone"
+singapore
+slovakia
+slovenia
+somalia
+"{south} africa"
+"{south southern} sudan"
+spain
+"sri lanka"
+suriname
+swaziland
+sweden
+switzerland
+syria
+salvador
+samoa
+senegal
+"{"southern"} sudan"
+"sri lanka"
+suriname
+swaziland
+tajikistan
+tanzania
+thailand
+"timor-leste"
+togo
+tonga
+"trinity and tobago"
+tunisia
+turkey
+turkmenistan
+tuvalu
+uganda
+uzbekistan
+ukraine
+uruguay
+vanuatu
+vatican
+venezuela
+vietnam
+yemen
+zambia
+zimbabwe
+
+"the [bahamas comores "cook islands" "dominican republic" equateur "[fiji maldives marshall solomon] {islands}" palaos "principality of andora" netherlands philippines seychelles "united arab emirates"]"
+]
+

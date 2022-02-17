@@ -1,0 +1,42 @@
+filter ExtactNearestPersonMask
+{
+Segmentation3D seg;
+NearestObject nearest;
+SegmentationToImage segToImage;
+Threshold thresh;
+
+seg:inputImage<=depthImage;
+seg:cameraPositionTorso<=cameraPositionTorso;
+seg:cameraPositionRobot<=cameraPositionRobot;
+seg:cameraPositionWorld<=cameraPositionWorld;
+seg:kernel<=kernel;
+seg:tolerance<=tolerance;
+seg:min<=min;
+seg:max<=max;
+
+seg:objectsArray->nearest:objectsArrayIn;
+nearest:out->segToImage:in;
+segToImage:out->thresh:in;
+thresh:ceil[0]<=dummythreshold;
+thresh:out=>mask;
+}
+
+source ExtactNearestPersonMask_DilationKernel {3}
+
+process ExtactNearestPersonMask_process(ExtactNearestPersonMask, 0, 10)
+{
+depthImage <= VideoDevice_DistanceCamera<QQVGA>;
+cameraPositionTorso <= Motion_CameraDepth<TORSO>;
+cameraPositionRobot <= Motion_CameraDepth<ROBOT>;
+cameraPositionWorld <= Motion_CameraDepth<WORLD>;
+
+# Settable parameters
+kernel<=ExtactNearestPersonMask_DilationKernel;
+tolerance<=50;
+
+# Parameters
+min<=0.1;
+max<=1.0;
+
+mask=>mask;
+}

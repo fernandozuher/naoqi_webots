@@ -1,0 +1,224 @@
+material _missing_material_
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      ambient 0.1 0.1 0.1 1.0
+      diffuse 0.8 0.0 0.0 1.0
+      specular 0.5 0.5 0.5 1.0 12.5
+      emissive 0.3 0.3 0.3 1.0
+    }
+  }
+}
+
+material romeo_torso
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 0.8333 0.8333 0.8333 1.0
+      texture_unit
+      {
+        texture romeo_outUVtorso.tga
+        tex_address_mode clamp
+        scale 1.0 1.0
+        alpha_op_ex source1 src_manual src_current 1.0
+      }
+    }
+  }
+}
+
+material romeo_face
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 0.8333 0.8333 0.8333 1.0
+      texture_unit
+      {
+        texture romeo_outUVhead.tga
+        tex_address_mode clamp
+        scale 1.0 1.0
+        alpha_op_ex source1 src_manual src_current 1.0
+      }
+    }
+  }
+}
+
+material romeo_secondary_skin
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 0.23999999463558197 0.23999999463558197 0.23999999463558197 0.0
+      diffuse 0.19199999856948846 0.19199999856948846 0.19199999856948846 0.0
+      alpha_to_coverage off
+      colour_write on
+      cull_hardware clockwise
+      depth_check on
+      depth_func less_equal
+      depth_write on
+      illumination_stage
+      light_clip_planes off
+      light_scissor off
+      lighting on
+      normalise_normals off
+      polygon_mode solid
+      scene_blend one zero
+      scene_blend_op add
+      shading gouraud
+      transparent_sorting on
+    }
+  }
+}
+
+// blender material: phong1SG
+material phong1SG
+{
+  receive_shadows on
+  technique
+  {
+    pass phong1SG
+    {
+      ambient 0.7099999785423279 0.7099999785423279 0.7099999785423279 0.0
+      diffuse 0.5679999912977216 0.5679999912977216 0.5679999912977216 0.0
+      specular 0.3700000047683716 0.3700000047683716 0.3700000047683716 0.0 4.75
+      emissive 0.0 0.0 0.0 0.0
+      alpha_to_coverage off
+      colour_write on
+      cull_hardware clockwise
+      depth_check on
+      depth_func less_equal
+      depth_write on
+      illumination_stage
+      light_clip_planes off
+      light_scissor off
+      lighting on
+      normalise_normals off
+      polygon_mode solid
+      scene_blend one zero
+      scene_blend_op add
+      shading gouraud
+      transparent_sorting on
+    }
+  }
+}
+
+material romeo_pupil
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0 0.0
+      diffuse 0.0 0.0 0.0 0.0
+      specular 0.5 0.5 0.5 0.0 12.5
+      emissive 0.0 0.0 0.0 0.0
+      alpha_to_coverage off
+      colour_write on
+      cull_hardware clockwise
+      depth_check on
+      depth_func less_equal
+      depth_write on
+      illumination_stage
+      light_clip_planes off
+      light_scissor off
+      lighting on
+      normalise_normals off
+      polygon_mode solid
+      scene_blend one zero
+      scene_blend_op add
+      shading gouraud
+      transparent_sorting on
+    }
+  }
+}
+
+material romeo_main_skin
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      lighting on
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 0.8333 0.8333 0.8333 1.0
+      alpha_to_coverage off
+      colour_write on
+      cull_hardware clockwise
+      depth_check on
+      depth_func less_equal
+      depth_write on
+      illumination_stage
+      light_clip_planes off
+      light_scissor off
+      lighting on
+      normalise_normals off
+      polygon_mode solid
+      scene_blend one zero
+      scene_blend_op add
+      shading gouraud
+      transparent_sorting on
+    }
+  }
+}
+
+
+material romeo_third_skin
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 0.117 0.565 1.0 1.0
+      diffuse 00.117 0.565 1.0 1.0
+      specular 0.25 0.25 0.25 0.0 2.25
+      emissive 0.0 0.0 0.0 0.0
+      alpha_to_coverage off
+      colour_write on
+      cull_hardware clockwise
+      depth_check on
+      depth_func less_equal
+      depth_write on
+      illumination_stage
+      light_clip_planes off
+      light_scissor off
+      lighting on
+      normalise_normals off
+      polygon_mode solid
+      scene_blend one zero
+      scene_blend_op add
+      shading gouraud
+      transparent_sorting on
+    }
+  }
+}
+
+material romeo_black
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0 1.0
+      diffuse 0.0 0.0 0.0 1.0
+      specular 0.0 0.0 0.0 1.0
+      emissive 0.0 0.0 0.0 1.0
+    }
+  }
+}
+

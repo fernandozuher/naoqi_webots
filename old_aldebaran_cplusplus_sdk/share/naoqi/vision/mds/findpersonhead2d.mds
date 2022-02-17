@@ -1,0 +1,67 @@
+filter FindPersonHead2D
+{
+Mandatory5 mand;
+FaceDetectionFromImage detect;
+ComputeDistanceFromSize distance;
+SegmentationFromFacePositions seg;
+ExtractObjects extract;
+ExtractTopOfBlobs tops;
+NearestObject nearest;
+CreateDummyHeadObject createDummy;
+Compute3DPositions pos3D;
+RemoveTooHighObjects removehigh;
+ApplyVerticalOffset applyOffset;
+
+# Inputs -- filtered using Mandatory
+mand:in1<=state;
+mand:in2<=rgbInputImage;
+mand:in3<=cameraPositionTorso;
+mand:in4<=cameraPositionRobot;
+mand:in5<=cameraPositionWorld;
+
+# OkaoFaceDetection
+mand:out2->detect:image;
+
+# ComputeDistanceFromSize
+detect:out->distance:objects;
+distance:realWidth[0.17]<=dummy;
+
+# SegmentationFromFacePositions
+mand:out2->seg:inputImage;
+detect:regions->seg:faceRegions;
+
+# ExtractObjects
+seg:out->extract:segmentated;
+mand:out2->extract:image;
+distance:distances->extract:distances;
+mand:out3->extract:cameraPositionTorso;
+mand:out4->extract:cameraPositionRobot;
+mand:out5->extract:cameraPositionWorld;
+
+# ExtractTopOfBlobs
+extract:objectsArray->tops:objectsArrayIn;
+
+# NearestObject
+tops:objectsArrayOut->nearest:objectsArrayIn;
+
+# CreateDummyHeadObject
+nearest:out->createDummy:headArrayIn;
+mand:out2->createDummy:inputImage;
+mand:out3->createDummy:cameraPositionTorso;
+mand:out4->createDummy:cameraPositionRobot;
+mand:out5->createDummy:cameraPositionWorld;
+
+# Compute3DPositions
+createDummy:headArrayOut->pos3D:objectsArrayIn;
+
+# RemoveTooHighObjects
+pos3D:objectsArrayOut->removehigh:objectsArrayIn;
+removehigh:heightOffset<=heightOffset;
+
+# ApplyVerticalOffet
+removehigh:objectsArrayOut->applyOffset:objectsArrayIn;
+applyOffset:verticalOffset[-0.1]<=dummyOffset;
+
+# Output
+applyOffset:objectsArrayOut=>personHeadObject;
+}
